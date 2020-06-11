@@ -1,0 +1,555 @@
+body{
+    background-image: url(../images/5e9a1542767642.png);
+    background-size: cover;
+    
+    background-repeat: no-repeat;
+}
+
+@font-face {
+    font-family: 'NotoNastaliqUrduRegular';
+        src: url("../fonts/NotoNastaliqUrdu-Regular.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* start navbar */
+
+.navbar{
+    margin-left: 49px;
+    margin-top: 15px;
+}
+
+.navbar .navbar-collapse ul li .nav-link .chevron{
+    width: 15px;
+}
+
+.navbar .navbar-collapse ul li .nav-link img{
+    width: 30px;
+    margin-top: 8px;
+}
+
+.dropdown-menu{
+    min-width: 0;
+}
+
+.navbar .dropdown-menu{
+    width: 179px;
+}
+
+.dropdown-item{
+    text-align: center;
+}
+
+.navbar .navbar-collapse ul .dropdown .language{
+    margin-left: -60px;
+    text-align: right;
+    top: 35%;
+    width: 120px;
+}
+
+.navbar .navbar-collapse ul .dropdown .signup{
+    text-align: right;
+    top: 35%;
+    margin-left: 9px;
+}
+
+
+.navbar .navbar-collapse ul li .nav-link button{
+    color: #fff;
+    background: #f7dc0c;
+    border-radius: 5px;
+    margin-right: 25px;
+    font-size: 23px;
+    padding: 5px 10px;
+    letter-spacing: 1px;
+}
+
+.navbar .navbar-collapse ul li .nav-link button i{
+    padding-bottom: 4px;
+    font-size: 13px;
+}
+
+.btn:focus{
+    box-shadow: none;
+}
+
+.navbar .navbar-collapse ul li .donate{
+    color: #fff;
+    background: #7FD858;
+    font-size: 24px;
+    font-weight: 400;
+    padding: 6px 10px 5px;
+    margin-top: 8px;
+    border-radius: 5px;
+    margin-right: 100px;
+    /* font-family: cursive; */
+    letter-spacing: 1px;
+    
+    
+}
+
+.navbar .navbar-collapse ul li .donate:hover{
+    background: #0064BF;
+    color: #fff;
+}
+
+.navbar .navbar-collapse ul .Bar .nav-item{
+    display: inline-block;
+}
+
+.navbar .navbar-collapse ul .Bar li{
+   padding-right: 29px; 
+}
+
+.navbar .navbar-collapse ul .Bar .conect{
+    padding-left: 29px;
+}
+
+.navbar .navbar-collapse ul .Bar .nav-item a:hover{
+    color: #f7dc0c;
+}
+
+.navbar .navbar-collapse ul .Bar li .nav-link{
+    color: #fff;
+    font-family: 'NotoNastaliqUrduRegular';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px;
+    letter-spacing: 1px;
+} 
+
+hr{
+    margin-top: .5rem;
+    background: #ffffff;
+}
+
+.navbar .navbar-collapse ul li .nav-link .logo{
+    width: 270px;
+    margin-left: 120px;
+    margin-top: -65px;
+    
+}
+
+.navbar {
+    transition: top 0.5s ease;
+}
+
+.navbar-hide {
+    top: -200px;
+}
+/* end navbar */
+
+/* start form */
+
+form{
+    margin-top: 15vh;
+}
+
+form h2{
+    color: #fff;
+    font-family: 'NotoNastaliqUrduRegular';
+    font-weight: normal;
+    font-style: normal;
+    letter-spacing: 3.5px;
+    font-size: 35px;
+    line-height: 2; 
+    margin-bottom: 40px;
+    margin-top: 15%;
+}
+
+form .form-body{
+    width: 600px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.46);
+    margin-left: 27%;
+}
+
+form .form-body h5{
+    padding-top: 20px;
+    font-size: 17px;
+}
+
+form .form-body .how-much ,
+form .form-body .amount-zakat{
+    text-align: right;
+    padding: 2px 10px;
+    margin-bottom: 15px;
+    margin-top: 0px;
+    margin-left: 35vh;
+    border: 1px solid #fff;
+}
+
+form .form-body .how-much-gold{
+    text-align: right;
+    padding: 2px 10px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    border: 1px solid #fff;
+}
+
+form .form-body .amount-gold{
+    width: 238px;
+    text-align: right;
+    padding: 2px 10px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    border: 1px solid #fff;
+}
+
+form .form-body .amount-zakat{
+    width: 120px;
+    margin-bottom: 0;
+    margin-left: 42vh;
+    text-align: center;
+}
+
+form .form-body > button{
+    background: #0064BF;
+    color: #fff;
+    border-radius: 10px;
+    padding:3px 15px;
+    border: 1px solid #0064BF;
+    outline: none;
+}
+
+form .form-body > button:hover{
+    color: #fff;
+    background: #7FD858;
+    border: 1px solid #7FD858;
+}
+
+form .form-body h3{
+    font-family: 'NotoNastaliqUrduRegular';
+    font-weight: normal;
+    font-style: normal;
+    letter-spacing: 4px;
+    font-size: 2rem;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+form .form-body label{
+    margin-top: 20px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18px;
+    float: right;
+    margin-right: 70px;
+}
+
+form .form-body .dropdown-menu{
+    width: 180px;
+    margin-left: 10px;
+    margin-top: 3px;
+}
+
+select:required:invalid {
+    color: gray;
+}
+  
+option[value=""][disabled] {
+    display: none;
+}
+  
+option {
+    color: black;
+}
+
+form .form-body select{
+    direction: rtl;  
+    background-color: #ffffff;
+    border-radius: 25px;
+    cursor: pointer;
+    padding-bottom: 10px;
+    padding:6px 12px;
+    width: 200px;
+}
+
+form .form-body select:focus ,
+form .form-body select:visited{
+    border: none;
+}
+
+form .form-body .dropdown i{
+    color: black;
+    padding-right: 50px;
+} 
+
+form .form-body sup ,
+.way h5 sup{
+    color: red;
+    font-size: 20px;
+    top: -.3rem;
+}
+
+form .form-body input[type="text"]{
+    border-radius: 25px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border: 1px solid #ffffff;
+    padding: 5px 10px;
+    direction: rtl;
+}
+
+form .form-body .town{
+    position: absolute;
+    margin-left: 45vh;
+}
+
+form .form-body .alex{
+    margin-right: 28px;
+}
+
+form .form-body .cairo{
+    margin-right: 52px;
+}
+
+form .form-body .giza{
+    margin-right: 60px;
+}
+
+form .form-body input:focus{
+    border: 1px solid #ffffff;
+    border-radius: 25px;
+}
+
+form .form-body .need{
+    margin-top: 20px;
+    margin-right: 63px;
+}
+
+form .form-body .needy{
+    margin-top: 28px;
+    margin-left: 22%;
+    position: absolute;
+}
+
+form .form-body input[type="submit"]{
+    background: #7FD858;
+    color: #fff;
+    font-size: 25px;
+    padding-top: 0;
+    padding-left: 35px;
+    padding-right: 36px;
+    margin-bottom: 10px;
+    margin-top: 65px;
+    border-radius: 10px;
+    border: none;
+    padding-bottom: 5px;
+    margin-left: 20vh;
+}
+
+
+.multiselect {
+    width: 223px;
+    cursor: pointer;
+    margin-top: 52px;
+    margin-left: 45vh;
+}
+  
+.selectBox {
+    position: relative;
+    margin-left: 14px;
+}
+  
+.selectBox select {
+    width: 100%;
+    color: grey;
+}
+  
+.overSelect {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+  
+#checkboxes {
+    display: none;
+    position: absolute;
+    width: 67%;
+    margin-left: 30px;
+    z-index: 99999;
+    background: #eeeeee;
+}
+  
+#checkboxes label {
+    display: block;
+    margin-top: 0;
+    letter-spacing: 0;
+}
+
+.multiselect #checkboxes label[for="one"]{
+    margin-top: 5px;
+    margin-right: 33px;
+    padding-right: 5px;
+   
+}
+
+.multiselect #checkboxes label[for="two"]{
+    margin-right: 33px;
+    padding-right: 5px;
+    
+}
+
+.multiselect #checkboxes label[for="three"]{
+    margin-right: 33px;
+    padding-right: 5px;
+    
+}
+
+.multiselect #checkboxes #one{
+    margin-right: 27px;
+    cursor: pointer;
+}
+
+.multiselect #checkboxes #two{
+    margin-right: 46px;
+    cursor: pointer;
+}
+
+.multiselect #checkboxes #three{
+    margin-right: 50px;
+    cursor: pointer;
+}
+  
+ 
+/* start finished page */
+
+.caption{
+    margin-top: 30vh;
+    background: rgba(255, 255, 255, 0.46);
+    width: 35%;
+    margin-left: 73vh;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.caption .checked{
+    width: 50px;
+}
+
+.caption h3{
+    letter-spacing: 1px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.caption p{
+    width: 65%;
+    margin: 40px auto;
+    font-size: 18px;
+}
+
+.caption .love{
+    width: 120px;
+}
+
+/* end finished page */
+
+/* start way of pay page */
+
+.way-pay{
+    margin-top: 22vh;
+    background: rgba(255, 255, 255, 0.46);
+    width: 620px;
+    margin-left: 30%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.way-pay .way .am-money{
+    margin-left: 55%;
+    border-radius: 15px;
+    border: 1px solid #fff;
+    width: 85px;
+    direction: rtl;
+}
+
+.way-pay .money{
+    float: right;
+    margin-right: 37px;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.way-pay .heading{
+    margin-right: 31px;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+    display: inline-block;
+    margin-left: 64%;
+}
+
+.way-pay .form-check-input{
+    margin-left: 0;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.way-pay .ways{
+    border: 1px solid #fff;
+    background: #fff;
+    margin-right:30px;
+    margin-left: 30px;
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    height: 62px;
+}
+
+.way-pay .ways label{
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.way-pay .mndob{
+    margin-left: 42vh; 
+}
+
+.way-pay .way-donate{
+    padding:0;
+    height: 55px;
+    height: 62px;
+}
+
+.way-pay .radio-way{
+    margin-top: 27px;
+}
+
+.way-pay .donate-way{
+    margin-left: 2vh;
+}
+
+.way-pay img{
+    width: 70px;
+}
+
+.way-pay .voda{
+    height: 70px;
+}
+
+.way-pay .mega{
+    margin-left: 16vh;
+    margin-right: 20px;
+}
+
+.way input[type="submit"]{
+    background: #7FD858;
+    color: #fff;
+    font-size: 25px;
+    padding-top: 0;
+    padding-left: 35px;
+    padding-right: 36px;
+    margin-bottom: 10px;
+    margin-top: 45px;
+    border-radius: 10px;
+    border: none;
+    padding-bottom: 5px;
+}
+
+/* end way of pay page */

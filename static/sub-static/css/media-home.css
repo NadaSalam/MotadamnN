@@ -1,0 +1,6907 @@
+/* start navbar */
+
+@media(min-width:150px) and (max-width:1040px){
+    .navbar .navbar-collapse ul .Bar{
+        display: contents;
+    }
+
+    .navbar .navbar-collapse ul .Bar .conect{
+        padding-left: 0;
+    }
+
+    .navbar .navbar-collapse ul li .donate{
+        width: 95px;
+        padding: 5px 0;
+    }
+
+    .navbar .navbar-collapse ul li .nav-link .logo{
+        width: 220px;
+        margin-left: -64px;
+    }
+
+}
+
+@media(min-width:150px) and (max-width:990px){
+    .navbar .navbar-collapse ul .dropdown .language{
+        margin-left: 0;
+    }
+
+    .navbar .navbar-collapse ul .dropdown .signup{
+        margin-left: 0;
+    }
+}
+
+@media(min-width:991px) and (max-width:1199px){
+    .navbar .navbar-collapse ul .dropdown .language{
+        margin-left: -14px;
+        top: 48%;
+        width: 69px;
+    }
+
+    .dropdown-item {
+        padding: .25rem 0.5rem
+    }
+
+    .navbar .navbar-collapse ul .dropdown .signup{
+        top:49%
+    }
+
+    .navbar .navbar-collapse ul .dropdown .signup{
+        margin-left: 9px;
+    }
+
+}
+
+@media(min-width:992px) and (max-width:1040px){
+    .navbar{
+        margin-left: 0;
+    }
+
+    .navbar .navbar-collapse ul .Bar li{
+        padding-right: 20px;
+    }
+
+    .navbar .navbar-collapse ul .Bar hr{
+        position: absolute;
+        width: 41%;
+        margin-top: 57px;
+        margin-left: 48vh;
+        border-top:2px solid #fff ;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link{
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .navbar .navbar-collapse ul li .donate{
+        margin-right: 25px;
+    }
+
+    .navbar .navbar-collapse ul li .nav-link button{
+        margin-left: 8px;
+        width: 181px;
+    }
+
+    .navbar .navbar-collapse ul .Bar #li-padding{
+        padding-right: 0;
+    }
+
+    .navbar .navbar-collapse ul li .nav-link .logo{
+        margin-top: -51px;
+        margin-left: -22px;
+        width: 207px;
+    }
+
+}
+
+@media(min-width:1041px) and (max-width:1067px){
+    .navbar .navbar-collapse ul .Bar{
+        display: contents;
+    }
+
+    .navbar .navbar-collapse ul .Bar hr{
+        position: absolute;
+        width: 41%;
+        margin-top: 57px;
+        margin-left: 50vh;
+        border-top:2px solid #fff ;
+    }
+
+    .navbar{
+        margin-left: 0;
+    }
+
+    .navbar .navbar-collapse ul li .nav-link button{
+        margin-left: 8px;
+        width: 172px;
+        margin-right: 15px;
+    }
+
+    .navbar .navbar-collapse ul li .nav-link .logo{
+        margin-top: -6vh;
+        margin-left: -7vh;
+        width: 220px;
+    }
+
+    .navbar .navbar-collapse ul .Bar .conect{
+        padding-left: 0;
+    }
+
+    .navbar .navbar-collapse ul li .donate{
+        width: 103px;
+        margin-right: 0px;
+        padding: 5px 0;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link{
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .navbar .navbar-collapse ul .Bar .conect {
+       padding-left: 38px;
+    }
+
+    .navbar .navbar-collapse ul .Bar li{
+        padding-right: 30px;
+    }
+
+}
+
+@media(min-width:1068px) and (max-width:1100px){
+    .navbar .navbar-collapse ul .Bar{
+        display: contents;
+    }
+
+    .navbar .navbar-collapse ul .Bar hr{
+        position: absolute;
+        width: 39%;
+        margin-top: 57px;
+        margin-left: 50vh;
+        border-top:2px solid #fff ;
+    }
+
+    .navbar{
+        margin-left: 0;
+    }
+
+    .navbar .navbar-collapse ul li .nav-link button{
+        margin-left: 8px;
+        width: 172px;
+        margin-right: 15px;
+    }
+
+    .navbar .navbar-collapse ul li .nav-link .logo{
+        margin-top: -8vh;
+        margin-left: -7vh;
+        width: 247px;
+    }
+
+    .navbar .navbar-collapse ul .Bar .conect{
+        padding-left: 0;
+    }
+
+    .navbar .navbar-collapse ul li .donate{
+        width: 103px;
+        margin-right: 0px;
+        padding: 5px 0;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link{
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .navbar .navbar-collapse ul .Bar .conect {
+       padding-left: 38px;
+    }
+
+    .navbar .navbar-collapse ul .Bar li{
+        padding-right: 30px;
+    }
+
+}
+
+@media(min-width:1101px) and (max-width:1140px){
+    .navbar .navbar-collapse ul .Bar{
+        display: contents;
+    }
+
+    .navbar .navbar-collapse ul .Bar hr{
+        position: absolute;
+        width: 38%;
+        margin-top: 57px;
+        margin-left: 50vh;
+        border-top:2px solid #fff ;
+    }
+
+
+    .navbar{
+        margin-left: 0;
+    }
+
+    .navbar .navbar-collapse ul li .nav-link button{
+        margin-left: 8px;
+        width: 172px;
+        margin-right: 15px;
+    }
+
+    .navbar .navbar-collapse ul li .nav-link .logo{
+        margin-top: -8vh;
+        margin-left: -7vh;
+        width: 280px;
+    }
+
+    .navbar .navbar-collapse ul .Bar .conect{
+        padding-left: 0;
+    }
+
+    .navbar .navbar-collapse ul li .donate{
+        width: 103px;
+        margin-right: 0px;
+        padding: 5px 0;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link{
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .navbar .navbar-collapse ul .Bar .conect {
+       padding-left: 38px;
+    }
+
+    .navbar .navbar-collapse ul .Bar li{
+        padding-right: 30px;
+    }
+
+}
+
+@media(min-width:1141px) and (max-width:1295px){
+    .navbar{
+        margin-left: 0;
+    }
+
+    .navbar .navbar-collapse ul .Bar{
+        display: contents;
+    }
+
+    .navbar .navbar-collapse ul .Bar hr{
+        position: absolute;
+        width: 34%;
+        margin-top: 57px;
+        margin-left: 56vh;
+        border-top:2px solid #fff ;
+    }
+
+    .navbar .navbar-collapse ul li .nav-link button{
+        margin-left: 8px;
+        width: 182px;
+    }
+
+    .navbar .navbar-collapse ul li .donate{
+        width: 120px;
+        margin-right: 20px;
+        padding: 5px 0;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link{
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .navbar .navbar-collapse ul li .nav-link .logo{
+        margin-left: 0;
+        width: 249px;
+        margin-top:-9vh;
+    }
+    
+}
+
+@media(min-width:1296px) and (max-width:1460px){
+    .navbar{
+        margin-left: 0;
+    }
+
+    .navbar .navbar-collapse ul .Bar{
+        display: contents;
+    }
+
+    .navbar .navbar-collapse ul .Bar hr{
+        position: absolute;
+        width: 33%;
+        margin-top: 57px;
+        margin-left: 61vh;
+        border-top:2px solid #fff ;
+    }
+
+    .navbar .navbar-collapse ul li .nav-link button{
+        margin-left: 8px;
+        width: 182px;
+    }
+
+    .navbar .navbar-collapse ul li .donate{
+        width: 120px;
+        margin-right: 62px;
+        padding: 5px 0;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link{
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .navbar .navbar-collapse ul li .nav-link .logo{
+        width: 285px;
+        margin-left: 10vh;
+        margin-top: -65px;
+    }
+    
+}
+
+@media(min-width:1461px) and (max-width:1530px){
+    .navbar{
+        margin-left: 0;
+    }
+
+    .navbar .navbar-collapse ul .Bar{
+        display: contents;
+        margin-top: 10px;
+    }
+
+    .navbar .navbar-collapse ul .Bar hr{
+        position: absolute;
+        width: 30%;
+        margin-top: 57px;
+        margin-left: 65vh;
+        border-top:2px solid #fff ;
+    }
+
+    .navbar .navbar-collapse ul li .nav-link button{
+        margin-left: 8px;
+        width: 182px;
+    }
+
+    .navbar .navbar-collapse ul li .donate{
+        width: 120px;
+        margin-right: 120px;
+        padding: 5px 0;
+
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link{
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .navbar .navbar-collapse ul li .nav-link .logo{
+        width: 295px;
+        margin-left: 140px;
+        margin-top: -65px;
+    }
+    
+}
+
+/* end navbar */
+
+/* start header ,  partner , mession , news */
+
+@media(min-width:320px) and (max-width:350px){
+
+    /* start header */
+
+    .header{
+        height: 629px;
+    }
+
+    .header .smart-help{
+        margin-top: 1vh;
+        width: 51%;
+        margin-left: 17vh;
+        height: 213px;
+    }
+
+    .header .smart-help h3{
+        font-size: 1.1rem;
+        margin-bottom: 10px;
+    }
+
+    .header .smart-help p{
+        margin-bottom: 10px;
+    }
+
+    .header .carousel-indicators{
+        display: none;
+    }
+
+    .header .carousel-control-next,
+    .header .carousel-control-prev{
+        display: none;
+    }
+
+    .header .slider {
+        margin-top: 33vh;
+        margin-left: 0;
+    }
+
+    .header .slider .carousel-caption h1{
+        font-size: 19px;
+        letter-spacing: 0;
+        line-height: 0;
+        margin-bottom: 5vh;
+    }
+
+    .header .slider .carousel-caption p{
+        display: none;
+    }
+
+    .header .bramg {
+        margin-left: 6vh;
+        padding-bottom: 2px;
+        padding-top: 4px;
+    }
+
+    .header .bramg h4{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .header .bramg li{
+        padding: 0;
+    }
+
+    .header .doing{
+        margin-right: 0;
+    }
+
+    .header .doing li{
+        margin-bottom: 10px;
+    }
+
+    .header .doing h5{
+        margin-left: 77vh;
+        margin-top: -202px;
+    }
+
+    .header .doing{
+        display: none;
+    }
+
+    /*end header */
+
+    /* start partner */
+
+    .partner .carousel-item img{
+        height: 641px;
+    }
+
+    .partner .carousel-caption ul{
+        margin-left: 24px;
+    }
+
+    .partner .carousel-caption ul li .img-one{
+        width: 150px;
+    }
+
+    .partner .carousel-caption ul li .img-two{
+        width: 150px;
+    }
+
+    .partner .carousel-caption ul li .img-three{
+        width: 150px;
+    }
+
+    .partner .carousel-caption ul li .img-four{
+        width: 150px;
+    }
+
+    .partner .carousel-caption ul li .img-five{
+        width: 150px;
+    }
+
+    .partner .carousel-caption ul li .img-six{
+        width: 150px;
+    }
+
+    .partner .carousel-caption ul li img{
+        margin-bottom: 10px;
+    }
+
+    /* start mession */
+    .mession h3{
+        letter-spacing: 0;
+    }
+
+    .mession hr{
+        width: 21%;
+    }
+
+    .mession p{
+        margin-top: 27px;
+        width: 100%;
+        margin-left: 0px;
+        line-height: 1.5;
+        letter-spacing: 0;
+        padding: 10px;
+    }
+
+    /*start news */
+
+    .news .new{
+        margin-bottom: 15px;
+    }
+
+    .news hr{
+        display: none;
+    }
+    .news .caption{
+        width: 88%;
+        margin-left: 7px;
+        margin-top: -20px;
+        height: 323px;
+        margin-bottom: 20px;
+    }
+
+    .news .caption h3{
+        font-size: 18px;
+        padding: 5px;
+        width: 100%;
+        margin-bottom: 5px;
+        font-weight: bold;
+        letter-spacing: 0;
+    }
+
+    .news .caption p{
+        width: 100%;
+        line-height: 1.1;
+        letter-spacing: 0;
+    }
+
+    .news .caption .more-btn ,
+    .news .caption .more-button{
+        margin-top: 15px;
+        width: 120px;
+        padding: 5px;
+        margin-left: 47px;
+    }
+
+    .news .caption .more-button{
+        margin-top:60px;
+    }
+    
+}
+
+@media(min-width:351px) and (max-width:370px){
+
+    /* start header */
+
+    .header{
+        height: 664px;
+    }
+
+    .header .smart-help{
+        margin-top: 1vh;
+        width: 51%;
+        margin-left: 20vh;
+        height: 213px;
+    }
+
+    .header .smart-help h3{
+        font-size: 1.1rem;
+        margin-bottom: 10px;
+    }
+
+    .header .smart-help p{
+        margin-bottom: 10px;
+        margin-bottom: 25px;
+    }
+
+    .header .carousel-indicators{
+        display: none;
+    }
+
+    .header .carousel-control-next,
+    .header .carousel-control-prev{
+        display: none;
+    }
+
+    .header .slider {
+        margin-top: 38vh;
+        margin-left: 0;
+    }
+
+    .header .slider .carousel-caption h1{
+        font-size: 20px;
+        letter-spacing: 0;
+        line-height: 0;
+        margin-bottom: 5vh;
+    }
+
+    .header .slider .carousel-caption p{
+        display: none;
+    }
+
+    .header .bramg {
+        padding-bottom: 2px;
+        padding-top: 4px;
+        width: 94%;
+        margin-left: 13px;
+        margin-top: 35.8vh;
+    }
+
+    .header .bramg h4{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .header .bramg li{
+        padding: 0;
+    }
+
+    .header .doing{
+        display: none;
+    }
+
+    /*end header */
+
+    /* start partner */
+
+    .partner .carousel-item img{
+        height: 641px;
+    }
+
+    .partner .carousel-caption ul{
+        margin-left: 24px;
+    }
+
+    .partner .carousel-caption ul li .img-one{
+        width: 200px;
+    }
+
+    .partner .carousel-caption ul li .img-two{
+        width: 200px;
+    }
+
+    .partner .carousel-caption ul li .img-three{
+        width: 200px;
+    }
+
+    .partner .carousel-caption ul li .img-four{
+        width: 200px;
+    }
+
+    .partner .carousel-caption ul li .img-five{
+        width: 200px;
+    }
+
+    .partner .carousel-caption ul li .img-six{
+        width: 200px;
+    }
+
+    .partner .carousel-caption ul li img{
+        margin-bottom: 10px;
+    }
+
+    /* start mession */
+    .mession h3{
+        letter-spacing: 0;
+    }
+
+    .mession hr{
+        width: 21%;
+    }
+
+    .mession p{
+        margin-top: 27px;
+        width: 100%;
+        margin-left: 0px;
+        line-height: 1.5;
+        letter-spacing: 0;
+        padding: 10px;
+    }
+
+    /*start news */
+
+    .news .new{
+        margin-bottom: 15px;
+    }
+
+    .news hr{
+        display: none;
+    }
+    .news .caption{
+        width: 88%;
+        margin-left: 7px;
+        margin-top: -20px;
+        height: 323px;
+        margin-bottom: 20px;
+    }
+
+    .news .caption h3{
+        font-size: 18px;
+        padding: 5px;
+        width: 100%;
+        margin-bottom: 5px;
+        font-weight: bold;
+        letter-spacing: 0;
+    }
+
+    .news .caption p{
+        width: 100%;
+        line-height: 1.1;
+        letter-spacing: 0;
+    }
+
+    .news .caption .more-btn ,
+    .news .caption .more-button{
+        margin-top: 15px;
+        width: 120px;
+        padding: 5px;
+        margin-left: 47px;
+    }
+
+    .news .caption .more-button{
+        margin-top:60px;
+    }
+    
+}
+
+@media(min-width:371px) and (max-width:400px){
+
+    /* start header */
+
+    .header{
+        height: 664px;
+    }
+
+    .header .smart-help{
+        margin-top: 1vh;
+        width: 51%;
+        margin-left: 20vh;
+        height: 213px;
+    }
+
+    .header .smart-help h3{
+        font-size: 1.1rem;
+        margin-bottom: 10px;
+    }
+
+    .header .smart-help p{
+        margin-bottom: 10px;
+        margin-bottom: 25px;
+    }
+
+    .header .carousel-indicators{
+        display: none;
+    }
+
+    .header .carousel-control-next,
+    .header .carousel-control-prev{
+        display: none;
+    }
+
+    .header .slider {
+        margin-top: 33vh;
+        margin-left: 0;
+    }
+
+    .header .slider .carousel-caption h1{
+        font-size: 21px;
+        letter-spacing: 0;
+        line-height: 0;
+        margin-bottom: 5vh;
+    }
+
+    .header .slider .carousel-caption p{
+        display: none;
+    }
+
+    .header .bramg {
+        padding-bottom: 2px;
+        padding-top: 4px;
+        width: 94%;
+        margin-left: 13px;
+    }
+
+    .header .bramg h4{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .header .bramg li{
+        padding: 0;
+    }
+
+    .header .doing{
+        display: none;
+    }
+
+    /*end header */
+
+    /* start partner */
+
+    .partner .carousel-item img{
+        height: 641px;
+    }
+
+    .partner .carousel-caption ul{
+        margin-left: 24px;
+    }
+
+    .partner .carousel-caption ul li .img-one{
+        width: 200px;
+    }
+
+    .partner .carousel-caption ul li .img-two{
+        width: 200px;
+    }
+
+    .partner .carousel-caption ul li .img-three{
+        width: 200px;
+    }
+
+    .partner .carousel-caption ul li .img-four{
+        width: 200px;
+    }
+
+    .partner .carousel-caption ul li .img-five{
+        width: 200px;
+    }
+
+    .partner .carousel-caption ul li .img-six{
+        width: 200px;
+    }
+
+    .partner .carousel-caption ul li img{
+        margin-bottom: 10px;
+    }
+
+    /* start mession */
+    .mession h3{
+        letter-spacing: 0;
+    }
+
+    .mession hr{
+        width: 21%;
+    }
+
+    .mession p{
+        margin-top: 27px;
+        width: 100%;
+        margin-left: 0px;
+        line-height: 1.5;
+        letter-spacing: 0;
+        padding: 10px;
+    }
+
+    /*start news */
+
+    .news .new{
+        margin-bottom: 15px;
+    }
+
+    .news hr{
+        display: none;
+    }
+    .news .caption{
+        width: 88%;
+        margin-left: 7px;
+        margin-top: -20px;
+        height: 323px;
+        margin-bottom: 20px;
+    }
+
+    .news .caption h3{
+        font-size: 18px;
+        padding: 5px;
+        width: 100%;
+        margin-bottom: 5px;
+        font-weight: bold;
+        letter-spacing: 0;
+    }
+
+    .news .caption p{
+        width: 100%;
+        line-height: 1.1;
+        letter-spacing: 0;
+    }
+
+    .news .caption .more-btn ,
+    .news .caption .more-button{
+        margin-top: 15px;
+        width: 120px;
+        padding: 5px;
+        margin-left: 47px;
+    }
+
+    .news .caption .more-button{
+        margin-top:60px;
+    }
+    
+}
+
+@media(min-width:401px) and (max-width:500px){
+
+    /* start header */
+
+    .header{
+        height: 701px;
+    }
+
+    .header .smart-help{
+        margin-top: 1vh;
+        width: 51%;
+        margin-left: 20vh;
+        height: 213px;
+    }
+
+    .header .smart-help h3{
+        font-size: 1.1rem;
+        margin-bottom: 10px;
+    }
+
+    .header .smart-help p{
+        margin-bottom: 10px;
+        margin-bottom: 25px;
+    }
+
+    .header .carousel-indicators{
+        display: none;
+    }
+
+    .header .carousel-control-next,
+    .header .carousel-control-prev{
+        display: none;
+    }
+
+    .header .slider {
+        margin-top: 33vh;
+        margin-left: 0;
+    }
+
+    .header .slider .carousel-caption h1{
+        font-size: 24px;
+        letter-spacing: 0;
+        line-height: 0;
+        margin-bottom: 7vh;
+    }
+
+    .header .slider .carousel-caption p{
+        display: none;
+    }
+
+    .header .bramg {
+        padding-bottom: 2px;
+        padding-top: 4px;
+        width: 94%;
+        margin-left: 13px;
+    }
+
+    .header .bramg h4{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .header .bramg li{
+        padding: 0;
+    }
+
+    .header .doing{
+        display: none;
+    }
+
+    /*end header */
+
+
+    /* start mession */
+    .mession h3{
+        letter-spacing: 0;
+    }
+
+    .mession hr{
+        width: 21%;
+    }
+
+    .mession p{
+        margin-top: 27px;
+        width: 100%;
+        margin-left: 0px;
+        line-height: 1.5;
+        letter-spacing: 0;
+        padding: 10px;
+    }
+
+    /*start news */
+
+    .news .new{
+        margin-bottom: 15px;
+    }
+
+    .news hr{
+        display: none;
+    }
+    .news .caption{
+        width: 88%;
+        margin-left: 7px;
+        margin-top: -20px;
+        height: 323px;
+        margin-bottom: 20px;
+    }
+
+    .news .caption h3{
+        font-size: 18px;
+        padding: 5px;
+        width: 100%;
+        margin-bottom: 5px;
+        font-weight: bold;
+        letter-spacing: 0;
+    }
+
+    .news .caption p{
+        width: 100%;
+        line-height: 1.1;
+        letter-spacing: 0;
+    }
+
+    .news .caption .more-btn ,
+    .news .caption .more-button{
+        margin-top: 15px;
+        width: 120px;
+        padding: 5px;
+        margin-left: 47px;
+    }
+
+    .news .caption .more-button{
+        margin-top:60px;
+    }
+    
+}
+
+/* start partner */
+@media(min-width:401px) and (max-width:450px){
+
+    .partner .carousel-item img{
+        height: 340px;
+    }
+
+    .partner .carousel-caption ul{
+        margin-left: 20px;
+    }
+
+    .partner .carousel-caption ul li .img-one{
+        width: 100px;
+    }
+
+    .partner .carousel-caption ul li .img-two{
+        width: 100px;
+    }
+
+    .partner .carousel-caption ul li .img-three{
+        width: 100px;
+    }
+
+    .partner .carousel-caption ul li .img-four{
+        width: 100px;
+    }
+
+    .partner .carousel-caption ul li .img-five{
+        width: 100px;
+    }
+
+    .partner .carousel-caption ul li .img-six{
+        width: 100px;
+    }
+
+    .partner .carousel-caption ul li img{
+        margin-bottom: 10px;
+    }
+}
+
+/* start partner */
+@media(min-width:451px) and (max-width:500px){
+
+    .partner .carousel-item img{
+        height: 340px;
+    }
+
+    .partner .carousel-caption ul{
+        margin-left: 20px;
+    }
+
+    .partner .carousel-caption ul li .img-one{
+        width: 110px;
+    }
+
+    .partner .carousel-caption ul li .img-two{
+        width: 110px;
+    }
+
+    .partner .carousel-caption ul li .img-three{
+        width: 110px;
+    }
+
+    .partner .carousel-caption ul li .img-four{
+        width: 110px;
+    }
+
+    .partner .carousel-caption ul li .img-five{
+        width: 110px;
+    }
+
+    .partner .carousel-caption ul li .img-six{
+        width: 110px;
+    }
+
+    .partner .carousel-caption ul li img{
+        margin-bottom: 10px;
+    }
+}
+
+@media(min-width:501px) and (max-width:600px){
+
+    /* start header */
+
+    .header{
+        height: 766px;
+    }
+
+    .header .smart-help{
+        margin-top: 1vh;
+        width: 51%;
+        margin-left: 20vh;
+        height: 213px;
+    }
+
+    .header .smart-help h3{
+        font-size: 1.1rem;
+        margin-bottom: 10px;
+    }
+
+    .header .smart-help p{
+        margin-bottom: 10px;
+        margin-bottom: 25px;
+    }
+
+    .header .carousel-indicators{
+        display: none;
+    }
+
+    .header .carousel-control-next,
+    .header .carousel-control-prev{
+        display: none;
+    }
+
+    .header .slider {
+        margin-top: 33vh;
+        margin-left: 0;
+    }
+
+    .header .slider .carousel-caption h1{
+        font-size: 34px;
+        letter-spacing: 0;
+        line-height: 0;
+        margin-bottom: 10vh;
+    }
+
+    .header .slider .carousel-caption p{
+        display: none;
+    }
+
+    .header .bramg {
+        padding-bottom: 2px;
+        padding-top: 4px;
+        width: 94%;
+        margin-left: 13px;
+    }
+
+    .header .bramg h4{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .header .bramg li{
+        padding: 0;
+    }
+
+    .header .doing{
+        display: none;
+    }
+
+    /*end header */
+
+    /* start mession */
+    .mession h3{
+        letter-spacing: 0;
+    }
+
+    .mession hr{
+        width: 21%;
+    }
+
+    .mession p{
+        margin-top: 27px;
+        width: 100%;
+        margin-left: 0px;
+        line-height: 1.5;
+        letter-spacing: 0;
+        padding: 10px;
+    }
+
+    /*start news */
+
+    .news .new{
+        margin-bottom: 15px;
+    }
+
+    .news hr{
+        display: none;
+    }
+    .news .caption{
+        width: 88%;
+        margin-left: 7px;
+        margin-top: -20px;
+        height: 323px;
+        margin-bottom: 20px;
+    }
+
+    .news .caption h3{
+        font-size: 18px;
+        padding: 5px;
+        width: 100%;
+        margin-bottom: 5px;
+        font-weight: bold;
+        letter-spacing: 0;
+    }
+
+    .news .caption p{
+        width: 100%;
+        line-height: 1.1;
+        letter-spacing: 0;
+    }
+
+    .news .caption .more-btn ,
+    .news .caption .more-button{
+        margin-top: 88px;
+        margin-left: 127px;
+    }
+
+    .news .caption .more-button{
+        margin-top:98px;
+    }
+    
+}
+
+/* start partner */
+@media(min-width:501px) and (max-width:550px){
+    .partner .carousel-item img{
+        height: 354px;
+    }
+
+    .partner .carousel-caption ul{
+        margin-left: 29px;
+    }
+
+    .partner .carousel-caption ul li .img-one{
+        width: 130px
+    }
+
+    .partner .carousel-caption ul li .img-two{
+        width: 130px
+    }
+
+    .partner .carousel-caption ul li .img-three{
+        width: 130px
+    }
+
+    .partner .carousel-caption ul li .img-four{
+        width: 130px
+    }
+
+    .partner .carousel-caption ul li .img-five{
+        width: 130px
+    }
+
+    .partner .carousel-caption ul li .img-six{
+        width: 130px
+    }
+
+    .partner .carousel-caption ul li img{
+        margin-bottom: 10px;
+    }
+}
+
+/* start partner */
+@media(min-width:551px) and (max-width:600px){
+    .partner .carousel-item img{
+        height: 354px;
+    }
+
+    .partner .carousel-caption ul{
+        margin-left: 29px;
+    }
+
+    .partner .carousel-caption ul li .img-one{
+        width: 140px;
+    }
+
+    .partner .carousel-caption ul li .img-two{
+        width: 140px;
+    }
+
+    .partner .carousel-caption ul li .img-three{
+        width: 140px;
+    }
+
+    .partner .carousel-caption ul li .img-four{
+        width: 140px;
+    }
+
+    .partner .carousel-caption ul li .img-five{
+        width: 140px;
+    }
+
+    .partner .carousel-caption ul li .img-six{
+        width: 140px;
+    }
+
+    .partner .carousel-caption ul li img{
+        margin-bottom: 10px;
+    }
+}
+
+@media(min-width:601px) and (max-width:620px){
+
+    /* start header */
+
+    .header{
+        height: 558px;
+    }
+
+    .header .smart-help{
+        margin-top: 1vh;
+        width: 35%;
+        margin-left: 17vh;
+        height: 213px;
+    }
+
+    .header .smart-help h3{
+        font-size: 1.1rem;
+        margin-bottom: 10px;
+    }
+
+    .header .smart-help p{
+        margin-bottom: 10px;
+        margin-bottom: 25px;
+    }
+
+    .header .carousel-indicators{
+        display: none;
+    }
+
+    .header .carousel-control-next,
+    .header .carousel-control-prev{
+        display: none;
+    }
+
+    .header .slider {
+        margin-top: 4vh;
+        margin-left: 0;
+    }
+
+    .header .slider .carousel-caption h1{
+        font-size: 34px;
+        letter-spacing: 0;
+        line-height: 0;
+        margin-bottom: 10vh;
+    }
+
+    .header .slider .carousel-caption p{
+        display: none;
+    }
+
+    .header .bramg {
+        padding-bottom: 2px;
+        padding-top: 4px;
+        width: 40%;
+        margin-left: 46vh;
+        margin-top: .5rem;
+    }
+
+    .header .bramg h4{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .header .bramg li{
+        padding: 0;
+    }
+
+    .header .doing{
+        display: none;
+    }
+
+    /*end header */
+
+    /* start mession */
+    .mession h3{
+        letter-spacing: 0;
+    }
+
+    .mession hr{
+        width: 21%;
+    }
+
+    .mession p{
+        margin-top: 27px;
+        width: 100%;
+        margin-left: 0px;
+        line-height: 1.5;
+        letter-spacing: 0;
+        padding: 10px;
+    }
+
+    /*start news */
+
+    .news .new{
+        margin-bottom: 15px;
+    }
+
+    .news hr{
+        display: none;
+    }
+    .news .caption{
+        width: 88%;
+        margin-left: 7px;
+        margin-top: -20px;
+        height: 323px;
+        margin-bottom: 20px;
+    }
+
+    .news .caption h3{
+        font-size: 18px;
+        padding: 5px;
+        width: 100%;
+        margin-bottom: 5px;
+        font-weight: bold;
+        letter-spacing: 0;
+    }
+
+    .news .caption p{
+        width: 100%;
+        line-height: 1.1;
+        letter-spacing: 0;
+    }
+
+    .news .caption .more-btn ,
+    .news .caption .more-button{
+        margin-top: 15px;
+        width: 120px;
+        padding: 5px;
+        margin-left: 47px;
+    }
+
+    .news .caption .more-button{
+        margin-top:60px;
+    }
+    
+}
+
+@media(min-width:621px) and (max-width:650px){
+
+    /* start header */
+
+    .header{
+        height: 606px;
+    }
+
+    .header .smart-help{
+        margin-top: 1vh;
+        width: 35%;
+        margin-left: 17vh;
+        height: 213px;
+    }
+
+    .header .smart-help h3{
+        font-size: 1.1rem;
+        margin-bottom: 10px;
+    }
+
+    .header .smart-help p{
+        margin-bottom: 10px;
+        margin-bottom: 25px;
+    }
+
+    .header .carousel-indicators{
+        display: none;
+    }
+
+    .header .carousel-control-next,
+    .header .carousel-control-prev{
+        display: none;
+    }
+
+    .header .slider {
+        margin-top: 4vh;
+        margin-left: 0;
+    }
+
+    .header .slider .carousel-caption h1{
+        font-size: 34px;
+        letter-spacing: 0;
+        line-height: 0;
+        margin-bottom: 10vh;
+    }
+
+    .header .slider .carousel-caption p{
+        display: none;
+    }
+
+    .header .bramg {
+        padding-bottom: 2px;
+        padding-top: 4px;
+        width: 40%;
+        margin-left: 49vh;
+        margin-top: .8vh;
+    }
+
+    .header .bramg h4{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .header .bramg li{
+        padding: 0;
+    }
+
+    .header .doing{
+        display: none;
+    }
+
+    /*end header */
+
+    /* start mession */
+    .mession h3{
+        letter-spacing: 0;
+    }
+
+    .mession hr{
+        width: 21%;
+    }
+
+    .mession p{
+        margin-top: 27px;
+        width: 100%;
+        margin-left: 0px;
+        line-height: 1.5;
+        letter-spacing: 0;
+        padding: 10px;
+    }
+
+    /*start news */
+
+    .news .new{
+        margin-bottom: 15px;
+    }
+
+    .news hr{
+        display: none;
+    }
+    .news .caption{
+        width: 88%;
+        margin-left: 7px;
+        margin-top: -20px;
+        height: 323px;
+        margin-bottom: 20px;
+    }
+
+    .news .caption h3{
+        font-size: 18px;
+        padding: 5px;
+        width: 100%;
+        margin-bottom: 5px;
+        font-weight: bold;
+        letter-spacing: 0;
+    }
+
+    .news .caption p{
+        width: 100%;
+        line-height: 1.1;
+        letter-spacing: 0;
+    }
+
+    .news .caption .more-btn ,
+    .news .caption .more-button{
+        margin-top: 15px;
+        width: 120px;
+        padding: 5px;
+        margin-left: 47px;
+    }
+
+    .news .caption .more-button{
+        margin-top:60px;
+    }
+    
+}
+
+
+/* start partner */
+@media(min-width:601px) and (max-width:650px){
+    .partner .carousel-item img{
+        height: 354px;
+    }
+
+    .partner .carousel-caption ul{
+        margin-left: 29px;
+    }
+
+    .partner .carousel-caption ul li .img-one{
+        width: 150px;
+    }
+
+    .partner .carousel-caption ul li .img-two{
+        width: 150px;
+    }
+
+    .partner .carousel-caption ul li .img-three{
+        width: 150px;
+    }
+
+    .partner .carousel-caption ul li .img-four{
+        width: 150px;
+    }
+
+    .partner .carousel-caption ul li .img-five{
+        width: 150px;
+    }
+
+    .partner .carousel-caption ul li .img-six{
+        width: 150px;
+    }
+
+    .partner .carousel-caption ul li img{
+        margin-bottom: 10px;
+    }
+}
+
+@media(min-width:651px) and (max-width:700px){
+
+    /* start header */
+
+    .header{
+        height: 759px;
+    }
+
+    .header .smart-help{
+        margin-top: 1vh;
+        width: 35%;
+        margin-left: 17vh;
+        height: 213px;
+    }
+
+    .header .smart-help h3{
+        font-size: 1.1rem;
+        margin-bottom: 10px;
+    }
+
+    .header .smart-help p{
+        margin-bottom: 10px;
+        margin-bottom: 25px;
+    }
+
+    .header .carousel-indicators{
+        display: none;
+    }
+
+    .header .carousel-control-next,
+    .header .carousel-control-prev{
+        display: none;
+    }
+
+    .header .slider {
+        margin-top: 4vh;
+        margin-left: 0;
+    }
+
+    .header .slider .carousel-caption h1{
+        font-size: 34px;
+        letter-spacing: 0;
+        line-height: 0;
+        margin-bottom: 6vh;
+    }
+
+    .header .slider .carousel-caption p{
+        width: 100%;
+        margin-left: 5px;
+        margin-bottom: 0;
+    }
+
+    .header .bramg {
+        padding-bottom: 2px;
+        padding-top: 4px;
+        width: 40%;
+        margin-left: 49vh;
+        margin-top: .8vh;
+    }
+
+    .header .bramg h4{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .header .bramg li{
+        padding: 0;
+    }
+
+    /* start doing */
+    .header .doing h5 {
+        margin-top: -23vh;
+        margin-left: 63vh;
+    }
+     
+    .doing ul{
+        margin-left: -10px;
+    }
+    .header .doing li{
+        padding: 10px;
+        margin-top: 10px;
+    }
+    /*end doing */
+
+
+    /*end header */
+
+    /* start mession */
+    .mession h3{
+        letter-spacing: 0;
+    }
+
+    .mession hr{
+        width: 21%;
+    }
+
+    .mession p{
+        margin-top: 27px;
+        width: 100%;
+        margin-left: 0px;
+        line-height: 1.5;
+        letter-spacing: 0;
+        padding: 10px;
+    }
+
+    /*start news */
+
+    .news .new{
+        margin-bottom: 15px;
+    }
+
+    .news hr{
+        display: none;
+    }
+
+    .news .col-lg-6{
+        width: 50%;
+    }
+
+    .news .caption{
+        width: 88%;
+        margin-left: 7px;
+        margin-top: -20px;
+        height: 323px;
+        margin-bottom: 20px;
+    }
+
+    .news .caption h3{
+        font-size: 18px;
+        padding: 5px;
+        width: 100%;
+        margin-bottom: 5px;
+        font-weight: bold;
+        letter-spacing: 0;
+        margin-top: 5px;
+    }
+
+    .news .caption p{
+        width: 100%;
+        line-height: 1.1;
+        letter-spacing: 0;
+    }
+
+    .news .caption .more-btn ,
+    .news .caption .more-button{
+        margin-top: 10px;
+        width: 120px;
+        padding: 5px;
+        margin-left: 47px;
+    }
+
+    .news .caption .more-button{
+        margin-top:82px;
+    }
+    
+}
+
+/* start partner */
+@media(min-width:651px) and (max-width:700px){
+
+    .partner .carousel-item img{
+        height: 250px;
+    }
+
+    .partner .carousel-caption ul{
+        margin-left: 29px;
+    }
+
+    .partner .carousel-caption ul li .img-one{
+        width: 105px
+    }
+
+    .partner .carousel-caption ul li .img-two{
+        width: 105px
+    }
+
+    .partner .carousel-caption ul li .img-three{
+        width: 105px
+    }
+
+    .partner .carousel-caption ul li .img-four{
+        width: 105px
+    }
+
+    .partner .carousel-caption ul li .img-five{
+        width: 105px
+    }
+
+    .partner .carousel-caption ul li .img-six{
+        width: 105px
+    }
+
+    .partner .carousel-caption ul li img{
+        margin-bottom: 10px;
+    }
+}
+
+@media(min-width:701px) and (max-width:734px){
+    .header{
+        height: 806px;
+    }
+
+    .header .smart-help{
+        margin-top: 1vh;
+        width: 39%;
+        margin-left: 17vh;
+        height: 213px;
+    }
+
+    .header .slider {
+        margin-top: 3vh;
+        margin-left: 0;
+    }
+
+    .header .slider .carousel-caption h1{
+        font-size: 2rem;
+        line-height: 0;
+    }
+
+    .header .slider .carousel-caption p{
+        margin-bottom: 3vh;
+    }
+
+    .header .bramg {
+        margin-left: 55vh;
+        margin-top: 0.8vh;
+        padding-bottom: 2px;
+        padding-top: 4px;
+    }
+
+    .header .bramg h4{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .header .bramg li{
+        padding: 0;
+    }
+
+    .header .doing li{
+        margin-bottom: 10px;
+    }
+
+    .header .doing h5{
+        margin-left: 70vh;
+        margin-top: -202px;
+    }
+}
+
+@media(min-width:735px) and (max-width:768px){
+    .header{
+        height: 806px;
+    }
+
+    .header .smart-help{
+        margin-top: 1vh;
+        width: 39%;
+        margin-left: 15vh;
+        height: 213px;
+    }
+
+    .header .slider {
+        margin-top: 3vh;
+        margin-left: 0;
+    }
+
+    .header .slider .carousel-caption h1{
+        font-size: 2rem;
+        line-height: 0;
+    }
+
+    .header .slider .carousel-caption p{
+        margin-bottom: 3vh;
+    }
+
+    .header .bramg {
+        margin-left: 49vh;
+        margin-top: 0.8vh;
+        padding-bottom: 2px;
+        padding-top: 4px;
+    }
+
+    .header .bramg h4{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .header .bramg li{
+        padding: 0;
+    }
+
+    .header .doing li{
+        margin-bottom: 10px;
+    }
+
+    .header .doing h5{
+        margin-left: 57vh;
+        margin-top: -202px;
+    }
+}
+
+/* start partner */
+@media(min-width:701px) and (max-width:768px){
+
+    .partner .carousel-caption ul{
+        margin-left: 0px;
+    }
+    
+    .partner .carousel-item img{
+        height: 240px;
+    }
+
+    .partner .carousel-caption ul li .img-one{
+        width: 140px;
+    }
+
+    .partner .carousel-caption ul li .img-two{
+        width: 120px;
+    }
+
+    .partner .carousel-caption ul li .img-three{
+        width: 140px;
+    }
+
+    .partner .carousel-caption ul li .img-four{
+        width: 115px;
+    }
+
+    .partner .carousel-caption ul li .img-five{
+        width: 170px;
+    }
+
+    .partner .carousel-caption ul li .img-six{
+        width: 115px;
+    }
+
+    .partner .carousel-caption ul li img{
+        margin-bottom: 10px;
+    }
+}
+
+@media(min-width:769px) and (max-width:770px){
+
+    /*header */
+    .header{
+        height: 818px;
+    }
+
+    .header .smart-help{
+        margin-top: 1vh;
+        width: 39%;
+        margin-left: 17vh;
+        height: 213px;
+    }
+
+    .header .bramg {
+        margin-left: 60vh;
+        margin-top: 0.8vh;
+        padding-bottom: 2px;
+        padding-top: 4px;
+    }
+
+    .header .bramg h4{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .header .bramg li{
+        padding: 0;
+    }
+
+    .header .slider {
+        margin-top: 3vh;
+        margin-left: 0;
+    }
+
+    .header .doing h5{
+        margin-left: 79vh;
+        margin-top: -202px;
+    }
+
+    .header .slider .carousel-caption h1{
+        font-size: 2rem;
+        line-height: 0;
+    }
+
+    .header .slider .carousel-caption p{
+        margin-bottom: 3vh;
+    }
+    /*partner */
+
+    .partner .carousel-caption ul{
+        margin-left: 12px;
+    }
+    
+    .partner .carousel-item img{
+        height: 240px;
+    }
+
+    .partner .carousel-caption ul li .img-one{
+        width: 160px;
+    }
+
+    .partner .carousel-caption ul li .img-two{
+        width: 120px;
+    }
+
+    .partner .carousel-caption ul li .img-three{
+        width: 160px;
+    }
+
+    .partner .carousel-caption ul li .img-four{
+        width: 130px;
+    }
+
+    .partner .carousel-caption ul li .img-five{
+        width: 180px;
+    }
+
+    .partner .carousel-caption ul li .img-six{
+        width: 130px;
+    }
+
+    .partner .carousel-caption ul li img{
+        margin-bottom: 10px;
+    }
+
+}
+
+@media(min-width:771px) and (max-width:776px){
+
+    /*header */
+    .header{
+        height: 818px;
+    }
+
+    .header .smart-help{
+        margin-top: 2vh;
+        width: 39%;
+        margin-left: 17vh;
+        height: 213px;
+    }
+
+    .header .bramg {
+        margin-left: 60vh;
+        margin-top: 0.8vh;
+        padding-bottom: 2px;
+        padding-top: 4px;
+    }
+
+    .header .bramg h4{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .header .bramg li{
+        padding: 0;
+    }
+
+    .header .slider {
+        margin-top: 3vh;
+        margin-left: 0;
+    }
+
+    .header .doing h5{
+        margin-left: 79vh;
+        margin-top: -202px;
+    }
+
+    .header .slider .carousel-caption h1{
+        font-size: 2rem;
+        line-height: 0;
+    }
+
+    .header .slider .carousel-caption p{
+        margin-bottom: 3vh;
+    }
+    
+    /*partner */
+
+    .partner .carousel-caption ul{
+        margin-left: 13px;
+    }
+    
+    .partner .carousel-item img{
+        height: 240px;
+    }
+
+    .partner .carousel-caption ul li .img-one{
+        width: 160px;
+    }
+
+    .partner .carousel-caption ul li .img-two{
+        width: 120px;
+    }
+
+    .partner .carousel-caption ul li .img-three{
+        width: 160px;
+    }
+
+    .partner .carousel-caption ul li .img-four{
+        width: 130px;
+    }
+
+    .partner .carousel-caption ul li .img-five{
+        width: 180px;
+    }
+
+    .partner .carousel-caption ul li .img-six{
+        width: 130px;
+    }
+
+    .partner .carousel-caption ul li img{
+        margin-bottom: 10px;
+    }
+
+    /* end partner */
+}
+
+@media(min-width:777px) and (max-width:800px){
+
+    /*header */
+    .header{
+        height: 822px;
+    }
+
+    .header .smart-help{
+        margin-top: 1vh;
+        width: 39%;
+        margin-left: 17vh;
+        height: 213px;
+    }
+
+    .header .bramg {
+        margin-left: 60vh;
+        margin-top: 0.8vh;
+        padding-bottom: 2px;
+        padding-top: 4px;
+    }
+
+    .header .bramg h4{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .header .bramg li{
+        padding: 0;
+    }
+
+    .header .slider {
+        margin-top: 3vh;
+        margin-left: 0;
+    }
+
+    .header .doing h5{
+        margin-left: 79vh;
+        margin-top: -202px;
+    }
+
+    .header .slider .carousel-caption h1{
+        font-size: 2rem;
+        line-height: 0;
+    }
+
+    .header .slider .carousel-caption p{
+        margin-bottom: 3vh;
+    }
+    /*partner */
+    .partner .carousel-caption ul{
+        margin-left: 17px;
+    }
+    
+    .partner .carousel-item img{
+        height: 240px;
+    }
+
+    .partner .carousel-caption ul li .img-one{
+        width: 160px;
+    }
+
+    .partner .carousel-caption ul li .img-two{
+        width: 120px;
+    }
+
+    .partner .carousel-caption ul li .img-three{
+        width: 160px;
+    }
+
+    .partner .carousel-caption ul li .img-four{
+        width: 130px;
+    }
+
+    .partner .carousel-caption ul li .img-five{
+        width: 180px;
+    }
+
+    .partner .carousel-caption ul li .img-six{
+        width: 130px;
+    }
+
+    .partner .carousel-caption ul li img{
+        margin-bottom: 10px;
+    }
+
+}
+
+@media(min-width:801px) and (max-width:830px){
+
+    /*header */
+    .header{
+        height: 850px;
+    }
+
+    .header .smart-help{
+        margin-top: 2vh;
+        width: 39%;
+        margin-left: 17vh;
+        height: 220px;
+    }
+
+    .header .bramg {
+        margin-left: 63vh;
+        margin-top: 1.8vh;
+        padding-bottom: 2px;
+        padding-top: 4px;
+    }
+
+    .header .bramg h4{
+        margin-top: 0;
+        margin-bottom: 6px;
+    }
+
+    .header .bramg li{
+        padding: 0;
+    }
+
+    .header .slider {
+        margin-top: 3vh;
+        margin-left: 0;
+    }
+
+    .header .doing h5{
+        margin-left: 79vh;
+        margin-top: -202px;
+    }
+
+    .header .slider .carousel-caption h1{
+        font-size: 2rem;
+        line-height: 0;
+        margin-bottom: 10vh;
+    }
+
+    .header .slider .carousel-caption p{
+        margin-bottom: 7vh;
+    }
+    /*partner */
+    .partner .carousel-caption ul{
+        margin-left: 34px;
+    }
+    
+    .partner .carousel-item img{
+        height: 240px;
+    }
+
+    .partner .carousel-caption ul li .img-one{
+        width: 160px;
+    }
+
+    .partner .carousel-caption ul li .img-two{
+        width: 120px;
+    }
+
+    .partner .carousel-caption ul li .img-three{
+        width: 160px;
+    }
+
+    .partner .carousel-caption ul li .img-four{
+        width: 130px;
+    }
+
+    .partner .carousel-caption ul li .img-five{
+        width: 180px;
+    }
+
+    .partner .carousel-caption ul li .img-six{
+        width: 130px;
+    }
+
+    .partner .carousel-caption ul li img{
+        margin-bottom: 10px;
+    }
+
+}
+
+@media(min-width:831px) and (max-width:879px){
+
+    /*header */
+    .header{
+        height: 875px;
+    }
+
+    .header .smart-help{
+        margin-top: 2vh;
+        width: 39%;
+        margin-left: 17vh;
+        height: 220px;
+    }
+
+    .header .bramg {
+        margin-left: 67vh;
+        margin-top: 1.8vh;
+        padding-bottom: 2px;
+        padding-top: 4px;
+    }
+
+    .header .bramg h4{
+        margin-top: 0;
+        margin-bottom: 6px;
+    }
+
+    .header .bramg li{
+        padding: 0;
+    }
+
+    .header .slider {
+        margin-top: 3vh;
+        margin-left: 0;
+    }
+
+    .header .doing h5{
+        margin-left: 88vh;
+        margin-top: -202px;
+    }
+
+    .header .slider .carousel-caption h1{
+        font-size: 2rem;
+        line-height: 0;
+        margin-bottom: 14vh;
+    }
+
+    .header .slider .carousel-caption p{
+        margin-bottom: 6vh;
+    }
+    /*partner */
+    .partner .carousel-caption ul{
+        margin-left: 25px;
+    }
+    
+    .partner .carousel-item img{
+        height: 240px;
+    }
+
+    .partner .carousel-caption ul li .img-one{
+        width: 170px;
+    }
+
+    .partner .carousel-caption ul li .img-two{
+        width: 130px;
+    }
+
+    .partner .carousel-caption ul li .img-three{
+        width: 170px;
+    }
+
+    .partner .carousel-caption ul li .img-four{
+        width: 140px;
+    }
+
+    .partner .carousel-caption ul li .img-five{
+        width: 190px;
+    }
+
+    .partner .carousel-caption ul li .img-six{
+        width: 140px;
+    }
+
+    .partner .carousel-caption ul li img{
+        margin-bottom: 10px;
+    }
+
+}
+
+@media(min-width:880px) and (max-width:930px){
+
+    /*header */
+    .header{
+        height: 894px;
+    }
+
+    .header .smart-help{
+        margin-top: 2vh;
+        width: 39%;
+        margin-left: 17vh;
+        height: 213px;
+    }
+
+    .header .bramg {
+        margin-left: 72vh;
+        margin-top: 1.8vh;
+        padding-bottom: 2px;
+        padding-top: 4px;
+    }
+
+    .header .bramg h4{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .header .bramg li{
+        padding: 0;
+    }
+
+    .header .slider {
+        margin-top: 3vh;
+        margin-left: 0;
+    }
+
+    .header .doing h5{
+        margin-left: 94vh;
+        margin-top: -202px;
+    }
+
+    .header .slider .carousel-caption h1{
+        font-size: 2rem;
+        line-height: 0;
+        margin-bottom: 15vh;
+    }
+
+    .header .slider .carousel-caption p{
+        margin-bottom: 6vh;
+    }
+    /*partner */
+    .partner .carousel-caption ul{
+        margin-left: 30px;
+    }
+    
+    .partner .carousel-item img{
+        height: 240px;
+    }
+
+    .partner .carousel-caption ul li .img-one{
+        width: 180px;
+    }
+
+    .partner .carousel-caption ul li .img-two{
+        width: 140px;
+    }
+
+    .partner .carousel-caption ul li .img-three{
+        width: 180px;
+    }
+
+    .partner .carousel-caption ul li .img-four{
+        width: 150px;
+    }
+
+    .partner .carousel-caption ul li .img-five{
+        width: 200px;
+    }
+
+    .partner .carousel-caption ul li .img-six{
+        width: 150px;
+    }
+
+    .partner .carousel-caption ul li img{
+        margin-bottom: 10px;
+    }
+
+}
+
+@media(min-width:931px) and (max-width:990px){
+
+    /*header */
+    .header{
+        height: 845px;
+    }
+
+    .header .smart-help{
+        margin-top: 2vh;
+        width: 32%;
+        margin-left: 24vh;
+        height: 220px;
+    }
+
+    .header .bramg {
+        margin-left: 76vh;
+        margin-top: 1.8vh;
+        padding-bottom: 2px;
+        padding-top: 4px;
+    }
+
+    .header .bramg h4{
+        margin-top: 0;
+        margin-bottom: 6px;
+    }
+
+    .header .bramg li{
+        padding: 0;
+    }
+
+    .header .slider {
+        margin-top: 3vh;
+        margin-left: 0;
+    }
+
+    .header .doing h5{
+        margin-left: 100vh;
+        margin-top: -113px;
+    }
+
+    .header .doing li{
+        margin-right: 4px;
+        margin-left: 19px;
+        padding: 10px 10px;
+        font-size: 16px;
+        letter-spacing: 1px;
+    }
+
+    .header .slider .carousel-caption h1{
+        font-size: 2rem;
+        line-height: 0;
+        margin-bottom: 15vh;
+    }
+
+    .header .slider .carousel-caption p{
+        margin-bottom: 6vh;
+    }
+    /*partner */
+    .partner .carousel-caption ul{
+        margin-left: 35px;
+    }
+    
+    .partner .carousel-item img{
+        height: 240px;
+    }
+
+    .partner .carousel-caption ul li .img-one{
+        width: 195px;
+    }
+
+    .partner .carousel-caption ul li .img-two{
+        width: 140px;
+    }
+
+    .partner .carousel-caption ul li .img-three{
+        width: 195px;
+    }
+
+    .partner .carousel-caption ul li .img-four{
+        width: 165px;
+    }
+
+    .partner .carousel-caption ul li .img-five{
+        width: 200px;
+    }
+
+    .partner .carousel-caption ul li .img-six{
+        width: 165px;
+    }
+
+    .partner .carousel-caption ul li img{
+        margin-bottom: 10px;
+    }
+
+}
+
+@media(min-width:991px) and (max-width:998px){
+
+    /*header */
+    .header{
+        height: 551px;
+    }
+
+    .header .smart-help{
+        margin-left: 2vh;
+        height: 225px;
+        padding: 5px;
+        margin-top: 23vh;
+    }
+
+    .header .smart-help h3{
+        margin-top: 3px;
+        margin-bottom: 16px;
+    }
+
+    .header .smart-help p{
+        margin-bottom: 20px;
+    }
+
+    .header .smart-help img{
+        margin-bottom: 10px;
+    }
+
+    .header .slider{
+        margin-left: 0;
+    }
+
+    .header .slider .carousel-caption h1{
+        margin-bottom: 3vh;
+        font-size: 2rem;
+        letter-spacing: 2px;
+        line-height: 1;
+    }
+
+    .header .slider .carousel-caption p{
+        margin-bottom: 0;
+        width: 100%;
+        margin-left: 0px;
+        font-size: 18px;
+    }
+
+    .header .bramg {
+        margin-left: 98vh;
+        width: 213px;
+        margin-top: 19.5vh;
+    }
+
+    .header .bramg h4{
+        margin-top: 12px;
+        margin-bottom: 13px;
+    }
+
+    .header .bramg li{
+        padding-top: 3px;
+        padding-bottom: 3px;
+    }
+
+    .header .doing ul{
+        margin-left: 42px;
+    }
+
+    .header .doing h5{
+        margin-left: 108vh;
+        margin-top: -14vh;
+    }
+
+    .header .doing li{
+        margin-right: 10px;
+        padding: 10px;
+        font-size: 18px;
+        letter-spacing: 1px;
+    }
+
+    /*partner */
+
+    .partner .carousel-item > img{
+        width: 225px;
+    }
+
+    .partner .carousel-caption ul{
+        margin-left: 26px;
+    }
+    
+    .partner .carousel-item img{
+        height: 240px;
+    }
+
+    .partner .carousel-caption ul li .img-two{
+        width: 150px;
+    }
+
+    .partner .carousel-caption ul li .img-four{
+        width: 160px;
+    }
+
+    .partner .carousel-caption ul li .img-five{
+        width: 230px;
+    }
+
+    .partner .carousel-caption ul li .img-six{
+        width: 160px;
+    }
+
+    .partner .carousel-caption ul li img{
+        margin-bottom: 10px;
+    }
+
+}
+
+@media(min-width:999px) and (max-width:1011px){
+
+    /*header */
+    .header{
+        height: 559px;
+    }
+
+    .header .smart-help{
+        margin-left: 2vh;
+        height: 225px;
+        padding: 5px;
+        margin-top: 23vh;
+    }
+
+    .header .smart-help h3{
+        margin-top: 11px;
+        margin-bottom: 17px;
+    }
+
+    .header .smart-help p{
+        margin-bottom: 20px;
+    }
+
+    .header .smart-help img{
+        margin-bottom: 10px;
+    }
+
+    .header .slider{
+        margin-left: 0;
+    }
+
+    .header .slider .carousel-caption h1{
+        margin-bottom: 3vh;
+        font-size: 2rem;
+        letter-spacing: 2px;
+        line-height: 1;
+    }
+
+    .header .slider .carousel-caption p{
+        margin-bottom: 0;
+        width: 100%;
+        margin-left: 0px;
+        font-size: 18px;
+    }
+
+    .header .bramg {
+        margin-left: 100vh;
+        width: 213px;
+        margin-top: 20vh;
+    }
+
+    .header .bramg h4{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .header .bramg li{
+        padding-top: 3px;
+        padding-bottom: 3px;
+    }
+
+    .header .doing ul{
+        margin-left: 42px;
+    }
+
+    .header .doing h5{
+        margin-left: 108vh;
+        margin-top: -14vh;
+    }
+
+    .header .doing li{
+        margin-right: 10px;
+        padding: 10px;
+        font-size: 18px;
+        letter-spacing: 1px;
+    }
+
+    /*partner */
+
+    .partner .carousel-item > img{
+        width: 225px;
+    }
+
+    .partner .carousel-caption ul{
+        margin-left: 26px;
+    }
+    
+    .partner .carousel-item img{
+        height: 240px;
+    }
+
+    .partner .carousel-caption ul li .img-two{
+        width: 150px;
+    }
+
+    .partner .carousel-caption ul li .img-four{
+        width: 160px;
+    }
+
+    .partner .carousel-caption ul li .img-five{
+        width: 230px;
+    }
+
+    .partner .carousel-caption ul li .img-six{
+        width: 160px;
+    }
+
+    .partner .carousel-caption ul li img{
+        margin-bottom: 10px;
+    }
+
+}
+
+@media(min-width:1012px) and (max-width:1023px){
+
+    /*header */
+    .header{
+        height: 560px;
+    }
+
+    .header .smart-help{
+        margin-left: 2vh;
+        height: 225px;
+        padding: 5px;
+        margin-top: 22vh;
+    }
+
+    .header .smart-help h3{
+        margin-top: 19px;
+        margin-bottom: 17px;
+        font-size: 1.5rem;
+    }
+
+    .header .smart-help p{
+        margin-bottom: 20px;
+    }
+
+    .header .smart-help img{
+        margin-bottom: 10px;
+    }
+
+    .header .slider{
+        margin-left: 0;
+        margin-top: 18vh;
+    }
+
+    .header .slider .carousel-caption h1{
+        margin-bottom: 3vh;
+        font-size: 2rem;
+        letter-spacing: 2px;
+        line-height: 1;
+    }
+
+    .header .slider .carousel-caption p{
+        margin-bottom: 0;
+        width: 100%;
+        margin-left: 0px;
+        font-size: 18px;
+    }
+
+    .header .bramg {
+        margin-left: 103vh;
+        width: 213px;
+        margin-top: 19vh;
+    }
+
+    .header .bramg h4{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .header .bramg li{
+        padding-top: 3px;
+        padding-bottom: 3px;
+    }
+
+    .header .doing ul{
+        margin-left: 34px;
+    }
+
+    .header .doing h5{
+        margin-left: 112vh;
+        margin-top: -12vh;
+    }
+
+    .header .doing li{
+        margin-right: 10px;
+        padding: 10px;
+        font-size: 18px;
+        letter-spacing: 1px;
+    }
+
+    /*partner */
+
+    .partner .carousel-item > img{
+        width: 225px;
+    }
+
+    .partner .carousel-caption ul{
+        margin-left: 32px;
+    }
+    
+    .partner .carousel-item img{
+        height: 240px;
+    }
+
+    .partner .carousel-caption ul li .img-two{
+        width: 150px;
+    }
+
+    .partner .carousel-caption ul li .img-four{
+        width: 160px;
+    }
+
+    .partner .carousel-caption ul li .img-five{
+        width: 230px;
+    }
+
+    .partner .carousel-caption ul li .img-six{
+        width: 160px;
+    }
+
+    .partner .carousel-caption ul li img{
+        margin-bottom: 10px;
+    }
+
+}
+
+@media(min-width:1024px) and (max-width:1025px){
+
+    /*header */
+    .header{
+        height: 560px;
+    }
+
+    .header .smart-help{
+        margin-left: 2vh;
+        height: 225px;
+        padding: 5px;
+        margin-top: 12vh;
+    }
+
+    .header .smart-help h3{
+        margin-top: 19px;
+        margin-bottom: 17px;
+        font-size: 1.5rem;
+    }
+
+    .header .smart-help p{
+        margin-bottom: 20px;
+    }
+
+    .header .smart-help img{
+        margin-bottom: 10px;
+    }
+
+    .header .slider{
+        margin-left: 0;
+        margin-top: 10vh;
+    }
+
+    .header .slider .carousel-caption h1{
+        margin-bottom: 3vh;
+        font-size: 2rem;
+        letter-spacing: 2px;
+        line-height: 1;
+    }
+
+    .header .slider .carousel-caption p{
+        margin-bottom: 0;
+        width: 100%;
+        margin-left: 0px;
+        font-size: 18px;
+    }
+
+    .header .bramg {
+        margin-left: 58vh;
+        width: 213px;
+        margin-top: 11vh;
+    }
+
+    .header .bramg h4{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .header .bramg li{
+        padding-top: 3px;
+        padding-bottom: 3px;
+    }
+
+    .header .doing ul{
+        margin-left: 34px;
+    }
+
+    .header .doing h5{
+        margin-left: 59vh;
+        margin-top: -7vh;
+    }
+
+    .header .doing li{
+        margin-right: 10px;
+        padding: 10px;
+        font-size: 18px;
+        letter-spacing: 1px;
+    }
+
+    /*partner */
+
+    .partner .carousel-item > img{
+        width: 225px;
+    }
+
+    .partner .carousel-caption ul{
+        margin-left: 32px;
+    }
+    
+    .partner .carousel-item img{
+        height: 240px;
+    }
+
+    .partner .carousel-caption ul li .img-two{
+        width: 150px;
+    }
+
+    .partner .carousel-caption ul li .img-four{
+        width: 160px;
+    }
+
+    .partner .carousel-caption ul li .img-five{
+        width: 230px;
+    }
+
+    .partner .carousel-caption ul li .img-six{
+        width: 160px;
+    }
+
+    .partner .carousel-caption ul li img{
+        margin-bottom: 10px;
+    }
+
+}
+
+@media(min-width:1026px) and (max-width:1030px){
+
+    /*header */
+    .header{
+        height: 560px;
+    }
+
+    .header .smart-help{
+        margin-left: 2vh;
+        height: 225px;
+        padding: 5px;
+        margin-top: 22vh;
+    }
+
+    .header .smart-help h3{
+        margin-top: 19px;
+        margin-bottom: 17px;
+        font-size: 1.5rem;
+    }
+
+    .header .smart-help p{
+        margin-bottom: 20px;
+    }
+
+    .header .smart-help img{
+        margin-bottom: 10px;
+    }
+
+    .header .slider{
+        margin-left: 0;
+        margin-top: 18vh;
+    }
+
+    .header .slider .carousel-caption h1{
+        margin-bottom: 3vh;
+        font-size: 2rem;
+        letter-spacing: 2px;
+        line-height: 1;
+    }
+
+    .header .slider .carousel-caption p{
+        margin-bottom: 0;
+        width: 100%;
+        margin-left: 0px;
+        font-size: 18px;
+    }
+
+    .header .bramg {
+        margin-left: 103vh;
+        width: 213px;
+        margin-top: 19vh;
+    }
+
+    .header .bramg h4{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .header .bramg li{
+        padding-top: 3px;
+        padding-bottom: 3px;
+    }
+
+    .header .doing ul{
+        margin-left: 34px;
+    }
+
+    .header .doing h5{
+        margin-left: 112vh;
+        margin-top: -12vh;
+    }
+
+    .header .doing li{
+        margin-right: 10px;
+        padding: 10px;
+        font-size: 18px;
+        letter-spacing: 1px;
+    }
+
+    /*partner */
+
+    .partner .carousel-item > img{
+        width: 225px;
+    }
+
+    .partner .carousel-caption ul{
+        margin-left: 32px;
+    }
+    
+    .partner .carousel-item img{
+        height: 240px;
+    }
+
+    .partner .carousel-caption ul li .img-two{
+        width: 150px;
+    }
+
+    .partner .carousel-caption ul li .img-four{
+        width: 160px;
+    }
+
+    .partner .carousel-caption ul li .img-five{
+        width: 230px;
+    }
+
+    .partner .carousel-caption ul li .img-six{
+        width: 160px;
+    }
+
+    .partner .carousel-caption ul li img{
+        margin-bottom: 10px;
+    }
+
+}
+
+@media(min-width:1031px) and (max-width:1050px){
+
+    /*header */
+    .header{
+        height: 559px;
+    }
+
+    .header .smart-help{
+        margin-left: 2vh;
+        height: 225px;
+        padding: 5px;
+        margin-top: 23vh;
+    }
+
+    .header .smart-help h3{
+        margin-top: 19px;
+        margin-bottom: 17px;
+        font-size: 1.5rem;
+    }
+
+    .header .smart-help p{
+        margin-bottom: 20px;
+    }
+
+    .header .smart-help img{
+        margin-bottom: 10px;
+    }
+
+    .header .slider{
+        margin-left: 0;
+    }
+
+    .header .slider .carousel-caption h1{
+        margin-bottom: 3vh;
+        font-size: 2rem;
+        letter-spacing: 2px;
+        line-height: 1;
+    }
+
+    .header .slider .carousel-caption p{
+        margin-bottom: 0;
+        width: 100%;
+        margin-left: 0px;
+        font-size: 18px;
+    }
+
+    .header .bramg {
+        margin-left: 104vh;
+        width: 213px;
+        margin-top: 20vh;
+    }
+
+    .header .bramg h4{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .header .bramg li{
+        padding-top: 3px;
+        padding-bottom: 5px;
+    }
+
+    .header .doing ul{
+        margin-left: 78px;
+    }
+
+    .header .doing h5{
+        margin-left: 113vh;
+        margin-top: -14vh;
+    }
+
+    .header .doing li{
+        margin-right: 10px;
+        padding: 10px;
+        font-size: 18px;
+        letter-spacing: 1px;
+    }
+
+    /*partner */
+
+    .partner .carousel-item > img{
+        width: 225px;
+    }
+
+    .partner .carousel-caption ul{
+        margin-left: 42px;
+    }
+    
+    .partner .carousel-item img{
+        height: 240px;
+    }
+
+    .partner .carousel-caption ul li .img-one{
+        width: 210px;
+    }
+
+    .partner .carousel-caption ul li .img-two{
+        width: 150px;
+    }
+
+    .partner .carousel-caption ul li .img-three{
+        width: 210px;
+    }
+
+    .partner .carousel-caption ul li .img-four{
+        width: 170px;
+    }
+
+    .partner .carousel-caption ul li .img-five{
+        width: 230px;
+    }
+
+    .partner .carousel-caption ul li .img-six{
+        width: 170px;
+    }
+
+    .partner .carousel-caption ul li img{
+        margin-bottom: 10px;
+    }
+
+}
+
+@media(min-width:1051px) and (max-width:1070px){
+
+    /*header */
+    .header{
+        height: 559px;
+    }
+
+    .header .smart-help{
+        margin-left: 2vh;
+        height: 225px;
+        padding: 5px;
+        margin-top: 23vh;
+    }
+
+    .header .smart-help h3{
+        margin-top: 19px;
+        margin-bottom: 17px;
+        font-size: 1.5rem;
+    }
+
+    .header .smart-help p{
+        margin-bottom: 20px;
+    }
+
+    .header .smart-help img{
+        margin-bottom: 10px;
+    }
+
+    .header .slider{
+        margin-left: 0;
+    }
+
+    .header .slider .carousel-caption h1{
+        margin-bottom: 3vh;
+        font-size: 2rem;
+        letter-spacing: 2px;
+        line-height: 1;
+    }
+
+    .header .slider .carousel-caption p{
+        margin-bottom: 0;
+        width: 100%;
+        margin-left: 0px;
+        font-size: 18px;
+    }
+
+    .header .bramg {
+        margin-left: 107vh;
+        width: 213px;
+        margin-top: 20vh;
+    }
+
+    .header .bramg h4{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .header .bramg li{
+        padding-top: 3px;
+        padding-bottom: 5px;
+    }
+
+    .header .doing ul{
+        margin-left: 78px;
+    }
+
+    .header .doing h5{
+        margin-left: 113vh;
+        margin-top: -14vh;
+    }
+
+    .header .doing li{
+        margin-right: 10px;
+        padding: 10px;
+        font-size: 18px;
+        letter-spacing: 1px;
+    }
+
+    /*partner */
+
+    .partner .carousel-item > img{
+        width: 225px;
+    }
+
+    .partner .carousel-caption ul{
+        margin-left: 43px;
+    }
+    
+    .partner .carousel-item img{
+        height: 240px;
+    }
+
+    .partner .carousel-caption ul li .img-two{
+        width: 170px;
+    }
+
+    .partner .carousel-caption ul li .img-four{
+        width: 165px;
+    }
+
+    .partner .carousel-caption ul li .img-five{
+        width: 240px;
+    }
+
+    .partner .carousel-caption ul li .img-six{
+        width: 165px;
+    }
+
+    .partner .carousel-caption ul li img{
+        margin-bottom: 10px;
+    }
+
+}
+
+@media(min-width:1071px) and (max-width:1100px){
+
+    /*header */
+    .header{
+        height: 562px;
+    }
+
+    .header .smart-help{
+        margin-left: 2vh;
+        height: 225px;
+        padding: 5px;
+        margin-top: 23vh;
+    }
+
+    .header .smart-help h3{
+        margin-top: 19px;
+        margin-bottom: 17px;
+        font-size: 1.5rem;
+    }
+
+    .header .smart-help p{
+        margin-bottom: 20px;
+    }
+
+    .header .smart-help img{
+        margin-bottom: 10px;
+    }
+
+    .header .slider{
+        margin-left: 0;
+    }
+
+    .header .slider .carousel-caption h1{
+        margin-bottom: 3vh;
+        font-size: 2rem;
+        letter-spacing: 2px;
+        line-height: 1;
+    }
+
+    .header .slider .carousel-caption p{
+        margin-bottom: 0;
+        width: 100%;
+        margin-left: 0px;
+        font-size: 18px;
+    }
+
+    .header .bramg {
+        margin-left: 110vh;
+        width: 213px;
+        margin-top: 20vh;
+    }
+
+    .header .bramg h4{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .header .bramg li{
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .header .doing ul{
+        margin-left: 78px;
+    }
+
+    .header .doing h5{
+        margin-left: 113vh;
+        margin-top: -14vh;
+    }
+
+    .header .doing li{
+        margin-right: 10px;
+        padding: 10px;
+        font-size: 18px;
+        letter-spacing: 1px;
+    }
+
+    /*partner */
+
+    .partner .carousel-item > img{
+        width: 225px;
+    }
+
+    .partner .carousel-caption ul{
+        margin-left: 55px;
+    }
+    
+    .partner .carousel-item img{
+        height: 240px;
+    }
+
+    .partner .carousel-caption ul li .img-two{
+        width: 150px;
+    }
+
+    .partner .carousel-caption ul li .img-four{
+        width: 160px;
+    }
+
+    .partner .carousel-caption ul li .img-five{
+        width: 230px;
+    }
+
+    .partner .carousel-caption ul li .img-six{
+        width: 160px;
+    }
+
+    .partner .carousel-caption ul li img{
+        margin-bottom: 10px;
+    }
+
+}
+
+@media(min-width:1101px) and (max-width:1130px){
+
+    /*header */
+    .header{
+        height: 571px;
+    }
+
+    .header .smart-help{
+        margin-left: 2vh;
+        height: 225px;
+        padding: 5px;
+        margin-top: 23vh;
+    }
+
+    .header .smart-help h3{
+        margin-top: 19px;
+        margin-bottom: 17px;
+        font-size: 1.5rem;
+    }
+
+    .header .smart-help p{
+        margin-bottom: 20px;
+    }
+
+    .header .smart-help img{
+        margin-bottom: 10px;
+    }
+
+    .header .slider{
+        margin-left: 0;
+    }
+
+    .header .slider .carousel-caption h1{
+        margin-bottom: 3vh;
+        font-size: 2rem;
+        letter-spacing: 2px;
+        line-height: 1;
+    }
+
+    .header .slider .carousel-caption p{
+        margin-bottom: 0;
+        width: 100%;
+        margin-left: 0px;
+        font-size: 18px;
+    }
+
+    .header .bramg {
+        margin-left: 113vh;
+        width: 213px;
+        margin-top: 20vh;
+    }
+
+    .header .bramg h4{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .header .bramg li{
+        padding-top: 5px;
+        padding-bottom: 7px;
+    }
+
+    .header .doing ul{
+        margin-left: 78px;
+    }
+
+    .header .doing h5{
+        margin-left: 113vh;
+        margin-top: -14vh;
+    }
+
+    .header .doing li{
+        margin-right: 10px;
+        padding: 10px;
+        font-size: 18px;
+        letter-spacing: 1px;
+    }
+
+    /*partner */
+
+    .partner .carousel-item > img{
+        width: 225px;
+    }
+
+    .partner .carousel-caption ul{
+        margin-left: 72px;
+    }
+    
+    .partner .carousel-item img{
+        height: 240px;
+    }
+
+    .partner .carousel-caption ul li .img-two{
+        width: 170px;
+    }
+
+    .partner .carousel-caption ul li .img-four{
+        width: 170px;
+    }
+
+    .partner .carousel-caption ul li .img-five{
+        width: 230px;
+    }
+
+    .partner .carousel-caption ul li .img-six{
+        width: 170px;
+    }
+
+    .partner .carousel-caption ul li img{
+        margin-bottom: 10px;
+    }
+
+}
+
+@media(min-width:1131px) and (max-width:1170px){
+
+    /*header */
+    .header{
+        height: 585px;
+    }
+
+    .header .smart-help{
+        margin-left: 2vh;
+        height: 225px;
+        padding: 5px;
+        margin-top: 23vh;
+    }
+
+    .header .smart-help h3{
+        margin-top: 19px;
+        margin-bottom: 17px;
+        font-size: 1.5rem;
+    }
+
+    .header .smart-help p{
+        margin-bottom: 20px;
+    }
+
+    .header .smart-help img{
+        margin-bottom: 10px;
+    }
+
+    .header .slider{
+        margin-left: 0;
+    }
+
+    .header .slider .carousel-caption h1{
+        margin-bottom: 8vh;
+        font-size: 2rem;
+        letter-spacing: 2px;
+        line-height: 1;
+    }
+
+    .header .slider .carousel-caption p{
+        margin-bottom: 0;
+        width: 100%;
+        margin-left: 0px;
+        font-size: 18px;
+    }
+
+    .header .bramg {
+        margin-left: 117vh;
+        width: 213px;
+        margin-top: 22.5vh;
+    }
+
+    .header .bramg h4{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .header .bramg li{
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .header .doing ul{
+        margin-left: 22vh;
+    }
+
+    .header .doing h5{
+        margin-left: 127vh;
+        margin-top: -14vh;
+    }
+
+    .header .doing li{
+        margin-right: 10px;
+        padding: 10px;
+        font-size: 18px;
+        letter-spacing: 1px;
+    }
+
+    /*partner */
+
+    .partner .carousel-item > img{
+        width: 225px;
+    }
+
+    .partner .carousel-caption ul{
+        margin-left: 55px;
+    }
+    
+    .partner .carousel-item img{
+        height: 240px;
+    }
+
+    .partner .carousel-caption ul li .img-two{
+        width: 150px;
+    }
+
+    .partner .carousel-caption ul li .img-four{
+        width: 160px;
+    }
+
+    .partner .carousel-caption ul li .img-five{
+        width: 230px;
+    }
+
+    .partner .carousel-caption ul li .img-six{
+        width: 160px;
+    }
+
+    .partner .carousel-caption ul li img{
+        margin-bottom: 10px;
+    }
+
+}
+
+@media(min-width:1171px) and (max-width:1199px){
+
+    /*header */
+    .header{
+        height: 590px;
+    }
+
+    .header .smart-help{
+        margin-left: 2vh;
+        height: 225px;
+        padding: 5px;
+        margin-top: 23vh;
+    }
+
+    .header .smart-help h3{
+        margin-top: 19px;
+        margin-bottom: 17px;
+        font-size: 1.5rem;
+    }
+
+    .header .smart-help p{
+        margin-bottom: 20px;
+    }
+
+    .header .smart-help img{
+        margin-bottom: 10px;
+    }
+
+    .header .slider{
+        margin-left: 0;
+    }
+
+    .header .slider .carousel-caption h1{
+        margin-bottom: 7vh;
+        font-size: 2rem;
+        letter-spacing: 2px;
+        line-height: 1;
+    }
+
+    .header .slider .carousel-caption p{
+        margin-bottom: 5vh;
+        width: 100%;
+        margin-left: 0px;
+        font-size: 18px;
+    }
+
+    .header .bramg {
+        margin-left: 119vh;
+        width: 213px;
+        margin-top: 24vh;
+    }
+
+    .header .bramg h4{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .header .bramg li{
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .header .doing ul{
+        margin-left: 22vh;
+    }
+
+    .header .doing h5{
+        margin-left: 126vh;
+        margin-top: -14vh;
+    }
+
+    .header .doing li{
+        margin-right: 10px;
+        padding: 10px;
+        font-size: 18px;
+        letter-spacing: 1px;
+    }
+
+    /*partner */
+
+    .partner .carousel-item > img{
+        width: 225px;
+    }
+
+    .partner .carousel-caption ul{
+        margin-left: 10vh;
+    }
+    
+    .partner .carousel-item img{
+        height: 240px;
+    }
+
+    .partner .carousel-caption ul li .img-one{
+        width: 225px;
+    }
+
+    .partner .carousel-caption ul li .img-two{
+        width: 160px;
+    }
+
+    .partner .carousel-caption ul li .img-three{
+        width: 210px;
+    }
+
+    .partner .carousel-caption ul li .img-four{
+        width: 180px;
+    }
+
+    .partner .carousel-caption ul li .img-five{
+        width: 240px;
+    }
+
+    .partner .carousel-caption ul li .img-six{
+        width: 175px;
+    }
+
+    .partner .carousel-caption ul li img{
+        margin-bottom: 10px;
+    }
+
+}
+
+@media(min-width:1200px) and (max-width:1250px){
+
+    /*header */
+    .header{
+        height: 607px;
+    }
+
+    .header .smart-help{
+        margin-left: 2vh;
+        height: 225px;
+        padding: 5px;
+        margin-top: 23vh;
+    }
+
+    .header .smart-help h3{
+        margin-top: 19px;
+        margin-bottom: 17px;
+        font-size: 1.5rem;
+    }
+
+    .header .smart-help p{
+        margin-bottom: 20px;
+    }
+
+    .header .smart-help img{
+        margin-bottom: 10px;
+    }
+
+    .header .slider{
+        margin-left: 0;
+    }
+
+    .header .slider .carousel-caption h1{
+        margin-bottom: 7vh;
+        font-size: 2rem;
+        letter-spacing: 2px;
+        line-height: 1;
+    }
+
+    .header .slider .carousel-caption p{
+        margin-bottom: 5vh;
+        width: 100%;
+        margin-left: 0px;
+        font-size: 18px;
+    }
+
+    .header .bramg {
+        margin-left: 126vh;
+        width: 213px;
+        margin-top: 24.5vh;
+    }
+
+    .header .bramg h4{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .header .bramg li{
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .header .doing ul{
+        margin-left: 26vh;
+    }
+
+    .header .doing h5{
+        margin-left: 136vh;
+        margin-top: -14vh;
+    }
+
+    .header .doing li{
+        margin-right: 10px;
+        padding: 10px 15px;
+        font-size: 18px;
+        letter-spacing: 1px;
+    }
+
+    /*partner */
+
+    .partner .carousel-item > img{
+        width: 225px;
+    }
+
+    .partner .carousel-caption ul{
+        margin-left: 12vh;
+    }
+    
+    .partner .carousel-item img{
+        height: 240px;
+    }
+
+    .partner .carousel-caption ul li .img-one{
+        width: 225px;
+    }
+
+    .partner .carousel-caption ul li .img-two{
+        width: 160px;
+    }
+
+    .partner .carousel-caption ul li .img-three{
+        width: 210px;
+    }
+
+    .partner .carousel-caption ul li .img-four{
+        width: 180px;
+    }
+
+    .partner .carousel-caption ul li .img-five{
+        width: 240px;
+    }
+
+    .partner .carousel-caption ul li .img-six{
+        width: 175px;
+    }
+
+    .partner .carousel-caption ul li img{
+        margin-bottom: 10px;
+    }
+
+}
+
+@media(min-width:1251px) and (max-width:1295px){
+
+    /*header */
+    .header{
+        height: 618px;
+    }
+
+    .header .smart-help{
+        margin-left: 2vh;
+        height: 225px;
+        padding: 5px;
+        margin-top: 25vh;
+    }
+
+    .header .smart-help h3{
+        margin-top: 19px;
+        margin-bottom: 17px;
+        font-size: 1.5rem;
+    }
+
+    .header .smart-help p{
+        margin-bottom: 20px;
+    }
+
+    .header .smart-help img{
+        margin-bottom: 10px;
+    }
+
+    .header .slider{
+        margin-left: 0;
+    }
+
+    .header .slider .carousel-caption h1{
+        margin-bottom: 7vh;
+        font-size: 2rem;
+        letter-spacing: 2px;
+        line-height: 1;
+    }
+
+    .header .slider .carousel-caption p{
+        margin-bottom: 5vh;
+        width: 100%;
+        margin-left: 0px;
+        font-size: 18px;
+    }
+
+    .header .bramg {
+        margin-left: 132vh;
+        width: 213px;
+        margin-top: 24vh;
+    }
+
+    .header .bramg h4{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .header .bramg li{
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .header .doing ul{
+        margin-left: 26vh;
+    }
+
+    .header .doing h5{
+        margin-left: 137vh;
+        margin-top: -14vh;
+    }
+
+    .header .doing li{
+        margin-right: 10px;
+        padding: 10px 15px;
+        font-size: 18px;
+        letter-spacing: 1px;
+    }
+
+    /*partner */
+
+    .partner .carousel-item > img{
+        width: 225px;
+    }
+
+    .partner .carousel-caption ul li img{
+        margin-right: 13px;
+    }
+    
+    .partner .carousel-item img{
+        height: 138px;
+    }
+
+    .partner .carousel-caption ul li .img-one{
+        width: 156px;
+    }
+
+    .partner .carousel-caption ul li .img-three{
+        width: 150px;
+    }
+
+    .partner .carousel-caption ul li .img-five{
+        width: 160px;
+    }
+}
+
+@media(min-width:1296px) and (max-width:1330px){
+
+    /*header */
+    .header{
+        height: 622px;
+    }
+
+    .header .smart-help{
+        margin-left: 2vh;
+        height: 225px;
+        padding: 5px;
+        margin-top: 25vh;
+    }
+
+    .header .smart-help h3{
+        margin-top: 19px;
+        margin-bottom: 17px;
+        font-size: 1.5rem;
+    }
+
+    .header .smart-help p{
+        margin-bottom: 20px;
+    }
+
+    .header .smart-help img{
+        margin-bottom: 10px;
+    }
+
+    .header .slider{
+        margin-left: 0;
+    }
+
+    .header .slider .carousel-caption h1{
+        margin-bottom: 7vh;
+        font-size: 2rem;
+        letter-spacing: 2px;
+        line-height: 1;
+    }
+
+    .header .slider .carousel-caption p{
+        margin-bottom: 5vh;
+        width: 100%;
+        margin-left: 0px;
+        font-size: 18px;
+    }
+
+    .header .bramg {
+        margin-left: 135vh;
+        width: 213px;
+        margin-top: 26vh;
+    }
+
+    .header .bramg h4{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .header .bramg li{
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .header .doing ul{
+        margin-left: 26vh;
+    }
+
+    .header .doing h5{
+        margin-left: 137vh;
+        margin-top: -14vh;
+    }
+
+    .header .doing li{
+        margin-right: 10px;
+        padding: 10px 15px;
+        font-size: 18px;
+        letter-spacing: 1px;
+    }
+
+    /*partner */
+
+    .partner .carousel-item > img{
+        width: 225px;
+    }
+
+    .partner .carousel-caption ul li img{
+        margin-right: 13px;
+    }
+    
+    .partner .carousel-item img{
+        height: 138px;
+    }
+
+    .partner .carousel-caption ul li .img-one{
+        width: 156px;
+    }
+
+    .partner .carousel-caption ul li .img-three{
+        width: 150px;
+    }
+
+    .partner .carousel-caption ul li .img-five{
+        width: 160px;
+    }
+
+
+}
+
+@media(min-width:1331px) and (max-width:1400px){
+
+    /*header */
+    .header{
+        height: 680px;
+    }
+
+    .header .smart-help{
+        margin-left: 2vh;
+    }
+
+    .header .slider{
+        margin-left: 0;
+    }
+
+    .header .slider .carousel-caption h1{
+        margin-bottom: 7vh;
+        font-size: 2rem;
+        letter-spacing: 2px;
+        line-height: 1;
+    }
+
+    .header .slider .carousel-caption p{
+        margin-bottom: 5vh;
+        width: 100%;
+        margin-left: 0px;
+        font-size: 18px;
+    }
+
+    .header .bramg {
+        margin-left: 143vh;
+        margin-top: 24vh;
+    }
+
+
+    /*partner */
+
+    .partner .carousel-caption  {
+        bottom: -5px;
+    }
+
+    .partner .carousel-item > img{
+        width: 225px;
+    }
+
+    .partner .carousel-caption ul li img{
+        margin-right: 13px;
+    }
+    
+    .partner .carousel-item img{
+        height: 138px;
+    }
+
+    .partner .carousel-caption ul li .img-one{
+        width: 156px;
+    }
+
+    .partner .carousel-caption ul li .img-three{
+        width: 150px;
+    }
+
+    .partner .carousel-caption ul li .img-five{
+        width: 160px;
+    }
+
+}
+
+@media(min-width:1401px) and (max-width:1430px){
+
+    /*header */
+    .header{
+        height: 690px;
+    }
+
+    .header .smart-help{
+        margin-left: 2vh;       
+    }
+
+    .header .slider{
+        margin-left: 0;
+    }
+
+    .header .slider .carousel-caption h1{
+        font-size: 2rem;  
+    }
+
+    .header .bramg {
+        margin-left: 150vh;
+        margin-top: 27.5vh;
+    }
+
+
+    /*partner */
+
+    .partner .carousel-item > img{
+        width: 225px;
+    }
+
+    .partner .carousel-caption ul li img{
+        margin-right: 13px;
+    }
+    
+    .partner .carousel-item img{
+        height: 138px;
+    }
+
+    .partner .carousel-caption ul li .img-one{
+        width: 156px;
+    }
+
+    .partner .carousel-caption ul li .img-three{
+        width: 150px;
+    }
+
+    .partner .carousel-caption ul li .img-five{
+        width: 160px;
+    }
+
+
+}
+
+@media(min-width:1431px) and (max-width:1480px){
+
+    /*header */
+    .header{
+        height: 690px;
+    }
+
+    .header .smart-help{
+        margin-left: 2vh;       
+    }
+
+    .header .slider{
+        margin-left: 0;
+    }
+
+    .header .slider .carousel-caption h1{
+        font-size: 2rem;  
+    }
+
+    .header .bramg {
+        margin-left: 150vh;
+        margin-top: 29vh;
+    }
+
+
+    /*partner */
+
+    .partner .carousel-item > img{
+        width: 225px;
+    }
+
+    .partner .carousel-caption ul li img{
+        margin-right: 13px;
+    }
+    
+    .partner .carousel-item img{
+        height: 138px;
+    }
+
+    .partner .carousel-caption ul li .img-one{
+        width: 156px;
+    }
+
+    .partner .carousel-caption ul li .img-three{
+        width: 150px;
+    }
+
+    .partner .carousel-caption ul li .img-five{
+        width: 160px;
+    }
+
+
+}
+
+@media(min-width:1481px) and (max-width:1530px){
+
+    /*header */
+    .header{
+        height: 700px;
+    }
+
+    .header .smart-help{
+        margin-left: 2vh;
+        height: 225px;
+        padding: 5px;
+        margin-top: 25vh;
+    }
+
+    .header .smart-help h3{
+        margin-top: 19px;
+        margin-bottom: 17px;
+        font-size: 1.5rem;
+    }
+
+    .header .smart-help p{
+        margin-bottom: 20px;
+    }
+
+    .header .smart-help img{
+        margin-bottom: 10px;
+    }
+
+    .header .slider{
+        margin-left: 0;
+    }
+
+    .header .bramg {
+        margin-left: 159.5vh;
+    }
+   
+
+    /*partner */
+
+    .partner .carousel-item > img{
+        width: 225px;
+    }
+
+    .partner .carousel-caption ul li img{
+        margin-right: 10px;
+    }
+
+}
+
+
+/* the rest of the page */
+
+
+@media(min-width:700px) and (max-width:768px){
+
+    /* start mession */
+
+    .mession hr{
+        width: 11%;
+    }
+
+    .mession p{
+        padding: 10px 20px;
+        margin-left: 4.5vh;
+        line-height: 2.5em;
+        margin-top: 30px;
+    }
+
+    /* end mession */
+
+    /* start cases */
+
+    #carouselExample .carousel-caption .col-md-4{
+        width: 33%;
+    }
+
+    .cases h3{
+        margin-right: -9vh;
+        letter-spacing: 2px;
+        font-size: 1.75rem;
+    }
+
+    .cases hr{
+        width: 17%;
+        margin-right: -7vh;
+    }
+
+
+    .cases .carousel-caption .card img {
+        height: 110px;
+    }
+
+
+    .cases .carousel-item .sec-img{
+        height: 560px;
+    }
+
+    .cases .carousel-caption .card .prog-value{
+        margin-left: 9vh;
+    }
+
+    .cases .carousel-caption .card .prog-value2{
+        margin-left: 7vh;
+    }
+
+    .cases .carousel-caption .card .prog-value3 {
+        margin-left: 4vh;
+    }
+
+    .cases .carousel-caption .card .prog-value4 {
+        margin-left: 13vh;
+    }
+
+    .cases .carousel-caption .card .prog-value6{
+        margin-left: 8vh;
+    }
+
+    .cases .carousel-caption .card h4{
+        margin-top: 5px;
+    }
+
+    .cases .carousel-caption .card p{
+        width: 100%;
+        padding: 2px;
+        font-size: 15px;
+        margin: 3px auto;
+    }
+
+    .cases .carousel-caption .card h5 {
+        margin-left: 7px;
+        font-size: 1rem;
+    }
+
+
+    .cases .carousel-caption .card a{
+        width: 85px;
+        margin-bottom: 30px;
+        font-size: 1.2rem;
+        padding: 2px;
+        padding-top: 0px;
+    }
+
+    /* start news */
+
+    .news .new{
+        margin-top: -40px;
+    }
+
+    .news hr{
+        width: 13%;
+    }
+
+    .news img{
+        margin-top: 30px;
+        max-width: 100%;
+    }
+
+    .news .caption{
+        height: 497px;
+        margin-left: 22px;
+        width: 91%;
+        margin-bottom: 10px;
+    }
+
+    .news .caption a{
+        margin-left: 105px;
+    }
+
+    .news .caption .more-btn {
+        margin-top: 74px;
+    }
+
+    .news .caption .more-button {
+        margin-top: 13vh;
+    }
+
+     /*start contact way */
+
+     .contact-way .caption #vertical-line{
+        display: none;
+    }
+
+    .contact-way .caption h4{
+        margin-top: 0;
+    }
+
+    .contact-way .caption img{
+        width: 260px;
+    }
+
+    .contact-way .caption .col-one-hr{
+        width: 34%;
+        margin-top: 6px;
+    }
+
+    .contact-way .caption .social-images{
+        margin-left: 23vh;
+    }
+
+    .contact-way .caption .social-images li img{
+        width: 35px;
+    }
+
+    .contact-way .caption .col-three-hr {
+        width: 43%;
+        margin-right: 9vh;
+        margin-top: 22px;
+    }
+
+    .contact-way .caption table{
+        margin-top: -7px;
+        margin-right: -70px;
+    }
+
+    .contact-way .caption .contact-way-logo{
+        width: 265px;
+        margin-right: -88px;
+        margin-left: -78px;
+        margin-top: -70px;
+    }
+
+    .contact-way .caption .contact-us{
+        margin-left: 30vh;
+        margin-top: -6px;
+    }
+
+    .contact-way .caption h5 {
+        font-size: 32px;
+        margin-top: 0px;
+        letter-spacing: 1px;
+    }
+
+    .footer .motadamn {
+        margin-right: 3vh;
+    }
+
+    /* end contact way */
+
+}
+
+@media(min-width:769px) and (max-width:991px){
+ 
+    /*start header */
+    .header .doing li{
+        margin-bottom: 10px;
+    }
+    /*end header */
+
+
+    /* start mession */
+
+    .mession hr{
+        width: 11%;
+    }
+
+    .mession p{
+        padding: 10px 20px;
+        margin-left: 4.5vh;
+        line-height: 2.5em;
+        margin-top: 30px;
+    }
+
+    /* end mession */
+
+    /* start cases */
+
+    #carouselExample .carousel-caption .col-md-4{
+        width: 33%;
+    }
+
+    .cases h3{
+        margin-right: -13vh;
+        letter-spacing: 2px;
+        font-size: 1.75rem;
+    }
+
+    .cases hr{
+        width: 17%;
+    }
+
+
+    .cases .carousel-caption .card img {
+        height: 113px;
+    }
+
+
+    .cases .carousel-item .sec-img{
+        height: 560px;
+    }
+
+    .cases .carousel-caption .card .prog-value{
+        margin-left: 11vh;
+    }
+
+    .cases .carousel-caption .card .prog-value2{
+        margin-left: 9vh;
+    }
+
+    .cases .carousel-caption .card .prog-value3 {
+        margin-left: 6vh;
+    }
+
+    .cases .carousel-caption .card .prog-value4 {
+        margin-left: 13vh;
+    }
+
+    .cases .carousel-caption .card .prog-value6{
+        margin-left: 8vh;
+    }
+
+    .cases .carousel-caption .card p{
+        width: 100%;
+        padding: 2px;
+        font-size: 15px;
+    }
+
+    .cases .carousel-caption .card h5 {
+        margin-left: 7px;
+        font-size: 1rem;
+    }
+
+
+    .cases .carousel-caption .card a{
+        width: 85px;
+        margin-bottom: 30px;
+        font-size: 1.2rem;
+        padding: 2px;
+        padding-top: 0px;
+    }
+
+    /* start news */
+
+    .news .new{
+        margin-top: -40px;
+    }
+
+    .news hr{
+        width: 13%;
+    }
+
+    .news img{
+        margin-top: 30px;
+        max-width: 100%;
+    }
+
+    .news .caption{
+        height: 497px;
+        margin-left: 22px;
+        width: 91%;
+        margin-bottom: 10px;
+    }
+
+    .news .caption a{
+        margin-left: 20vh;
+
+    }
+
+    .news .caption .more-button {
+        margin-top: 20vh;
+    }
+
+    .news .caption .more-btn{
+        margin-top: 13vh;
+    }
+
+     /*start contact way */
+
+     .contact-way .caption #vertical-line{
+        display: none;
+    }
+
+    .contact-way .caption h4{
+        margin-top: 0;
+    }
+
+    .contact-way .caption img{
+        width: 260px;
+    }
+
+    .contact-way .caption .col-one-hr{
+        width: 34%;
+        margin-top: 6px;
+    }
+
+    .contact-way .caption .social-images{
+        margin-left: 31vh;
+    }
+
+    .contact-way .caption .social-images li img{
+        width: 35px;
+    }
+
+    .contact-way .caption .col-three-hr {
+        width: 49%;
+        margin-right: 16vh;
+        margin-top: 29px;
+    }
+
+    .contact-way .caption table{
+        margin-top: -7px;
+        margin-right: -70px;
+    }
+
+    .contact-way .caption .contact-way-logo{
+        width: 265px;
+        margin-right: -32px;
+        margin-left: -78px;
+        margin-top: -70px;
+    }
+
+    .contact-way .caption .contact-us{
+        margin-left: 37vh;
+        margin-top: -6px;
+    }
+
+    .contact-way .caption h5 {
+        font-size: 32px;
+        margin-top: 0px;
+        letter-spacing: 1px;
+    }
+
+    .footer .motadamn {
+        margin-right: 2vh;
+    }
+
+    /* end contact way */
+}
+
+/* start cases and contact*/
+
+@media(min-width:320px) and (max-width:361px){
+
+    .cases .carousel-control-next, 
+    .cases .carousel-control-prev{
+        display: none;
+    }
+
+    .cases h3{
+        margin-right: 0;
+    }
+
+    .cases hr{
+        display: none;
+    }
+
+    .cases .carousel-item .sec-img{
+        height: 206vh;
+    }
+
+    .cases .carousel-caption .card img {
+        height: 120px;
+    }
+
+    #carouselExample .carousel-caption .col-md-4{
+        width: 100%;
+    }
+
+    .cases #carouselExample .carousel-caption .card{
+        margin-top: 20px;
+    }
+
+    .cases .carousel-caption .card .prog-value{
+        margin-left: 21vh;
+    }
+
+    .cases .carousel-caption .card .prog-value2{
+        margin-left: 18vh;
+    }
+
+    .cases .carousel-caption .card .prog-value3 {
+        margin-left: 10vh;
+    }
+
+    .cases .carousel-caption .card p{
+        width: 100%;
+        padding: 2px;
+        font-size: 15px;
+    }
+
+    .cases .carousel-caption .card h5 {
+        margin-left: 20px;
+    }
+
+    .cases .carousel-caption .card a{
+        width: 105px;
+        margin-bottom: 30px;
+        font-size: 1.2rem;
+        padding: 2px;
+        padding-top: 0px;
+    }
+
+    /*start contact way */
+
+    .contact-way .caption #vertical-line{
+        display: none;
+    }
+
+    .contact-way .caption h4{
+        margin-top: 0;
+        font-size: 1rem;
+    }
+
+    .contact-way .caption img{
+        width: 200px;
+    }
+
+    .contact-way .caption .col-one-hr{
+        width: 70%;
+        margin-top: 10px;
+    }
+
+    .contact-way .caption .social-images{
+        margin-left: 55px;
+    }
+
+    .contact-way .caption .social-images li img{
+        width: 30px;
+    }
+
+    .contact-way .caption .col-three-hr {
+        width: 64%;
+        margin-right: 23vh;
+        margin-top: 10px;
+    }
+
+    .contact-way .caption h6{
+        margin-left: 50px;
+    }
+
+    .contact-way .caption table{
+        margin-top: -25px;
+        margin-right: 0;
+    }
+
+    .contact-way .footer .motadamn{
+        margin-right: 22vh;
+    }
+
+    .contact-way .footer h6{
+        font-size: 10px;
+        margin-left: 0;
+    }
+
+
+
+
+    .contact-way .caption .contact-way-logo{
+        width: 249px;
+        margin-right: -14px;
+    }
+
+    .contact-way .caption h5 {
+        font-size: 18px;
+        margin-top: 16px;
+    }
+
+    .contact-way .caption .contact-us{
+        margin-left: 51px;
+        margin-top: -10px;
+    }
+
+    .contact-way .caption table tr h6{
+        font-size: 1rem;
+    }
+}
+
+@media(min-width:362px) and (max-width:379px){
+
+    .cases .carousel-control-next, 
+    .cases .carousel-control-prev{
+        display: none;
+    }
+
+    .cases h3{
+        margin-right: 0;
+    }
+
+    .cases hr{
+        display: none;
+    }
+
+    .cases .carousel-item .sec-img{
+        height: 206vh;
+    }
+
+    .cases .carousel-caption .card img {
+        height: 170px;
+    }
+
+    #carouselExample .carousel-caption .col-md-4{
+        width: 100%;
+    }
+
+    .cases #carouselExample .carousel-caption .card{
+        margin-top: 20px;
+    }
+
+    .cases .carousel-caption .card .prog-value{
+        margin-left: 17vh;
+    }
+
+    .cases .carousel-caption .card .prog-value2{
+        margin-left: 13vh;
+    }
+
+    .cases .carousel-caption .card .prog-value3 {
+        margin-left: 9vh;
+    }
+
+    .cases .carousel-caption .card p{
+        width: 100%;
+        padding: 2px;
+        font-size: 15px;
+    }
+
+    .cases .carousel-caption .card h5 {
+        margin-left: 20px;
+    }
+
+    .cases .carousel-caption .card a{
+        width: 105px;
+        margin-bottom: 30px;
+        font-size: 1.2rem;
+        padding: 2px;
+        padding-top: 0px;
+    }
+
+    /*start contact way */
+
+    .contact-way .caption #vertical-line{
+        display: none;
+    }
+
+    .contact-way .caption h4{
+        margin-top: 0;
+        font-size: 1rem;
+    }
+
+    .contact-way .caption img{
+        width: 200px;
+    }
+
+    .contact-way .caption .col-one-hr{
+        width: 70%;
+        margin-top: 10px;
+    }
+
+    .contact-way .caption .social-images{
+        margin-left: 55px;
+    }
+
+    .contact-way .caption .social-images li img{
+        width: 30px;
+    }
+
+    .contact-way .caption .col-three-hr {
+        width: 64%;
+        margin-right: 23vh;
+        margin-top: 10px;
+    }
+
+    .contact-way .caption h6{
+        margin-left: 50px;
+    }
+
+    .contact-way .caption table{
+        margin-top: -25px;
+        margin-right: 0;
+    }
+
+    .contact-way .footer .motadamn{
+        margin-right: 22vh;
+    }
+
+    .contact-way .footer h6{
+        font-size: 10px;
+        margin-left: 0;
+    }
+
+
+
+
+    .contact-way .caption .contact-way-logo{
+        width: 249px;
+        margin-right: -14px;
+    }
+
+    .contact-way .caption h5 {
+        font-size: 18px;
+        margin-top: 16px;
+    }
+
+    .contact-way .caption .contact-us{
+        margin-left: 51px;
+        margin-top: -10px;
+    }
+
+    .contact-way .caption table tr h6{
+        font-size: 1rem;
+    }
+}
+
+@media(min-width:380px) and (max-width:391px){
+
+    .cases .carousel-control-next, 
+    .cases .carousel-control-prev{
+        display: none;
+    }
+
+    .cases h3{
+        margin-right: 0;
+    }
+
+    .cases hr{
+        display: none;
+    }
+
+    .cases .carousel-item .sec-img{
+        height: 190vh;
+    }
+
+    .cases .carousel-caption .card img {
+        height: 155px;
+    }
+
+    #carouselExample .carousel-caption .col-md-4{
+        width: 100%;
+    }
+
+    .cases #carouselExample .carousel-caption .card{
+        margin-top: 20px;
+    }
+
+    .cases .carousel-caption .card .prog-value{
+        margin-left: 18vh;
+    }
+
+    .cases .carousel-caption .card .prog-value2{
+        margin-left: 14vh;
+    }
+
+    .cases .carousel-caption .card .prog-value3 {
+        margin-left: 9vh;
+    }
+
+    .cases .carousel-caption .card p{
+        width: 100%;
+        padding: 2px;
+        font-size: 15px;
+    }
+
+    .cases .carousel-caption .card h5 {
+        margin-left: 20px;
+    }
+
+    .cases .carousel-caption .card a{
+        width: 105px;
+        margin-bottom: 30px;
+        font-size: 1.2rem;
+        padding: 2px;
+        padding-top: 0px;
+    }
+
+    /*start contact way */
+
+    .contact-way .caption #vertical-line{
+        display: none;
+    }
+
+    .contact-way .caption h4{
+        margin-top: 0;
+        font-size: 1rem;
+    }
+
+    .contact-way .caption img{
+        width: 200px;
+    }
+
+    .contact-way .caption .col-one-hr{
+        width: 70%;
+        margin-top: 10px;
+    }
+
+    .contact-way .caption .social-images{
+        margin-left: 55px;
+    }
+
+    .contact-way .caption .social-images li img{
+        width: 30px;
+    }
+
+    .contact-way .caption .col-three-hr {
+        width: 64%;
+        margin-right: 23vh;
+        margin-top: 10px;
+    }
+
+    .contact-way .caption h6{
+        margin-left: 50px;
+    }
+
+    .contact-way .caption table{
+        margin-top: -25px;
+        margin-right: 0;
+    }
+
+    .contact-way .footer .motadamn{
+        margin-right: 22vh;
+    }
+
+    .contact-way .footer h6{
+        font-size: 10px;
+        margin-left: 0;
+    }
+
+
+
+
+    .contact-way .caption .contact-way-logo{
+        width: 249px;
+        margin-right: -14px;
+    }
+
+    .contact-way .caption h5 {
+        font-size: 18px;
+        margin-top: 16px;
+    }
+
+    .contact-way .caption .contact-us{
+        margin-left: 51px;
+        margin-top: -10px;
+    }
+
+    .contact-way .caption table tr h6{
+        font-size: 1rem;
+    }
+}
+
+@media(min-width:390px) and (max-width:435px){
+
+    .cases .carousel-control-next, 
+    .cases .carousel-control-prev{
+        display: none;
+    }
+
+    .cases h3{
+        margin-right: 0;
+    }
+
+    .cases hr{
+        display: none;
+    }
+
+    .cases .carousel-item .sec-img{
+        height: 215vh;
+    }
+
+    .cases .carousel-caption .card img {
+        height: 216px;
+    }
+
+    #carouselExample .carousel-caption .col-md-4{
+        width: 100%;
+    }
+
+    .cases #carouselExample .carousel-caption .card{
+        margin-top: 20px;
+    }
+
+    .cases .carousel-caption .card .prog-value{
+        margin-left: 22vh;
+    }
+
+    .cases .carousel-caption .card .prog-value2{
+        margin-left: 18vh;
+    }
+
+    .cases .carousel-caption .card .prog-value3 {
+        margin-left: 10vh;
+    }
+
+    .cases .carousel-caption .card p{
+        width: 100%;
+        padding: 2px;
+        font-size: 15px;
+    }
+
+    .cases .carousel-caption .card h5 {
+        margin-left: 20px;
+    }
+
+    .cases .carousel-caption .card a{
+        width: 105px;
+        margin-bottom: 30px;
+        font-size: 1.2rem;
+        padding: 2px;
+        padding-top: 0px;
+    }
+
+    /*start contact way */
+
+    .contact-way .caption #vertical-line{
+        display: none;
+    }
+
+    .contact-way .caption h4{
+        margin-top: 0;
+        font-size: 1rem;
+    }
+
+    .contact-way .caption img{
+        width: 215px;
+    }
+
+    .contact-way .caption .col-one-hr{
+        width: 40%;
+        margin-top: 10px;
+    }
+
+    .contact-way .caption .social-images{
+        margin-left: 160px;
+    }
+
+    .contact-way .caption .social-images li img{
+        width: 30px;
+    }
+
+    .contact-way .caption .col-three-hr {
+        width: 52%;
+        margin-right: 21vh;
+        margin-top: 10px;
+    }
+
+    .contact-way .caption h6{
+        margin-left: 50px;
+    }
+
+    .contact-way .caption table{
+        margin-right: -45px;
+    }
+
+    .contact-way .footer .motadamn{
+        margin-right: 22vh;
+    }
+
+    .contact-way .footer h6{
+        font-size: 10px;
+        margin-left: 0;
+    }
+
+
+    .contact-way .caption .contact-way-logo{
+        width: 249px;
+        margin-right: -14px;
+    }
+
+    .contact-way .caption h5 {
+        font-size: 18px;
+        margin-top: 16px;
+    }
+
+    .contact-way .caption .contact-us{
+        margin-left: 140px;
+        margin-top: -10px;
+    }
+
+    .contact-way .caption table tr h6{
+        font-size: 1rem;
+    }
+}
+
+@media(min-width:436px) and (max-width:470px){
+
+    .cases .carousel-control-next, 
+    .cases .carousel-control-prev{
+        display: none;
+    }
+
+    .cases h3{
+        margin-right: 0;
+    }
+
+    .cases hr{
+        display: none;
+    }
+
+    .cases .carousel-item .sec-img{
+        height: 206vh;
+    }
+
+    .cases .carousel-caption .card img {
+        height: 216px;
+    }
+
+    #carouselExample .carousel-caption .col-md-4{
+        width: 100%;
+    }
+
+    .cases #carouselExample .carousel-caption .card{
+        margin-top: 20px;
+    }
+
+    .cases .carousel-caption .card .prog-value{
+        margin-left: 24vh;
+    }
+
+    .cases .carousel-caption .card .prog-value2{
+        margin-left: 20vh;
+    }
+
+    .cases .carousel-caption .card .prog-value3 {
+        margin-left: 11vh;
+    }
+
+    .cases .carousel-caption .card p{
+        width: 100%;
+        padding: 2px;
+        font-size: 15px;
+    }
+
+    .cases .carousel-caption .card h5 {
+        margin-left: 20px;
+    }
+
+    .cases .carousel-caption .card a{
+        width: 105px;
+        margin-bottom: 30px;
+        font-size: 1.2rem;
+        padding: 2px;
+        padding-top: 0px;
+    }
+
+    /*start contact way */
+
+    .contact-way .caption #vertical-line{
+        display: none;
+    }
+
+    .contact-way .caption h4{
+        margin-top: 0;
+        font-size: 1rem;
+    }
+
+    .contact-way .caption img{
+        width: 215px;
+    }
+
+    .contact-way .caption .col-one-hr{
+        width: 40%;
+        margin-top: 10px;
+    }
+
+    .contact-way .caption .social-images{
+        margin-left: 160px;
+    }
+
+    .contact-way .caption .social-images li img{
+        width: 30px;
+    }
+
+    .contact-way .caption .col-three-hr {
+        width: 52%;
+        margin-right: 21vh;
+        margin-top: 10px;
+    }
+
+    .contact-way .caption h6{
+        margin-left: 50px;
+    }
+
+    .contact-way .caption table{
+        margin-right: -45px;
+    }
+
+    .contact-way .footer .motadamn{
+        margin-right: 22vh;
+    }
+
+    .contact-way .footer h6{
+        font-size: 10px;
+        margin-left: 0;
+    }
+
+
+    .contact-way .caption .contact-way-logo{
+        width: 249px;
+        margin-right: -14px;
+    }
+
+    .contact-way .caption h5 {
+        font-size: 18px;
+        margin-top: 16px;
+    }
+
+    .contact-way .caption .contact-us{
+        margin-left: 140px;
+        margin-top: -10px;
+    }
+
+    .contact-way .caption table tr h6{
+        font-size: 1rem;
+    }
+}
+
+@media(min-width:471px) and (max-width:503px){
+
+    .cases .carousel-control-next, 
+    .cases .carousel-control-prev{
+        display: none;
+    }
+
+    .cases h3{
+        margin-right: 0;
+    }
+
+    .cases hr{
+        display: none;
+    }
+
+    .cases .carousel-item .sec-img{
+        height: 206vh;
+    }
+
+    .cases .carousel-caption .card img {
+        height: 216px;
+    }
+
+    #carouselExample .carousel-caption .col-md-4{
+        width: 100%;
+    }
+
+    .cases #carouselExample .carousel-caption .card{
+        margin-top: 20px;
+    }
+
+    .cases .carousel-caption .card .prog-value{
+        margin-left: 26vh;
+    }
+
+    .cases .carousel-caption .card .prog-value2{
+        margin-left: 22vh;
+    }
+
+    .cases .carousel-caption .card .prog-value3 {
+        margin-left: 13vh;
+    }
+
+    .cases .carousel-caption .card p{
+        width: 100%;
+        padding: 2px;
+        font-size: 15px;
+    }
+
+    .cases .carousel-caption .card h5 {
+        margin-left: 20px;
+    }
+
+    .cases .carousel-caption .card a{
+        width: 105px;
+        margin-bottom: 30px;
+        font-size: 1.2rem;
+        padding: 2px;
+        padding-top: 0px;
+    }
+
+    /*start contact way */
+
+    .contact-way .caption #vertical-line{
+        display: none;
+    }
+
+    .contact-way .caption h4{
+        margin-top: 0;
+        font-size: 1rem;
+    }
+
+    .contact-way .caption img{
+        width: 215px;
+    }
+
+    .contact-way .caption .col-one-hr{
+        width: 40%;
+        margin-top: 10px;
+    }
+
+    .contact-way .caption .social-images{
+        margin-left: 160px;
+    }
+
+    .contact-way .caption .social-images li img{
+        width: 30px;
+    }
+
+    .contact-way .caption .col-three-hr {
+        width: 52%;
+        margin-right: 21vh;
+        margin-top: 10px;
+    }
+
+    .contact-way .caption h6{
+        margin-left: 50px;
+    }
+
+    .contact-way .caption table{
+        margin-right: -45px;
+    }
+
+    .contact-way .footer .motadamn{
+        margin-right: 22vh;
+    }
+
+    .contact-way .footer h6{
+        font-size: 10px;
+        margin-left: 0;
+    }
+
+
+    .contact-way .caption .contact-way-logo{
+        width: 249px;
+        margin-right: -14px;
+    }
+
+    .contact-way .caption h5 {
+        font-size: 18px;
+        margin-top: 16px;
+    }
+
+    .contact-way .caption .contact-us{
+        margin-left: 140px;
+        margin-top: -10px;
+    }
+
+    .contact-way .caption table tr h6{
+        font-size: 1rem;
+    }
+}
+
+@media(min-width:504px) and (max-width:540px){
+
+    .cases .carousel-control-next, 
+    .cases .carousel-control-prev{
+        display: none;
+    }
+
+    .cases h3{
+        margin-right: 0;
+    }
+
+    .cases hr{
+        display: none;
+    }
+
+    .cases .carousel-item .sec-img{
+        height: 206vh;
+    }
+
+    .cases .carousel-caption .card img {
+        height: 216px;
+    }
+
+    #carouselExample .carousel-caption .col-md-4{
+        width: 100%;
+    }
+
+    .cases #carouselExample .carousel-caption .card{
+        margin-top: 20px;
+    }
+
+    .cases .carousel-caption .card .prog-value{
+        margin-left: 28vh;
+    }
+
+    .cases .carousel-caption .card .prog-value2{
+        margin-left: 24vh;
+    }
+
+    .cases .carousel-caption .card .prog-value3 {
+        margin-left: 15vh;
+    }
+
+    .cases .carousel-caption .card p{
+        width: 100%;
+        padding: 2px;
+        font-size: 15px;
+    }
+
+    .cases .carousel-caption .card h5 {
+        margin-left: 20px;
+    }
+
+    .cases .carousel-caption .card a{
+        width: 105px;
+        margin-bottom: 30px;
+        font-size: 1.2rem;
+        padding: 2px;
+        padding-top: 0px;
+    }
+
+    /*start contact way */
+
+    .contact-way .caption #vertical-line{
+        display: none;
+    }
+
+    .contact-way .caption h4{
+        margin-top: 0;
+        font-size: 1rem;
+    }
+
+    .contact-way .caption img{
+        width: 215px;
+    }
+
+    .contact-way .caption .col-one-hr{
+        width: 40%;
+        margin-top: 10px;
+    }
+
+    .contact-way .caption .social-images{
+        margin-left: 160px;
+    }
+
+    .contact-way .caption .social-images li img{
+        width: 30px;
+    }
+
+    .contact-way .caption .col-three-hr {
+        width: 52%;
+        margin-right: 21vh;
+        margin-top: 10px;
+    }
+
+    .contact-way .caption h6{
+        margin-left: 50px;
+    }
+
+    .contact-way .caption table{
+        margin-right: -45px;
+    }
+
+    .contact-way .footer .motadamn{
+        margin-right: 22vh;
+    }
+
+    .contact-way .footer h6{
+        font-size: 10px;
+        margin-left: 0;
+    }
+
+
+    .contact-way .caption .contact-way-logo{
+        width: 249px;
+        margin-right: -14px;
+    }
+
+    .contact-way .caption h5 {
+        font-size: 18px;
+        margin-top: 16px;
+    }
+
+    .contact-way .caption .contact-us{
+        margin-left: 140px;
+        margin-top: -10px;
+    }
+
+    .contact-way .caption table tr h6{
+        font-size: 1rem;
+    }
+}
+
+@media(min-width:541px) and (max-width:584px){
+
+    .cases .carousel-control-next, 
+    .cases .carousel-control-prev{
+        display: none;
+    }
+
+    .cases h3{
+        margin-right: 0;
+    }
+
+    .cases hr{
+        display: none;
+    }
+
+    .cases .carousel-item .sec-img{
+        height: 206vh;
+    }
+
+    .cases .carousel-caption .card img {
+        height: 216px;
+    }
+
+    #carouselExample .carousel-caption .col-md-4{
+        width: 100%;
+    }
+
+    .cases #carouselExample .carousel-caption .card{
+        margin-top: 20px;
+    }
+
+    .cases .carousel-caption .card .prog-value{
+        margin-left: 30vh;
+    }
+
+    .cases .carousel-caption .card .prog-value2{
+        margin-left: 26vh;
+    }
+
+    .cases .carousel-caption .card .prog-value3 {
+        margin-left: 17vh;
+    }
+
+    .cases .carousel-caption .card p{
+        width: 100%;
+        padding: 2px;
+        font-size: 15px;
+    }
+
+    .cases .carousel-caption .card h5 {
+        margin-left: 20px;
+    }
+
+    .cases .carousel-caption .card a{
+        width: 105px;
+        margin-bottom: 30px;
+        font-size: 1.2rem;
+        padding: 2px;
+        padding-top: 0px;
+    }
+
+    /*start contact way */
+
+    .contact-way .caption #vertical-line{
+        display: none;
+    }
+
+    .contact-way .caption h4{
+        margin-top: 0;
+        font-size: 1rem;
+    }
+
+    .contact-way .caption img{
+        width: 215px;
+    }
+
+    .contact-way .caption .col-one-hr{
+        width: 40%;
+        margin-top: 10px;
+    }
+
+    .contact-way .caption .social-images{
+        margin-left: 160px;
+    }
+
+    .contact-way .caption .social-images li img{
+        width: 30px;
+    }
+
+    .contact-way .caption .col-three-hr {
+        width: 64%;
+        margin-right: 23vh;
+        margin-top: 10px;
+    }
+
+    .contact-way .caption h6{
+        margin-left: 50px;
+    }
+
+    .contact-way .caption table{
+        margin-right: -45px;
+    }
+
+    .contact-way .footer .motadamn{
+        margin-right: 22vh;
+    }
+
+    .contact-way .footer h6{
+        font-size: 10px;
+        margin-left: 0;
+    }
+
+
+    .contact-way .caption .contact-way-logo{
+        width: 249px;
+        margin-right: -14px;
+    }
+
+    .contact-way .caption h5 {
+        font-size: 18px;
+        margin-top: 16px;
+    }
+
+    .contact-way .caption .contact-us{
+        margin-left: 140px;
+        margin-top: -10px;
+    }
+
+    .contact-way .caption table tr h6{
+        font-size: 1rem;
+    }
+}
+
+@media(min-width:585px) and (max-width:630px){
+
+    .cases .carousel-control-next, 
+    .cases .carousel-control-prev{
+        display: none;
+    }
+
+    .cases h3{
+        margin-right: 0;
+    }
+
+    .cases hr{
+        display: none;
+    }
+
+    .cases .carousel-item .sec-img{
+        height: 206vh;
+    }
+
+    .cases .carousel-caption .card img {
+        height: 216px;
+    }
+
+    #carouselExample .carousel-caption .col-md-4{
+        width: 100%;
+    }
+
+    .cases #carouselExample .carousel-caption .card{
+        margin-top: 20px;
+    }
+
+    .cases .carousel-caption .card .prog-value{
+        margin-left: 32vh;
+    }
+
+    .cases .carousel-caption .card .prog-value2{
+        margin-left: 28vh;
+    }
+
+    .cases .carousel-caption .card .prog-value3 {
+        margin-left: 17vh;
+    }
+
+    .cases .carousel-caption .card p{
+        width: 100%;
+        padding: 2px;
+        font-size: 15px;
+    }
+
+    .cases .carousel-caption .card h5 {
+        margin-left: 20px;
+    }
+
+    .cases .carousel-caption .card a{
+        width: 105px;
+        margin-bottom: 30px;
+        font-size: 1.2rem;
+        padding: 2px;
+        padding-top: 0px;
+    }
+
+    /*start contact way */
+
+    .contact-way .caption #vertical-line{
+        display: none;
+    }
+
+    .contact-way .caption h4{
+        margin-top: 0;
+        font-size: 1rem;
+    }
+
+    .contact-way .caption img{
+        width: 215px;
+    }
+
+    .contact-way .caption .col-one-hr{
+        width: 40%;
+        margin-top: 10px;
+    }
+
+    .contact-way .caption .social-images{
+        margin-left: 160px;
+    }
+
+    .contact-way .caption .social-images li img{
+        width: 30px;
+    }
+
+    .contact-way .caption .col-three-hr {
+        width: 64%;
+        margin-right: 23vh;
+        margin-top: 10px;
+    }
+
+    .contact-way .caption h6{
+        margin-left: 50px;
+    }
+
+    .contact-way .caption table{
+        margin-right: -45px;
+    }
+
+    .contact-way .footer .motadamn{
+        margin-right: 22vh;
+    }
+
+    .contact-way .footer h6{
+        font-size: 10px;
+        margin-left: 0;
+    }
+
+
+    .contact-way .caption .contact-way-logo{
+        width: 249px;
+        margin-right: -14px;
+    }
+
+    .contact-way .caption h5 {
+        font-size: 18px;
+        margin-top: 16px;
+    }
+
+    .contact-way .caption .contact-us{
+        margin-left: 140px;
+        margin-top: -10px;
+    }
+
+    .contact-way .caption table tr h6{
+        font-size: 1rem;
+    }
+}
+
+@media(min-width:631px) and (max-width:666px){
+
+    .cases .carousel-control-next, 
+    .cases .carousel-control-prev{
+        display: none;
+    }
+
+    .cases h3{
+        margin-right: 0;
+    }
+
+    .cases hr{
+        display: none;
+    }
+
+    .cases .carousel-item .sec-img{
+        height: 89vh;
+    }
+
+    .cases .carousel-caption .card img {
+        height: 170px;
+    }
+
+    #carouselExample .carousel-caption .col-md-4{
+        width: 33.33%;
+    }
+
+    .cases #carouselExample .carousel-caption .card{
+        margin-top: 20px;
+    }
+
+    .cases .carousel-caption .card .prog-value{
+        margin-left: 9vh;
+    }
+
+    .cases .carousel-caption .card .prog-value2{
+        margin-left: 8vh;
+    }
+
+    .cases .carousel-caption .card .prog-value3 {
+        margin-left: 5vh;
+    }
+
+    .cases .carousel-caption .card p{
+        width: 100%;
+        padding: 2px;
+        font-size: 15px;
+    }
+
+    .cases .carousel-caption .card h5 {
+        margin-left: 20px;
+    }
+
+    .cases .carousel-caption .card a{
+        width: 105px;
+        margin-bottom: 30px;
+        font-size: 1.2rem;
+        padding: 2px;
+        padding-top: 0px;
+    }
+
+    /*start contact way */
+
+    .contact-way .caption #vertical-line{
+        display: none;
+    }
+
+    .contact-way .caption h4{
+        margin-top: 0;
+        font-size: 1rem;
+    }
+
+    .contact-way .caption img{
+        width: 215px;
+    }
+
+    .contact-way .caption .col-one-hr{
+        width: 41%;
+        margin-top: 10px;
+    }
+
+    .contact-way .caption .social-images{
+        margin-left: 156px;
+    }
+
+    .contact-way .caption .social-images li img{
+        width: 30px;
+    }
+
+    .contact-way .caption .col-three-hr {
+        width: 41%;
+        margin-right: 20vh;
+        margin-top: 10px;
+    }
+
+    .contact-way .caption h6{
+        margin-left: 50px;
+    }
+
+    .contact-way .caption table{
+        margin-top: 7px;
+        margin-right: -50px;
+    }
+
+    .contact-way .footer .motadamn{
+        margin-right: 22vh;
+    }
+
+    .contact-way .footer h6{
+        font-size: 10px;
+        margin-left: 0;
+    }
+
+
+
+
+    .contact-way .caption .contact-way-logo{
+        width: 249px;
+        margin-right: -14px;
+    }
+
+    .contact-way .caption h5 {
+        font-size: 18px;
+        margin-top: 16px;
+    }
+
+    .contact-way .caption .contact-us{
+        margin-left: 51px;
+        margin-top: -10px;
+    }
+
+    .contact-way .caption table tr h6{
+        font-size: 1rem;
+    }
+}
+
+@media(min-width:667px) and (max-width:699px){
+
+    .cases .carousel-control-next, 
+    .cases .carousel-control-prev{
+        display: none;
+    }
+
+    .cases h3{
+        margin-right: 0;
+    }
+
+    .cases hr{
+        display: none;
+    }
+
+    .cases .carousel-item .sec-img{
+        height: 206vh;
+    }
+
+    .cases .carousel-caption .card img {
+        height: 170px;
+    }
+
+    #carouselExample .carousel-caption .col-md-4{
+        width: 100%;
+    }
+
+    .cases #carouselExample .carousel-caption .card{
+        margin-top: 20px;
+    }
+
+    .cases .carousel-caption .card .prog-value{
+        margin-left: 15vh;
+    }
+
+    .cases .carousel-caption .card .prog-value2{
+        margin-left: 13vh;
+    }
+
+    .cases .carousel-caption .card .prog-value3 {
+        margin-left: 9vh;
+    }
+
+    .cases .carousel-caption .card p{
+        width: 100%;
+        padding: 2px;
+        font-size: 15px;
+    }
+
+    .cases .carousel-caption .card h5 {
+        margin-left: 20px;
+    }
+
+    .cases .carousel-caption .card a{
+        width: 105px;
+        margin-bottom: 30px;
+        font-size: 1.2rem;
+        padding: 2px;
+        padding-top: 0px;
+    }
+
+    /*start contact way */
+
+    .contact-way .caption #vertical-line{
+        display: none;
+    }
+
+    .contact-way .caption h4{
+        margin-top: 0;
+        font-size: 1rem;
+    }
+
+    .contact-way .caption img{
+        width: 200px;
+    }
+
+    .contact-way .caption .col-one-hr{
+        width: 70%;
+        margin-top: 10px;
+    }
+
+    .contact-way .caption .social-images{
+        margin-left: 55px;
+    }
+
+    .contact-way .caption .social-images li img{
+        width: 30px;
+    }
+
+    .contact-way .caption .col-three-hr {
+        width: 64%;
+        margin-right: 23vh;
+        margin-top: 10px;
+    }
+
+    .contact-way .caption h6{
+        margin-left: 50px;
+    }
+
+    .contact-way .caption table{
+        margin-top: -25px;
+        margin-right: 0;
+    }
+
+    .contact-way .footer .motadamn{
+        margin-right: 22vh;
+    }
+
+    .contact-way .footer h6{
+        font-size: 10px;
+        margin-left: 0;
+    }
+
+
+
+
+    .contact-way .caption .contact-way-logo{
+        width: 249px;
+        margin-right: -14px;
+    }
+
+    .contact-way .caption h5 {
+        font-size: 18px;
+        margin-top: 16px;
+    }
+
+    .contact-way .caption .contact-us{
+        margin-left: 51px;
+        margin-top: -10px;
+    }
+
+    .contact-way .caption table tr h6{
+        font-size: 1rem;
+    }
+}
+
+@media(min-width:992px) and (max-width:1035px){
+
+    .cases .cases .carousel-caption .card h4{
+        margin-top: 5px;
+    }
+
+    .cases h3{
+        margin-right: -9vh;
+    }
+
+    .cases hr{
+        width: 14%;
+        margin-right: -7vh;
+    }
+     
+    .cases .carousel-caption .card img {
+        height: 112px;
+    }
+
+
+    .cases .carousel-item .sec-img{
+        height: 560px;
+    }
+
+    .cases .carousel-caption .card .prog-value{
+        margin-left: 9vh;
+    }
+
+    .cases .carousel-caption .card .prog-value2{
+        margin-left: 8vh;
+    }
+
+    .cases .carousel-caption .card .prog-value3 {
+        margin-left: 5vh;
+    }
+
+    .cases .carousel-caption .card .prog-value4 {
+        margin-left: 19vh;
+    }
+
+    .cases .carousel-caption .card p{
+        width: 100%;
+        padding: 2px;
+        font-size: 15px;
+    }
+
+    .cases .carousel-caption .card h5 {
+        margin-left: 7px;
+    }
+
+
+    .cases .carousel-caption .card a{
+        width: 105px;
+        margin-bottom: 30px;
+        font-size: 1.2rem;
+        padding: 2px;
+        padding-top: 0px;
+        
+    }
+}
+
+@media(min-width:1036px) and (max-width:1184px){
+
+    .cases .carousel-caption .card h4{
+        margin-top: 5px;
+    }
+
+    .cases .carousel-caption .card img {
+        height: 147px;
+    }
+
+
+    .cases .carousel-item .sec-img{
+        height: 560px;
+    }
+
+    .cases .carousel-caption .card .prog-value{
+        margin-left: 18vh;
+    }
+
+    .cases .carousel-caption .card .prog-value2{
+        margin-left: 15vh;
+    }
+
+    .cases .carousel-caption .card .prog-value3 {
+        margin-left: 9vh;
+    }
+
+    .cases .carousel-caption .card p{
+        width: 100%;
+        padding: 2px;
+        font-size: 15px;
+    }
+
+    .cases .carousel-caption .card h5 {
+        margin-left: 7px;
+    }
+
+
+    .cases .carousel-caption .card a{
+        width: 105px;
+        margin-bottom: 30px;
+        font-size: 1.2rem;
+        padding: 2px;
+        padding-top: 0px;
+        
+    }
+
+}
+
+@media(min-width:1185px) and (max-width:1295px){
+
+    .cases .carousel-caption .card h4{
+        margin-top: 5px;
+    }
+
+
+    .cases .carousel-caption .card img {
+        height: 165px;
+    }
+
+
+    .cases .carousel-item .sec-img{
+        height: 560px;
+    }
+
+    .cases .carousel-caption .card .prog-value{
+        margin-left: 21vh;
+    }
+
+    .cases .carousel-caption .card .prog-value2{
+        margin-left: 18vh;
+    }
+
+    .cases .carousel-caption .card .prog-value3 {
+        margin-left: 11vh;
+    }
+
+    .cases .carousel-caption .card p{
+        width: 100%;
+        padding: 2px;
+        font-size: 15px;
+    }
+
+    .cases .carousel-caption .card h5 {
+        margin-left: 7px;
+    }
+
+
+    .cases .carousel-caption .card a{
+        width: 105px;
+        margin-bottom: 30px;
+        font-size: 1.2rem;
+        padding: 2px;
+        padding-top: 0px;
+        
+    }
+}
+
+@media(min-width:1296px) and (max-width:1500px){
+
+    .cases .carousel-caption .card h4{
+        margin-top: 5px;
+    }
+
+
+    .cases .carousel-caption .card img {
+        height: 158px;
+    }
+
+
+    .cases .carousel-item .sec-img{
+        height: 560px;
+    }
+
+    .cases .carousel-caption .card .prog-value{
+        margin-left: 23vh;
+    }
+
+    .cases .carousel-caption .card .prog-value2{
+        margin-left: 19vh;
+    }
+
+    .cases .carousel-caption .card .prog-value3 {
+        margin-left: 14vh;
+    }
+
+    .cases .carousel-caption .card p{
+        width: 100%;
+        padding: 2px;
+        font-size: 15px;
+    }
+    
+}
+
+@media(min-width:1296px) and (max-width:1500px){
+
+    .cases .carousel-caption .card h4{
+        margin-top: 5px;
+    }
+
+
+    .cases .carousel-caption .card img {
+        height: 158px;
+    }
+
+
+    .cases .carousel-item .sec-img{
+        height: 560px;
+    }
+
+    .cases .carousel-caption .card .prog-value{
+        margin-left: 25vh;
+    }
+
+    .cases .carousel-caption .card .prog-value2{
+        margin-left: 21vh;
+    }
+
+    .cases .carousel-caption .card .prog-value3 {
+        margin-left: 14vh;
+    }
+
+    .cases .carousel-caption .card p{
+        width: 100%;
+        padding: 2px;
+        font-size: 15px;
+    }
+    
+}
+
+/*start contact way */
+@media(min-width:992px) and (max-width:1199px){
+
+    .contact-way .caption .col-one-hr{
+        width: 93%;
+    }
+
+    .contact-way .caption .social-images{
+        margin-left: 25px;
+    }
+
+    .contact-way .caption #vertical-line{
+        margin-left: 7vh;
+    }
+
+    .contact-way .caption h4{
+        margin-top: 9vh;
+    }
+
+    .contact-way .caption table{
+        margin-top: 0;
+        margin-right: 0;
+    }
+
+    .contact-way .caption .contact-way-logo{
+        margin-right: -3vh;
+        width: 335px;
+    }
+
+    .contact-way .caption h5{
+        font-size: 27px;
+        letter-spacing: 0;
+    }
+
+    .contact-way .caption .col-three-hr{
+        margin-right:28vh;
+        margin-top: 35px;
+        width: 55%;
+    }
+
+    .contact-way .caption .contact-us{
+        margin-left: 28px;
+    }
+
+    .contact-way .caption h6 {
+        margin-left: -7px;
+    }
+
+    .contact-way .caption table {
+        margin-right: 8vh;
+        margin-top: -20px;
+    }
+
+    .contact-way .footer .all{
+        margin-right: 50px;
+    }
+
+    .footer .motadamn{
+        margin-right: 22vh;
+    }
+
+    /* .footer .motadamn{
+        margin-right: 0;
+    } */
+
+
+}
+
+@media(min-width:1200px) and (max-width:1497px){
+
+    .contact-way .caption .contact-way-logo{
+        margin-right: -3vh;
+    }
+
+    .contact-way .caption h5{
+        letter-spacing: 1px;
+    }
+
+    .contact-way .caption .col-three-hr{
+        width: 62%;
+        margin-right: 25vh;
+    }
+}
+
+/* start mession */
+@media(min-width:992px) and (max-width:1199px){
+    .mession p{
+        width: 93%;
+        margin-left: 2.5vh;
+        line-height: 2em;
+    }
+
+    .mession hr{
+        width: 9%;
+    }
+}
+
+/* start news */
+@media(min-width:992px) and (max-width:1199px){
+    .news .caption{
+        margin-left: 12px;
+        width: 94%;
+    }
+
+    .news .new{
+        margin-top: -30px;
+    }
+
+    .news hr{
+        width: 9%;
+    }
+
+    .news img{
+        max-width: 100%;
+    }
+
+    .news .caption h3{
+        margin-bottom: 13px;
+    }
+
+    .news .caption p{
+        line-height: 1.5;
+    }
+
+    .news .caption a{
+        margin-left: 75px;
+    }
+
+    .news .caption .more-btn{
+        margin-top: 25px;
+    }
+
+    .news .caption .more-button{
+        margin-top: 119px;
+    }
+}
+
+@media(min-width:1200px) and (max-width:1230px){
+    .news .caption{
+        margin-left: 12px;
+        width: 94%;
+    }
+
+    .news .new{
+        margin-top: -30px;
+    }
+
+    .news hr{
+        width: 9%;
+    }
+
+    .news img{
+        max-width: 100%;
+    }
+
+    .news .caption h3{
+        margin-bottom: 13px;
+    }
+
+    .news .caption p{
+        line-height: 1.5;
+    }
+
+    .news .caption a{
+        margin-left: 114px;
+    }
+
+    .news .caption .more-btn{
+        margin-top: 55px;
+    }
+
+    .news .caption .more-button{
+        margin-top: 150px;
+    }
+}
+
+@media(min-width:1231px) and (max-width:1250px){
+    .news .caption{
+        margin-left: 12px;
+        width: 94%;
+    }
+
+    .news .new{
+        margin-top: -30px;
+    }
+
+    .news hr{
+        width: 9%;
+    }
+
+    .news img{
+        max-width: 100%;
+    }
+
+    .news .caption h3{
+        margin-bottom: 13px;
+    }
+
+    .news .caption p{
+        line-height: 1.5;
+    }
+
+    .news .caption a{
+        margin-left: 114px;
+    }
+
+    .news .caption .more-btn{
+        margin-top: 70px;
+    }
+
+    .news .caption .more-button{
+        margin-top: 150px;
+    }
+}
+
+@media(min-width:1251px) and (max-width:1295px){
+    .news .caption{
+        margin-left: 12px;
+        width: 94%;
+    }
+
+    .news .new{
+        margin-top: -30px;
+    }
+
+    .news hr{
+        width: 9%;
+    }
+
+    .news img{
+        max-width: 100%;
+    }
+
+    .news .caption h3{
+        margin-bottom: 13px;
+    }
+
+    .news .caption p{
+        line-height: 1.5;
+    }
+
+    .news .caption a{
+        margin-left: 114px;
+    }
+
+    .news .caption .more-btn{
+        margin-top: 103px;
+    }
+
+    .news .caption .more-button{
+        margin-top: 150px;
+    }
+}
+
+@media(min-width:1296px) and (max-width:1349px){
+    .news .caption{
+        margin-left: 12px;
+        width: 94%;
+    }
+
+    .news .new{
+        margin-top: -30px;
+    }
+
+    .news hr{
+        width: 9%;
+    }
+
+    .news img{
+        max-width: 100%;
+    }
+
+    .news .caption h3{
+        margin-bottom: 13px;
+    }
+
+    .news .caption p{
+        line-height: 1.5;
+    }
+
+    .news .caption a{
+        margin-left: 114px;
+        margin-top: 90px;
+    }
+
+    .news .caption .more-btn{
+        margin-top: 90px;
+    }
+
+    .news .caption .more-button{
+        margin-top: 135px;
+    }
+}
+
+@media(min-width:1350px) and (max-width:1420px){
+
+    .news .caption a{
+        margin-left: 114px;
+    }
+
+    .news .caption .more-btn{
+        margin-top: 0px;
+    }
+    
+}
+
+@media(min-width:1421px) and (max-width:1480px){
+
+    .news .caption a{
+        margin-left: 114px;
+    }
+
+    .news .caption .more-btn{
+        margin-top: 0px;
+    }
+
+    .news .caption .more-button{
+        margin-top: 120px;
+    }
+
+    /* .news .caption p{
+        line-height: 1.5;
+    }
+
+    .news .caption h3{
+        margin-bottom: 13px;
+    } */
+}
+
+@media(min-width:1481px) and (max-width:1530px){
+
+    .news .caption a{
+        margin-left: 114px;
+    }
+
+    .news .caption .more-btn{
+        margin-top: 50px;
+    }
+
+    .news .caption .more-button{
+        margin-top: 110px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+

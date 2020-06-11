@@ -1,0 +1,2496 @@
+/* start carousel */
+
+@media(min-width:150px) and (max-width:600px){
+    .carousel-caption h1{
+        font-size: 2rem;
+    }
+}
+
+/* end carousel */
+
+/* start navbar */
+
+@media(min-width:150px) and (max-width:1040px){
+    .navbar .navbar-collapse ul .Bar{
+        display: contents;
+    }
+
+    .navbar .navbar-collapse ul .Bar .conect{
+        padding-left: 0;
+    }
+
+    .navbar .navbar-collapse ul li .donate{
+        width: 95px;
+        padding: 5px 0;
+    }
+
+    .navbar .navbar-collapse ul li .nav-link .logo{
+        width: 220px;
+        margin-left: -64px;
+    }
+
+    /* start dss box */
+
+    /* form .form-body{
+        margin-left: 16vh;
+    } */
+
+
+}
+
+
+@media(min-width:992px) and (max-width:1040px){
+    .navbar{
+        margin-left: 0;
+    }
+
+    .navbar .navbar-collapse ul .Bar li{
+        padding-right: 20px;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link{
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .navbar .navbar-collapse ul li .donate{
+        margin-right: 25px;
+    }
+
+    .navbar .navbar-collapse ul li .nav-link button{
+        margin-left: 8px;
+        width: 182px;
+    }
+
+    .navbar .navbar-collapse ul .Bar #li-padding{
+        padding-right: 0;
+    }
+
+    .navbar .navbar-collapse ul li .nav-link .logo{
+        margin-top: -51px;
+        margin-left: -22px;
+        width: 207px;
+    }
+
+    /* start secondry page */
+    /* start carsoul */
+    .carousel-caption h1{
+        margin-bottom: 50px;
+    }
+
+    .carousel-caption .caption{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .carousel-caption .caption p{
+        padding: 15px 50px;
+    }
+
+    /* start dss box */
+
+    form .form-body{
+        margin-left: 16vh;
+    }
+}
+
+@media(min-width:1041px) and (max-width:1140px){
+    .navbar .navbar-collapse ul .Bar{
+        display: contents;
+    }
+
+    .navbar{
+        margin-left: 0;
+    }
+
+    .navbar .navbar-collapse ul li .nav-link button{
+        margin-left: 8px;
+        width: 182px;
+    }
+
+    .navbar .navbar-collapse ul li .nav-link .logo{
+        margin-top: -7vh;
+        margin-left: -7vh;
+        width: 219px;
+    }
+
+    .navbar .navbar-collapse ul .Bar .conect{
+        padding-left: 0;
+    }
+
+    .navbar .navbar-collapse ul li .donate{
+        width: 109px;
+        margin-right: 0px;
+        padding: 5px 0;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link{
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .navbar .navbar-collapse ul .Bar .conect {
+       padding-left: 38px;
+    }
+
+    .navbar .navbar-collapse ul .Bar li{
+        padding-right: 30px;
+    }
+
+    /* start secondry page */
+    /* start carsoul */
+    .carousel-caption h1{
+        margin-bottom: 80px;
+    }
+
+    .carousel-caption .caption{
+        width: 100%;
+        margin-bottom: 0;
+    }
+
+    /* start dss box */
+    form .form-body{
+        margin-left: 29vh;
+    }
+
+}
+
+@media(min-width:1141px) and (max-width:1295px){
+    .navbar{
+        margin-left: 0;
+    }
+
+    .navbar .navbar-collapse ul .Bar{
+        display: contents;
+    }
+
+    .navbar .navbar-collapse ul li .nav-link button{
+        margin-left: 8px;
+        width: 182px;
+    }
+
+    .navbar .navbar-collapse ul li .donate{
+        width: 120px;
+        margin-right: 20px;
+        padding: 5px 0;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link{
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .navbar .navbar-collapse ul li .nav-link .logo{
+        margin-left: 30px;
+        width: 220px;
+        margin-top: -50px;
+        
+    }
+    
+}
+
+@media(min-width:1296px) and (max-width:1460px){
+    .navbar{
+        margin-left: 0;
+    }
+
+    .navbar .navbar-collapse ul .Bar{
+        display: contents;
+    }
+
+    .navbar .navbar-collapse ul li .nav-link button{
+        margin-left: 8px;
+        width: 182px;
+    }
+
+    .navbar .navbar-collapse ul li .donate{
+        width: 120px;
+        margin-right: 62px;
+        padding: 5px 0;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link{
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .navbar .navbar-collapse ul li .nav-link .logo{
+        width: 285px;
+        margin-left: 50px;
+        margin-top: -65px;
+    }
+    
+}
+
+@media(min-width:1461px) and (max-width:1530px){
+    .navbar{
+        margin-left: 0;
+    }
+
+    .navbar .navbar-collapse ul .Bar{
+        display: contents;
+        margin-top: 10px;
+    }
+
+    .navbar .navbar-collapse ul li .nav-link button{
+        margin-left: 8px;
+        width: 182px;
+    }
+
+    .navbar .navbar-collapse ul li .donate{
+        width: 120px;
+        margin-right: 120px;
+        padding: 5px 0;
+
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link{
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .navbar .navbar-collapse ul li .nav-link .logo{
+        width: 285px;
+        margin-left: 120px;
+        margin-top: -65px;
+    }
+    
+}
+
+@media(min-width:1200px) and (max-width:1497px){
+
+    .contact-way .caption .contact-way-logo{
+        margin-right: -9vh;
+    }
+
+    .contact-way .caption h4{
+        margin-top: 18px;
+    }
+
+    .contact-way .caption .col-three-hr{
+        width: 65%;
+        margin-right: 25vh;
+    }
+}
+
+@media(min-width:150px) and (max-width:990px){
+    .navbar .navbar-collapse ul .dropdown .language{
+        margin-left: 0;
+    }
+
+    .navbar .navbar-collapse ul .dropdown .signup{
+        margin-left: 0;
+    }
+}
+
+@media(min-width:991px) and (max-width:1199px){
+    .navbar .navbar-collapse ul .dropdown .language{
+        margin-left: -14px;
+        top: 48%;
+        width: 69px;
+    }
+
+    .dropdown-item {
+        padding: .25rem 0.5rem
+    }
+
+    .navbar .navbar-collapse ul .dropdown .signup{
+        top:49%
+    }
+
+    .navbar .navbar-collapse ul .dropdown .signup{
+        margin-left: 9px;
+    }
+
+}
+
+
+/* end navbar */
+
+/* start social support */
+/* start awgoh el zakat */
+/* start development */
+/* start medical-support */
+/* start .economic-support */
+
+@media(min-width:150px) and (max-width:1199px){
+
+    .social-support .social .row .col-lg-3, 
+    .awogoh-el-zakat .zakat .row .col-lg-3, 
+    .medical-support .medical .row .col-lg-3, 
+    .development .develop .row .col-sm-4, 
+    .economic-support .economic .row .col-lg-3{
+        padding-right: 16px;
+    }
+
+}
+
+/* end social support */
+/* end awgoh el zakat */
+/* end development */
+/* end medical-support */
+/* end .economic-support */
+
+
+/* start contact-way */
+
+@media(min-width:150px) and (max-width:547px){
+
+    .contact-way .caption #vertical-line{
+        display: none;
+    }
+
+    .contact-way .caption h4{
+        margin-top: 0;
+    }
+
+    .contact-way .caption img{
+        width: 270px;
+    }
+
+    .contact-way .caption .col-three-hr {
+        width: 64%;
+        margin-right: 15vh;
+        margin-top: 29px;
+    }
+
+    .social-support .heading span,
+     .awogoh-el-zakat .heading span, 
+     .development .heading span,
+      .medical-support .heading span, 
+      .economic-support .heading span {
+        padding: 5px 17px;
+        padding-bottom: 17px;
+        margin-right: 32px;
+        font-size: 25px;
+    }
+
+    .contact-way .caption .contact-way-logo{
+        margin-top: 0;
+        margin-right: -16vh;
+        width: 260px;
+    }
+
+    .contact-way .caption table{
+        margin-top: 0;
+        margin-right: 0;
+    }
+
+    /* start secondry page */
+    /* start carsoul */
+
+    .carousel-caption h1 {
+        margin-bottom: 10px;
+    }
+
+    .carousel-caption .caption{
+        margin-bottom: 0;
+        width: 100%;
+    }
+
+    .carousel-caption .caption p{
+        padding: 2px;
+        font-size: 17px;
+    }
+
+
+}
+
+
+
+@media(min-width:548px) and (max-width:990){
+
+    .contact-way .caption #vertical-line{
+        display: none;
+    }
+    .contact-way .caption h4{
+        margin-top: 0;
+    }
+
+    .contact-way .caption .col-one-hr {
+        width: 56%;
+        margin-right: 16vh;
+    }
+
+
+    .contact-way .caption .social-images{
+        margin-left: 17vh;
+    }
+
+    .contact-way .caption .col-three-hr {
+        width: 63%;
+        margin-right: 26vh;
+    }
+
+
+    .contact-way .caption h6{
+        margin-left: 4vh;
+
+    }
+
+    .contact-way .caption .contact-way-logo{
+        margin-right: 0;
+        width: 280px;
+        margin-top: -15px;
+    }
+
+    .contact-way .caption table{
+        margin-top: 0;
+        margin-right: 120px;
+    }
+
+}
+
+@media (min-width:549px) and (max-width:991px){
+    .contact-way .caption #vertical-line{
+        display: none;
+    }
+
+    .contact-way .caption h4{
+        margin-top: 0;
+    }
+
+    .contact-way .caption .col-one-hr{
+        width: 43%;
+    }
+
+    .contact-way .caption .social-images{
+        margin-left: 28vh;
+    }
+
+    .contact-way .caption .contact-way-logo{
+        margin-right: 0;
+        width: 300px;
+    }
+
+    .contact-way .caption .col-three-hr {
+        margin-right: 26vh;
+        margin-top: 21px;
+    }
+
+    .contact-way .caption h6 {
+        margin-left: 19vh;
+    }
+
+
+
+    .contact-way .caption table{
+        margin-top: 0;
+        margin-right: 150px;
+    }
+
+}
+
+
+@media(min-width:992px) and (max-width:1199px){
+    .contact-way .caption table{
+        margin-top: 0;
+        margin-right: 0;
+    }
+
+    .contact-way .caption .contact-way-logo{
+        margin-right: -3vh;
+    }
+
+    .contact-way .caption .col-three-hr{
+        margin-right:28vh ;
+    }
+
+    .contact-way .caption h6 {
+        margin-left: 47px;
+    }
+
+    .contact-way .caption table {
+        margin-right: 17vh;
+    }
+
+
+}
+
+/* end contact-way */
+
+/* start secondry page */
+/* start carsoul */
+
+@media(min-width:320px) and (max-width:361px){
+
+    .cases .heading h3 {
+        margin-right: 25px;
+        margin-top: -49px;
+    }
+
+    .cases .heading h3 span{
+        padding: 10px 23px;
+        font-size: 1rem;
+    }
+
+    
+    .carousel-caption h1 {
+        margin-bottom: 30px;
+    }
+
+    .carousel-caption .caption{
+        margin-bottom: -19px;
+        width: 100%;
+    }
+
+    .carousel-caption .caption p{
+        padding: 2px;
+        font-size: 18px;
+    }
+
+    /* start cases */
+    .cases .heading img{
+        margin-left: 0;
+        margin-left: 0;
+        width: 50px;
+        margin-top: -13px;
+    }
+
+    .cases .dropdown-menu{
+        margin-left: 0;
+        padding-left: 0;
+        padding-right: 0;
+        margin-top: 116vh;
+    }
+
+    .carousel-item .sec-img{
+        height: 1500px;
+    }
+
+    .carousel-caption .card img {
+        height: 170px;
+    }
+
+
+    #carouselExample .carousel-caption .col-md-4, 
+    #carouselExampl .carousel-caption .col-md-4 {
+        width: 100%;
+    }
+
+    .carousel-caption .card .prog-value{
+        margin-left: 20vh;
+    }
+
+    .carousel-caption .card .prog-value2{
+        margin-left: 17vh;
+    }
+
+    .carousel-caption .card .prog-value3 {
+        margin-left: 11vh;
+    }
+
+    .carousel-caption .card .prog-value4 {
+        margin-left: 23vh;
+    }
+
+    .carousel-caption .card .prog-value6{
+        margin-left: 13vh;
+    }
+
+    .carousel-caption .card p{
+        width: 100%;
+        padding: 2px;
+        font-size: 15px;
+    }
+
+    .carousel-caption .card h5 {
+        margin-left: 80px;
+    }
+
+    .carousel-caption .card a{
+        width: 105px;
+        margin-bottom: 30px;
+        font-size: 1.2rem;
+        padding: 2px;
+        padding-top: 0px;
+    }
+
+    /*start contact way */
+
+    .contact-way .caption #vertical-line{
+        display: none;
+    }
+
+    .contact-way .caption h4{
+        margin-top: 0;
+    }
+
+    .contact-way .caption img{
+        width: 220px;
+    }
+
+    .contact-way .caption .col-one-hr{
+        width: 70%;
+    }
+
+    .contact-way .caption .social-images{
+        margin-left: 55px;
+    }
+
+    .contact-way .caption .social-images li img{
+        width: 35px;
+    }
+
+    .contact-way .caption .col-three-hr {
+        width: 64%;
+        margin-right: 23vh;
+        margin-top: 29px;
+    }
+
+    .contact-way .caption h6{
+        margin-left: 50px;
+    }
+
+    .contact-way .caption table{
+        margin-top: -25px;
+        margin-right: 0;
+    }
+
+
+    .contact-way .caption .contact-way-logo{
+        width: 249px;
+        margin-right: -15px;
+    }
+
+    .contact-way .caption h5 {
+        font-size: 18px;
+        margin-top: 37px;
+    }
+}
+
+@media(min-width:362px) and (max-width:379px){
+
+    .cases .heading h3 {
+        margin-right: 25px;
+        margin-top: -49px;
+    }
+
+    .cases .heading h3 span{
+        padding: 10px 23px;
+        font-size: 1rem;
+    }
+
+    
+    .carousel-caption h1 {
+        margin-bottom: 30px;
+    }
+
+    .carousel-caption .caption{
+        margin-bottom: -19px;
+        width: 100%;
+    }
+
+    .carousel-caption .caption p{
+        padding: 2px;
+        font-size: 18px;
+    }
+
+    /* start cases */
+    .cases .heading img{
+        margin-left: 0;
+        margin-left: 0;
+        width: 50px;
+        margin-top: -13px;
+    }
+
+    .cases .dropdown-menu{
+        margin-left: 0;
+        padding-left: 0;
+        padding-right: 0;
+        margin-top: 116vh;
+    }
+
+    .carousel-item .sec-img{
+        height: 1500px;
+    }
+
+    .carousel-caption .card img {
+        height: 170px;
+    }
+
+
+    #carouselExample .carousel-caption .col-md-4, 
+    #carouselExampl .carousel-caption .col-md-4 {
+        width: 100%;
+    }
+
+    .carousel-caption .card .prog-value{
+        margin-left: 23vh;
+    }
+
+    .carousel-caption .card .prog-value2{
+        margin-left: 18vh;
+    }
+
+    .carousel-caption .card .prog-value3 {
+        margin-left: 12vh;
+    }
+
+    .carousel-caption .card .prog-value4 {
+        margin-left: 28vh;
+    }
+
+    .carousel-caption .card .prog-value6{
+        margin-left: 18vh;
+    }
+
+    .carousel-caption .card p{
+        width: 100%;
+        padding: 2px;
+        font-size: 15px;
+    }
+
+    .carousel-caption .card h5 {
+        margin-left: 80px;
+    }
+
+    .carousel-caption .card a{
+        width: 105px;
+        margin-bottom: 30px;
+        font-size: 1.2rem;
+        padding: 2px;
+        padding-top: 0px;
+    }
+
+    /*start contact way */
+
+    .contact-way .caption #vertical-line{
+        display: none;
+    }
+
+    .contact-way .caption h4{
+        margin-top: 0;
+    }
+
+    .contact-way .caption img{
+        width: 220px;
+    }
+
+    .contact-way .caption .col-one-hr{
+        width: 70%;
+    }
+
+    .contact-way .caption .social-images{
+        margin-left: 55px;
+    }
+
+    .contact-way .caption .social-images li img{
+        width: 35px;
+    }
+
+    .contact-way .caption .col-three-hr {
+        width: 64%;
+        margin-right: 23vh;
+        margin-top: 29px;
+    }
+
+    .contact-way .caption h6{
+        margin-left: 50px;
+    }
+
+    .contact-way .caption table{
+        margin-top: -5px;
+        margin-right: 0;
+    }
+
+
+    .contact-way .caption .contact-way-logo{
+        width: 249px;
+        margin-right: -15px;
+    }
+
+    .contact-way .caption h5 {
+        font-size: 18px;
+    }
+
+}
+
+@media(min-width:380px) and (max-width:391px){
+
+    .cases .heading h3 {
+        margin-right: 25px;
+        margin-top: -49px;
+    }
+
+    .cases .heading h3 span{
+        padding: 10px 23px;
+        font-size: 1rem;
+    }
+
+    
+    .carousel-caption h1 {
+        margin-bottom: 30px;
+    }
+
+    .carousel-caption .caption{
+        margin-bottom: -19px;
+        width: 100%;
+    }
+
+    .carousel-caption .caption p{
+        padding: 2px;
+        font-size: 18px;
+    }
+
+    /* start cases */
+    .cases .heading img{
+        margin-left: 0;
+        margin-left: 0;
+        width: 50px;
+        margin-top: -13px;
+    }
+
+    .cases .dropdown-menu{
+        margin-left: 0;
+        padding-left: 0;
+        padding-right: 0;
+        margin-top: 116vh;
+    }
+
+    .carousel-item .sec-img{
+        height: 1500px;
+    }
+
+    .carousel-caption .card img {
+        height: 170px;
+    }
+
+
+    #carouselExample .carousel-caption .col-md-4, 
+    #carouselExampl .carousel-caption .col-md-4 {
+        width: 100%;
+    }
+
+    .carousel-caption .card .prog-value{
+        margin-left: 23vh;
+    }
+
+    .carousel-caption .card .prog-value2{
+        margin-left: 20vh;
+    }
+
+    .carousel-caption .card .prog-value3 {
+        margin-left: 12vh;
+    }
+
+    .carousel-caption .card .prog-value4 {
+        margin-left: 28vh;
+    }
+
+    .carousel-caption .card .prog-value6{
+        margin-left: 18vh;
+    }
+
+    .carousel-caption .card p{
+        width: 100%;
+        padding: 2px;
+        font-size: 15px;
+    }
+
+    .carousel-caption .card h5 {
+        margin-left: 80px;
+    }
+
+    .carousel-caption .card a{
+        width: 105px;
+        margin-bottom: 30px;
+        font-size: 1.2rem;
+        padding: 2px;
+        padding-top: 0px;
+    }
+
+    /*start contact way */
+
+    .contact-way .caption #vertical-line{
+        display: none;
+    }
+
+    .contact-way .caption h4{
+        margin-top: 0;
+    }
+
+    .contact-way .caption img{
+        width: 220px;
+    }
+
+    .contact-way .caption .col-one-hr{
+        width: 70%;
+    }
+
+    .contact-way .caption .social-images{
+        margin-left: 55px;
+    }
+
+    .contact-way .caption .social-images li img{
+        width: 35px;
+    }
+
+    .contact-way .caption .col-three-hr {
+        width: 64%;
+        margin-right: 17vh;
+        margin-top: 29px;
+    }
+
+    .contact-way .caption h6{
+        margin-left: 50px;
+    }
+
+    .contact-way .caption table{
+        margin-top: -5px;
+        margin-right: 0;
+    }
+
+
+    .contact-way .caption .contact-way-logo{
+        width: 249px;
+        margin-right: -15px;
+    }
+
+    .contact-way .caption h5 {
+        font-size: 18px;
+    }
+
+}
+
+@media(min-width:392px) and (max-width:435px){
+
+    .cases .heading h3 {
+        margin-right: 25px;
+        margin-top: -49px;
+    }
+
+    .cases .heading h3 span{
+        padding: 10px 23px;
+        font-size: 1rem;
+    }
+
+    
+    .carousel-caption h1 {
+        margin-bottom: 30px;
+    }
+
+    .carousel-caption .caption{
+        margin-bottom: -19px;
+        width: 100%;
+    }
+
+    .carousel-caption .caption p{
+        padding: 2px;
+        font-size: 18px;
+    }
+
+    /* start cases */
+    .cases .heading img{
+        margin-left: 0;
+        margin-left: 0;
+        width: 50px;
+        margin-top: -13px;
+    }
+
+    .cases .dropdown-menu{
+        margin-left: 0;
+        padding-left: 0;
+        padding-right: 0;
+        margin-top: 116vh;
+    }
+
+    .carousel-item .sec-img{
+        height: 1500px;
+    }
+
+    .carousel-caption .card img {
+        height: 170px;
+    }
+
+
+    #carouselExample .carousel-caption .col-md-4, 
+    #carouselExampl .carousel-caption .col-md-4 {
+        width: 100%;
+    }
+
+    .carousel-caption .card .prog-value{
+        margin-left: 27vh;
+    }
+
+    .carousel-caption .card .prog-value2{
+        margin-left: 23vh;
+    }
+
+    .carousel-caption .card .prog-value3 {
+        margin-left: 14vh;
+    }
+
+    .carousel-caption .card .prog-value4 {
+        margin-left: 31vh;
+    }
+
+    .carousel-caption .card .prog-value6{
+        margin-left: 19vh;
+    }
+
+    .carousel-caption .card p{
+        width: 100%;
+        padding: 2px;
+        font-size: 15px;
+    }
+
+    .carousel-caption .card h5 {
+        margin-left: 80px;
+    }
+
+    .carousel-caption .card a{
+        width: 105px;
+        margin-bottom: 30px;
+        font-size: 1.2rem;
+        padding: 2px;
+        padding-top: 0px;
+    }
+
+    /*start contact way */
+
+    .contact-way .caption #vertical-line{
+        display: none;
+    }
+
+    .contact-way .caption h4{
+        margin-top: 0;
+    }
+
+    .contact-way .caption img{
+        width: 220px;
+    }
+
+    .contact-way .caption .col-one-hr{
+        width: 70%;
+    }
+
+    .contact-way .caption .social-images{
+        margin-left: 55px;
+    }
+
+    .contact-way .caption .social-images li img{
+        width: 35px;
+    }
+
+    .contact-way .caption .col-three-hr {
+        width: 64%;
+        margin-right: 23vh;
+        margin-top: 29px;
+    }
+
+    .contact-way .caption h6{
+        margin-left: 50px;
+    }
+
+    .contact-way .caption table{
+        margin-top: -5px;
+        margin-right: 0;
+    }
+
+
+    .contact-way .caption .contact-way-logo{
+        width: 249px;
+        margin-right: -59px;
+    }
+
+    .contact-way .caption h5 {
+        font-size: 24px;
+    }
+
+}
+
+@media(min-width:436px) and (max-width:470px){
+
+    .cases .heading h3 {
+        margin-right: 25px;
+        margin-top: -49px;
+    }
+
+    .cases .heading h3 span{
+        padding: 10px 23px;
+        font-size: 1rem;
+    }
+
+    
+    .carousel-caption h1 {
+        margin-bottom: 30px;
+    }
+
+    .carousel-caption .caption{
+        margin-bottom: -19px;
+        width: 100%;
+    }
+
+    .carousel-caption .caption p{
+        padding: 2px;
+        font-size: 18px;
+    }
+
+    /* start cases */
+    .cases .heading img{
+        margin-left: 0;
+        margin-left: 0;
+        width: 50px;
+        margin-top: -13px;
+    }
+
+    .cases .dropdown-menu{
+        margin-left: 0;
+        padding-left: 0;
+        padding-right: 0;
+        margin-top: 116vh;
+    }
+
+    .carousel-item .sec-img{
+        height: 1500px;
+    }
+
+    .carousel-caption .card img {
+        height: 170px;
+    }
+
+
+    #carouselExample .carousel-caption .col-md-4, 
+    #carouselExampl .carousel-caption .col-md-4 {
+        width: 100%;
+    }
+
+    .carousel-caption .card .prog-value{
+        margin-left: 32vh;
+    }
+
+    .carousel-caption .card .prog-value2{
+        margin-left: 26vh;
+    }
+
+    .carousel-caption .card .prog-value3 {
+        margin-left: 16vh;
+    }
+
+    .carousel-caption .card .prog-value4 {
+        margin-left: 34vh;
+    }
+
+    .carousel-caption .card .prog-value6{
+        margin-left: 21vh;
+    }
+
+    .carousel-caption .card p{
+        width: 100%;
+        padding: 2px;
+        font-size: 15px;
+    }
+
+    .carousel-caption .card h5 {
+        margin-left: 80px;
+    }
+
+    .carousel-caption .card a{
+        width: 105px;
+        margin-bottom: 30px;
+        font-size: 1.2rem;
+        padding: 2px;
+        padding-top: 0px;
+    }
+
+    /*start contact way */
+
+    .contact-way .caption #vertical-line{
+        display: none;
+    }
+
+    .contact-way .caption h4{
+        margin-top: 0;
+    }
+
+    .contact-way .caption img{
+        width: 220px;
+    }
+
+    .contact-way .caption .col-one-hr{
+        width: 70%;
+    }
+
+    .contact-way .caption .social-images{
+        margin-left: 55px;
+    }
+
+    .contact-way .caption .social-images li img{
+        width: 35px;
+    }
+
+    .contact-way .caption .col-three-hr {
+        width: 64%;
+        margin-right: 23vh;
+        margin-top: 29px;
+    }
+
+    .contact-way .caption h6{
+        margin-left: 50px;
+    }
+
+    .contact-way .caption table{
+        margin-top: -5px;
+        margin-right: 0;
+    }
+
+
+    .contact-way .caption .contact-way-logo{
+        width: 249px;
+        margin-right: -15px;
+    }
+
+    .contact-way .caption h5 {
+        font-size: 28px;
+    }
+
+}
+
+@media(min-width:471px) and (max-width:503px){
+
+    .cases .heading h3 {
+        margin-right: 25px;
+        margin-top: -49px;
+    }
+
+    .cases .heading h3 span{
+        padding: 10px 23px;
+        font-size: 1rem;
+    }
+
+    
+    .carousel-caption h1 {
+        margin-bottom: 30px;
+    }
+
+    .carousel-caption .caption{
+        margin-bottom: -19px;
+        width: 100%;
+    }
+
+    .carousel-caption .caption p{
+        padding: 2px;
+        font-size: 18px;
+    }
+
+    /* start cases */
+    .cases .heading img{
+        margin-left: 0;
+        margin-left: 0;
+        width: 50px;
+        margin-top: -13px;
+    }
+
+    .cases .dropdown-menu{
+        margin-left: 0;
+        padding-left: 0;
+        padding-right: 0;
+        margin-top: 116vh;
+    }
+
+    .carousel-item .sec-img{
+        height: 1500px;
+    }
+
+    .carousel-caption .card img {
+        height: 170px;
+    }
+
+
+    #carouselExample .carousel-caption .col-md-4, 
+    #carouselExampl .carousel-caption .col-md-4 {
+        width: 100%;
+    }
+
+    .carousel-caption .card .prog-value{
+        margin-left: 35vh;
+    }
+
+    .carousel-caption .card .prog-value2{
+        margin-left: 28vh;
+    }
+
+    .carousel-caption .card .prog-value3 {
+        margin-left: 19vh;
+    }
+
+    .carousel-caption .card .prog-value4 {
+        margin-left: 37vh;
+    }
+
+    .carousel-caption .card .prog-value6{
+        margin-left: 24vh;
+    }
+
+    .carousel-caption .card p{
+        width: 100%;
+        padding: 2px;
+        font-size: 15px;
+    }
+
+    .carousel-caption .card h5 {
+        margin-left: 80px;
+    }
+
+    .carousel-caption .card a{
+        width: 105px;
+        margin-bottom: 30px;
+        font-size: 1.2rem;
+        padding: 2px;
+        padding-top: 0px;
+    }
+
+    /*start contact way */
+
+    .contact-way .caption #vertical-line{
+        display: none;
+    }
+
+    .contact-way .caption h4{
+        margin-top: 0;
+    }
+
+    .contact-way .caption img{
+        width: 235px;
+    }
+
+    .contact-way .caption .col-one-hr{
+        width: 50%;
+    }
+
+    .contact-way .caption .social-images{
+        margin-left: 128px;
+    }
+
+    .contact-way .caption .social-images li img{
+        width: 35px;
+    }
+
+    .contact-way .caption .col-three-hr {
+        width: 64%;
+        margin-right: 18vh;
+        margin-top: 29px;
+    }
+
+    .contact-way .caption h6{
+        margin-left: 50px;
+    }
+
+    .contact-way .caption table{
+        margin-top: -5px;
+        margin-right: 0;
+    }
+
+
+    .contact-way .caption .contact-way-logo{
+        width: 249px;
+        margin-right: -15px;
+    }
+
+    .contact-way .caption h5 {
+        font-size: 32px;
+    }
+
+}
+
+@media(min-width:504px) and (max-width:540px){
+
+    .cases .heading h3 {
+        margin-right: 25px;
+        margin-top: -49px;
+    }
+
+    .cases .heading h3 span{
+        padding: 10px 23px;
+        font-size: 1rem;
+    }
+
+    
+    .carousel-caption h1 {
+        margin-bottom: 30px;
+    }
+
+    .carousel-caption .caption{
+        margin-bottom: -19px;
+        width: 100%;
+    }
+
+    .carousel-caption .caption p{
+        padding: 2px;
+        font-size: 18px;
+    }
+
+    /* start cases */
+    .cases .heading img{
+        margin-left: 0;
+        margin-left: 0;
+        width: 50px;
+        margin-top: -13px;
+    }
+
+    .cases .dropdown-menu{
+        margin-left: 0;
+        padding-left: 0;
+        padding-right: 0;
+        margin-top: 116vh;
+    }
+
+    .carousel-item .sec-img{
+        height: 1500px;
+    }
+
+    .carousel-caption .card img {
+        height: 170px;
+    }
+
+
+    #carouselExample .carousel-caption .col-md-4, 
+    #carouselExampl .carousel-caption .col-md-4 {
+        width: 100%;
+    }
+
+    .carousel-caption .card .prog-value{
+        margin-left: 35vh;
+    }
+
+    .carousel-caption .card .prog-value2{
+        margin-left: 30vh;
+    }
+
+    .carousel-caption .card .prog-value3 {
+        margin-left: 19vh;
+    }
+
+    .carousel-caption .card .prog-value4 {
+        margin-left: 40vh;
+    }
+
+    .carousel-caption .card .prog-value6{
+        margin-left: 25vh;
+    }
+
+    .carousel-caption .card p{
+        width: 100%;
+        padding: 2px;
+        font-size: 15px;
+    }
+
+    .carousel-caption .card h5 {
+        margin-left: 80px;
+    }
+
+    .carousel-caption .card a{
+        width: 105px;
+        margin-bottom: 30px;
+        font-size: 1.2rem;
+        padding: 2px;
+        padding-top: 0px;
+    }
+
+    /*start contact way */
+
+    .contact-way .caption #vertical-line{
+        display: none;
+    }
+
+    .contact-way .caption h4{
+        margin-top: 0;
+    }
+
+    .contact-way .caption img{
+        width: 220px;
+    }
+
+    .contact-way .caption .col-one-hr{
+        width: 70%;
+    }
+
+    .contact-way .caption .social-images{
+        margin-left: 55px;
+    }
+
+    .contact-way .caption .social-images li img{
+        width: 35px;
+    }
+
+    .contact-way .caption .col-three-hr {
+        width: 64%;
+        margin-right: 23vh;
+        margin-top: 29px;
+    }
+
+    .contact-way .caption h6{
+        margin-left: 50px;
+    }
+
+    .contact-way .caption table{
+        margin-top: -5px;
+        margin-right: 0;
+    }
+
+
+    .contact-way .caption .contact-way-logo{
+        width: 249px;
+        margin-right: -15px;
+    }
+
+    .contact-way .caption h5 {
+        font-size: 28px;
+    }
+
+}
+
+@media(min-width:541px) and (max-width:584px){
+    
+    .carousel-caption h1 {
+        margin-bottom: 30px;
+    }
+
+    .carousel-caption .caption{
+        margin-bottom: -19px;
+        width: 100%;
+    }
+
+    .carousel-caption .caption p{
+        padding: 2px;
+        font-size: 18px;
+    }
+
+    /* start cases */
+    .cases .heading img{
+        margin-left: 0;
+    }
+
+    .cases .dropdown-menu{
+        margin-left: 0;
+        padding-left: 0;
+        padding-right: 0;
+        margin-top: 116vh;
+    }
+
+    .carousel-item .sec-img{
+        height: 1500px;
+    }
+
+    #carouselExample .carousel-caption .col-md-4, 
+    #carouselExampl .carousel-caption .col-md-4 {
+        width: 100%;
+    }
+
+    .carousel-caption .card .prog-value{
+        margin-left: 38vh;
+    }
+
+    .carousel-caption .card .prog-value2{
+        margin-left: 33vh;
+    }
+
+    .carousel-caption .card .prog-value3 {
+        margin-left: 22vh;
+    }
+
+    .carousel-caption .card .prog-value4 {
+        margin-left: 44vh;
+    }
+
+    .carousel-caption .card .prog-value6{
+        margin-left: 27vh;
+    }
+
+    .carousel-caption .card p{
+        width: 100%;
+        padding: 2px;
+        font-size: 15px;
+    }
+
+    .carousel-caption .card h5 {
+        margin-left: 80px;
+    }
+
+    /*start contact way */
+
+    .contact-way .caption #vertical-line{
+        display: none;
+    }
+
+    .contact-way .caption h4{
+        margin-top: 0;
+    }
+
+    .contact-way .caption img{
+        width: 270px;
+    }
+
+    .contact-way .caption .col-one-hr{
+        width: 52%;
+    }
+
+    .contact-way .caption .social-images{
+        margin-left: 120px;
+    }
+
+    .contact-way .caption .social-images li img{
+        width: 35px;
+    }
+
+    .contact-way .caption .col-three-hr {
+        width: 64%;
+        margin-right: 23vh;
+        margin-top: 29px;
+    }
+
+    .contact-way .caption table{
+        margin-top: -30px;
+        margin-right: 0;
+    }
+
+
+    .contact-way .caption .contact-way-logo{
+        width: 300px;
+        margin-right: 0;
+    }
+
+    .contact-way .caption h5 {
+        font-size: 32px;
+    }
+
+}
+
+@media(min-width:585px) and (max-width:633px){
+    
+    .carousel-caption h1 {
+        margin-bottom: 30px;
+    }
+
+    .carousel-caption .caption{
+        margin-bottom: -19px;
+        width: 100%;
+    }
+
+    .carousel-caption .caption p{
+        padding: 2px;
+        font-size: 18px;
+    }
+
+    /* start cases */
+    .cases .heading img{
+        margin-left: 0;
+    }
+
+    .cases .dropdown-menu{
+        margin-left: 0;
+        padding-left: 0;
+        padding-right: 0;
+        margin-top: 116vh;
+    }
+
+    .carousel-item .sec-img{
+        height: 1500px;
+    }
+
+    #carouselExample .carousel-caption .col-md-4, 
+    #carouselExampl .carousel-caption .col-md-4 {
+        width: 100%;
+    }
+
+    .carousel-caption .card .prog-value{
+        margin-left: 38vh;
+    }
+
+    .carousel-caption .card .prog-value2{
+        margin-left: 33vh;
+    }
+
+    .carousel-caption .card .prog-value3 {
+        margin-left: 22vh;
+    }
+
+    .carousel-caption .card .prog-value4 {
+        margin-left: 48vh;
+    }
+
+    .carousel-caption .card .prog-value6{
+        margin-left: 27vh;
+    }
+
+    .carousel-caption .card p{
+        width: 100%;
+        padding: 2px;
+        font-size: 15px;
+    }
+
+    .carousel-caption .card h5 {
+        margin-left: 80px;
+    }
+
+    /*start contact way */
+
+    .contact-way .caption #vertical-line{
+        display: none;
+    }
+
+    .contact-way .caption h4{
+        margin-top: 0;
+    }
+
+    .contact-way .caption img{
+        width: 270px;
+    }
+
+    .contact-way .caption .col-one-hr{
+        width: 52%;
+    }
+
+    .contact-way .caption .social-images{
+        margin-left: 120px;
+    }
+
+    .contact-way .caption .social-images li img{
+        width: 35px;
+    }
+
+    .contact-way .caption .col-three-hr {
+        width: 64%;
+        margin-right: 23vh;
+        margin-top: 29px;
+    }
+
+    .contact-way .caption table{
+        margin-top: -30px;
+        margin-right: 0;
+    }
+
+
+    .contact-way .caption .contact-way-logo{
+        width: 300px;
+        margin-right: 0;
+    }
+
+    .contact-way .caption h5 {
+        font-size: 32px;
+    }
+
+}
+
+@media(min-width:587px) and (max-width:630px){
+    
+    .carousel-caption h1 {
+        margin-bottom: 30px;
+    }
+
+    .carousel-caption .caption{
+        margin-bottom: -19px;
+        width: 100%;
+    }
+
+    .carousel-caption .caption p{
+        padding: 2px;
+        font-size: 18px;
+    }
+
+    /* start cases */
+    .cases .heading img{
+        margin-left: 0;
+    }
+
+    .cases .dropdown-menu{
+        margin-left: 0;
+        padding-left: 0;
+        padding-right: 0;
+        margin-top: 116vh;
+    }
+
+    .carousel-item .sec-img{
+        height: 1500px;
+    }
+
+    #carouselExample .carousel-caption .col-md-4, 
+    #carouselExampl .carousel-caption .col-md-4 {
+        width: 100%;
+    }
+
+    .carousel-caption .card .prog-value{
+        margin-left: 42vh;
+    }
+
+    .carousel-caption .card .prog-value2{
+        margin-left: 36vh;
+    }
+
+    .carousel-caption .card .prog-value3 {
+        margin-left: 24vh;
+    }
+
+    .carousel-caption .card .prog-value4 {
+        margin-left: 49vh;
+    }
+
+    .carousel-caption .card .prog-value6{
+        margin-left: 30vh;
+    }
+
+    .carousel-caption .card p{
+        width: 100%;
+        padding: 2px;
+        font-size: 15px;
+    }
+
+    .carousel-caption .card h5 {
+        margin-left: 80px;
+    }
+
+    /*start contact way */
+
+    .contact-way .caption #vertical-line{
+        display: none;
+    }
+
+    .contact-way .caption h4{
+        margin-top: 0;
+    }
+
+    .contact-way .caption img{
+        width: 270px;
+    }
+
+    .contact-way .caption .col-one-hr{
+        width: 52%;
+    }
+
+    .contact-way .caption .social-images{
+        margin-left: 120px;
+    }
+
+    .contact-way .caption .social-images li img{
+        width: 35px;
+    }
+
+    .contact-way .caption .col-three-hr {
+        width: 64%;
+        margin-right: 23vh;
+        margin-top: 29px;
+    }
+
+    .contact-way .caption table{
+        margin-top: -30px;
+        margin-right: 0;
+    }
+
+
+    .contact-way .caption .contact-way-logo{
+        width: 300px;
+        margin-right: 0;
+    }
+
+    .contact-way .caption h5 {
+        font-size: 32px;
+    }
+
+}
+
+@media (min-width:761px) and (max-width:850px){
+
+    /* start carsoul */
+
+    .carousel-caption h1{
+        margin-bottom: 25px;
+    }
+
+    .carousel-caption .caption{
+        width: 100%;
+        margin-bottom: 0;
+    }
+
+    .carousel-caption .caption p {
+        padding: 15px 50px;
+    }
+
+    /* start cases */
+    
+    .cases .heading img{
+        margin-left: 0;
+    }
+
+    .cases .dropdown-menu{
+        margin-left: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .carousel-caption .card img {
+        height: 145px;
+    }
+
+
+    .carousel-item .sec-img{
+        height: 560px;
+    }
+
+    .carousel-caption .card .prog-value{
+        margin-left: 11vh;
+    }
+
+    .carousel-caption .card .prog-value2{
+        margin-left: 9vh;
+    }
+
+    .carousel-caption .card .prog-value3 {
+        margin-left: 6vh;
+    }
+
+    .carousel-caption .card .prog-value4 {
+        margin-left: 13vh;
+    }
+
+    .carousel-caption .card .prog-value6{
+        margin-left: 8vh;
+    }
+
+
+
+    .carousel-caption .card p{
+        width: 100%;
+        padding: 2px;
+        font-size: 15px;
+    }
+
+    .carousel-caption .card h5 {
+        margin-left: 7px;
+    }
+
+
+    .carousel-caption .card a{
+        width: 105px;
+        margin-bottom: 30px;
+        font-size: 1.2rem;
+        padding: 2px;
+        padding-top: 0px;
+    }
+}
+
+@media(min-width:851px) and (max-width:870px){
+    
+    /* start carsoul */
+
+    .carousel-caption h1{
+        margin-bottom: 25px;
+    }
+
+    .carousel-caption .caption{
+        width: 100%;
+        margin-bottom: 0;
+    }
+
+    .carousel-caption .caption p {
+        padding: 15px 50px;
+    }
+    
+    /* start cases */
+    
+    .cases .heading img{
+        margin-left: 0;
+    }
+
+    .cases .dropdown-menu{
+        margin-left: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .carousel-item .sec-img{
+        height: 825px;
+    }
+
+    /* start cases */
+    
+    .cases .heading img{
+        margin-left: 35px;
+    }
+
+    .cases .dropdown-menu{
+        margin-left: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .carousel-caption .card img {
+        height: 145px;
+    }
+
+
+    .carousel-item .sec-img{
+        height: 560px;
+    }
+
+    .carousel-caption .card .prog-value{
+        margin-left: 12vh;
+    }
+
+    .carousel-caption .card .prog-value2{
+        margin-left: 10vh;
+    }
+
+    .carousel-caption .card .prog-value3 {
+        margin-left: 5vh;
+    }
+
+    .carousel-caption .card .prog-value4 {
+        margin-left: 14vh;
+    }
+
+    .carousel-caption .card .prog-value6{
+        margin-left: 9vh;
+    }
+
+
+
+    .carousel-caption .card p{
+        width: 100%;
+        padding: 2px;
+        font-size: 15px;
+    }
+
+    .carousel-caption .card h5 {
+        margin-left: 7px;
+    }
+
+
+    .carousel-caption .card a{
+        width: 105px;
+        margin-bottom: 30px;
+        font-size: 1.2rem;
+        padding: 2px;
+        padding-top: 0px;
+    }
+}
+
+@media(min-width:871px) and (max-width:950px){
+
+    /* start carsoul */
+
+    .carousel-caption h1{
+        margin-bottom: 25px;
+    }
+
+    .carousel-caption .caption{
+        width: 100%;
+        margin-bottom: 0;
+    }
+
+    .carousel-caption .caption p {
+        padding: 15px 50px;
+    }
+
+    /* start cases */
+    
+    .cases .heading img{
+        margin-left: 35px;
+    }
+
+    .cases .dropdown-menu{
+        margin-left: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .carousel-caption .card img {
+        height: 145px;
+    }
+
+
+    .carousel-item .sec-img{
+        height: 560px;
+    }
+
+    .carousel-caption .card .prog-value{
+        margin-left: 14vh;
+    }
+
+    .carousel-caption .card .prog-value2{
+        margin-left: 11vh;
+    }
+
+    .carousel-caption .card .prog-value3 {
+        margin-left: 6vh;
+    }
+
+    .carousel-caption .card .prog-value4 {
+        margin-left: 16vh;
+    }
+
+    .carousel-caption .card .prog-value6{
+        margin-left: 8vh;
+    }
+
+
+
+    .carousel-caption .card p{
+        width: 100%;
+        padding: 2px;
+        font-size: 15px;
+    }
+
+    .carousel-caption .card h5 {
+        margin-left: 7px;
+    }
+
+
+    .carousel-caption .card a{
+        width: 105px;
+        margin-bottom: 30px;
+        font-size: 1.2rem;
+        padding: 2px;
+        padding-top: 0px;
+    }
+}
+
+@media(min-width:951px) and (max-width:1035px){
+
+    /* start carsoul */
+
+    .carousel-caption h1{
+        margin-bottom: 25px;
+    }
+
+    .carousel-caption .caption{
+        width: 100%;
+        margin-bottom: 0;
+    }
+
+    .carousel-caption .caption p {
+        padding: 15px 50px;
+    }
+
+    /* start carsoul */
+
+    .carousel-caption h1{
+        margin-bottom: 25px;
+    }
+
+    .carousel-caption .caption{
+        width: 100%;
+        margin-bottom: 0;
+    }
+
+    .carousel-caption .caption p {
+        padding: 15px 50px;
+    }
+
+    /* start cases */
+    
+    .cases .heading img{
+        margin-left: 35px;
+    }
+
+    .cases .dropdown-menu{
+        margin-left: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .carousel-caption .card img {
+        height: 190px;
+    }
+
+
+    .carousel-item .sec-img{
+        height: 560px;
+    }
+
+    .carousel-caption .card .prog-value{
+        margin-left: 16vh;
+    }
+
+    .carousel-caption .card .prog-value2{
+        margin-left: 14vh;
+    }
+
+    .carousel-caption .card .prog-value3 {
+        margin-left: 8vh;
+    }
+
+    .carousel-caption .card .prog-value4 {
+        margin-left: 19vh;
+    }
+
+    .carousel-caption .card .prog-value6{
+        margin-left: 11vh;
+    }
+
+
+
+    .carousel-caption .card p{
+        width: 100%;
+        padding: 2px;
+        font-size: 15px;
+    }
+
+    .carousel-caption .card h5 {
+        margin-left: 7px;
+    }
+
+
+    .carousel-caption .card a{
+        width: 105px;
+        margin-bottom: 30px;
+        font-size: 1.2rem;
+        padding: 2px;
+        padding-top: 0px;
+    }
+}
+
+@media(min-width:1036px) and (max-width:1184px){
+
+    /* start cases */
+    
+    .cases .heading img{
+        margin-left: 17vh;
+    }
+
+    .cases .dropdown-menu{
+        margin-left: 62px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .carousel-caption .card img {
+        height: 200px;
+    }
+
+
+    .carousel-item .sec-img{
+        height: 560px;
+    }
+
+    .carousel-caption .card .prog-value{
+        margin-left: 18vh;
+    }
+
+    .carousel-caption .card .prog-value2{
+        margin-left: 15vh;
+    }
+
+    .carousel-caption .card .prog-value3 {
+        margin-left: 9vh;
+    }
+
+    .carousel-caption .card .prog-value4 {
+        margin-left: 21vh;
+    }
+
+    .carousel-caption .card .prog-value6{
+        margin-left: 13vh;
+    }
+
+
+
+    .carousel-caption .card p{
+        width: 100%;
+        padding: 2px;
+        font-size: 15px;
+    }
+
+    .carousel-caption .card h5 {
+        margin-left: 7px;
+    }
+
+
+    .carousel-caption .card a{
+        width: 105px;
+        margin-bottom: 30px;
+        font-size: 1.2rem;
+        padding: 2px;
+        padding-top: 0px;
+    }
+
+    /* start dss box */
+    form .form-body{
+        margin-left: 30vh;
+    }
+}
+
+@media(min-width:1185px) and (max-width:1295px){
+
+    /* start cases */
+    
+    .cases .heading img{
+        margin-left: 25vh;
+    }
+
+    .cases .dropdown-menu{
+        margin-left: 62px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .carousel-caption .card img {
+        height: 200px;
+    }
+
+
+    .carousel-item .sec-img{
+        height: 560px;
+    }
+
+    .carousel-caption .card .prog-value{
+        margin-left: 21vh;
+    }
+
+    .carousel-caption .card .prog-value2{
+        margin-left: 18vh;
+    }
+
+    .carousel-caption .card .prog-value3 {
+        margin-left: 11vh;
+    }
+
+    .carousel-caption .card .prog-value4 {
+        margin-left: 25vh;
+    }
+
+    .carousel-caption .card .prog-value6{
+        margin-left: 15vh;
+    }
+
+
+
+    .carousel-caption .card p{
+        width: 100%;
+        padding: 2px;
+        font-size: 15px;
+    }
+
+    .carousel-caption .card h5 {
+        margin-left: 7px;
+    }
+
+
+    .carousel-caption .card a{
+        width: 105px;
+        margin-bottom: 30px;
+        font-size: 1.2rem;
+        padding: 2px;
+        padding-top: 0px;
+    }
+
+    /* start dss box */
+    form .form-body{
+        margin-left: 42vh;
+    }
+}
+
+/* start DSS Box */
+@media(min-width:320px) and (max-width:400px){
+    form h2{
+    line-height: 0;
+    font-size: 30px;
+    letter-spacing: 2.5px;
+    text-align: center;
+    margin-right: -43vh;
+    margin-bottom: 55px;
+    }
+
+    form .form-body{
+        margin-left: 6vh;
+    }
+
+    form .form-body select{
+        margin-top: 10px;
+    }
+
+    form #donate-kind{
+        margin-left: -9px;
+    }
+
+    .multiselect{
+        width: 355px;
+    }
+ 
+    form .form-body #town{
+        margin-right: 50px;
+    }
+
+    form .form-body #list{
+        margin-right: -15px;
+    }
+
+
+    form .form-body input[type="text"] {
+        margin-top: 10px;
+        margin-right: 20px;
+    }
+
+    form .form-body .need{
+        margin-top: 20px;
+    }
+
+    form .form-body .needy {
+        margin-top: 28px;
+        margin-left: 163px;
+    }
+
+    form .form-body #sub_menu{
+        margin-right: -10px;
+    }
+}
+
+@media(min-width:401px) and (max-width:700px){
+    form h2{
+        line-height: 0;
+        font-size: 30px;
+        letter-spacing: 2.5px;
+        text-align: center;
+        margin-bottom: 55px;
+        }
+
+        form #donate-kind{
+            margin-left: -9px;
+        }
+    
+        form .form-body{
+            margin-left: 1vh;
+            width: 375px;
+        }
+    
+        form .form-body select{
+            margin-top: 10px;
+        }
+     
+        form .form-body #town{
+            margin-right: 50px;
+        }
+    
+        form .form-body #list{
+            margin-right: -15px;
+        }
+    
+    
+        form .form-body input[type="text"] {
+            margin-top: 10px;
+            margin-right: 20px;
+        }
+    
+        form .form-body .need{
+            margin-top: 20px;
+        }
+    
+        form .form-body .needy {
+            margin-top: 28px;
+            margin-left: 163px;
+        }
+    
+        form .form-body #sub_menu{
+            margin-right: -10px;
+        }
+}
+
+@media(min-width:701px) and (max-width:991px){
+    form .form-body{
+        margin-left: 13vh;
+    }
+}
+
+
+
+

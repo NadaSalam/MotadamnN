@@ -1,0 +1,694 @@
+@font-face {
+    font-family: 'NotoNastaliqUrduRegular';
+        src: url("../fonts/NotoNastaliqUrdu-Regular.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* start carousel */
+
+.carousel-item img{
+    height: 610px;
+}
+
+.carousel-caption h1{
+    font-family: 'NotoNastaliqUrduRegular';
+    font-weight: normal;
+    font-style: normal;
+    letter-spacing: 3.5px;
+    line-height: 1.6;
+    font-size: 2.5rem;
+}
+
+.carousel-caption .caption-h{
+    margin-right: 10vh;
+}
+
+
+.carousel-caption .caption{
+    width: 65%;
+    margin-bottom: -40px;
+}
+
+.carousel-caption .caption p{
+    border: 1px solid #fff;
+    padding: 15px 100px;
+    color: #333;
+    background: rgba(255, 255, 255, 0.85);
+    font-size: 20px;
+}
+
+.carousel-caption #caption-p{
+    margin-bottom: 3rem;
+}
+
+/* end carousel */
+
+/* start navbar */
+
+.navbar{
+    margin-left: 49px;
+    margin-top: 30px;
+}
+
+.navbar .navbar-collapse ul li .nav-link .chevron{
+    width: 15px;
+}
+
+.navbar .navbar-collapse ul li .nav-link img{
+    width: 30px;
+    margin-top: 8px;
+}
+
+.dropdown-menu{
+    min-width: 0;
+}
+
+.navbar .dropdown-menu{
+    width: 148px;
+}
+
+.dropdown-item{
+    text-align: center;
+}
+
+.navbar .navbar-collapse ul .dropdown .language{
+    margin-left: -60px;
+    text-align: right;
+    top: 35%;
+    width: 120px;
+}
+
+.navbar .navbar-collapse ul .dropdown .signup{
+    text-align: right;
+    top: 35%;
+    margin-left: 9px;
+}
+
+
+.navbar .navbar-collapse ul li .nav-link button{
+    color: #fff;
+    background: #f7dc0c;
+    border-radius: 5px;
+    margin-right: 25px;
+    font-size: 23px;
+    padding: 5px 10px;
+    letter-spacing: 1px;
+
+}
+
+.navbar .navbar-collapse ul li .nav-link button i{
+    padding-bottom: 4px;
+    font-size: 13px;
+}
+
+.btn:focus{
+    box-shadow: none;
+}
+
+.navbar .navbar-collapse ul li .donate{
+    color: #fff;
+    background: #7FD858;
+    font-size: 24px;
+    font-weight: 400;
+    padding: 6px 10px 5px;
+    margin-top: 8px;
+    border-radius: 5px;
+    margin-right: 100px;
+    letter-spacing: 1px;
+    
+}
+
+.navbar .navbar-collapse ul li .donate:hover{
+    background: #0064BF;
+    color: #fff;
+}
+
+.navbar .navbar-collapse ul .Bar .nav-item{
+    display: inline-block;
+}
+
+.navbar .navbar-collapse ul .Bar li{
+   padding-right: 29px; 
+}
+
+.navbar .navbar-collapse ul .Bar .conect{
+    padding-left: 29px;
+}
+
+.navbar .navbar-collapse ul .Bar .nav-item a:hover{
+    color: #f7dc0c;
+}
+
+.navbar .navbar-collapse ul .Bar li .nav-link{
+    color: #fff;
+    font-family: 'NotoNastaliqUrduRegular';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px;
+    letter-spacing: 1px;
+} 
+
+hr{
+    margin-top: .5rem;
+    background: #ffffff;
+}
+
+.navbar .navbar-collapse ul li .nav-link .logo{
+    width: 285px;
+    margin-left: 120px;
+    margin-top: -65px;
+    
+}
+
+.navbar {
+    transition: top 0.5s ease;
+}
+
+.navbar-hide {
+    top: -200px;
+}
+/* end navbar */
+
+/* start cases */
+
+.cases .heading{
+    position: relative;
+    margin-top: 60px;
+}
+
+.cases .heading img{
+    width: 70px;
+    float: left;
+    margin-left: 25vh;
+    margin-top: -20px;
+   
+}
+
+.cases .dropdown-menu{
+    margin-left: 115px;
+    padding-left: 10px;
+    padding-right: 13px;
+    border: 4px solid #86B9F7;
+    margin-top: 97vh;
+}
+
+.cases .dropdown-menu h4{
+    font-size: 1.25rem;
+    letter-spacing: 1px;
+}
+
+.cases .dropdown-menu h5{
+    color: #0064BF;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    text-align: right;
+}
+
+.cases .dropdown-menu input[type="radio"]{
+    margin-top: 10px;
+}
+.cases .dropdown-menu .form-check{
+    text-align: right;
+}
+
+.cases .dropdown-menu label{
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.cases .dropdown-menu label span{
+    padding-left: 5px;
+}
+
+.cases .dropdown-menu .form-check-input[value="option1"]{
+    margin-left: -11vh;
+}
+
+.cases .dropdown-menu .form-check-input[value="option2"]{
+    margin-left: -10vh;
+}
+
+.cases .dropdown-menu .form-check-input[value="option3"]{
+    margin-left: -7.5vh;
+}
+
+.cases .dropdown-menu .form-check-input[value="option4"]{
+    margin-left: -7vh;
+}
+
+.cases .dropdown-menu .form-check-input[value="option5"]{
+    margin-left: -8vh;
+}
+
+.cases .dropdown-menu .form-check-input[value="option6"]{
+    margin-left: -7.6vh;
+}
+
+.cases .dropdown-menu .gender{
+    margin-left: 37px;
+}
+
+.cases .dropdown-menu .female ,
+.cases .dropdown-menu .male {
+    margin-right: 20px;
+}
+
+select{width: 125px;}
+
+.cases .heading:before{
+    content: " ";
+    display: block;
+    position: absolute;
+    top:50%;
+    left: 0;
+    z-index: -2;
+    background: #7FD858;
+    height: 10px;
+    width: 100%;
+}
+
+.cases .heading h3{
+    text-align: right;
+    margin-top: -60px;
+    margin-right: 100px;
+}
+
+.cases .heading h3 span{
+    background: #86B9F7;
+    color: #ffffff;
+    padding: 10px 70px;
+    padding-bottom: 17px;
+    border-radius: 40%;
+    font-size: 1.5rem;
+}
+
+#carouselExample{
+    margin-top: 70px;
+}
+
+#carouselExample .carousel-caption .col-md-4 ,
+#carouselExampl .carousel-caption .col-md-4{
+    width: 30%;
+}
+
+#carouselExample .carousel-caption .card{
+    margin-bottom: 2vh;
+}
+
+#carouselExampl .carousel-caption .card{
+    margin-bottom: 3vh;
+}
+
+.carousel-caption .card img{
+    height: 210px;
+}
+
+.carousel-caption .card .progress{
+    height: 9px;
+    border-radius: 0;
+}
+
+.carousel-caption .card .progress-bar{
+    background: #0064BF;
+}
+
+.carousel-caption .card .progress-bar4{
+    background: #F7DC0C;
+}
+
+.carousel-caption .card .prog-value ,
+.carousel-caption .card .prog-value2 ,
+.carousel-caption .card .prog-value3 ,
+.carousel-caption .card .prog-value4 ,
+.carousel-caption .card .prog-value6{
+    position: absolute;
+    margin-left: 27vh;
+    border: 1px solid #0064BF;
+    border-radius: 50%;
+    background: #0064BF;
+    padding: 3px 2px;
+    font-family: initial;
+}
+
+.carousel-caption .card .prog-value2{
+    margin-left: 25vh;
+}
+
+.carousel-caption .card .prog-value3{
+    margin-left: 15vh;
+}
+
+.carousel-caption .card .prog-value4{
+    margin-left: 31vh;
+    margin-top: -3px;
+}
+
+.carousel-caption .card .prog-value6{
+    margin-left: 21vh;
+}
+
+.carousel-caption .card h4{
+    color: #F7DC0C;
+    font-family: 'NotoNastaliqUrduRegular';
+    font-weight: normal;
+    font-style: normal;
+    margin-top: 25px;
+    letter-spacing: 1px;
+}
+
+.carousel-caption .card p{
+    color: #000;
+    width: 75%;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 10px auto;
+    font-size: 18px;
+}
+
+.carousel-caption .card h5{
+    color: #0064BF;
+    text-align: left;
+    margin-left: 45px;
+    letter-spacing: 1px;
+    font-size: 1.1rem;
+}
+
+.carousel-caption .card a{
+    background: #7FD858;
+    width: 120px;
+    margin: auto;
+    margin-bottom: 30px;
+    font-size: 1.5rem;
+    padding: 2px 10px;
+    padding-bottom: 8px;
+    border-radius: .4rem;
+}
+
+.carousel-caption .card a:hover{
+    background: #0064BF;
+    color: #fff;
+}
+
+/* end cases */
+
+/* start contact-way*/
+
+.contact-way{
+    background-image: url(../images/5e9a02371ea33222.png);
+    background-size: cover;
+    height: 430px;
+    max-width: 100%;
+    right: 0;
+}
+
+.contact-way .caption{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background: rgba(0, 100, 191, .6);
+
+}
+
+ .contact-way .caption h4{
+    color: #fff;
+    letter-spacing: 2px;
+    line-height: 2em;
+    font-size: 1.35rem;
+    margin-top: 13vh;
+}
+
+.contact-way .caption img{
+    width: 330px;
+}
+
+.contact-way .caption .col-one-hr{
+    width: 85%;
+    background: #fff;
+    margin-top: 20px;
+    border-top: 1px solid #fff;
+}
+
+.contact-way .caption #vertical-line{
+    width: 1px;
+    background: #fff;
+    height: 350px;
+    margin-left: 25vh;
+    margin-top: 50px;
+}
+
+.contact-way .caption .contact-way-logo{
+    float: right;
+    width: 350px;
+    margin-top:-35px;
+    margin-right: -20vh;
+    margin-left: -90px;
+}
+
+.contact-way .caption h5{
+    margin-top: 55px;
+    color: #fff;
+    line-height: 2rem;
+    letter-spacing: 2px;
+    font-family: 'NotoNastaliqUrduRegular';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 35px;
+    
+}
+
+.contact-way .caption h5>span{
+    color: #f7dc0c ;
+}
+
+.contact-way .caption .col-three-hr{
+    margin-top: 50px;
+    width: 62%;
+    margin-right: 12vh;
+    border-top: 1px solid #fff;
+}
+
+.contact-way .caption .contact-us{
+    margin-left: 120px;
+    margin-top: 15px;
+    font-family: 'NotoNastaliqUrduRegular';
+    font-weight: normal;
+    font-style: normal;
+    color: #fff;
+}
+
+.contact-way .caption .social-images{
+    margin-left: 50px;
+}
+
+.contact-way .caption .social-images li{
+    float: left;
+    margin-right: 15px;
+}
+
+.contact-way .caption .social-images li img{
+    width: 40px;
+}
+
+.contact-way .caption table{
+    float: right;
+    margin-top: 10px;
+    margin-right: -100px;
+}
+
+.contact-way .caption table tr h6{
+    padding-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.25rem;
+    color: #ffffff;
+}
+
+.contact-way .caption table tr #call{
+    margin-right: -50px;
+}
+
+.contact-way .caption table tr img{
+    width: 50px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+/* end .contact-way */
+
+/* start footer (edit)*/
+
+.footer{
+    margin-top: 10px; 
+    
+}
+
+.footer .motadamn{
+    margin-right: 65%;
+}
+
+.footer h6{
+    color: #ffffff ;
+    line-height: 0;
+    margin-bottom: 0;
+}
+
+.footer .all{
+    margin-right: -2%;
+}
+
+/* end footer */
+
+
+
+
+/* edit */
+/* start all cases page */
+
+/* start carousel */
+
+.carousel-item .all-image{
+    height: 400px;
+}
+
+.carousel-caption .caption-h{
+    margin-right: 0;
+    font-size: 2rem;
+    letter-spacing: 2.5px;
+}
+
+/* start cases */
+
+
+.cases{
+    margin-top: 70px;
+}
+
+.cases .container{
+    background: rgba(134, 185, 247, 0.3);
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.cases .col-md-4 ,
+.cases .col-md-4{
+    width: 33%;
+}
+
+.cases .card{
+    margin-bottom: 2vh;
+    margin-top: 50px;
+    
+}
+
+.cases .card img{
+    height: 200px;
+}
+
+.cases  .card .progress{
+    height: 9px;
+    border-radius: 0;
+}
+
+.cases .card .progress-bar{
+    background: #0064BF;
+}
+
+.cases .card .prog-value ,
+.cases .card .prog-value2 ,
+.cases .card .prog-value3 {
+    position: absolute;
+    margin-left: 28vh;
+    border: 1px solid #0064BF;
+    border-radius: 50%;
+    background: #0064BF;
+    padding: 3px 2px;
+    font-family: initial;
+}
+
+.cases .card .prog-value2{
+    margin-left: 24vh;
+}
+
+.cases .card .prog-value3{
+    margin-left: 17vh;
+}
+
+
+.cases .card h4{
+    color: #F7DC0C;
+    font-family: 'NotoNastaliqUrduRegular';
+    font-weight: normal;
+    font-style: normal;
+    margin-top: 10px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.card p{
+    color: #000;
+    width: 75%;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 10px auto;
+    font-size: 18px;
+}
+
+.cases .card .charity{ /* edit in class name */
+    color: #0064BF;
+    text-align: left;
+    margin-left: 45px;
+    letter-spacing: 1px;
+    font-size: 1.1rem;
+    margin-bottom: -20px; /*edit */
+}
+
+.cases .card .money{ /* edit */
+    color: #0064BF;
+    text-align: left;
+    margin-right: 20px;
+    letter-spacing: 1px;
+    font-size: 1.1rem;
+}
+
+.cases .card a{
+    background: #7FD858;
+    width: 120px;
+    margin: auto;
+    margin-bottom: 30px;
+    font-size: 1.5rem;
+    padding: 2px 10px;
+    padding-bottom: 8px;
+    border-radius: .4rem;
+}
+
+.cases .card a:hover{
+    background: #0064BF;
+    color: #fff;
+}
+
+.cases a{ /*edit*/
+    background: #038ADD;
+    color: #fff;
+    border-radius: 10px;
+    margin-left: -10%;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.cases a:hover{
+    color: #fff;
+    background-color: #F7DC0C ;
+}
+
+/* end cases */
+
+/* start contact way */
+
+.contact-way{
+    margin-top: 50px;
+}
+
+/* end all cases page */

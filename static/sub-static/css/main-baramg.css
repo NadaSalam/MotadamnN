@@ -1,0 +1,481 @@
+@font-face {
+    font-family: 'NotoNastaliqUrduRegular';
+        src: url("../fonts/NotoNastaliqUrdu-Regular.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* start carousel */
+
+.carousel-item img{
+    height: 480px;
+}
+.slider-opacity{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 999999999;
+    background: rgba(0, 0, 0, .08);
+}
+
+.carousel-caption h1{
+    font-family: 'NotoNastaliqUrduRegular';
+    font-weight: normal;
+    font-style: normal;
+    letter-spacing: 3.5px;
+    margin-bottom: 20vh;
+    line-height: 1.6;
+    font-size: 3rem;
+}
+
+
+/* end carousel */
+
+/* start navbar */
+
+.navbar{
+    margin-left: 49px;
+    margin-top: 30px;
+}
+
+.navbar .navbar-collapse ul li .nav-link .chevron{
+    width: 15px;
+}
+
+.navbar .navbar-collapse ul li .nav-link img{
+    width: 30px;
+    margin-top: 8px;
+}
+
+.dropdown-menu{
+    min-width: 0;
+}
+
+.navbar .dropdown-menu{
+    width: 179px;
+}
+
+.dropdown-item{
+    text-align: center;
+}
+
+.navbar .navbar-collapse ul .dropdown .language{
+    margin-left: -60px;
+    text-align: right;
+    top: 35%;
+    width: 120px;
+}
+
+.navbar .navbar-collapse ul .dropdown .signup{
+    text-align: right;
+    top: 35%;
+    margin-left: 9px;
+}
+
+
+.navbar .navbar-collapse ul li .nav-link button{
+    color: #fff;
+    background: #f7dc0c;
+    border-radius: 5px;
+    margin-right: 25px;
+    font-family: "century-gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 23px;
+    padding: 5px 10px;
+    letter-spacing: 1px;
+}
+
+.navbar .navbar-collapse ul li .nav-link button i{
+    padding-bottom: 4px;
+    font-size: 13px;
+}
+
+.btn:focus{
+    box-shadow: none;
+}
+
+.navbar .navbar-collapse ul li .donate{
+    color: #fff;
+    background: #7FD858;
+    font-size: 24px;
+    font-weight: 400;
+    padding: 6px 10px 5px;
+    margin-top: 8px;
+    border-radius: 5px;
+    margin-right: 100px;
+    /* font-family: cursive; */
+    letter-spacing: 1px;
+    
+    
+}
+
+.navbar .navbar-collapse ul li .donate:hover{
+    background: #0064BF;
+    color: #fff;
+}
+
+.navbar .navbar-collapse ul .Bar .nav-item{
+    display: inline-block;
+}
+
+.navbar .navbar-collapse ul .Bar li{
+   padding-right: 29px; 
+}
+
+.navbar .navbar-collapse ul .Bar .conect{
+    padding-left: 29px;
+}
+
+.navbar .navbar-collapse ul .Bar .nav-item a:hover{
+    color: #f7dc0c;
+}
+
+.navbar .navbar-collapse ul .Bar li .nav-link{
+    color: #fff;
+    font-family: 'NotoNastaliqUrduRegular';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px;
+    letter-spacing: 1px;
+} 
+
+hr{
+    margin-top: .5rem;
+    background: #ffffff;
+}
+
+.navbar .navbar-collapse ul li .nav-link .logo{
+    width: 285px;
+    margin-left: 120px;
+    margin-top: -65px;
+    
+}
+
+.navbar {
+    transition: top 0.5s ease;
+}
+
+.navbar-hide {
+    top: -200px;
+}
+/* end navbar */
+
+/* start social support */
+/* start awgoh el zakat */
+/* start development */
+/* start medical-support */
+/* start .economic-support */
+
+.social-support,
+.awogoh-el-zakat ,
+.development ,
+.medical-support ,
+.economic-support {
+    margin-top: 80px;
+}
+
+.social-support .heading ,
+.awogoh-el-zakat .heading ,
+.development .heading ,
+.medical-support .heading ,
+.economic-support .heading{	
+    text-align: right;
+	position: relative;
+}
+
+.social-support .heading span ,
+.awogoh-el-zakat .heading span ,
+.development .heading span ,
+.medical-support .heading span ,
+.economic-support .heading span{
+	background: #7FD858;
+    margin-right: 50px;
+    padding: 10px 25px;
+    padding-bottom: 17px;
+    border-radius: 40%;
+    color: #fff;
+    font-size: 28px;
+	
+}
+
+.social-support .heading:before ,
+.awogoh-el-zakat .heading:before ,
+.development .heading:before ,
+.medical-support .heading:before ,
+.economic-support .heading:before{
+	content: "";
+    display: block;
+    position: absolute;
+    width: 80%;
+    height: 10px;
+    background: #f7dc0c;
+    top: 50%;
+	left:  0;
+	z-index: -2;
+	
+}
+
+.social-support .heading:after ,
+.awogoh-el-zakat .heading:after ,
+.development .heading:after ,
+.medical-support .heading:after ,
+.economic-support .heading:after{
+	content: "";
+    display: block;
+    position: absolute;
+    width: 45%;
+    height: 10px;
+    background: #f7dc0c;
+    top: 50%;
+	right:  0;
+	z-index: -2;
+} 
+
+.social-support .social .row .col-lg-3,
+.awogoh-el-zakat .zakat .row .col-lg-3,
+.medical-support .medical .row .col-lg-3 ,
+.development .develop .row .col-sm-4 ,
+.economic-support .economic .row .col-lg-3{
+    padding-right: 0;
+}
+
+.social-support .social ,
+.awogoh-el-zakat .zakat ,
+.development .develop ,
+.medical-support .medical ,
+.economic-support .economic{
+    background: #D5D4D4;
+    padding: 10px 10px;
+    margin-top: 50px;
+}
+
+.social-support .social .row .last-col,
+.awogoh-el-zakat .zakat .row .last-col,
+.medical-support .medical .row .last-col ,
+.development .develop .row .last-col ,
+.economic-support .economic .row .last-col{
+    padding-right: 15px;
+}
+
+.social-support .social img ,
+.awogoh-el-zakat .zakat img ,
+.development .develop img ,
+.medical-support .medical img ,
+.economic-support .economic img{
+    max-width: 100%;
+    height: 250px;
+    width: 500px;
+}
+
+.social-support .social .row ,
+.awogoh-el-zakat .zakat .row ,
+.medical-support .medical .row{
+    margin-top: 10px;
+
+}
+
+.social-support .social a ,
+.awogoh-el-zakat .zakat a,
+.development .develop a,
+.medical-support .medical a,
+.medical-support .last-row a,
+.economic-support .economic a{
+    text-decoration: none;
+}
+
+.social-support .social h5 {
+    background: #fff;
+    padding: 22px;
+    color: #333333;
+}
+
+.social-support .social .service{
+    padding: 10px;
+}
+
+.awogoh-el-zakat .zakat h5 ,
+.development .develop h5 ,
+.medical-support .medical h5 ,
+.medical-support .last-row h5 ,
+.economic-support .economic h5{
+    background: #fff;
+    padding: 10px;
+    color: #333333;
+}
+
+/* .awogoh-el-zakat .zakat h5:hover ,
+.development .develop h5:hover ,
+.medical-support .medical h5:hover ,
+.medical-support .last-row h5:hover ,
+.economic-support .economic h5:hover{
+    text-decoration: none;
+} */
+
+.medical-support .last-row{
+    margin-left: 50px;
+    margin-right: 50px;
+    background: #D5D4D4;
+    padding: 10px 10px;
+}
+
+.medical-support .last-row img{
+    max-width: 100%;
+    height: 250px;
+    width: 500px;
+    
+}
+
+/* end social support */
+/* end awgoh el zakat */
+/* end development */
+/* end medical-support */
+/* end .economic-support */
+
+/* start contact-way*/
+
+.contact-way{
+    background-image: url(../images/5e9a02371ea33222.png); /* edit */
+    background-size: cover;
+    height: 430px; /* edit */
+    max-width: 100%;
+    right: 0;
+    margin-top: 50px;
+}
+.contact-way .caption{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background: rgba(0, 100, 191, .6);
+
+}
+
+ .contact-way .caption h4{
+    color: #fff;
+    letter-spacing: 2px;
+    line-height: 2em;
+    font-size: 1.35rem;
+    margin-top: 24vh;
+}
+
+.contact-way .caption img{
+    width: 330px;
+}
+
+.contact-way .caption .col-one-hr{
+    width: 85%;
+    background: #fff;
+    margin-top: 20px;
+}
+
+.contact-way .caption #vertical-line{
+    width: 1px;
+    background: #fff;
+    height: 350px;
+    margin-left: 25vh; /*edit*/
+    margin-top: 50px;
+}
+
+.contact-way .caption .contact-way-logo{
+    float: right;
+    width: 350px;
+    margin-top:-35px;
+    margin-right: -20vh; /*edit */
+    margin-left: -90px;
+}
+
+.contact-way .caption h5{
+    margin-top: 55px;
+    color: #fff;
+    line-height: 2rem;
+    letter-spacing: 2px;
+    font-family: 'NotoNastaliqUrduRegular';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 35px;
+    
+}
+
+.contact-way .caption h5>span{
+    color: #f7dc0c ;
+}
+
+.contact-way .caption .col-three-hr{
+    margin-top: 50px;
+    width: 50%;
+    margin-right: 12vh;
+}
+
+.contact-way .caption .contact-us{ /*edit */
+    margin-left: 120px;
+    margin-top: 15px;
+    font-family: 'NotoNastaliqUrduRegular';
+    font-weight: normal;
+    font-style: normal;
+    color: #fff;
+}
+
+.contact-way .caption .social-images{
+    margin-left: 50px;
+}
+
+.contact-way .caption .social-images li{
+    float: left;
+    margin-right: 15px;
+}
+
+.contact-way .caption .social-images li img{
+    width: 40px;
+}
+
+.contact-way .caption table{
+    float: right;
+    margin-top: 50px;
+    margin-right: -100px;
+}
+
+.contact-way .caption table tr h6{
+    padding-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.25rem;
+    color: #fff;
+}
+
+.contact-way .caption table tr #call{
+    margin-right: -50px;
+}
+
+.contact-way .caption table tr img{
+    width: 50px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+/* end .contact-way */
+
+/* start footer (edit)*/
+
+.footer{
+    margin-top: 10px; 
+    
+}
+
+.footer .motadamn{
+    margin-right: 65%;
+}
+
+.footer h6{
+    color: #ffffff ;
+    line-height: 0;
+    margin-bottom: 0;
+}
+
+.footer .all{
+    margin-right: -2%;
+}
+
+/* end footer */

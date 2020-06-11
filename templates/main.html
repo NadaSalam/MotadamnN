@@ -1,0 +1,399 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>متضامن</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="{%static 'sub-static/css/bootstrap.min.css'%}">
+    <link rel='stylesheet' media='screen' href="{%static 'sub-static/css/main.css'%}">
+    <link rel="stylesheet" media="screen" href="{%static 'sub-static/css/media-home.css'%}">
+    <link rel="stylesheet" media="screen" href="{%static 'sub-static/css/hover.css'%}">
+    <link rel="stylesheet" href="{%static 'sub-static/css/all.min.css'%}">
+
+</head>
+
+<body>
+
+    <!-- start carousel -->#
+
+    <div class="header">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-2 smart-help text-center">
+                  <a href="dss box.html">
+                    <h3>مساعدك الذكي</h3>
+                  </a>
+                  <p> نظام سيساعدك في أختيار طريقة التبرع المناسبة لك</p>
+                  <img src="{%static 'sub-static/images/Polygon 1.png'%}">
+                </div>
+
+                <div class="col-lg-7 slider">
+                    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                          <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                          <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                          <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                        </ol>
+                        <div class="slider-opacity"></div>
+                        <div class="carousel-inner">
+                            <div class="slider-opacity"></div>
+                            <div class="carousel-item active">
+
+                                <img src="{%static 'sub-static/images/received_541087519917184.png'%}" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-md-block">
+                                <h1>’’<span>بمساعدتكم</span> .. هنفرح قلوب كتير’’</h1>
+                                <p> يولد أكثر من مليون طفل كل عام مصابين بعيب خلقي في القلب - ومع ذلك فإن الغالبية العظمى من هؤلاء الأطفال ، ومعظمهم في البلدان النامية ، لن يحصلوا على الرعاية التي يحتاجون إليها من أجل البقاء والنضج </p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 bramg text-center">
+                    <h4 class="text-center">البرامج</h4>
+                    <ul class="list-unstyled">
+                      <a href="social support.html"><li class="li-border">برامج الدعم الاجتماعي</li></a>
+                      <a href="zakat.html"><li class="li-border">أوجه الزكاة</li></a>
+                      <a href="development.html"><li class="li-border">برامج التنمية العمرانية</li></a>
+                      <a href="medical.html"><li class="li-border">برامج الرعاية الصحية</li></a>
+                      <a href="economic support.html"><li class="li-border">برامج التمكين الأقتصادي</li></a>
+                      <a href="index.html"><li>جميع البرامج</li></a>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row doing">
+                <ul class="list-unstyled">
+                  <li class="float-right">توظيف أموال التبرعات بشكل سليم</li>
+                  <li class="float-right">تجميع كل البرامج</li>
+                  <li class="float-right">تجميع كل الجمعيات الخيرية</li>
+                  <li class="float-right">مساعدتك ف تتبع تبرعك</li>
+                </ul>
+               <h5 class="float-right">:نقوم ب</h5>
+            </div>
+        </div>
+    </div>
+
+    <!-- end carousel -->
+
+
+    <!-- start navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <ul class="navbar-nav mr-auto">
+
+          <li class="nav-item dropdown">
+            <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <img class="chevron" src="{%static 'sub-static/images/received_710437753044351.png'%}">
+              <img src="{%static 'sub-static/images/received_1837342366438740.png'%}">
+            </a>
+              <div class="dropdown-menu language" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">English</a>
+                <a class="dropdown-item" href="#">عربي</a>
+              </div>
+          </li>
+
+          <li class="nav-item dropdown ">
+              <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <button class="btn"><i class="fas fa-chevron-down"></i>تسجيل الدخول</button>
+              </a>
+              <div class="dropdown-menu signup" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">جمعية خيرية</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">متبرع</a>
+              </div>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link btn donate" href="dss box.html">تبرع الان</a>
+          </li>
+
+            <span class="Bar">
+              <li class="nav-item conect">
+                <a class="nav-link hvr-shrink" href="#"> تواصل معنا</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link hvr-shrink" href="#">التوعية</a>
+              </li>
+
+              <li class="nav-item">
+                  <a class="nav-link hvr-shrink" href="#">الاخبار</a>
+              </li>
+
+              <li id="li-padding" class="nav-item">
+                  <a class="nav-link hvr-shrink" href="#">عن متضامن</a>
+              </li>
+              <hr>
+            </span>
+
+          <li id="li-padding" class="nav-item">
+              <a class="nav-link" href="main.html">
+                  <img class="logo" src="{%static 'sub-static/images/emptyarabic.png'%}">
+              </a>
+          </li>
+        </ul>
+
+      </div>
+    </nav>
+
+    <!-- end navbar -->
+
+    <!-- start partner-->
+
+    <div class="partner">
+        <div id="carouselExample" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="{%static 'sub-static/images/Path 52.png'%}" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-md-block">
+                  <ul class="list-unstyled">
+                    <li><img class="img-one" src="{%static 'sub-static/images/Ahl-Masr-Foundation-Egypt-19261-1471176400-og.png'%}"></li>
+                    <li><img class="img-two" src="{%static 'sub-static/images/Egyptian_Food_Bank.png'%}"></li>
+                    <li><img class="img-three" src="{%static 'sub-static/images/Logo-for-PRs.png'%}"></li>
+                    <li><img class="img-four" src="{%static 'sub-static/images/53821554113089.png'%}"></li>
+                    <li><img class="img-five" src="{%static 'sub-static/images/s92009823836.png'%}"></li>
+                    <li><img class="img-six" src="{%static 'sub-static/images/orman.png'%}"></li>
+                  </ul>
+                </div>
+              </div>
+
+            </div>
+            <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+
+        </div>
+    </div>
+
+    <!-- end partner-->
+
+    <!-- start mession -->
+
+    <div class="mession">
+        <h3 >مهمتنا</h3>
+        <hr>
+        <p class="shadow-lg text-center">متضامن هو عبارة عن بوابة تقوم بجمع الكثير من الحالات الانسانية التي تحتاج للمساعدة عن طريق التبرع بالاموال لمعالجتهم او لتحسين <br>
+            ظروف معيشتهم . تقوم بتجميع اغلب الحالات من الجمعيات الخيرية الموجودة حاليا و الربط بين <br>
+            تلك الحالات و المتبرعين حتى يعلم المتبرعين اين تذهب اموالهم و يتم توصيلهم بالعديد من الحالات التي لا يستطيعوا الوصول اليهم و تصبح التبرعات موزعة بشكل امثل
+        </p>
+    </div>
+
+    <!-- end mession -->
+
+    <!-- start cases -->
+    <div class="cases">
+        <div id="carouselExample" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="{%static 'sub-static/images/5ea72f020c27f.png'%}" class="d-block w-100 sec-img" alt="...">
+                  <div class="carousel-caption">
+                    <h3>الحالات</h3>
+                    <hr>
+                    <div class="container">
+                      <div class="row">
+                            <!-- start grid card-->
+                            <div class="col-md-4">
+                                <div class="card">
+                                  <img src="{%static 'sub-static/images/vegetablevendoruncovered.png'%}">
+                                  <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                       <div class="prog-value">70%</div>
+                                    </div>
+                                  </div>
+                                  <h4>سعدية</h4>
+                                  <p>Lorem ipsum dolor sit amet ,consectetur adipisicing elitr, set diam nonumy eirmod
+                                  tempore.</p>
+                                  <!-- edit -->
+                                  <h5 class="text-left charity">رسالة</h5>
+                                  <h5 class="text-right money">المبلغ:2500</h5>
+                                  <!-- end edit -->
+                                  <a class="btn">تبرع الان</a>
+                                </div>
+                            </div>
+                            <!-- end grid card-->
+                            <!-- start grid card-->
+
+                            <div class="col-md-4">
+                                <div class="card">
+                                  <img src="{%static 'sub-static/images/5e9a1473bf2e9.png'%}">
+                                  <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                       <div class="prog-value2">60%</div>
+                                    </div>
+                                  </div>
+                                  <h4>عوض</h4>
+                                  <p>Lorem ipsum dolor sit amet ,consectetur adipisicing elitr, set diam nonumy eirmod
+                                  tempore.</p>
+                                  <!-- edit -->
+                                  <h5 class="text-left charity">أهل مصر</h5>
+                                  <h5 class="text-right money">المبلغ:2500</h5>
+                                  <!-- end edit -->
+                                  <a class="btn">تبرع الان</a>
+                                </div>
+                            </div>
+                            <!-- end grid card-->
+                            <!-- start grid card-->
+
+                            <div class="col-md-4">
+                                <div class="card">
+                                  <img src="{%static 'sub-static/images/h2.jpg'%}">
+                                  <div class="progress">
+                                    <div class="progress-bar" role="progressbar" style="width: 40%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                       <div class="prog-value3">40%</div>
+                                    </div>
+                                  </div>
+                                  <h4>احمد</h4>
+                                  <p>Lorem ipsum dolor sit amet ,consectetur adipisicing elitr, set diam nonumy eirmod
+                                  tempore.</p>
+                                  <!-- edit -->
+                                  <h5 class="text-left charity">الأورمان</h5>
+                                  <h5 class="text-right money">المبلغ:2500</h5>
+                                  <!-- end edit -->
+                                  <a class="btn">تبرع الان</a>
+                                </div>
+                            </div>
+                            {% endfor %}
+                            <!-- end grid card-->
+                        </div>
+                    </div>
+                    <!-- edit -->
+                    <a class="btn float-left" href="all cases.html">جميع الحالات</a>
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+
+    <!-- end cases -->
+
+    <!-- start news -->
+
+    <div class="news">
+        <h3 class="new">الأخبار</h3>
+        <hr>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <img src="{%static 'sub-static/images/wound-care.png'%}">
+                        <div class="caption shadow-lg">
+                            <h3 class="text-center">برنامج علاج ضحايا الحوادث والحروق</h3>
+                            <p class="text-center">تم توفير كل سبل العلاج من أول الغرف والعناية المركزة لحد مرحلة إعادة التأهيل، المراحل دي من العلاج تتضمن على سبيل المثال: علاج الحروق، الأدوية، العمليات الجراحية وكمان التأهيل الجسدي والنفسي والاجتماعي عشان نمحي كل آثار المعاناة عن المرضى ويكون عندهم الأمل أنهم يرجعوا يعيشوا مرة تانية بصورة طبيعية وسط المجتمع
+                            </p>
+                            <a class="btn more-btn">إقرأ المزيد</a>
+                        </div>
+                </div>
+
+
+                <div class="col-lg-6">
+                    <img src="{%static 'sub-static/images/ASC_0085.png'%}">
+                        <div class="caption shadow-lg">
+                            <h3 class="text-center">إعادة إعمار المنازل</h3>
+                            <p class="text-center">يتم إعادة تأهيل المنازل التي مساحتها فى حدود متوسط 65 متر مربع بتكلفة 46,000 جنيه وتشمل 2 حجرة + صالة + مطبخ + حمام و
+                                إعادة إعمار وتأهيل عدد 833 قرية وتأهيل عدد 32 ألف منزل منذ بدأ العمل بتكلفة 960 مليون جنيه
+                            </p>
+                            <a class="btn more-button">إقرأ المزيد</a>
+                        </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- end news -->
+
+    <!-- start contact-way -->
+
+    <div class="contact-way">
+      <div class="caption text-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4">
+              <h4>حمل الان تطبيق متضامن</h4>
+              <img src="{%static 'sub-static/images/get-it-on-google-play-png-download-app-1251.png'%}">
+              <hr class="col-one-hr">
+              <ul class="list-unstyled social-images">
+                <li><img src="{%static 'sub-static/images/instagram.png'%}"></li>
+                <li><img src="{%static 'sub-static/images/facebook.png'%}"></li>
+                <li><img src="{%static 'sub-static/images/twitter.png'%}"></li>
+                <li><img src="{%static 'sub-static/images/linkedin.png'%}"></li>
+              </ul>
+            </div>
+            <div class="col-lg-2 ">
+              <div id="vertical-line"></div>
+            </div>
+            <div class="col-lg-6">
+              <img class="contact-way-logo" src="images/emptyarabic.png">
+              <h5 class="text-right">سر التضامن .. <span>التعاون</span></h5>
+              <hr class="col-three-hr">
+              <h6 class="text-center contact-us">تواصل معنا</h6>
+              <table>
+                <tr>
+                  <td><h6>motadamn@gmail.com</h6></td>
+                  <td><img src="{%static 'sub-static/images/email.png'%}"></td>
+                </tr>
+                <tr>
+                  <td><h6 id="call">+201122471913</h6></td>
+                  <td><img src="{%static 'sub-static/images/telephone.png'%}"></td>
+                </tr>
+                <tr>
+                  <td><h6>كلية التجارة - جامعة الاسكندرية</h6></td>
+                  <td><img src="{%static 'sub-static/images/pin.png'%}"></td>
+                </tr>
+              </table>
+            </div>
+          </div>
+
+          <div class="row footer">
+              <div class="col-md-6 col-sm-12">
+                <h6 class="text-right  all">جميع الحقوق محفوظة | متضامن &copy; 2020</h6>
+              </div>
+              <div class="col-md-6 col-sm-12">
+                <h6 class="text-center motadamn">شروط وسياسة متضامن</h6>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <!-- end contact-way -->
+
+    <script src="{%static 'sub-static/js/jquery.js'%}"></script>
+    <script src="{%static 'sub-static/js/popper.min.js'%}"></script>
+    <script src="{%static 'sub-static/js/bootstrap.min.js'%}"></script>
+    <script src="{%static 'sub-static/js/script.js'%}"></script>
+  </body>
+  </html>

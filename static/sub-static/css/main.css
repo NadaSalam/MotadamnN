@@ -1,0 +1,764 @@
+@font-face {
+    font-family: 'farsi_simple_boldregular';
+    src: url('../fonts/arbfonts-farsi_simple_bold.woff2') format('woff2'),
+         url('../fonts/arbfonts-farsi_simple_bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NotoNastaliqUrduRegular';
+        src: url("../fonts/NotoNastaliqUrdu-Regular.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* start header */
+
+.header{
+    background-image: url(../images/Path\ 37.png);
+    background-size: cover;
+    height: 700px;
+    position: relative;
+}
+
+/* start smart-help */
+
+.header .smart-help{
+    margin-top: 29vh;
+    border: 1px solid #ffffff;
+    background: #ffffff;
+    padding: 20px 10px 10px;
+    margin-left: 4%; /* (edit) */
+    border-radius: 10px;
+    height: 200px;
+}
+
+.header .smart-help a:hover{
+    text-decoration: none;
+}
+
+.header .smart-help h3{
+    color: #0064BF;
+    font-family: 'farsi_simple_boldregular';
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+.header .smart-help p{
+    color: #000000;
+    letter-spacing: 1px;
+    font-size: 1.1rem;
+    margin:auto;
+    margin-bottom: 30px;
+}
+
+.header .smart-help img{
+    margin-bottom: 20px;
+    width: 15px;
+}
+
+/* end smart-help */
+
+/* start slider */
+
+.header .slider{
+    margin-top: 20vh;
+    margin-left: 20px;
+}
+
+.header .slider .slider-opacity{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 999999999;
+    background: rgba(0, 0, 0, .1);
+}
+
+.header .slider .carousel-caption h1{
+    margin-bottom: 7vh;
+    font-family: 'NotoNastaliqUrduRegular';
+    font-weight: normal;
+    font-style: normal;
+    color: #038ADD;
+    letter-spacing: 2px;
+    line-height: 2;
+    font-size: 2.8rem;
+}
+
+.header .slider .carousel-caption h1 span{
+    color: #F7DC0C;
+}
+
+.header .slider .carousel-caption p{
+    color: #ffffff;
+    margin-bottom: 10vh;
+    margin-left: 40px;
+    width: 90%;
+    font-size: 20px;
+    line-height: 1.5em;
+    letter-spacing: 1px;
+    
+}
+
+.header .slider .carousel-control-prev ,
+.header .slider .carousel-control-next{
+    z-index: 9999999999;
+}
+
+/* end slider */
+
+/* start bramg */
+
+.header .bramg{
+    float: right;
+    margin-left: 82%; /* (edit) */
+    margin-top: 31vh;
+    position: absolute;
+    border: 1px solid #ffffff;
+    background: #ffffff;
+    border-radius: 10px;
+    width: 250px;
+}
+
+.header .bramg h4{
+    color: #0064BF;
+    margin-top: 30px;
+    font-family: 'NotoNastaliqUrduRegular';
+    font-weight: normal;
+    font-style: normal;
+    margin-bottom: 25px;
+}
+
+.header .bramg li{
+    padding-top: 5px;
+    padding-bottom: 7px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.header .bramg a{
+    color: #000000;
+}
+
+.header .bramg a:hover{
+    color: #7FD858;
+    text-decoration: none;
+}
+
+.header .bramg .li-border{
+    border-bottom: 1px solid #707070;
+}
+
+.header .doing { 
+    float: right;
+    margin-right: 10vh;
+    margin-top: 50px;
+    font-family: 'NotoNastaliqUrduRegular';
+    font-weight: normal;
+    font-style: normal;
+    color: #0064BF;
+}
+
+.header .doing li{
+    margin-right: 20px;
+    color: #0064BF;
+    background: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 30px;
+    padding: 15px 20px;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.header .doing h5{
+    margin-top: 10px;
+}
+
+/* end bramg */
+
+/* end header */
+
+
+/* start navbar */
+
+.navbar{
+    margin-left: 49px;
+    margin-top: 30px;
+}
+
+.navbar .navbar-collapse ul li .nav-link .chevron{
+    width: 15px;
+}
+
+.navbar .navbar-collapse ul li .nav-link img{
+    width: 30px;
+    margin-top: 8px;
+}
+
+.dropdown-menu{
+    min-width: 0;
+}
+
+.navbar .dropdown-menu{
+    width: 179px;
+}
+
+.dropdown-item{
+    text-align: center;
+}
+
+.navbar .navbar-collapse ul .dropdown .language{
+    margin-left: -60px;
+    text-align: right;
+    top: 35%;
+    width: 120px;
+}
+
+.navbar .navbar-collapse ul .dropdown .signup{
+    text-align: right;
+    top: 35%;
+    margin-left: 9px;
+}
+
+
+.navbar .navbar-collapse ul li .nav-link button{
+    color: #fff;
+    background: #f7dc0c;
+    border-radius: 5px;
+    margin-right: 20px;
+    font-size: 23px;
+    padding: 5px;
+    letter-spacing: 1px;
+}
+
+.navbar .navbar-collapse ul li .nav-link button i{
+    padding-bottom: 4px;
+    font-size: 13px;
+}
+
+.btn:focus{
+    box-shadow: none;
+}
+
+.navbar .navbar-collapse ul li .donate{
+    color: #fff;
+    background: #7FD858;
+    font-size: 24px;
+    font-weight: 400;
+    padding: 6px 10px 5px;
+    margin-top: 8px;
+    border-radius: 5px;
+    margin-right: 100px;
+    letter-spacing: 1px;
+    
+    
+}
+
+.navbar .navbar-collapse ul li .donate:hover{
+    background: #0064BF;
+    color: #fff;
+}
+
+.navbar .navbar-collapse ul .Bar .nav-item{
+    display: inline-block;
+}
+
+.navbar .navbar-collapse ul .Bar li{
+   padding-right: 25px; 
+}
+
+.navbar .navbar-collapse ul .Bar .conect{
+    padding-left: 25px;
+}
+
+.navbar .navbar-collapse ul .Bar .nav-item a:hover{
+    color: #f7dc0c;
+}
+
+.navbar .navbar-collapse ul .Bar li .nav-link{
+    color: #fff;
+    font-family: 'farsi_simple_boldregular';
+    font-size: 25px;
+    letter-spacing: 1px;
+} 
+
+hr{
+    margin-top: .5rem;
+    background: #ffffff;
+    border-top: 3px solid #fff
+}
+
+.navbar .navbar-collapse ul li .nav-link .logo{
+    width: 293px;
+    margin-left: 120px;
+    margin-top: -65px;
+    
+}
+
+.navbar {
+    transition: top 0.5s ease;
+}
+
+.navbar-hide {
+    top: -200px;
+}
+/* end navbar */
+
+/* start partner */
+
+.partner .carousel-caption  {
+    bottom: 5px;
+}
+
+.partner .carousel-caption ul{
+    margin-left: 13px;
+}
+
+.partner .carousel-caption ul li {
+   float: left;
+}
+
+.partner .carousel-caption ul li img{
+    height: 90px;
+    margin-right: 25px;
+    
+}
+
+.partner .carousel-caption ul li .img-one{
+    width: 200px;
+}
+
+.partner .carousel-caption ul li .img-two{
+    width: 100px;
+}
+
+.partner .carousel-caption ul li .img-three{
+    width: 200px;
+}
+
+.partner .carousel-caption ul li .img-four{
+    width: 100px;
+}
+
+.partner .carousel-caption ul li .img-five{
+    width: 200px;
+}
+
+.partner .carousel-caption ul li .img-six{
+    width: 100px;
+}
+
+/* end partner */
+
+/* start mession */
+
+.mession{
+    margin-top: 20px;
+}
+
+.mession h3{
+    color: #F7DC0C;
+    margin-right:50px ;
+    margin-top: 20px;
+    text-align: right;
+    font-family: 'farsi_simple_boldregular';
+    letter-spacing: 2px;
+    font-size: 2.5rem;
+}
+
+.mession hr{
+    width: 6%;
+    border: 2px solid #F7DC0C;
+    float: right;
+    margin-right: 65px;
+    margin-top: .1rem;
+}
+
+.mession p{
+    margin-top: 50px;
+    width: 91%;
+    margin-left: 8.5vh;
+    line-height: 3em;
+    letter-spacing: 1px;
+    font-size: 18px;
+    font-weight: bold;
+    padding:40px 70px;
+}
+
+.mession .shadow-lg{
+    box-shadow: 0 1rem 3rem rgba(0,100,191,.3) !important
+}
+
+
+/* end mession */
+
+/* start cases */
+
+.cases{
+    margin-top: 70px;
+}
+
+.cases h3{
+    color: #0064BF;
+    margin-top: 20px;
+    text-align: right;
+    font-family: 'NotoNastaliqUrduRegular';
+    font-weight: normal;
+    font-style: normal;
+    letter-spacing: 2.5px;
+    font-size: 1.5rem;
+    margin-right: -15vh;
+}
+
+.cases hr{
+    width: 7%;
+    border: 2px solid #F7DC0C;
+    float: right;
+    margin-right: -11vh;
+    margin-top: .1rem;
+}
+
+#carouselExample .container{
+    max-width: 100%;
+}
+
+#carouselExample .carousel-caption .col-md-4 ,
+#carouselExampl .carousel-caption .col-md-4{
+    width: 34%;
+}
+
+.cases #carouselExample .carousel-caption .card{
+    margin-bottom: 2vh;
+    margin-top: 50px;
+    
+}
+
+.cases .carousel-caption .card img{
+    height: 210px;
+}
+
+.cases .carousel-caption .card .progress{
+    height: 9px;
+    border-radius: 0;
+}
+
+.cases .carousel-caption .card .progress-bar{
+    background: #0064BF;
+}
+
+.cases .carousel-caption .card .prog-value ,
+.cases .carousel-caption .card .prog-value2 ,
+.cases .carousel-caption .card .prog-value3 {
+    position: absolute;
+    margin-left: 27vh;
+    border: 1px solid #0064BF;
+    border-radius: 50%;
+    background: #0064BF;
+    padding: 3px 2px;
+    font-family: initial;
+}
+
+.cases .carousel-caption .card .prog-value2{
+    margin-left: 23vh;
+}
+
+.cases .carousel-caption .card .prog-value3{
+    margin-left: 15vh;
+}
+
+
+.cases .carousel-caption .card h4{
+    color: #F7DC0C;
+    font-family: 'NotoNastaliqUrduRegular';
+    font-weight: normal;
+    font-style: normal;
+    margin-top: 25px;
+    letter-spacing: 1px;
+}
+
+.carousel-caption .card p{
+    color: #000;
+    width: 75%;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 10px auto;
+    font-size: 18px;
+}
+
+.cases .carousel-caption .card .charity{ /* edit in class name */
+    color: #0064BF;
+    text-align: left;
+    margin-left: 45px;
+    letter-spacing: 1px;
+    font-size: 1.1rem;
+    margin-bottom: -20px; /*edit */
+}
+
+.cases .carousel-caption .card .money{ /* edit */
+    color: #0064BF;
+    text-align: left;
+    margin-right: 20px;
+    letter-spacing: 1px;
+    font-size: 1.1rem;
+}
+
+.cases .carousel-caption .card a{
+    background: #7FD858;
+    width: 120px;
+    margin: auto;
+    margin-bottom: 30px;
+    font-size: 1.5rem;
+    padding: 2px 10px;
+    padding-bottom: 8px;
+    border-radius: .4rem;
+}
+
+.cases .carousel-caption .card a:hover{
+    background: #0064BF;
+    color: #fff;
+}
+
+.cases .carousel-caption > a{ /*edit*/
+    background: #038ADD;
+    color: #fff;
+    border-radius: 10px;
+    margin-left: -10%;
+    padding: 5px;
+}
+
+/* end cases */
+
+/* start news */
+
+.news{
+    margin-top: 50px;
+    
+}
+
+.news h3{
+    color: #0064BF;
+    margin-right:50px ;
+    margin-top: 20px;
+    text-align: right;
+    font-family: 'farsi_simple_boldregular';
+    letter-spacing: 1.5px;
+    font-size: 2rem;
+}
+
+.news hr{
+    width: 4%;
+    border: 2px solid #F7DC0C;
+    float: right;
+    margin-right: 75px;
+    margin-top: -.3rem;
+}
+
+.news img{
+    max-width: 95%;
+}
+
+.news .caption{
+    border: 1px solid #ffffff;
+    background: #ffffff;
+    width: 81%;
+    margin-top: -50px;
+    position: relative;
+    margin-left: 45px;
+    height: 420px;
+}
+
+.news .caption h3{
+    color: #000000;
+    font-weight: bold;
+    font-size: 1.5rem;
+    font-family: 'NotoNastaliqUrduRegular';
+    font-weight: normal;
+    font-style: normal;
+    padding-left: 15px;
+    margin-bottom: 25px;
+}
+
+.news .caption p{
+    width: 85%;
+    line-height: 2em;
+    letter-spacing: 1px;
+    margin: auto;
+}
+
+.news .caption a{
+    background: #F7DC0C;
+    width: 180px;
+    margin-left: 120px;
+    font-size: 1.5rem;
+    padding: 2px 10px;
+    padding-bottom: 8px;
+    border-radius: .4rem;
+    color: #ffffff;
+    font-family: 'NotoNastaliqUrduRegular';
+    font-weight: normal;
+    font-style: normal;
+}
+
+.news .caption .more-btn{
+    margin-top: 35px;
+}
+
+.news .caption a:hover{
+    background: #0064BF;
+}
+
+.news .caption .more-button{
+    margin-top: 95px;
+}
+
+/* start contact-way*/
+
+.contact-way{
+    background-image: url(../images/5e9a02371ea33222.png);
+    background-size: cover;
+    height: 430px;
+    max-width: 100%;
+    right: 0;
+    margin-top: 50px;
+}
+
+.contact-way .caption{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background: rgba(0, 100, 191, .6);
+
+}
+
+ .contact-way .caption h4{
+    color: #fff;
+    letter-spacing: 2px;
+    line-height: 2em;
+    font-size: 1.35rem;
+    margin-top: 13vh;
+}
+
+.contact-way .caption img{
+    width: 330px;
+}
+
+.contact-way .caption .col-one-hr{
+    width: 85%;
+    background: #fff;
+    margin-top: 20px;
+    border-top: 1px solid #fff;
+}
+
+.contact-way .caption #vertical-line{
+    width: 1px;
+    background: #fff;
+    height: 350px;
+    margin-left: 25vh;
+    margin-top: 50px;
+}
+
+.contact-way .caption .contact-way-logo{
+    float: right;
+    width: 350px;
+    margin-top:-35px;
+    margin-right: -20vh;
+    margin-left: -90px;
+}
+
+.contact-way .caption h5{
+    margin-top: 55px;
+    color: #fff;
+    line-height: 2rem;
+    letter-spacing: 2px;
+    font-family: 'NotoNastaliqUrduRegular';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 35px;
+    
+}
+
+.contact-way .caption h5>span{
+    color: #f7dc0c ;
+}
+
+.contact-way .caption .col-three-hr{
+    margin-top: 50px;
+    width: 62%;
+    margin-right: 12vh;
+    border-top: 1px solid #fff;
+}
+
+.contact-way .caption .contact-us{
+    margin-left: 120px;
+    margin-top: 15px;
+    font-family: 'NotoNastaliqUrduRegular';
+    font-weight: normal;
+    font-style: normal;
+    color: #fff;
+}
+
+.contact-way .caption .social-images{
+    margin-left: 50px;
+}
+
+.contact-way .caption .social-images li{
+    float: left;
+    margin-right: 15px;
+}
+
+.contact-way .caption .social-images li img{
+    width: 40px;
+}
+
+.contact-way .caption table{
+    float: right;
+    margin-top: 10px;
+    margin-right: -100px;
+}
+
+.contact-way .caption table tr h6{
+    padding-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.25rem;
+    color: #ffffff;
+}
+
+.contact-way .caption table tr #call{
+    margin-right: -50px;
+}
+
+.contact-way .caption table tr img{
+    width: 50px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+/* end .contact-way */
+
+/* start footer (edit)*/
+
+.footer{
+    margin-top: 10px; 
+    
+}
+
+.footer .motadamn{
+    margin-right: 65%;
+}
+
+.footer h6{
+    color: #ffffff ;
+    line-height: 0;
+    margin-bottom: 0;
+}
+
+.footer .all{
+    margin-right: -2%;
+}
+
+/* end footer */
