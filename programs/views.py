@@ -1,6 +1,7 @@
 from django.shortcuts import render
 
 
+
 def all_programs(request):
     return render(request , 'programs/index.html')
 
@@ -102,7 +103,7 @@ def orphans(request):
 
 def orphans_marriage(request):
     return render(request ,'programs/yatemat.html' )
-    
+
 def fetr(request):
     return render(request ,'programs/fetr.html' )
 

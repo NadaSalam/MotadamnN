@@ -1,0 +1,756 @@
+@font-face {
+    font-family: 'NotoNastaliqUrduRegular';
+        src: url("../fonts/NotoNastaliqUrdu-Regular.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    background-image: url(../images/103965433_275193807172184_7104016625147606433_n.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 752px;
+}
+
+/* start navbar */
+
+.navbar{
+    margin-left: 49px;
+    margin-top: 30px;
+}
+
+.navbar .navbar-collapse ul li .nav-link .chevron{
+    width: 15px;
+}
+
+.navbar .navbar-collapse ul li .nav-link img{
+    width: 30px;
+    margin-top: 8px;
+}
+
+.dropdown-menu{
+    min-width: 0;
+}
+
+.navbar .dropdown-menu{
+    width: 148px;
+}
+
+.dropdown-item{
+    text-align: center;
+}
+
+.navbar .navbar-collapse ul .dropdown .language{
+    margin-left: -60px;
+    text-align: right;
+    top: 35%;
+    width: 120px;
+}
+
+.navbar .navbar-collapse ul .dropdown .signup{
+    text-align: right;
+    top: 35%;
+    margin-left: 9px;
+}
+
+
+.navbar .navbar-collapse ul li .nav-link button{
+    color: #fff;
+    background: #f7dc0c;
+    border-radius: 5px;
+    margin-right: 25px;
+    font-size: 23px;
+    padding: 5px 10px;
+    letter-spacing: 1px;
+
+}
+
+.navbar .navbar-collapse ul li .nav-link button i{
+    padding-bottom: 4px;
+    font-size: 13px;
+}
+
+.btn:focus{
+    box-shadow: none;
+}
+
+.navbar .navbar-collapse ul li .donate{
+    color: #fff;
+    background: #7FD858;
+    font-size: 24px;
+    font-weight: 400;
+    padding: 6px 10px 5px;
+    margin-top: 8px;
+    border-radius: 5px;
+    margin-right: 100px;
+    letter-spacing: 1px;
+    
+}
+
+.navbar .navbar-collapse ul li .donate:hover{
+    background: #0064BF;
+    color: #fff;
+}
+
+.navbar .navbar-collapse ul .Bar .nav-item{
+    display: inline-block;
+}
+
+.navbar .navbar-collapse ul .Bar li{
+   padding-right: 29px; 
+}
+
+.navbar .navbar-collapse ul .Bar .conect{
+    padding-left: 29px;
+}
+
+.navbar .navbar-collapse ul .Bar .nav-item a:hover{
+    color: #f7dc0c;
+}
+
+.navbar .navbar-collapse ul .Bar li .nav-link{
+    color: #fff;
+    font-family: 'NotoNastaliqUrduRegular';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px;
+    letter-spacing: 1px;
+} 
+
+hr{
+    margin-top: .5rem;
+    background: #ffffff;
+}
+
+.navbar .navbar-collapse ul li .nav-link .logo{
+    width: 285px;
+    margin-left: 120px;
+    margin-top: -65px;
+    
+}
+
+.navbar {
+    transition: top 0.5s ease;
+}
+
+.navbar-hide {
+    top: -200px;
+}
+/* end navbar */
+
+/* start question */
+
+.question h2{
+    margin-left: 29%;
+    margin-top: 13%;
+    font-family: 'NotoNastaliqUrduRegular';
+    position: absolute;
+    border: 1px solid #ffffff;
+    background: #ffffff;
+    padding: 10px 40px 20px;
+    font-size: 1.5rem;
+    letter-spacing: 3px;
+}
+
+.question form{
+    direction: rtl;
+    float: right;
+    background: rgba(255, 255, 255, 0.73);
+    margin-right: 25%;
+    margin-top: 15%;
+    border-radius: 10px;
+
+}
+
+.form-field{
+    padding: 15px 50px;
+}
+
+.question form .f-field{
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.question .form-field sub{
+    bottom: -4px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.question .form-field h5 {
+    text-align: right; 
+    color: #0064BF;  
+}
+
+.question .form-field label{
+    margin-left: 10px;
+}
+
+.question .form-field h5 sup{
+    color: red;
+    font-size: 20px;
+}
+
+.label{
+    margin-right: 40px;
+}
+
+.zero{
+    margin-left: 20px;
+}
+
+.question .th-field{
+    float: right;
+}
+
+.question .zero-encome{
+    position: absolute;
+    margin-right: -67.5vh;
+}
+
+.question .fi-encome{
+    position: absolute;
+    margin-right: -45vh;
+}
+
+.question .th-encome{
+    position: absolute;
+    margin-right: -19vh;
+}
+  
+  input[type=radio] {
+    display: none;
+}
+  
+  label::before ,
+  label::before{
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    -webkit-box-shadow: inset 0px 0px 0px 1px #ffffff;
+    -moz-box-shadow: inset 0px 0px 0px 1px #ffffff;
+    box-shadow: inset 0px 0px 0px 1px #ffffff;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    margin: 0px -24px -4px 7px;
+    transition: all .25s ease;
+    background: #fff;
+    cursor: pointer;
+
+}
+ 
+  input[type=radio]:checked + label::before {
+    content: "";
+    -webkit-box-shadow: inset 0px 0px 0px 10px #7FD858;
+    -moz-box-shadow: inset 0px 0px 0px 10px #7FD858;
+    box-shadow: inset 0px 0px 0px 10px #7FD858;
+}
+
+.question form input[type="text"]{
+    width: 136px;
+    padding: 0px;
+    margin-right: 10px;
+    direction: rtl;
+}
+
+.h5{
+    float: right;
+}
+
+.question .btnn{
+    background: #038ADD;
+    color: #fff;
+    position: absolute;
+    margin-top: 7.5%;
+    padding: 5px 15px;
+    margin-right: -8%;
+    font-size: 18px;
+    border: 1px solid #038ADD;
+}
+
+
+/* start gharmeen page */
+
+.question form .g-field{
+    padding: 30px 50px;
+}
+
+.question form .yes{
+    position: absolute;
+    margin-right: -84vh;
+}
+
+.question form .no{
+    position: absolute;
+    margin-right: -62vh;
+}
+
+.question form .s-field{
+    padding-bottom: 0;
+}
+
+.question form .two-thousand{
+    position: absolute;
+    margin-right: -65vh;
+}
+
+.question form .thousand{
+    position: absolute;
+    margin-right: -42vh;
+}
+
+.question .zer{
+    position: absolute;
+    margin-right: -64.5vh;
+}
+
+.question .fi-haundred{
+    position: absolute;
+    margin-right: -42vh;
+}
+
+.question .mo-thousand{
+    position: absolute;
+    margin-right: -17vh;
+}
+
+.question form .more{
+    position: absolute;
+    margin-right: -17vh;
+}
+
+.question .btnnn{
+    background: #038ADD;
+    color: #fff;
+    position: absolute;
+    margin-top: 7%;
+    padding: 5px 15px;
+    margin-right: -8%;
+    font-size: 18px;
+    border: 1px solid #038ADD;
+}
+
+/* end gharmeen page */
+
+/* start economic page */
+
+.question form .age{
+    position: absolute;
+    margin-right: -83vh;
+}
+
+.question form .older{
+    position: absolute;
+    margin-right: -61vh;
+}
+
+.question form .tw-thousand{
+    position: absolute;
+    margin-right: -64vh;
+}
+
+.question form .thousan{
+    position: absolute;
+    margin-right: -42vh;
+}
+
+.question form .labell{
+    margin-right: 35px;
+}
+
+.question form .more-f{
+    position: absolute;
+    margin-right: -16vh;
+}
+
+.question input[type="text" + class="eco"]{ 
+    width: 120px;
+    padding: 0px;
+    margin-right: 10px;
+ 
+}
+
+/* end economic page */
+
+/* start burns page */
+
+.question form .three{
+    position: absolute;
+    margin-right: -87vh;
+}
+
+.question form .four{
+    position: absolute;
+    margin-right: -70vh;
+}
+
+.question form .five{
+    position: absolute;
+    margin-right: -53vh;
+}
+  
+
+/* start surgery page */
+
+.question form .ag{
+    position: absolute;
+    margin-right: -44vh;
+}
+
+.question form .twinty{
+    position: absolute;
+    margin-right: -63vh;
+}
+
+.question form .forty{
+    position: absolute;
+    margin-right: -26vh;
+}
+
+.question form .mre{
+    position: absolute;
+    margin-right: -41vh;
+}
+
+.question form .f-padding{
+    margin-bottom: 30px;
+}
+
+
+
+.question .h2{
+    margin-left: 30%;
+    margin-top: 10%;
+    font-family: 'NotoNastaliqUrduRegular';
+    position: absolute;
+    border: 1px solid #ffffff;
+    background: #ffffff;
+    padding: 10px 40px 20px;
+    font-size: 1.5rem;
+    letter-spacing: 3px;
+}
+
+.question .form{
+    direction: rtl;
+    float: right;
+    background: rgba(255, 255, 255, 0.73);
+    margin-right: 30%;
+    margin-top: 12%;
+    border-radius: 10px;
+    padding-right:30px;
+    padding-left: 30px;
+}
+
+.question .butt{
+    background: #038ADD;
+    color: #fff;
+    position: absolute;
+    margin-top: 10%;
+    padding: 5px 15px;
+    margin-right: -5%;
+    font-size: 18px;
+    border: 1px solid #038ADD;
+}
+
+/* end surgery page */
+
+/* start special people page */
+
+.question .for{
+    direction: rtl;
+    float: right;
+    background: rgba(255, 255, 255, 0.73);
+    margin-right: 30%;
+    margin-top: 15%;
+    border-radius: 10px;
+    padding-right:30px;
+    padding-left: 30px;
+}
+
+.question .s-h2{
+    margin-left: 26%;
+    margin-top: 13%;
+    font-family: 'NotoNastaliqUrduRegular';
+    position: absolute;
+    border: 1px solid #ffffff;
+    background: #ffffff;
+    padding: 10px 40px 20px;
+    font-size: 1.5rem;
+    letter-spacing: 3px;
+}
+
+.question .se-field{
+    margin-top: 25px;
+}
+
+.question .stat{
+    margin-right: 6vh;
+}
+
+.question .not-stat{
+    margin-right: 4vh;
+}
+
+.question .asaba{
+    position: absolute;
+    margin-right: 5vh;
+    margin-top: -4vh;
+}
+
+.question .lab{
+    position: absolute;
+    margin-top: -4vh;
+    margin-right: 15vh;
+}
+
+.question .ashren{
+    position: absolute;
+    margin-right: -73vh;
+}
+
+.question .arb3en{
+    position: absolute;
+    margin-right: -50vh;
+}
+
+.question .more-arb3en{
+    position: absolute;
+    margin-right: -27vh;
+}
+
+.question .butnn{
+    background: #038ADD;
+    color: #fff;
+    position: absolute;
+    margin-top: 11.5%;
+    padding: 5px 15px;
+    margin-right: -5%;
+    font-size: 18px;
+    border: 1px solid #038ADD;
+}
+
+/* end special people page */
+
+/* start development page */
+
+.question .d-h2{
+    margin-left: 36%;
+    margin-top: 13%;
+    font-family: 'NotoNastaliqUrduRegular';
+    position: absolute;
+    border: 1px solid #ffffff;
+    background: #ffffff;
+    padding: 10px 40px 20px;
+    font-size: 1.5rem;
+    letter-spacing: 3px;
+}
+
+.question form .house{
+    position: absolute;
+    margin-right: -50vh;
+}
+
+.question form .water{
+    position: absolute;
+    margin-right: -30vh;
+}
+
+.question form .elec{
+    position: absolute;
+    margin-right: -20vh;
+}
+
+/* end development page */
+
+/* start clothes page */
+
+.question .fi-field{
+    padding-top: 35px;
+    padding-bottom: 10px;
+}
+
+.question .eight{
+    position: absolute;
+    margin-right: -88vh;
+}
+
+.question .m-eight{
+    position: absolute;
+    margin-right: -68vh;
+}
+
+.question .mo-forty{
+    position: absolute;
+    margin-right: -45vh;
+}
+
+.question .lbe{
+    margin-right: 4vh;
+}
+
+/* end clothes page */
+
+/* start heart page */
+
+.question .fom{
+    direction: rtl;
+    float: right;
+    background: rgba(255, 255, 255, 0.73);
+    margin-right: 30%;
+    margin-top: 12%;
+    border-radius: 10px;
+    padding-right:30px;
+    padding-left: 60px;
+}
+
+.question .h-h2{
+    margin-left: 35%;
+    margin-top: 10%;
+    font-family: 'NotoNastaliqUrduRegular';
+    position: absolute;
+    border: 1px solid #ffffff;
+    background: #ffffff;
+    padding: 10px 40px 20px;
+    font-size: 1.5rem;
+    letter-spacing: 3px;
+}
+
+.question .fil-padding{
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.question  .thirty{
+    position: absolute;
+    margin-right: -49vh;
+}
+
+.question .fifty{
+    position: absolute;
+    margin-right: -30.5vh;
+}
+
+.question .m-fifty{
+    position: absolute;
+    margin-right: -8vh;
+}
+
+.question .mounth{
+    position: absolute;
+    margin-right: -50vh;
+}
+
+.question .six-mounth{
+    position: absolute;
+    margin-right: -33vh;
+}
+
+.question .more-six{
+    position: absolute;
+    margin-right: -8vh;
+}
+
+.question .buttn{
+    background: #038ADD;
+    color: #fff;
+    position: absolute;
+    margin-top: 10%;
+    padding: 5px 15px;
+    margin-right: -3%;
+    font-size: 18px;
+    border: 1px solid #038ADD;
+}
+
+/* end heart page */
+
+/* start aoram page */
+
+.question .a-h2{
+    margin-left: 20%;
+    margin-top: 13%;
+    font-family: 'NotoNastaliqUrduRegular';
+    position: absolute;
+    border: 1px solid #ffffff;
+    background: #ffffff;
+    padding: 10px 40px 20px;
+    font-size: 1.5rem;
+    letter-spacing: 3px;
+}
+
+.question .ashreen{
+    position: absolute;
+    margin-right: -85vh;
+}
+
+.question .arb3een{
+    position: absolute;
+    margin-right: -64vh;
+}
+
+.question .more-arb3een{
+    position: absolute;
+    margin-right: -41vh;
+}
+
+.question .labl{
+    position: absolute;
+    margin-top: -4vh;
+    margin-right: 24vh;
+}
+
+.question .buttnn{
+    background: #038ADD;
+    color: #fff;
+    position: absolute;
+    margin-top: 11.5%;
+    padding: 5px 15px;
+    margin-right: -7%;
+    font-size: 18px;
+    border: 1px solid #038ADD;
+}
+
+/* end aoram page */
+
+/* start treatment page */
+
+.question .formm{
+    direction: rtl;
+    float: right;
+    background: rgba(255, 255, 255, 0.73);
+    margin-right: 30%;
+    margin-top: 15%;
+    border-radius: 10px;
+    padding-right:30px;
+    padding-left: 60px;
+}
+
+.question .t-h2{
+    margin-left: 35%;
+    margin-top: 13%;
+    font-family: 'NotoNastaliqUrduRegular';
+    position: absolute;
+    border: 1px solid #ffffff;
+    background: #ffffff;
+    padding: 10px 40px 20px;
+    font-size: 1.5rem;
+    letter-spacing: 3px;
+}
+
+.question .sixx-mounth{
+    position: absolute;
+    margin-right: -29vh;
+}
+
+.question .buttnnn{
+    background: #038ADD;
+    color: #fff;
+    position: absolute;
+    margin-top: 7.5%;
+    padding: 5px 15px;
+    margin-right: -3%;
+    font-size: 18px;
+    border: 1px solid #038ADD;
+}

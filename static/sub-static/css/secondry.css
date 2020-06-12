@@ -526,7 +526,7 @@ select{width: 125px;}
 }
 
 .footer .motadamn{
-    margin-right: 65%;
+    margin-right: 65%; 
 }
 
 .footer h6{
@@ -634,6 +634,7 @@ select{width: 125px;}
     padding-right: 10px;
     margin: 10px auto;
     font-size: 18px;
+    text-align: center;
 }
 
 .cases .card .charity{ /* edit in class name */

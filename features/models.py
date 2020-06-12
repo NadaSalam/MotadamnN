@@ -8,12 +8,10 @@ class Features(models.Model):
     def __str__(self):
         return self.name
                                                  #to retrive the object name
-
     class Meta:
         verbose_name = 'features'
-        verbose_name_plural = 'features' 
+        verbose_name_plural = 'features'
                                                  #to rename the plural name in admin
         managed = True
         db_table = 'features'
                                                   #managing by
-

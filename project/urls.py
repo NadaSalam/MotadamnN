@@ -12,6 +12,7 @@ urlpatterns = [
 
     path('', include('programs.urls')),
     # path('', include('dss_box.urls')),
+    path('', include('features.urls')),
 
 ]
 urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)

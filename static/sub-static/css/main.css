@@ -432,7 +432,7 @@ hr{
 
 .cases #carouselExample .carousel-caption .card{
     margin-bottom: 2vh;
-    margin-top: 50px;
+    margin-top: 40px;
     
 }
 
@@ -481,7 +481,10 @@ hr{
 
 .carousel-caption .card p{
     color: #000;
-    width: 75%;
+    max-height: 75%;
+    height: 100px;
+    min-height: 100px;
+    width: 77%;
     padding-left: 10px;
     padding-right: 10px;
     margin: 10px auto;
@@ -527,6 +530,11 @@ hr{
     border-radius: 10px;
     margin-left: -10%;
     padding: 5px;
+}
+
+.cases .carousel-caption > a:hover{
+    background: #f7dc0c;
+    color: #ffffff;
 }
 
 /* end cases */
