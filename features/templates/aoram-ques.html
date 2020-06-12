@@ -1,0 +1,152 @@
+{% load  static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>اسئلة رعاية المسنين</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href=" {% static 'sub-static/css/bootstrap.min.css' %}">
+    <link rel='stylesheet' media='screen' href="{% static 'sub-static/css/ques.css' %} ">
+    <link rel='stylesheet' media='screen' href=" {% static 'sub-static/css/media queries-baramg.css' %}">
+    <link rel="stylesheet" media="screen" href=" {% static 'sub-static/css/hover.css' %}">
+    <link rel="stylesheet" href=" {% static 'sub-static/css/all.min.css' %}">
+
+</head>
+<body>
+
+    <!-- start navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+          <ul class="navbar-nav mr-auto">
+
+            <li class="nav-item dropdown">
+                <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <img class="chevron" src="{% static 'sub-static/images/received_710437753044351.png' %} ">
+                  <img src=" {% static 'sub-static/images/received_1837342366438740.png' %} ">
+                </a>
+                <div class="dropdown-menu language" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">English</a>
+                  <a class="dropdown-item" href="#">عربي</a>
+                </div>
+            </li>
+
+              <li class="nav-item dropdown ">
+                <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <button class="btn"><i class="fas fa-chevron-down"></i>تسجيل الدخول</button>
+                </a>
+                <div class="dropdown-menu signup" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">جمعية خيرية</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">متبرع</a>
+                </div>
+              </li>
+
+            <li class="nav-item">
+              <a class="nav-link btn donate" href="dss box.html">تبرع الان</a>
+            </li>
+
+              <span class="Bar">
+                <li class="nav-item conect">
+                    <a class="nav-link hvr-shrink" href="#"> تواصل معنا</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link hvr-shrink" href="#">التوعية</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link hvr-shrink" href="#">الاخبار</a>
+                </li>
+
+                <li id="li-padding" class="nav-item">
+                    <a class="nav-link hvr-shrink" href="#">عن متضامن</a>
+                </li>
+                <hr>
+              </span>
+
+            <li id="li-padding" class="nav-item">
+                <a class="nav-link" href="main.html">
+                    <img class="logo" src="{% static 'sub-static/images/emptyarabic.png' %} ">
+                </a>
+            </li>
+          </ul>
+
+        </div>
+    </nav>
+
+    <!-- end navbar -->
+
+    <!-- start question -->
+    <div class="question">
+      <h2>برنامج الأورام</h2>
+      <form id="form">
+
+        <div class="form-field f-field">
+          <h5><sub>*</sub><span> السن؟</span><sup>*</sup></h5>
+          <input type="radio" id="yes" name="السن" value="من 0 حتي 20" />
+          <label class="ashreen" for="yes"><span>من 0 حتي 20 سنة </span></label>
+          <input type="radio" id="n-direct" name="السن" value="من 20 الي 40"/>
+          <label for="n-direct" class="arb3een"><span>من 20 حتي 40 سنة</span></label>
+          <input type="radio" id="direct" name="السن" value="اكبر من
+          40"/>
+          <label for="direct" class="more-arb3een"><span>أكبرمن 40 سنة</span></label>
+        </div>
+
+        <div class="form-field th-field se-field">
+            <h5 class="h5"><sub>*</sub><span>مرحلة الأصابة؟</span><sup>*</sup></h5>
+            <input type="radio" id="may" name="مرحلة الاصابة" value="0&1" />
+            <label class="label" for="may"><span>مرحلة 0 و 1</span></label>
+            <input type="radio" id="not-may" name="مرحلة الاصابة" value="2&3"/>
+            <label for="not-may" class="label"><span>مرحلة 2 و 3</span></label>
+            <input type="radio" id="may-be" name="مرحلة الاصابة" value="4"/>
+            <label for="may-be" class="label"><span>مرحلة 4</span></label>
+        </div>
+        <br>
+        <div class="form-field th-field">
+          <h5 class="h5"><sub>*</sub><span>هل الحالة في خطر؟</span><sup>*</sup></h5>
+          <input type="radio" id="there" name="هل الحالة ف خطر" value="نعم" />
+          <label class="label" for="there"><span>نعم</span></label>
+          <input type="radio" id="not" name="هل الحالة ف خطر" value="لا"/>
+          <label for="not" class="label"><span>لا</span></label>
+        </div>
+        <br>
+        <div class="form-field th-field">
+          <h5 class="h5"><sub>*</sub><span>الوقت المتبقي حتي تصبح الحالة خطيرة</span><sup>*</sup></h5>
+          <input type="radio" id="yup" name="الوقت المتبقي لتصبح الحالة خطيرة" value="أقل من 6 شهور" />
+          <label class="label" for="yup"><span>أقل من 6 أشهر</span></label>
+          <input type="radio" id="no" name="الوقت المتبقي لتصبح الحالة خطيرة" value="أكثر من 6 أشهر"/>
+          <label for="no" class="label"><span>أكثر من 6 أشهر</span></label>
+        </div>
+
+        <br>
+        <div class="form-field th-field">
+            <h5><sub>*</sub><span>خطورة العضو المصاب</span><sup>*</sup></h5>
+            <input type="radio" id="zero" name="خطورة العضو المصاب" value="خطورة طبيعية" />
+            <label class="asaba" for="zero"><span class="zero" >خطورة طبيعية</span></label>
+            <input type="radio" id="thousand" name="خطورة العضو المصاب" value="أقصي خطورة"/>
+            <label class="labl" for="thousand"><span>أقصي خطورة</span></label>
+        </div>
+
+
+
+        <input class="buttnn" type="submit" value="إضافة">
+      </form>
+
+    </div>
+
+    <!-- end question -->
+
+    <script src=" {% static 'sub-static/js/jquery.js' %} "></script>
+    <script src=" {% static 'sub-static/js/popper.min.js' %}"></script>
+    <script src=" {% static 'sub-static/js/bootstrap.min.js' %}"></script>
+    <script src=" {% static 'sub-static/js/script.js' %}"></script>
+</body>
+</html>

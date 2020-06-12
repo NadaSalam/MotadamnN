@@ -1,0 +1,151 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>اسئلة التنمية</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="{% static 'sub-static/css/bootstrap.min.css' %}">
+    <link rel='stylesheet' media='screen' href="{% static 'sub-static/css/ques.css' %} ">
+    <link rel='stylesheet' media='screen' href="{% static 'sub-static/css/media queries-baramg.css' %} ">
+    <link rel="stylesheet" media="screen" href="{% static 'sub-static/css/hover.css' %} ">
+    <link rel="stylesheet" href="{% static 'sub-static/css/all.min.css' %} ">
+
+</head>
+<body>
+
+    <!-- start navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+          <ul class="navbar-nav mr-auto">
+
+            <li class="nav-item dropdown">
+                <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <img class="chevron" src="{% static 'sub-static/images/received_710437753044351.png' %} ">
+                  <img src="{% static 'sub-static/images/received_1837342366438740.png' %} ">
+                </a>
+                <div class="dropdown-menu language" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">English</a>
+                  <a class="dropdown-item" href="#">عربي</a>
+                </div>
+            </li>
+
+              <li class="nav-item dropdown ">
+                <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <button class="btn"><i class="fas fa-chevron-down"></i>تسجيل الدخول</button>
+                </a>
+                <div class="dropdown-menu signup" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">جمعية خيرية</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">متبرع</a>
+                </div>
+              </li>
+
+            <li class="nav-item">
+              <a class="nav-link btn donate" href="dss box.html">تبرع الان</a>
+            </li>
+
+              <span class="Bar">
+                <li class="nav-item conect">
+                    <a class="nav-link hvr-shrink" href="#"> تواصل معنا</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link hvr-shrink" href="#">التوعية</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link hvr-shrink" href="#">الاخبار</a>
+                </li>
+
+                <li id="li-padding" class="nav-item">
+                    <a class="nav-link hvr-shrink" href="#">عن متضامن</a>
+                </li>
+                <hr>
+              </span>
+
+            <li id="li-padding" class="nav-item">
+                <a class="nav-link" href="main.html">
+                    <img class="logo" src=" {% static 'sub-static/images/emptyarabic.png' %}">
+                </a>
+            </li>
+          </ul>
+
+        </div>
+    </nav>
+
+    <!-- end navbar -->
+
+    <!-- start question -->
+    <div class="question">
+      <h2 class="d-h2">برنامج التنمية</h2>
+      <form id="form" class="for">
+
+        <div class="form-field f-field">
+          <h5 class="h5"><sub>*</sub><span>نوع الأعمار</span><sup>*</sup></h5>
+          <br>
+          <input type="radio" id="house" name="نوع الأعمار" value="منزل" />
+          <label class="house" class="label" for="house"><span>إعادة إعمار منزل</span></label>
+          <input type="radio" id="water" name="نوع الأعمار" value="مياه"/>
+          <label class="water" for="water" class="label"><span>مياه</span></label>
+          <input type="radio" id="elec" name="نوع الأعمار" value="كهرباء أو شئ أخر"/>
+          <label class="elec" for="elec" class="label"><span>كهرباء أو شئ أخر</span></label>
+        </div>
+
+        <div class="form-field th-field se-field">
+            <h5 class="h5"><sub>*</sub><span>هل إعادة التعمير مهمة؟</span><sup>*</sup></h5>
+            <input type="radio" id="may" name="هل التعمير مهم" value="نعم" />
+            <label class="label" for="may"><span>نعم</span></label>
+            <input type="radio" id="not-may" name="هل التعمير مهم" value="لا"/>
+            <label for="not-may" class="label"><span>لا</span></label>
+        </div>
+        <br>
+        <div class="form-field th-field">
+          <h5 class="h5"><sub>*</sub><span>هل القرية معزولة؟</span><sup>*</sup></h5>
+          <input type="radio" id="there" name="هل القرية معزولة" value="نعم" />
+          <label class="label" for="there"><span>نعم</span></label>
+          <input type="radio" id="not" name="هل القرية معزولة" value="لا"/>
+          <label for="not" class="label"><span>لا</span></label>
+        </div>
+        <br>
+        <div class="form-field th-field">
+          <h5 class="h5"><sub>*</sub><span>العدد
+              ؟</span><sup>*</sup></h5>
+          <input type="radio" id="yup" name="العدد" value="أقل من 50 فرد" />
+          <label class="label" for="yup"><span>أقل من 50 فرد</span></label>
+          <input type="radio" id="no" name="العدد" value="أكثر من 50 فرد"/>
+          <label for="no" class="label"><span>أكثر من 50 فرد</span></label>
+        </div>
+
+        <br>
+        <div class="form-field th-field">
+            <h5><sub>*</sub><span>المستفيد؟</span><sup>*</sup></h5>
+            <input type="radio" id="zero" name="المستفيد" value="قرية" />
+            <label class="asaba" for="zero"><span class="zero" >قرية</span></label>
+            <input type="radio" id="thousand" name="المستفيد" value="عائلة"/>
+            <label class="lab" for="thousand"><span>عائلة</span></label>
+        </div>
+
+
+
+        <input class="butnn" type="submit" value="إضافة">
+      </form>
+
+    </div>
+
+    <!-- end question -->
+    <script src="{% static 'sub-static/js/jquery.js' %}"></script>
+    <script src="{% static 'sub-static/js/popper.min.js' %} "></script>
+    <script src="{% static 'sub-static/js/bootstrap.min.js' %} "></script>
+    <script src="{% static 'sub-static/js/script.js' %} "></script>
+
+</body>
+</html>
