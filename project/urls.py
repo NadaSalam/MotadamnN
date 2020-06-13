@@ -10,10 +10,9 @@ urlpatterns = [
     path('', views.home),
     path('all_cases', views.all_cases),
 
-    path('', include('programs.urls')),
-    # path('', include('dss_box.urls')),
+    path('', include('category.urls')),
+    path('', include('donation.urls')),
     path('', include('features.urls')),
-
 ]
 urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

@@ -1,11 +1,8 @@
-from django.shortcuts import render
-
+from django.shortcuts import render , get_object_or_404
+from category.models import Category
+from category.models import Subcategory
+from donation.views import Donation
 from cases.models import Cases
-
-
-
-
-
 
 def all_cases(request):
     all_cases = Cases.objects.all()
@@ -22,3 +19,5 @@ def home(request):
         'home': home ,
     }
     return render(request , 'main.html', context)
+
+

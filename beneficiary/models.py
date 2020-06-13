@@ -18,7 +18,7 @@ class Beneficiary(models.Model):
     def __str__(self):
         return self.name
 
-#ooo
+
     class Meta:
         verbose_name = 'beneficiary'
         verbose_name_plural = 'beneficiaries'
