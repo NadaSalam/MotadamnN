@@ -14,7 +14,8 @@ import os
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-
+TEMPLATE_DIR = os.path.join(BASE_DIR, 'templates')
+STATIC_DIR = os.path.join(BASE_DIR, 'static')
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
@@ -37,19 +38,13 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'programs',
-    'dss_box',
+    'category',
     'charity',
     'donor',
     'features',
-    'supercategory',
     'cases',
-    'subcategory',
-    'subcategoryfeatures',
     'beneficiary',
-    'cases_features',
     'donation',
-    'donation_cases',
     'fundraising',
     
 
@@ -71,7 +66,7 @@ ROOT_URLCONF = 'project.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['templates'],
+        'DIRS': [TEMPLATE_DIR,],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -86,20 +81,9 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'project.wsgi.application'
 
-
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
-#
-# '''DATABASES = {
-#    'default': {
-#        'ENGINE': 'django.db.backends.mysql',
-#        'NAME': 'motadamn_database',
-#        'USER':'root',
-#        'PASSWORD':'',
-#        'HOST':'localhost',
-#        'PORT':'3306',
-#    }
-# }'''
+
 DATABASES = {
      'default': {
          'ENGINE': 'django.db.backends.sqlite3',
@@ -143,11 +127,17 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
+
+#Static files
+STATIC_URL = '/static/'
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, "static"),
+    STATIC_DIR,
 ]
 
+# Media files
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
-STATIC_URL = '/static/'
-MEDIA_URL  ='/media/'
-MEDIA_ROOT = os.path.join(BASE_DIR , 'media')
+# LOGIN URL
+LOGIN_URL = 'login'
+

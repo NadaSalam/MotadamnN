@@ -1,5 +1,6 @@
 from django.db import models
 from donor.models import Donor
+from category.models import Subcategory
                                                      #importing
 
 class Donation(models.Model):
@@ -9,6 +10,7 @@ class Donation(models.Model):
     payment_method = models.CharField(max_length=7)
     created_at = models.DateTimeField()
     donor = models.ForeignKey(Donor, models.DO_NOTHING)
+    subcatego = models.ManyToManyField(Subcategory)
                                                      #database
 
     class Meta:    

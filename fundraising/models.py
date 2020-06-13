@@ -1,6 +1,5 @@
 from django.db import models
-from subcategory.models import Subcategory
-                                                     #importing
+from category.models import Subcategory                                                 #importing
 
 class Fundraising(models.Model):
     id = models.BigAutoField(primary_key=True)
@@ -8,9 +7,8 @@ class Fundraising(models.Model):
     start_date = models.DateField()
     end_date = models.DateField()
     description = models.TextField()
-    photo = models.CharField(max_length=255)
     created_at = models.DateTimeField()
-    sub = models.ForeignKey(Subcategory, models.DO_NOTHING)
+    categ = models.ForeignKey(Subcategory, models.DO_NOTHING) 
                                                      #database
     def __str__(self):
         return self.name
