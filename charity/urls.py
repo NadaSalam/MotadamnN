@@ -6,5 +6,6 @@ urlpatterns = [
     path('charity/gme3halatwaiting',views.gme3halatwaiting),
     path('charity/halataccepted',views.halataccepted),
     path('charity/profile_elgm3ia',views.profile_elgm3ia),
+    path('charity/add_mostafed',views.add_mostafed),
 
 ]

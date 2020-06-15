@@ -160,21 +160,3 @@ function calcu(){
             document.getElementById("aGold").value = ""
         } 
 }
-
-
-// var count = 1;
-// function setColor(btn, color) {
-//     var property = document.getElementById(btn);
-//     if (count == 0) {
-//         property.style.backgroundColor = "#F7DC0C"
-//         count = 1;        
-//     }
-//     else {
-//         property.style.backgroundColor = "#0064BF"
-//         count = 0;
-//     }
-// }
-
-  
-
-

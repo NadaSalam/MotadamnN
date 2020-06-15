@@ -1,0 +1,344 @@
+.background{
+    background-image: url(../images/as.jpeg);
+    height: 400PX; 
+    max-width: 100%;
+    background-size: cover;
+
+    }
+    
+/* start navbar */
+
+.navbar{
+    margin-left: 49px;
+    margin-top: 30px;
+}
+
+.navbar .navbar-collapse ul li .nav-link .chevron{
+    width: 15px;
+}
+
+.navbar .navbar-collapse ul li .nav-link img{
+    width: 30px;
+    margin-top: 8px;
+}
+
+.dropdown-menu{
+    min-width: 0;
+}
+
+.navbar .dropdown-menu{
+    width: 148px;
+}
+
+.dropdown-item{
+    text-align: center;
+}
+
+.navbar .navbar-collapse ul .dropdown .language{
+    margin-left: -60px;
+    text-align: right;
+    top: 35%;
+    width: 120px;
+}
+
+.navbar .navbar-collapse ul .dropdown .signup{
+    text-align: right;
+    top: 35%;
+    margin-left: 9px;
+}
+
+
+.navbar .navbar-collapse ul li .nav-link button{
+    color: #fff;
+    background: #f7dc0c;
+    border-radius: 5px;
+    margin-right: 25px;
+    font-size: 23px;
+    padding: 5px 3px;
+    letter-spacing: 1px;
+}
+
+.navbar .navbar-collapse ul li .nav-link button i{
+    padding-bottom: 4px;
+    font-size: 13px;
+}
+
+.btn:focus{
+    box-shadow: none;
+}
+.btn-primary {
+    color: #7FD858;
+    background-color: transparent;
+    border-color: #fff; /*set the color you want here*/
+    font-size: 25px;
+}
+.btn-primary:hover {
+    color: #0064BF;
+    background-color:transparent;
+    border-color: #fff; /*set the color you want here*/
+    cursor: pointer;
+
+}
+
+
+
+.navbar .navbar-collapse ul li .donate{
+    color: #fff;
+    background: #7FD858;
+    font-size: 24px;
+    font-weight: 400;
+    padding: 6px 15px 5px;
+    margin-top: 8px;
+    border-radius: 5px;
+    margin-right: 100px;
+    letter-spacing: 1px;
+    
+}
+
+.navbar .navbar-collapse ul li .donate:hover{
+    background: #0064BF;
+    color: #fff;
+}
+
+.navbar .navbar-collapse ul .Bar .nav-item{
+    display: inline-block;
+    font-family: 'NotoNastaliqUrduRegular';
+    text-decoration: none;
+     transition-duration: 0.4s;
+}
+/*
+.nav-item a{
+    background-color: #4CAF50; /* Green 
+    color: #F7DC0C;
+} */
+.btn-primary {
+    color: #fff;
+    background-color: transparent;
+    border-color: #fff; /*set the color you want here*/
+    font-size: 25px;
+}
+.btn-primary:hover {
+    color: #F7DC0C;
+    background-color:transparent;
+    border-color: #fff; /*set the color you want here*/
+}
+
+
+
+
+.navbar .navbar-collapse ul .Bar li{
+   padding-right: 29px; 
+}
+
+.navbar .navbar-collapse ul .Bar .conect{
+    padding-left: 29px;
+}
+.navbar .navbar-collapse ul .Bar .nav-item a:hover{
+    color: #F7DC0C;
+}
+
+.navbar .navbar-collapse ul .Bar li .nav-link{
+    color: #fff;
+    font-family: 'NotoNastaliqUrduRegular';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px;
+    letter-spacing: 1px;
+} 
+
+hr{
+    padding: 1px;
+    margin-top: .5rem;
+    background: #ffffff;
+}
+
+.navbar .navbar-collapse ul li .nav-link .logo{
+    width: 289px;
+    margin-left: 120px;
+    margin-top: -75px;
+    
+}
+
+.navbar {
+    transition: top 0.5s ease;
+}
+
+.navbar-hide {
+    top: -200px;
+}
+/* end navbar */
+/* dialog start */
+.case{
+    margin-bottom: 50px;
+}
+
+.view-case .avatar{
+    z-index: 222;
+    width: 130px;
+    position: relative;
+    margin-top: -60px;
+    margin-right: 10%;
+    float: right;
+}
+
+
+.view-case .person{
+    z-index: 222;
+    width: 130px;
+    position: relative;
+    margin-top: -60px;
+    margin-right: 10%;
+    float: right;
+}
+
+
+.view-case .img{
+    z-index: 222;
+    width: 200px;
+    position: relative;
+    margin-top: -110px;
+    margin-left: 3%;
+    float: left;
+    border-radius: 50%;
+}
+
+.view-case .img1{
+    z-index: 222;
+    width: 200px;
+    position: relative;
+    margin-top: -110px;
+    margin-left: -5%;
+    float: left;
+    border-radius: 50%;
+}
+
+.view-case .border-out{
+    margin-top: 40px;
+    padding: 5px;
+    width: 70%;
+    margin-left: 16%;
+}
+
+.view-case .out{
+    margin-top: 40px;
+    padding: 5px;
+    width: 85%;
+    margin-left: 9%;
+}
+
+.border-out .content{
+    border: 3px solid #F7DC0C;
+    padding: 20px 100px;
+}
+
+.border-out .content1{
+    border: 4px solid #7FD858;
+    padding: 20px 100px;
+}
+
+.border-out .content h5 span{
+    letter-spacing: 1px;
+    font-size: 1.3rem;
+}
+
+.border-out .content h5 sub{
+    bottom: -5px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 5px;
+    color: #000000;
+}
+
+.border-out .content .label{
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+}
+
+.border-out .content .label1{
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+    direction: rtl;
+}
+
+.border-out .content a{
+    text-decoration: underline;
+}
+
+.border-out .content label .span{
+    color: #7FD858;
+    margin-right: 5px;
+}
+ .star {
+    color: red !important;
+    font-size: 20px !important;
+    top: -.3rem !important;
+}
+ #usr {
+    width: 38%;
+    margin-top: -37px;
+    margin-left: 356px;
+
+}
+#usrr{
+    margin-left: 300px !important;
+    width: 38%;
+    margin-top: -37px;
+
+
+}#usrrr{
+    margin-left: 290px !important;
+    width: 38%;
+    margin-top: -37px;
+
+
+}
+#byt{
+    margin-right: 300px;
+    
+}
+#byyt{
+    width: 128%;
+    background-color: #F7DC0C;
+    height: 2px;
+    margin-left: -102px !important;
+    margin-top: -16px;
+    margin-bottom: 18px;
+}
+.padd{
+    padding-right: 30px !important;
+}
+.higgh{
+width:28%;
+}
+.faar{
+margin-top: 15px;
+}
+.zbttt{
+    display: inline-flex;
+  
+}
+.mmm{
+margin-bottom: 20px;
+}
+.donatee{
+    outline: none;
+    color: #fff;
+    background: #F7DC0C;
+    font-size: 24px;
+    font-weight: 400;
+    padding: 6px 10px 5px;
+    margin-top: -15px;
+    letter-spacing: 1px;
+    border-radius: 45px;
+    width: 115px;
+    border: none;
+    margin-left: 115px;
+    
+}
+ .donatee:hover{
+    background: #0064BF;
+    color: #fff;
+}
+
+
+/* dialog end */

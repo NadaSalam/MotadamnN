@@ -32,3 +32,11 @@ def profile_elgm3ia(request):
         'profile_elgm3ia': profile_elgm3ia ,
     }
     return render(request , 'profile-elgm3ia.html', context)
+
+                         #View Add Mostafeden
+def add_mostafed(request):
+    add_mostafed = Charity.objects.all()
+    context={
+        'add_mostafed': add_mostafed ,
+    }
+    return render(request , 'addmostafed.html', context)
