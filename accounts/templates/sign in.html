@@ -1,0 +1,61 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>تسجيل الدخول</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'sub-static/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'sub-static/css/sign in.css' %}">
+</head>
+<body>
+  <div class="caption">
+    <a href="{% static 'sub-static/main.html' %}">
+        <img src="{% static 'sub-static/images/emptyarabic.png' %}">
+    </a>
+    <form>
+        <div class="content shadow-lg">
+            <h2>تسجيل الدخول</h2>
+            <h4>مستخدم جديد ؟</h4>
+            <label><a href="#">انشئ حساب</a></label>
+            <div class="txt_field">
+                <input name="username" type="text" required>
+                <span></span>
+                <img src="{% static 'sub-static/images/emails.png' %}">
+                <label>mostafamohamed@gmail.com</label>
+            </div>
+            <div class="txt_field">
+                <input name="password" type="password" required>
+                <span></span>
+                <img src="{% static 'sub-static/images/lock.png' %}">
+                <label class="password">كلمة السر</label>
+                <img class="eye" src="{% static 'sub-static/images/medical.png' %}">
+            </div>
+            <a href="#">
+                <h4 class="text-right">هل نسيت كلمة السر ؟</h4>
+            </a>
+            <button type="submit">تسجيل الدخول</button>
+            <h6>أو سجل عن طريق</h6>
+            <div class="site-one">
+                <img src="{% static 'sub-static/images/social-media.png' %}">
+            </div>
+            <div class="site-two">
+                <img src="{% static 'sub-static/images/windows-media-audio (1).png' %}">
+            </div>
+            <div class="site-three">
+                <img src="{% static 'sub-static/images/windows-media-audio.png' %}">
+            </div>
+
+        </div>
+    </form>
+  </div>
+
+
+
+
+  <script src="{% static 'sub-static/js/jquery.js' %}"></script>
+  <script src="{% static 'sub-static/js/popper.min.js' %}"></script>
+  <script src="{% static 'sub-static/js/bootstrap.min.js' %}"></script>
+</body>
+</html>

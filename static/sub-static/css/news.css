@@ -1,11 +1,36 @@
-.background{
-    background-image: url(../images/as.jpeg);
-    height: 400PX; 
-    max-width: 100%;
-    background-size: cover;
+@font-face {
+    font-family: 'NotoNastaliqUrduRegular';
+        src: url("../fonts/NotoNastaliqUrdu-Regular.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 
-    }
-    
+@font-face {
+    font-family: 'farsi_simple_boldregular';
+    src: url('../fonts/arbfonts-farsi_simple_bold.woff2') format('woff2'),
+         url('../fonts/arbfonts-farsi_simple_bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* start carousel */
+
+.carousel-item img{
+    height: 500px;
+}
+
+.carousel-caption h1{
+    font-family: 'NotoNastaliqUrduRegular';
+    font-weight: normal;
+    font-style: normal;
+    letter-spacing: 3.5px;
+    line-height: 1.6;
+    font-size: 2.5rem;
+    margin-bottom: 10%;
+}
+
+/* end carousel */
+
 /* start navbar */
 
 .navbar{
@@ -54,8 +79,9 @@
     border-radius: 5px;
     margin-right: 25px;
     font-size: 23px;
-    padding: 5px 3px;
+    padding: 5px 10px;
     letter-spacing: 1px;
+
 }
 
 .navbar .navbar-collapse ul li .nav-link button i{
@@ -66,28 +92,13 @@
 .btn:focus{
     box-shadow: none;
 }
-.btn-primary {
-    color: #7FD858;
-    background-color: transparent;
-    border-color: #fff; /*set the color you want here*/
-    font-size: 25px;
-}
-.btn-primary:hover {
-    color: #0064BF;
-    background-color:transparent;
-    border-color: #fff; /*set the color you want here*/
-    cursor: pointer;
-
-}
-
-
 
 .navbar .navbar-collapse ul li .donate{
     color: #fff;
     background: #7FD858;
     font-size: 24px;
     font-weight: 400;
-    padding: 6px 15px 5px;
+    padding: 6px 10px 5px;
     margin-top: 8px;
     border-radius: 5px;
     margin-right: 100px;
@@ -102,29 +113,7 @@
 
 .navbar .navbar-collapse ul .Bar .nav-item{
     display: inline-block;
-    font-family: 'NotoNastaliqUrduRegular';
-    text-decoration: none;
-     transition-duration: 0.4s;
 }
-/*
-.nav-item a{
-    background-color: #4CAF50; /* Green 
-    color: #F7DC0C;
-} */
-.btn-primary {
-    color: #fff;
-    background-color: transparent;
-    border-color: #fff; /*set the color you want here*/
-    font-size: 25px;
-}
-.btn-primary:hover {
-    color: #F7DC0C;
-    background-color:transparent;
-    border-color: #fff; /*set the color you want here*/
-}
-
-
-
 
 .navbar .navbar-collapse ul .Bar li{
    padding-right: 29px; 
@@ -133,8 +122,9 @@
 .navbar .navbar-collapse ul .Bar .conect{
     padding-left: 29px;
 }
+
 .navbar .navbar-collapse ul .Bar .nav-item a:hover{
-    color: #F7DC0C;
+    color: #f7dc0c;
 }
 
 .navbar .navbar-collapse ul .Bar li .nav-link{
@@ -147,15 +137,14 @@
 } 
 
 hr{
-    padding: 1px;
     margin-top: .5rem;
     background: #ffffff;
 }
 
 .navbar .navbar-collapse ul li .nav-link .logo{
-    width: 289px;
+    width: 285px;
     margin-left: 120px;
-    margin-top: -75px;
+    margin-top: -65px;
     
 }
 
@@ -165,172 +154,166 @@ hr{
 
 .navbar-hide {
     top: -200px;
-}
-/* end navbar */
-/* img ahl msr start*/
-.ahl-msr{
-    margin-top: -94px;
-    margin-left: 221px;
-}
-.ahl-msr img{
-    width: 200px;
-    height: 200px;
-}
-/* ahl masr img end */
-/* gme3 elmostafeden start */
-
-.development {
-    margin-top: 40px;
-}
-.development .heading {	
-    text-align: right;
-    position: relative;
-    margin-bottom: 50px;
-}
-.development .heading span{
-	background: #7FD858;
-    margin-right: 130px;
-    padding: 10px 25px;
-    padding-bottom: 17px;
-    border-radius: 40px;
-    color: #fff;
-    font-size: 28px;
-	
-}
-.development .heading:before{
-	content: "";
-    display: block;
-    position: absolute;
-    width: 80%;
-    height: 10px;
-    background: #f7dc0c;
-    top: 50%;
-	left:  0;
-	z-index: -2;
-	
-}
-.development .heading:after {
-	content: "";
-    display: block;
-    position: absolute;
-    width: 45%;
-    height: 10px;
-    background: #f7dc0c;
-    top: 50%;
-	right:  0;
-	z-index: -2;
 } 
-/* gme3 el mostafeden end */
-/* <!-- table of people info start --> */
-.table thead th {
-    border-bottom: 2px solid #66b2ff;
-}
-.table-bordered td, .table-bordered th {
-    border: 1px solid #66b2ff;
-}
-.table{
-    width: 55%;
-    margin-left: 306px;
-    text-align: center;
 
-}
+/* end navbar */
 
-/* <!-- table of people info end --> */
-/* add new case start */
-.move{
-    margin-top: -645px;
-    margin-left: 268px;
-}
-div .row {
-    height: 48px;
-    background-color: transparent;
-    margin-right: 0em;
+/* start news */
 
-}
-div .column {
-    margin-right: -80px;
-}
-div .column img {
-    width: 25px;
-    height: 25px;
-    margin-left: 15px;
-}
-/* add new case end */
-
-/* <!-- add new case box start --> */
-.space{
-    margin-bottom: 60px;
-
-}
-.btnn{
-    background-color: transparent;
-    border: 1px solid transparent;
-    outline: 0 !important;
-
-}
-/* <!-- add new case box end --> */
-#space{
-    margin-bottom: 40px;
-}
-.donatee{
-    color: #fff;
-    background: #F7DC0C;
-    font-size: 24px;
-    font-weight: 400;
-    padding: 6px 10px 5px;
-    margin-top: 8px;
-    margin-right: 100px;
-    letter-spacing: 1px;
-    border-radius: 45px;
-    width: 115px;
-    border: none;
-
+.news{
+    margin-top: 50px;
+    background-image: url(../images/50-Beautiful-and-Minimalist-Presentation-Backgrounds-045.png);
+    background-size: cover;
+    
     
 }
- .donatee:hover{
-    background: #0064BF;
-    color: #fff;
-}
-/* pagination start */
-.movee{
-    margin-left: 15px !important;
-}
-.moveee{
-    background-color: #0064BF !important;
 
+.news h3{
+    color: #0064BF;
+    margin-right:50px ;
+    margin-top: 20px;
+    text-align: right;
+    font-family: 'farsi_simple_boldregular';
+    letter-spacing: 1.5px;
+    font-size: 2rem;
 }
 
-.button{
-    border: none;
-    outline: none;
-    color: #fff;
-    text-decoration: none;
-    background-color: #F7DC0C;
-    border-radius: 45px;
-    padding:10px ;
-    width: 100px;
-    text-align: center;
+.news hr{
+    width: 4%;
+    border: 2px solid #F7DC0C;
+    float: right;
+    margin-right: 75px;
+    margin-top: -.3rem;
+}
+
+.news img{
+    max-width: 95%;
+}
+
+.news .caption{
+    border: 1px solid #ffffff;
+    background: #ffffff;
+    width: 81%;
+    margin-top: -50px;
+    position: relative;
+    margin-left: 45px;
+    height: 400px;
+}
+
+.news .caption h3{
+    color: #000000;
+    font-weight: bold;
+    font-size: 1.75rem;
+    font-family: 'farsi_simple_boldregular';
     font-weight: normal;
     font-style: normal;
-    font-family:'NotoNastaliqUrduRegular';
-    margin-left: 705px;
-    margin-bottom: -45px;
-
-}
-.button:hover{
-    color: #fff;
-    text-decoration: none;
+    padding-left: 15px;
+    margin-bottom: 10px;
+    letter-spacing: normal;
 }
 
-/* pagination end */
+.news .caption p{
+    width: 85%;
+    line-height: 2em;
+    letter-spacing: 1px;
+    margin: auto;
+}
+
+.news .caption a{
+    background: #F7DC0C;
+    width: 180px;
+    margin-left: 120px;
+    font-size: 1.5rem;
+    padding: 2px 10px;
+    padding-bottom: 8px;
+    border-radius: .4rem;
+    color: #ffffff;
+    font-family: 'NotoNastaliqUrduRegular';
+    font-weight: normal;
+    font-style: normal;
+}
+
+.news .caption .more-btn{
+    margin-top: 15px;
+}
+
+.news .caption .more-bttn{
+    margin-top: 75px;
+}
+
+.news .caption .moore-bttn{
+    margin-top: 93px;
+}
+
+.news .caption .moore-btn{
+    margin-top: 35px;
+}
+
+.news .caption a:hover{
+    background: #0064BF;
+}
+
+.news .caption .more-button{
+    margin-top: 45px;
+} 
+
+.news .caption .more-buttton{
+    margin-top: 5px;
+}
+
+.news .caption .morre-button{
+    margin-top: 30px;
+}
+
+/* end news */
+
+/* start slider */
+
+.slideer{
+    background-image: url(../images/Rectangle\ .png);
+    margin-top: 70px;
+}
+
+.slideer img{
+    width: 30px;
+    margin-bottom: 8px;
+}
+
+.slideer h1{
+    display: inline-block;
+    background: #fff;
+    font-weight: normal;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding: 3px 10px;
+    font-size: 1.5rem;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.slideer .first-slide{
+    display: inline-block;
+    background: #f7dc0c;
+    font-weight: normal;
+    border: 1px solid #f7dc0c;
+    border-radius: 50%;
+    padding: 3px 10px;
+    font-size: 1.5rem;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+/* end slider */
+
 /* start contact-way*/
 
 .contact-way{
-    background-image: url(../images/5e9a02371ea331.png);
+    background-image: url(../images/5e9a02371ea33222.png);
     background-size: cover;
-    height: 500px;
+    height: 430px;
     max-width: 100%;
     right: 0;
+    margin-top: 20px;
 }
 
 .contact-way .caption{
@@ -348,7 +331,7 @@ div .column img {
     letter-spacing: 2px;
     line-height: 2em;
     font-size: 1.35rem;
-    margin-top: 25vh;
+    margin-top: 20vh;
 }
 
 .contact-way .caption img{
@@ -359,13 +342,14 @@ div .column img {
     width: 85%;
     background: #fff;
     margin-top: 20px;
+    border-top: 1px solid #fff;
 }
 
 .contact-way .caption #vertical-line{
     width: 1px;
     background: #fff;
-    height: 400px;
-    margin-left: 145px;
+    height: 350px;
+    margin-left: 25vh;
     margin-top: 50px;
 }
 
@@ -373,7 +357,7 @@ div .column img {
     float: right;
     width: 350px;
     margin-top:-35px;
-    margin-right: -25vh;
+    margin-right: -20vh;
     margin-left: -90px;
 }
 
@@ -395,12 +379,14 @@ div .column img {
 
 .contact-way .caption .col-three-hr{
     margin-top: 50px;
-    width: 50%;
+    width: 62%;
     margin-right: 12vh;
+    border-top: 1px solid #fff;
 }
 
-.contact-way .caption h6{
+.contact-way .caption .contact-us{
     margin-left: 120px;
+    margin-top: 15px;
     font-family: 'NotoNastaliqUrduRegular';
     font-weight: normal;
     font-style: normal;
@@ -422,7 +408,7 @@ div .column img {
 
 .contact-way .caption table{
     float: right;
-    margin-top: 50px;
+    margin-top: 10px;
     margin-right: -100px;
 }
 
@@ -430,6 +416,7 @@ div .column img {
     padding-bottom: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.25rem;
+    color: #ffffff;
 }
 
 .contact-way .caption table tr #call{
@@ -444,15 +431,29 @@ div .column img {
 
 /* end .contact-way */
 
-/* start footer */
+/* start footer (edit)*/
 
 .footer{
-    margin-top: 10px;
-   
+    margin-top: 10px; 
+    
+}
+
+.footer .motadamn{
+    margin-right: 65%; 
 }
 
 .footer h6{
-    color: #038ADD ;
+    color: #ffffff ;
+    line-height: 0;
+    margin-bottom: 0;
+}
+
+.footer .all{
+    margin-right: -2%;
 }
 
 /* end footer */
+
+
+
+

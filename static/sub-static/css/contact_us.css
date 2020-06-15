@@ -1,0 +1,385 @@
+@font-face {
+    font-family: 'NotoNastaliqUrduRegular';
+        src: url("../fonts/NotoNastaliqUrdu-Regular.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'farsi_simple_boldregular';
+    src: url('../fonts/arbfonts-farsi_simple_bold.woff2') format('woff2'),
+         url('../fonts/arbfonts-farsi_simple_bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* start carousel */
+
+.carousel-item img{
+    height: 500px;
+}
+
+.carousel-item .carousel-caption h1{
+    font-family: 'NotoNastaliqUrduRegular';
+    margin-bottom: 18%;
+    letter-spacing: 2px;
+    font-size: 2.5rem;
+}
+
+/* end carousel */
+
+/* start navbar */
+
+.navbar{
+    margin-left: 49px;
+    margin-top: 30px;
+}
+
+.navbar .navbar-collapse ul li .nav-link .chevron{
+    width: 15px;
+}
+
+.navbar .navbar-collapse ul li .nav-link img{
+    width: 30px;
+    margin-top: 8px;
+}
+
+.dropdown-menu{
+    min-width: 0;
+}
+
+.navbar .dropdown-menu{
+    width: 148px;
+}
+
+.dropdown-item{
+    text-align: center;
+}
+
+.navbar .navbar-collapse ul .dropdown .language{
+    margin-left: -60px;
+    text-align: right;
+    top: 35%;
+    width: 120px;
+}
+
+.navbar .navbar-collapse ul .dropdown .signup{
+    text-align: right;
+    top: 35%;
+    margin-left: 9px;
+}
+
+
+.navbar .navbar-collapse ul li .nav-link button{
+    color: #fff;
+    background: #f7dc0c;
+    border-radius: 5px;
+    margin-right: 25px;
+    font-size: 23px;
+    padding: 5px 10px;
+    letter-spacing: 1px;
+
+}
+
+.navbar .navbar-collapse ul li .nav-link button i{
+    padding-bottom: 4px;
+    font-size: 13px;
+}
+
+.btn:focus{
+    box-shadow: none;
+}
+
+.navbar .navbar-collapse ul li .donate{
+    color: #fff;
+    background: #7FD858;
+    font-size: 24px;
+    font-weight: 400;
+    padding: 6px 10px 5px;
+    margin-top: 8px;
+    border-radius: 5px;
+    margin-right: 100px;
+    letter-spacing: 1px;
+    
+}
+
+.navbar .navbar-collapse ul li .donate:hover{
+    background: #0064BF;
+    color: #fff;
+}
+
+.navbar .navbar-collapse ul .Bar .nav-item{
+    display: inline-block;
+}
+
+.navbar .navbar-collapse ul .Bar li{
+   padding-right: 29px; 
+}
+
+.navbar .navbar-collapse ul .Bar .conect{
+    padding-left: 29px;
+}
+
+.navbar .navbar-collapse ul .Bar .nav-item a:hover{
+    color: #f7dc0c;
+}
+
+.navbar .navbar-collapse ul .Bar li .nav-link{
+    color: #fff;
+    font-family: 'NotoNastaliqUrduRegular';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px;
+    letter-spacing: 1px;
+} 
+
+hr{
+    margin-top: .5rem;
+    background: #ffffff;
+}
+
+.navbar .navbar-collapse ul li .nav-link .logo{
+    width: 285px;
+    margin-left: 120px;
+    margin-top: -65px;
+    
+}
+
+.navbar {
+    transition: top 0.5s ease;
+}
+
+.navbar-hide {
+    top: -200px;
+}
+
+/* end navbar */
+
+/* start form */
+
+form .contact{
+    background: #fff;
+    padding: 10px 20px;
+    width: 80%;
+    margin-left: 10%;
+    position: relative;
+    margin-top: -8%;
+}
+
+form .img{
+    width: 450px;
+    height: 320px;
+    margin-top: 50px;
+}
+
+form #vertical-lin{
+    width: 2px;
+    background: grey;
+    height: 410px;
+    margin-left: 20%;
+    margin-top: 20px;
+}
+
+form h4{
+    margin-right: 10%;
+    font-family: 'farsi_simple_boldregular';
+    font-size: 2rem;
+    letter-spacing: 1px;
+    margin-top: 20%;
+    margin-bottom: 50px;
+}
+
+form .inputs{
+    position: relative;
+}
+
+form .inputs input{
+    width: 320px;
+    direction: rtl;
+    margin-left: -80%;
+    padding: 5px 20px;
+    margin-bottom: 30px;
+}
+
+form .inputs img{
+    width: 20px;
+    position: absolute;
+    margin-left: -160%;
+    padding-top: 10px;
+}
+
+form textarea{
+    width: 320px;
+    direction: rtl;
+    margin-left: -80%;
+    padding: 5px 20px;
+    margin-bottom: 20px;
+    height: 100px;
+}
+
+form button{
+    background: #f7dc0c;
+    color: #fff;
+    border: 1px solid #f7dc0c;
+    border-radius: 20px;
+    padding: 5px 40px;
+    margin-left: 48%;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+form button:hover{
+    background: #0064BF;
+    color: #fff;
+    background-color: #0064BF;
+}
+
+/* start contact-way*/
+
+.contact-way{
+    background-image: url(../images/5e9a02371ea33222.png);
+    background-size: cover;
+    height: 430px;
+    max-width: 100%;
+    right: 0;
+    margin-top: 20px;
+}
+
+.contact-way .caption{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background: rgba(0, 100, 191, .6);
+
+}
+
+ .contact-way .caption h4{
+    color: #fff;
+    letter-spacing: 2px;
+    line-height: 2em;
+    font-size: 1.35rem;
+    margin-top: 20vh;
+}
+
+.contact-way .caption img{
+    width: 330px;
+}
+
+.contact-way .caption .col-one-hr{
+    width: 85%;
+    background: #fff;
+    margin-top: 20px;
+    border-top: 1px solid #fff;
+}
+
+.contact-way .caption #vertical-line {
+    width: 1px;
+    background: #fff;
+    height: 350px;
+    margin-left: 25vh;
+    margin-top: 50px;
+}
+
+.contact-way .caption .contact-way-logo{
+    float: right;
+    width: 350px;
+    margin-top:-35px;
+    margin-right: -20vh;
+    margin-left: -90px;
+}
+
+.contact-way .caption h5{
+    margin-top: 55px;
+    color: #fff;
+    line-height: 2rem;
+    letter-spacing: 2px;
+    font-family: 'NotoNastaliqUrduRegular';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 35px;
+    
+}
+
+.contact-way .caption h5>span{
+    color: #f7dc0c ;
+}
+
+.contact-way .caption .col-three-hr{
+    margin-top: 50px;
+    width: 62%;
+    margin-right: 12vh;
+    border-top: 1px solid #fff;
+}
+
+.contact-way .caption .contact-us{
+    margin-left: 120px;
+    margin-top: 15px;
+    font-family: 'NotoNastaliqUrduRegular';
+    font-weight: normal;
+    font-style: normal;
+    color: #fff;
+}
+
+.contact-way .caption .social-images{
+    margin-left: 50px;
+}
+
+.contact-way .caption .social-images li{
+    float: left;
+    margin-right: 15px;
+}
+
+.contact-way .caption .social-images li img{
+    width: 40px;
+}
+
+.contact-way .caption table{
+    float: right;
+    margin-top: 10px;
+    margin-right: -100px;
+}
+
+.contact-way .caption table tr h6{
+    padding-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.25rem;
+    color: #ffffff;
+}
+
+.contact-way .caption table tr #call{
+    margin-right: -50px;
+}
+
+.contact-way .caption table tr img{
+    width: 50px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+/* end .contact-way */
+
+/* start footer (edit)*/
+
+.footer{
+    margin-top: 10px; 
+    
+}
+
+.footer .motadamn{
+    margin-right: 65%; 
+}
+
+.footer h6{
+    color: #ffffff ;
+    line-height: 0;
+    margin-bottom: 0;
+}
+
+.footer .all{
+    margin-right: -2%;
+}
+
+/* end footer */
+
