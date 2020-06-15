@@ -1,0 +1,351 @@
+@font-face {
+    font-family: 'NotoNastaliqUrduRegular';
+        src: url("../fonts/NotoNastaliqUrdu-Regular.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* start carousel */
+
+.carousel-item img{
+    height: 350px;
+}
+
+
+/* end carousel */
+
+/* start navbar */
+
+.navbar{
+    margin-left: 49px;
+    margin-top: 30px;
+}
+
+.navbar .navbar-collapse ul li .nav-link .chevron{
+    width: 15px;
+}
+
+.navbar .navbar-collapse ul li .nav-link img{
+    width: 30px;
+    margin-top: 8px;
+}
+
+.dropdown-menu{
+    min-width: 0;
+}
+
+.navbar .dropdown-menu{
+    width: 148px;
+}
+
+.dropdown-item{
+    text-align: center;
+}
+
+.navbar .navbar-collapse ul .dropdown .language{
+    margin-left: -60px;
+    text-align: right;
+    top: 35%;
+    width: 120px;
+}
+
+.navbar .navbar-collapse ul .dropdown .signup{
+    text-align: right;
+    top: 35%;
+    margin-left: 9px;
+}
+
+
+.navbar .navbar-collapse ul li .nav-link button{
+    color: #fff;
+    background: #f7dc0c;
+    border-radius: 5px;
+    margin-right: 25px;
+    font-size: 23px;
+    padding: 5px;
+    letter-spacing: 1px;
+
+}
+
+.navbar .navbar-collapse ul li .nav-link button i{
+    padding-bottom: 4px;
+    font-size: 13px;
+}
+
+.btn:focus{
+    box-shadow: none;
+}
+
+.navbar .navbar-collapse ul li .donate{
+    color: #fff;
+    background: #7FD858;
+    font-size: 24px;
+    font-weight: 400;
+    padding: 6px 10px 5px;
+    margin-top: 8px;
+    border-radius: 5px;
+    margin-right: 100px;
+    letter-spacing: 1px;
+    
+}
+
+.navbar .navbar-collapse ul li .donate:hover{
+    background: #0064BF;
+    color: #fff;
+}
+
+.navbar .navbar-collapse ul .Bar .nav-item{
+    display: inline-block;
+}
+
+.navbar .navbar-collapse ul .Bar li{
+   padding-right: 29px; 
+}
+
+.navbar .navbar-collapse ul .Bar .conect{
+    padding-left: 29px;
+}
+
+.navbar .navbar-collapse ul .Bar .nav-item a:hover{
+    color: #f7dc0c;
+}
+
+.navbar .navbar-collapse ul .Bar li .nav-link{
+    color: #fff;
+    font-family: 'NotoNastaliqUrduRegular';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px;
+    letter-spacing: 1px;
+} 
+
+hr{
+    margin-top: .5rem;
+    background: #ffffff;
+    border-bottom: 2px solid #ffffff;
+}
+
+.navbar .navbar-collapse ul li .nav-link .logo{
+    width: 285px;
+    margin-left: 120px;
+    margin-top: -65px;
+    
+}
+
+.navbar {
+    transition: top 0.5s ease;
+}
+
+.navbar-hide {
+    top: -200px;
+}
+
+/* end navbar */
+
+/* start view case */
+
+.view-case .img{
+    z-index: 222;
+    width: 180px;
+    position: absolute;
+    margin-top: -100px;
+    margin-left: 10%;
+}
+
+.view-case .border-out{
+    margin-top: 40px;
+    border: 3px solid #86B9F7;
+    padding: 5px;
+    width: 90%;
+    margin-left: 8%;
+}
+
+.border-out .content{
+    border: 3px solid #F7DC0C;
+    padding: 20px 10px;
+}
+
+.border-out .content h5 span{
+    letter-spacing: 1px;
+    font-size: 1.3rem;
+}
+
+.border-out .content h5 sub{
+    bottom: -5px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 5px;
+    color: #F7DC0C;
+}
+
+.border-out .content .label{
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+}
+
+.border-out .Lorem{
+    float: left;
+    width: 80%;
+}
+
+.border-out .content button{
+    color: #fff;
+    background: #7FD858;
+    font-size: 24px;
+    font-weight: 400;
+    padding: 6px 25px 5px;
+    margin-right: 45%;   
+    border-radius: 10px;
+    margin-top: 3%;
+    letter-spacing: 1px;
+}
+
+/*end view case */
+
+/* start contact-way*/
+
+.contact-way{
+    background-image: url(../images/5e9a02371ea33222.png); /* edit */
+    background-size: cover;
+    height: 430px; /* edit */
+    max-width: 100%;
+    right: 0;
+    margin-top: 80px;
+}
+.contact-way .caption{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background: rgba(0, 100, 191, .6);
+
+}
+
+ .contact-way .caption h4{
+    color: #fff;
+    letter-spacing: 2px;
+    line-height: 2em;
+    font-size: 1.35rem;
+    margin-top: 45%;
+}
+
+.contact-way .caption img{
+    width: 330px;
+}
+
+.contact-way .caption .col-one-hr{
+    width: 85%;
+    background: #fff;
+    margin-top: 20px;
+    border-bottom: 1px solid #ffffff;
+}
+
+.contact-way .caption #vertical-line{
+    width: 1px;
+    background: #fff;
+    height: 350px;
+    margin-left: 25vh; /*edit*/
+    margin-top: 50px;
+}
+
+.contact-way .caption .contact-way-logo{
+    float: right;
+    width: 350px;
+    margin-top:-35px;
+    margin-right: -20vh; /*edit */
+    margin-left: -90px;
+}
+
+.contact-way .caption h5{
+    margin-top: 55px;
+    color: #fff;
+    line-height: 2rem;
+    letter-spacing: 2px;
+    font-family: 'NotoNastaliqUrduRegular';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 35px;
+    
+}
+
+.contact-way .caption h5>span{
+    color: #f7dc0c ;
+}
+
+.contact-way .caption .col-three-hr{
+    margin-top: 50px;
+    width: 50%;
+    margin-right: 20%;
+    border-bottom: 1px solid #ffffff;
+}
+
+.contact-way .caption .contact-us{ /*edit */
+    margin-left: 120px;
+    margin-top: 15px;
+    font-family: 'NotoNastaliqUrduRegular';
+    font-weight: normal;
+    font-style: normal;
+    color: #fff;
+}
+
+.contact-way .caption .social-images{
+    margin-left: 50px;
+}
+
+.contact-way .caption .social-images li{
+    float: left;
+    margin-right: 15px;
+}
+
+.contact-way .caption .social-images li img{
+    width: 40px;
+}
+
+.contact-way .caption table{
+    float: right;
+    margin-top: 50px;
+    margin-right: -100px;
+}
+
+.contact-way .caption table tr h6{
+    padding-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.25rem;
+    color: #fff;
+}
+
+.contact-way .caption table tr #call{
+    margin-right: -50px;
+}
+
+.contact-way .caption table tr img{
+    width: 50px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+/* end .contact-way */
+
+/* start footer (edit)*/
+
+.footer{
+    margin-top: 10px; 
+    
+}
+
+.footer .motadamn{
+    margin-right: 65%;
+}
+
+.footer h6{
+    color: #ffffff ;
+    line-height: 0;
+    margin-bottom: 0;
+}
+
+.footer .all{
+    margin-right: -2%;
+}
+
+/* end footer */

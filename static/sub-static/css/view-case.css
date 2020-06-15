@@ -1,0 +1,265 @@
+@font-face {
+    font-family: 'NotoNastaliqUrduRegular';
+        src: url("../fonts/NotoNastaliqUrdu-Regular.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    height: 850px;
+}
+
+/* start carousel */
+
+.carousel-item img{
+    height: 350px;
+}
+
+
+/* end carousel */
+
+/* start navbar */
+
+.navbar{
+    margin-left: 49px;
+    margin-top: 30px;
+}
+
+.navbar .navbar-collapse ul li .nav-link .chevron{
+    width: 15px;
+}
+
+.navbar .navbar-collapse ul li .nav-link img{
+    width: 30px;
+    margin-top: 8px;
+}
+
+.dropdown-menu{
+    min-width: 0;
+}
+
+.navbar .dropdown-menu{
+    width: 148px;
+}
+
+.dropdown-item{
+    text-align: center;
+}
+
+.navbar .navbar-collapse ul .dropdown .language{
+    margin-left: -60px;
+    text-align: right;
+    top: 35%;
+    width: 120px;
+}
+
+.navbar .navbar-collapse ul .dropdown .signup{
+    text-align: right;
+    top: 35%;
+    margin-left: 9px;
+}
+
+
+.navbar .navbar-collapse ul li .nav-link button{
+    color: #fff;
+    background: #f7dc0c;
+    border-radius: 5px;
+    margin-right: 25px;
+    font-size: 23px;
+    padding: 5px;
+    letter-spacing: 1px;
+
+}
+
+.navbar .navbar-collapse ul li .nav-link button i{
+    padding-bottom: 4px;
+    font-size: 13px;
+}
+
+.btn:focus{
+    box-shadow: none;
+}
+
+.navbar .navbar-collapse ul li .donate{
+    color: #fff;
+    background: #7FD858;
+    font-size: 24px;
+    font-weight: 400;
+    padding: 6px 10px 5px;
+    margin-top: 8px;
+    border-radius: 5px;
+    margin-right: 100px;
+    letter-spacing: 1px;
+    
+}
+
+.navbar .navbar-collapse ul li .donate:hover{
+    background: #0064BF;
+    color: #fff;
+}
+
+.navbar .navbar-collapse ul .Bar .nav-item{
+    display: inline-block;
+}
+
+.navbar .navbar-collapse ul .Bar li{
+   padding-right: 29px; 
+}
+
+.navbar .navbar-collapse ul .Bar .conect{
+    padding-left: 29px;
+}
+
+.navbar .navbar-collapse ul .Bar .nav-item a:hover{
+    color: #f7dc0c;
+}
+
+.navbar .navbar-collapse ul .Bar li .nav-link{
+    color: #fff;
+    font-family: 'NotoNastaliqUrduRegular';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px;
+    letter-spacing: 1px;
+} 
+
+hr{
+    margin-top: .5rem;
+    background: #ffffff;
+    border-bottom: 2px solid #ffffff;
+}
+
+.navbar .navbar-collapse ul li .nav-link .logo{
+    width: 285px;
+    margin-left: 120px;
+    margin-top: -65px;
+    
+}
+
+.navbar {
+    transition: top 0.5s ease;
+}
+
+.navbar-hide {
+    top: -200px;
+}
+/* end navbar */
+
+/* start view case */
+
+.case{
+    margin-bottom: 50px;
+}
+
+.view-case .avatar{
+    z-index: 222;
+    width: 130px;
+    position: relative;
+    margin-top: -60px;
+    margin-right: 10%;
+    float: right;
+}
+
+
+.view-case .person{
+    z-index: 222;
+    width: 130px;
+    position: relative;
+    margin-top: -60px;
+    margin-right: 10%;
+    float: right;
+}
+
+.view-case .person1{
+    z-index: 222;
+    width: 130px;
+    position: relative;
+    margin-top: -60px;
+    margin-right: 0%;
+    float: right;
+}
+
+.view-case .img{
+    z-index: 222;
+    width: 200px;
+    position: relative;
+    margin-top: -110px;
+    margin-left: 3%;
+    float: left;
+    border-radius: 50%;
+}
+
+.view-case .img1{
+    z-index: 222;
+    width: 200px;
+    position: relative;
+    margin-top: -110px;
+    margin-left: -5%;
+    float: left;
+    border-radius: 50%;
+}
+
+.view-case .border-out{
+    margin-top: 40px;
+    border: 3px solid #86B9F7;
+    padding: 5px;
+    width: 70%;
+    margin-left: 16%;
+}
+
+.view-case .out{
+    margin-top: 40px;
+    border: 3px solid #F7DC0C;
+    padding: 5px;
+    width: 85%;
+    margin-left: 9%;
+}
+
+.border-out .content{
+    border: 3px solid #F7DC0C;
+    padding: 20px 100px;
+}
+
+.border-out .content1{
+    border: 4px solid #7FD858;
+    padding: 20px 100px;
+}
+
+.border-out .content h5 span{
+    letter-spacing: 1px;
+    font-size: 1.3rem;
+}
+
+.border-out .content h5 sub{
+    bottom: -5px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 5px;
+    color: #F7DC0C;
+}
+
+.border-out .content .label{
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+}
+
+.border-out .content .label1{
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+    direction: rtl;
+}
+
+.border-out .content a{
+    text-decoration: underline;
+}
+
+.border-out .content label .span{
+    color: #7FD858;
+    margin-right: 5px;
+}
+
+
+
+
+
+

@@ -1,0 +1,455 @@
+.background{
+    background-image: url(../images/as.jpeg);
+    height: 400PX; 
+    max-width: 100%;
+    background-size: cover;
+
+    }
+    
+/* start navbar */
+
+.navbar{
+    margin-left: 49px;
+    margin-top: 30px;
+}
+
+.navbar .navbar-collapse ul li .nav-link .chevron{
+    width: 15px;
+}
+
+.navbar .navbar-collapse ul li .nav-link img{
+    width: 30px;
+    margin-top: 8px;
+}
+
+.dropdown-menu{
+    min-width: 0;
+}
+
+.navbar .dropdown-menu{
+    width: 148px;
+}
+
+.dropdown-item{
+    text-align: center;
+}
+
+.navbar .navbar-collapse ul .dropdown .language{
+    margin-left: -60px;
+    text-align: right;
+    top: 35%;
+    width: 120px;
+}
+
+.navbar .navbar-collapse ul .dropdown .signup{
+    text-align: right;
+    top: 35%;
+    margin-left: 9px;
+}
+
+
+.navbar .navbar-collapse ul li .nav-link button{
+    color: #fff;
+    background: #f7dc0c;
+    border-radius: 5px;
+    margin-right: 25px;
+    font-size: 23px;
+    padding: 5px 3px;
+    letter-spacing: 1px;
+}
+
+.navbar .navbar-collapse ul li .nav-link button i{
+    padding-bottom: 4px;
+    font-size: 13px;
+}
+
+.btn:focus{
+    box-shadow: none;
+}
+.btn-primary {
+    color: #7FD858;
+    background-color: transparent;
+    border-color: #fff; /*set the color you want here*/
+    font-size: 25px;
+}
+.btn-primary:hover {
+    color: #0064BF;
+    background-color:transparent;
+    border-color: #fff; /*set the color you want here*/
+    cursor: pointer;
+
+}
+
+
+
+.navbar .navbar-collapse ul li .donate{
+    color: #fff;
+    background: #7FD858;
+    font-size: 24px;
+    font-weight: 400;
+    padding: 6px 15px 5px;
+    margin-top: 8px;
+    border-radius: 5px;
+    margin-right: 100px;
+    letter-spacing: 1px;
+    
+}
+
+.navbar .navbar-collapse ul li .donate:hover{
+    background: #0064BF;
+    color: #fff;
+}
+
+.navbar .navbar-collapse ul .Bar .nav-item{
+    display: inline-block;
+    font-family: 'NotoNastaliqUrduRegular';
+    text-decoration: none;
+     transition-duration: 0.4s;
+}
+/*
+.nav-item a{
+    background-color: #4CAF50; /* Green 
+    color: #F7DC0C;
+} */
+.btn-primary {
+    color: #fff;
+    background-color: transparent;
+    border-color: #fff; /*set the color you want here*/
+    font-size: 25px;
+}
+.btn-primary:hover {
+    color: #F7DC0C;
+    background-color:transparent;
+    border-color: #fff; /*set the color you want here*/
+}
+
+
+
+
+.navbar .navbar-collapse ul .Bar li{
+   padding-right: 29px; 
+}
+
+.navbar .navbar-collapse ul .Bar .conect{
+    padding-left: 29px;
+}
+.navbar .navbar-collapse ul .Bar .nav-item a:hover{
+    color: #F7DC0C;
+}
+
+.navbar .navbar-collapse ul .Bar li .nav-link{
+    color: #fff;
+    font-family: 'NotoNastaliqUrduRegular';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px;
+    letter-spacing: 1px;
+} 
+
+hr{
+    padding: 1px;
+    margin-top: .5rem;
+    background: #ffffff;
+}
+
+.navbar .navbar-collapse ul li .nav-link .logo{
+    width: 289px;
+    margin-left: 120px;
+    margin-top: -75px;
+    
+}
+
+.navbar {
+    transition: top 0.5s ease;
+}
+
+.navbar-hide {
+    top: -200px;
+}
+/* end navbar */
+/* img ahl msr start*/
+.ahl-msr{
+    margin-top: -94px;
+    margin-left: 221px;
+}
+.ahl-msr img{
+    width: 200px;
+    height: 200px;
+}
+/* ahl masr img end */
+/* gme3 elmostafeden start */
+
+.development {
+    margin-top: 40px;
+}
+.development .heading {	
+    text-align: right;
+    position: relative;
+    margin-bottom: 50px;
+}
+.development .heading span{
+	background: #7FD858;
+    margin-right: 130px;
+    padding: 10px 25px;
+    padding-bottom: 17px;
+    border-radius: 40px;
+    color: #fff;
+    font-size: 28px;
+	
+}
+.development .heading:before{
+	content: "";
+    display: block;
+    position: absolute;
+    width: 80%;
+    height: 10px;
+    background: #f7dc0c;
+    top: 50%;
+	left:  0;
+	z-index: -2;
+	
+}
+.development .heading:after {
+	content: "";
+    display: block;
+    position: absolute;
+    width: 45%;
+    height: 10px;
+    background: #f7dc0c;
+    top: 50%;
+	right:  0;
+	z-index: -2;
+} 
+/* gme3 el mostafeden end */
+/* <!-- table of people info start --> */
+.table thead th {
+    border-bottom: 2px solid #66b2ff;
+}
+.table-bordered td, .table-bordered th {
+    border: 1px solid #66b2ff;
+}
+.table{
+    width: 55%;
+    margin-left: 306px;
+    text-align: center;
+
+}
+
+/* <!-- table of people info end --> */
+/* add new case start */
+.move{
+    margin-top: -645px;
+    margin-left: 268px;
+}
+div .row {
+    height: 48px;
+    background-color: transparent;
+    margin-right: 0em;
+
+}
+div .column {
+    margin-right: -80px;
+}
+div .column img {
+    width: 25px;
+    height: 25px;
+    margin-left: 15px;
+}
+/* add new case end */
+
+/* <!-- add new case box start --> */
+.space{
+    margin-bottom: 60px;
+
+}
+.btnn{
+    background-color: transparent;
+    border: 1px solid transparent;
+    outline: 0 !important;
+
+}
+/* <!-- add new case box end --> */
+#space{
+    margin-bottom: 40px;
+}
+.donatee{
+    color: #fff;
+    background: #F7DC0C;
+    font-size: 24px;
+    font-weight: 400;
+    padding: 6px 10px 5px;
+    margin-top: 8px;
+    margin-right: 100px;
+    letter-spacing: 1px;
+    border-radius: 45px;
+    width: 115px;
+    border: none;
+
+    
+}
+ .donatee:hover{
+    background: #0064BF;
+    color: #fff;
+}
+/* pagination start */
+.movee{
+    margin-left: 15px !important;
+    background-color: #0064BF !important;
+}
+
+.button{
+    border: none;
+    outline: none;
+    color: #fff;
+    text-decoration: none;
+    background-color: #F7DC0C;
+    border-radius: 45px;
+    padding:10px ;
+    width: 100px;
+    text-align: center;
+    font-weight: normal;
+    font-style: normal;
+    font-family:'NotoNastaliqUrduRegular';
+    margin-left: 705px;
+    margin-bottom: -45px;
+
+}
+.button:hover{
+    color: #fff;
+    text-decoration: none;
+}
+
+/* pagination end */
+/* start contact-way*/
+
+.contact-way{
+    background-image: url(../images/5e9a02371ea331.png);
+    background-size: cover;
+    height: 500px;
+    max-width: 100%;
+    right: 0;
+}
+
+.contact-way .caption{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background: rgba(0, 100, 191, .6);
+
+}
+
+ .contact-way .caption h4{
+    color: #fff;
+    letter-spacing: 2px;
+    line-height: 2em;
+    font-size: 1.35rem;
+    margin-top: 25vh;
+}
+
+.contact-way .caption img{
+    width: 330px;
+}
+
+.contact-way .caption .col-one-hr{
+    width: 85%;
+    background: #fff;
+    margin-top: 20px;
+}
+
+.contact-way .caption #vertical-line{
+    width: 1px;
+    background: #fff;
+    height: 400px;
+    margin-left: 145px;
+    margin-top: 50px;
+}
+
+.contact-way .caption .contact-way-logo{
+    float: right;
+    width: 350px;
+    margin-top:-35px;
+    margin-right: -25vh;
+    margin-left: -90px;
+}
+
+.contact-way .caption h5{
+    margin-top: 55px;
+    color: #fff;
+    line-height: 2rem;
+    letter-spacing: 2px;
+    font-family: 'NotoNastaliqUrduRegular';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 35px;
+    
+}
+
+.contact-way .caption h5>span{
+    color: #f7dc0c ;
+}
+
+.contact-way .caption .col-three-hr{
+    margin-top: 50px;
+    width: 50%;
+    margin-right: 12vh;
+}
+
+.contact-way .caption h6{
+    margin-left: 120px;
+    font-family: 'NotoNastaliqUrduRegular';
+    font-weight: normal;
+    font-style: normal;
+    color: #fff;
+}
+
+.contact-way .caption .social-images{
+    margin-left: 50px;
+}
+
+.contact-way .caption .social-images li{
+    float: left;
+    margin-right: 15px;
+}
+
+.contact-way .caption .social-images li img{
+    width: 40px;
+}
+
+.contact-way .caption table{
+    float: right;
+    margin-top: 50px;
+    margin-right: -100px;
+}
+
+.contact-way .caption table tr h6{
+    padding-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.25rem;
+}
+
+.contact-way .caption table tr #call{
+    margin-right: -50px;
+}
+
+.contact-way .caption table tr img{
+    width: 50px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+/* end .contact-way */
+
+/* start footer */
+
+.footer{
+    margin-top: 10px;
+   
+}
+
+.footer h6{
+    color: #038ADD ;
+}
+
+/* end footer */
