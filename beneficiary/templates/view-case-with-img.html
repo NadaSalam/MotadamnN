@@ -1,0 +1,145 @@
+{% load static  %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>وصف الحالة</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="{% static 'sub-static/css/bootstrap.min.css' %}">
+    <link rel='stylesheet' media='screen' href="{% static 'sub-static/css/view-case.css' %}">
+    <link rel='stylesheet' media='screen' href="{% static 'sub-static/css/media queries-baramg.css' %}">
+    <link rel="stylesheet" media="screen" href="{% static 'sub-static/css/hover.css' %}">
+    <link rel="stylesheet" href="{% static 'sub-static/css/all.min.css' %}">
+
+</head>
+<body>
+
+  <!-- start carousel -->
+
+  <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="{% static 'sub-static/images/nick-de-partee-VOXoOCAjhVY-unsplash.png' %}" class="d-block w-100" alt="...">
+      </div>
+    </div>
+
+</div>
+
+<!-- end carousel -->
+
+<!-- start navbar -->
+
+<nav class="navbar navbar-expand-lg navbar-light fixed-top">
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+    <ul class="navbar-nav mr-auto">
+
+      <li class="nav-item dropdown">
+          <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <img class="chevron" src="{% static 'sub-static/images/received_710437753044351.png' %}">
+            <img src="{% static 'sub-static/images/received_1837342366438740.png' %}">
+          </a>
+          <div class="dropdown-menu language" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">English</a>
+            <a class="dropdown-item" href="#">عربي</a>
+          </div>
+      </li>
+
+        <li class="nav-item dropdown ">
+          <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <button class="btn"><i class="fas fa-chevron-down"></i>تسجيل الدخول</button>
+          </a>
+          <div class="dropdown-menu signup" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">جمعية خيرية</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">متبرع</a>
+          </div>
+        </li>
+
+      <li class="nav-item">
+        <a class="nav-link btn donate" href="dss box.html">تبرع الان</a>
+      </li>
+
+        <span class="Bar">
+          <li class="nav-item conect">
+              <a class="nav-link hvr-shrink" href="#"> تواصل معنا</a>
+          </li>
+
+          <li class="nav-item">
+              <a class="nav-link hvr-shrink" href="#">التوعية</a>
+          </li>
+
+          <li class="nav-item">
+              <a class="nav-link hvr-shrink" href="#">الاخبار</a>
+          </li>
+
+          <li id="li-padding" class="nav-item">
+              <a class="nav-link hvr-shrink" href="#">عن متضامن</a>
+          </li>
+          <hr>
+        </span>
+
+      <li id="li-padding" class="nav-item">
+          <a class="nav-link" href="main.html">
+              <img class="logo" src="{% static 'sub-static/images/emptyarabic.png' %}">
+          </a>
+      </li>
+    </ul>
+
+  </div>
+</nav>
+
+<!-- end navbar -->
+
+<!-- start view case -->
+
+<div class="container view-case">
+  <img class="person" src="{% static 'sub-static/images/248.png' %}">
+  <img class="img" src="{% static 'sub-static/images/Ahl-Masr-Foundation-Egypt-19261-1471176400-og1.png' %}">
+  <div class="border-out">
+
+      <div class="content text-right">
+          <label class="label">نادية</label>
+          <label><h5><span> : الأسم</span><sub>*</sub></h5></label>
+          <br>
+          <label class="label">29904190202157 </label>
+          <label><h5><span> : الرقم القومي</span><sub>*</sub></h5></label>
+          <br>
+          <label class="label"> 01296734885 </label>
+          <label><h5><span> :  رقم التليفون</span><sub>*</sub></h5></label>
+          <br>
+          <label class="label1">9 شارع مصطفي كامل </label>
+          <label><h5><span>:العنوان</span><sub>*</sub></h5></label>
+          <br>
+          <label class="label">الأسكندرية</label>
+          <label><h5><span> :  المدينة</span><sub>*</sub></h5></label>
+          <br>
+          <label class="label Lorem"> 5/12/1948</label>
+          <label><h5><span> :  تاريخ الميلاد</span><sub>*</sub></h5></label>
+          <br>
+          <label class="label">متزوج</label>
+          <label><h5><span> :  الحالة الأجتماعية</span><sub>*</sub></h5></label>
+          <br>
+          <label class="label">أنثي</label>
+          <label><h5><span> :  النوع</span><sub>*</sub></h5></label>
+
+      </div>
+  </div>
+
+</div>
+<!-- end view case -->
+
+
+
+  <script src="{% static 'sub-static/js/jquery.js' %}"></script>
+  <script src="{% static 'sub-static/js/bootstrap.min.js' %}"></script>
+  <script src="{% static 'sub-static/js/script.js' %}"></script>
+</body>
+</html>

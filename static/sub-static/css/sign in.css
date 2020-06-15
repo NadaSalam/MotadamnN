@@ -1,0 +1,188 @@
+body{
+    background-image: url(../images/person-s-left-hand-holding-green-leaf-plant-886521.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* start content */
+
+img{
+    width: 350px;
+    float: right;
+    margin-top: -60px;
+}
+
+.content{
+    margin-top: 10%;
+    float: right;
+    position: relative;
+    margin-right: -17%;
+    background: #ffffff;
+    padding: 15px 50px;
+    width: 53%;
+}
+
+.content h2{
+    float: right;
+    letter-spacing: 1.2px;
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+
+.content > h4{
+    float: right;
+    margin-top: 7.5%;
+    font-weight: normal;
+    font-size: 1.3rem;
+}
+
+.content label{
+    float: right;
+    margin-top: 7.6%;
+    padding-right: 10px;
+    font-size: 1.2rem;
+}
+
+.content label > a{
+   text-decoration: none; 
+}
+
+
+form .txt_field {
+    position:relative;
+    border-bottom: 2px solid #adadad;
+    margin: 30px 0;
+    width: 60%;
+    float: right;
+}
+
+form .txt_field input{
+    width:100%;
+    padding: 0 5px;
+    font-size: 16px;
+    border:none;
+    background:none;
+    outline:none;
+    
+}
+
+.txt_field label{
+    position:absolute;
+    top:-100%;
+    left:25%;
+    color: #adadad;
+    transform: translateY(-50%);
+    font-size:18px;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.txt_field .password{
+    position:absolute;
+    top:-100%;
+    left:60%;
+    color: #adadad;
+    transform: translateY(-50%);
+    font-size:18px;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.txt_field  img{
+    width: 25px;
+    margin-top: -30px;
+    float: right;
+    margin-right: 10px;
+}
+
+.txt_field .eye{
+    width: 25px;
+    margin-top: -30px;
+    float: left;
+    margin-left: 10px;
+}
+
+.txt_field span::before{
+    content:'';
+    position:absolute;
+    top: 24px;
+    left:0;
+    width:0%;
+    height:2px;
+    background: #000000;
+    transition: .5s;
+}
+
+.txt_field input:focus ~ label,
+.txt_field input:valid ~ label {
+   display: none;
+}
+
+.txt_field input:focus ~ span::before,
+.txt_field input:valid ~ span::before{
+    width:100%;
+}
+
+.pass{
+    margin: -5px 0 20px 5px;
+    color: #a6a6a6;
+    cursor:pointer;
+}
+
+.pass:hover{
+    text-decoration: underline;
+}
+
+.content a h4{
+    float: right;
+    margin-top: 1%;
+    font-weight: normal;
+    font-size: 1.2rem;
+    margin-left: 20%;
+    letter-spacing: 1px;
+}
+
+form button {
+    margin-top:5%;
+    margin-left: 40%;
+    height:40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background:#7FD858;
+    border:1px solid;
+    border-radius: 25px;
+    font-size:18px;
+    color: #e9f4fb;
+    font-weight:500;
+    cursor:pointer;
+    outline:none;
+}
+
+form button:hover {
+    background: #0064BF;
+    color: #ffffff;
+    transition: .5s;
+
+}
+
+form .content h6{
+    margin-left: 43%;
+    margin-top: 10px;
+    letter-spacing: 1px;
+    font-size: .95rem;
+}
+
+form .site-one img ,
+form .site-two img ,
+form .site-three img{
+    float: left;
+    width: 40px;
+    margin-left: 41%;
+    margin-top: 3%;
+    margin-bottom: 20px;
+}
+
+form .site-two img ,
+form .site-three img{
+    margin-left: 10px;
+}
