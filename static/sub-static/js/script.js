@@ -221,6 +221,198 @@ function calucu(){
     } 
 }
 
+/* FAQ */
+
+var answer_one = document.getElementById("answer_one") ,
+
+    answer_two = document.getElementById("answer_two") ,
+
+    answer_three = document.getElementById("answer_three") ,
+
+    answer_four = document.getElementById("answer_four") ,
+
+    answer_five = document.getElementById("answer_five") ,
+
+    answer_six = document.getElementById("answer_six") ,
+
+    answer_seven = document.getElementById("answer_seven") ;
+
+
+function ques_one(){
+    answer_one.style.display = 'block'
+    answer_two.style.display = 'none'
+    answer_three.style.display = 'none'
+    answer_four.style.display = 'none'
+    answer_five.style.display = 'none'
+    answer_six.style.display = 'none'
+    answer_seven.style.display = 'none'
+
+    document.getElementById("i1").classList.add("active")
+    document.getElementById("label1").classList.add("active")
+    document.getElementById("i2").classList.remove("active")
+    document.getElementById("label2").classList.remove("active")
+    document.getElementById("i3").classList.remove("active")
+    document.getElementById("label3").classList.remove("active")
+    document.getElementById("i4").classList.remove("active")
+    document.getElementById("label4").classList.remove("active")
+    document.getElementById("i5").classList.remove("active")
+    document.getElementById("label5").classList.remove("active")
+    document.getElementById("i6").classList.remove("active")
+    document.getElementById("label6").classList.remove("active")
+    document.getElementById("i7").classList.remove("active")
+    document.getElementById("label7").classList.remove("active")
+
+}
+
+function ques_two(){
+    answer_one.style.display = 'none'
+    answer_two.style.display = 'block'
+    answer_three.style.display = 'none'
+    answer_four.style.display = 'none'
+    answer_five.style.display = 'none'
+    answer_six.style.display = 'none'
+    answer_seven.style.display = 'none'
+
+    document.getElementById("i1").classList.remove("active")
+    document.getElementById("label1").classList.remove("active")
+    document.getElementById("i2").classList.add("active")
+    document.getElementById("label2").classList.add("active")
+    document.getElementById("i3").classList.remove("active")
+    document.getElementById("label3").classList.remove("active")
+    document.getElementById("i4").classList.remove("active")
+    document.getElementById("label4").classList.remove("active")
+    document.getElementById("i5").classList.remove("active")
+    document.getElementById("label5").classList.remove("active")
+    document.getElementById("i6").classList.remove("active")
+    document.getElementById("label6").classList.remove("active")
+    document.getElementById("i7").classList.remove("active")
+    document.getElementById("label7").classList.remove("active")
+}
+
+function ques_three(){
+    answer_one.style.display = 'none'
+    answer_two.style.display = 'none'
+    answer_three.style.display = 'block'
+    answer_four.style.display = 'none'
+    answer_five.style.display = 'none'
+    answer_six.style.display = 'none'
+    answer_seven.style.display = 'none'
+
+    document.getElementById("i1").classList.remove("active")
+    document.getElementById("label1").classList.remove("active")
+    document.getElementById("i2").classList.remove("active")
+    document.getElementById("label2").classList.remove("active")
+    document.getElementById("i3").classList.add("active")
+    document.getElementById("label3").classList.add("active")
+    document.getElementById("i4").classList.remove("active")
+    document.getElementById("label4").classList.remove("active")
+    document.getElementById("i5").classList.remove("active")
+    document.getElementById("label5").classList.remove("active")
+    document.getElementById("i6").classList.remove("active")
+    document.getElementById("label6").classList.remove("active")
+    document.getElementById("i7").classList.remove("active")
+    document.getElementById("label7").classList.remove("active")
+}
+
+function ques_four(){
+    answer_one.style.display = 'none'
+    answer_two.style.display = 'none'
+    answer_three.style.display = 'none'
+    answer_four.style.display = 'block'
+    answer_five.style.display = 'none'
+    answer_six.style.display = 'none'
+    answer_seven.style.display = 'none'
+
+    document.getElementById("i1").classList.remove("active")
+    document.getElementById("label1").classList.remove("active")
+    document.getElementById("i2").classList.remove("active")
+    document.getElementById("label2").classList.remove("active")
+    document.getElementById("i3").classList.remove("active")
+    document.getElementById("label3").classList.remove("active")
+    document.getElementById("i4").classList.add("active")
+    document.getElementById("label4").classList.add("active")
+    document.getElementById("i5").classList.remove("active")
+    document.getElementById("label5").classList.remove("active")
+    document.getElementById("i6").classList.remove("active")
+    document.getElementById("label6").classList.remove("active")
+    document.getElementById("i7").classList.remove("active")
+    document.getElementById("label7").classList.remove("active")
+}
+
+function ques_five(){
+    answer_one.style.display = 'none'
+    answer_two.style.display = 'none'
+    answer_three.style.display = 'none'
+    answer_four.style.display = 'none'
+    answer_five.style.display = 'block'
+    answer_six.style.display = 'none'
+    answer_seven.style.display = 'none'
+
+    document.getElementById("i1").classList.remove("active")
+    document.getElementById("label1").classList.remove("active")
+    document.getElementById("i2").classList.remove("active")
+    document.getElementById("label2").classList.remove("active")
+    document.getElementById("i3").classList.remove("active")
+    document.getElementById("label3").classList.remove("active")
+    document.getElementById("i4").classList.remove("active")
+    document.getElementById("label4").classList.remove("active")
+    document.getElementById("i5").classList.add("active")
+    document.getElementById("label5").classList.add("active")
+    document.getElementById("i6").classList.remove("active")
+    document.getElementById("label6").classList.remove("active")
+    document.getElementById("i7").classList.remove("active")
+    document.getElementById("label7").classList.remove("active")
+}
+
+function ques_six(){
+    answer_one.style.display = 'none'
+    answer_two.style.display = 'none'
+    answer_three.style.display = 'none'
+    answer_four.style.display = 'none'
+    answer_five.style.display = 'none'
+    answer_six.style.display = 'block'
+    answer_seven.style.display = 'none'
+
+    document.getElementById("i1").classList.remove("active")
+    document.getElementById("label1").classList.remove("active")
+    document.getElementById("i2").classList.remove("active")
+    document.getElementById("label2").classList.remove("active")
+    document.getElementById("i3").classList.remove("active")
+    document.getElementById("label3").classList.remove("active")
+    document.getElementById("i4").classList.remove("active")
+    document.getElementById("label4").classList.remove("active")
+    document.getElementById("i5").classList.remove("active")
+    document.getElementById("label5").classList.remove("active")
+    document.getElementById("i6").classList.add("active")
+    document.getElementById("label6").classList.add("active")
+    document.getElementById("i7").classList.remove("active")
+    document.getElementById("label7").classList.remove("active")
+}
+
+function ques_seven(){
+    answer_one.style.display = 'none'
+    answer_two.style.display = 'none'
+    answer_three.style.display = 'none'
+    answer_four.style.display = 'none'
+    answer_five.style.display = 'none'
+    answer_six.style.display = 'none'
+    answer_seven.style.display = 'block'
+
+    document.getElementById("i1").classList.remove("active")
+    document.getElementById("label1").classList.remove("active")
+    document.getElementById("i2").classList.remove("active")
+    document.getElementById("label2").classList.remove("active")
+    document.getElementById("i3").classList.remove("active")
+    document.getElementById("label3").classList.remove("active")
+    document.getElementById("i4").classList.remove("active")
+    document.getElementById("label4").classList.remove("active")
+    document.getElementById("i5").classList.remove("active")
+    document.getElementById("label5").classList.remove("active")
+    document.getElementById("i6").classList.remove("active")
+    document.getElementById("label6").classList.remove("active")
+    document.getElementById("i7").classList.add("active")
+    document.getElementById("label7").classList.add("active")
+}
 
 
   

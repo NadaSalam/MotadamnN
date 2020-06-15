@@ -1,0 +1,585 @@
+@font-face {
+    font-family: 'NotoNastaliqUrduRegular';
+        src: url("../fonts/NotoNastaliqUrdu-Regular.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NotoNastaliqUrduRegular';
+    src: url('../fonts/arbfonts-farsi_simple_bold.woff2') format('woff2'),
+         url('../fonts/arbfonts-farsi_simple_bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* start carousel */
+
+.carousel-item img{
+    height: 550px;
+}
+
+.carousel-caption h1{
+    font-family: 'NotoNastaliqUrduRegular';
+    font-weight: normal;
+    font-style: normal;
+    letter-spacing: 3.5px;
+    line-height: 1.6;
+    font-size: 3.25rem;
+    margin-bottom: 12%;
+}
+
+.carousel-caption .together{
+    color: #f7dc0c;
+}
+
+.carousel-caption .made{
+    margin-right: 11%;
+}
+
+/* end carousel */
+
+/* start navbar */
+
+.navbar{
+    margin-left: 49px;
+    margin-top: 30px;
+}
+
+.navbar .navbar-collapse ul li .nav-link .chevron{
+    width: 15px;
+}
+
+.navbar .navbar-collapse ul li .nav-link img{
+    width: 30px;
+    margin-top: 8px;
+}
+
+.dropdown-menu{
+    min-width: 0;
+}
+
+.navbar .dropdown-menu{
+    width: 148px;
+}
+
+.dropdown-item{
+    text-align: center;
+}
+
+.navbar .navbar-collapse ul .dropdown .language{
+    margin-left: -60px;
+    text-align: right;
+    top: 35%;
+    width: 120px;
+}
+
+.navbar .navbar-collapse ul .dropdown .signup{
+    text-align: right;
+    top: 35%;
+    margin-left: 9px;
+}
+
+
+.navbar .navbar-collapse ul li .nav-link button{
+    color: #fff;
+    background: #f7dc0c;
+    border-radius: 5px;
+    margin-right: 25px;
+    font-size: 23px;
+    padding: 5px;
+    letter-spacing: 1px;
+
+}
+
+.navbar .navbar-collapse ul li .nav-link button i{
+    padding-bottom: 4px;
+    font-size: 13px;
+}
+
+.btn:focus{
+    box-shadow: none;
+}
+
+.navbar .navbar-collapse ul li .donate{
+    color: #fff;
+    background: #7FD858;
+    font-size: 24px;
+    font-weight: 400;
+    padding: 6px 10px 5px;
+    margin-top: 8px;
+    border-radius: 5px;
+    margin-right: 100px;
+    letter-spacing: 1px;
+    
+}
+
+.navbar .navbar-collapse ul li .donate:hover{
+    background: #0064BF;
+    color: #fff;
+}
+
+.navbar .navbar-collapse ul .Bar .nav-item{
+    display: inline-block;
+}
+
+.navbar .navbar-collapse ul .Bar li{
+   padding-right: 29px; 
+}
+
+.navbar .navbar-collapse ul .Bar .conect{
+    padding-left: 29px;
+}
+
+.navbar .navbar-collapse ul .Bar .nav-item a:hover{
+    color: #f7dc0c;
+}
+
+.navbar .navbar-collapse ul .Bar li .nav-link{
+    color: #fff;
+    font-family: 'NotoNastaliqUrduRegular';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 22px;
+    letter-spacing: 1px;
+} 
+
+hr{
+    margin-top: .5rem;
+    background: #ffffff;
+}
+
+.navbar .navbar-collapse ul li .nav-link .logo{
+    width: 285px;
+    margin-left: 120px;
+    margin-top: -65px;
+    
+}
+
+.navbar {
+    transition: top 0.5s ease;
+}
+
+.navbar-hide {
+    top: -200px;
+} 
+
+/* end navbar */
+
+/* start idea */
+
+.idea{
+    background-image: url(../images/Rectangle\ 210.png) ,
+    url(../images/Path\ 35.png);
+    background-size: cover;
+    width: 100%;
+    margin-top: 100px;
+    padding-bottom: 50px;
+    height: 185px;
+    position: relative;
+    background-position:  left bottom ,right top;
+    margin-bottom: 100px;
+}
+
+.idea img{
+    width: 700px;
+    margin-top: -43%;
+    margin-left: -55%;
+}  
+
+.idea .caption{
+    border: 1px solid #f7dc0c;
+    background: #fff;
+    margin-left: -10%;
+    margin-top: -5%;
+}
+
+.idea p{
+    width:95%;
+    margin: auto;
+    line-height: 2em;
+    font-size: 1.25em;
+    font-weight: bold;
+    padding: 50px 50px;
+}
+
+/* end idea */
+
+/*start mession */
+
+.mession{
+    background-image: url(../images/Rectangle\ 270.png);
+    background-size: cover;
+    height: 260px;
+    margin-bottom: 100px;
+}
+
+.mession .caption{
+    background: #fff;
+    position: relative;
+    margin-top: -2%;
+    border: 1px solid #f7dc0c;
+    padding:10px 5px ;
+    width: 75%;
+    margin-left: 5%;
+}
+
+.mession .caption h3{
+    color: #0064BF;
+    letter-spacing: 1px;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    font-family: 'NotoNastaliqUrduRegular';
+}
+
+.mession .caption p{
+    margin: auto;
+    line-height: 2em;
+    font-weight: 400;
+    font-size: 1.1em;
+}
+
+.mession img{
+    width: 600px;
+    height: 320px;
+    position: absolute;
+    margin-top: -5%;
+    margin-left: -15%;
+}
+
+/* end mession */
+
+/* start morals */
+
+.morals h2{
+    color: #7FD858;
+    background: #fff;
+    border: 2px solid #86B9F7;
+    padding: 10px 30px;
+    font-family: 'NotoNastaliqUrduRegular';
+    font-size: 2.5rem;
+    letter-spacing: 1.6px;
+    width: 150px;
+    margin-left: 42%;
+}
+
+.morals .shadow-lg{
+    box-shadow: 
+    0rem 1rem 3rem
+    rgba(0, 100, 191, .2) !important;
+}
+
+.morals .caption{
+    background: #86B9F7;
+    padding: 5px 10px;
+    height: 150px;
+    margin-top: 50px;
+    border: 1px solid #86B9F7;
+    border-radius: 10px;
+}
+
+.morals .caption img{
+    background: #ffffff;
+    position: relative;
+    width: 170px;
+    margin-top: -15%;
+    border: 1px solid #86B9F7;
+    padding: 40px;
+
+}
+
+.morals .caption h4{
+    margin-top: -30%;
+    font-family: 'NotoNastaliqUrduRegular';
+    color: #fff;
+    font-size: 2.25rem;
+    margin-right: 3%;
+}
+
+.morals .caption p{
+    width: 65%;
+    margin-left: 35%;
+    color: #fff;
+}
+
+.morals .row_two{
+    margin-top: 30px;
+}
+
+.morals .row_two .caption img{
+    background: #ffffff;
+    position: absolute;
+    width: 170px;
+    float: left;
+    margin-left: 45vh;
+    margin-top: -125%;
+    border: 1px solid #86B9F7;
+    padding: 40px;
+}
+
+.morals .row_two .caption .image{
+    background: #ffffff;
+    position: absolute;
+    width: 170px;
+    float: left;
+    margin-left: 45vh;
+    margin-top: -105%;
+    border: 1px solid #86B9F7;
+    padding: 40px;
+}
+
+.morals .row_two .caption h4{
+    margin-top: 1%;
+    font-family: 'NotoNastaliqUrduRegular';
+    color: #fff;
+    font-size: 2.25rem;
+    margin-left: 3%;
+}
+
+.morals .row_two .caption p{
+    width: 65%;
+    margin-left: -3%;
+    color: #fff;
+}
+
+/* end morals */
+
+/* start team */
+
+.heading-team{
+    background-image:url(../images/Rectangle\ 409.png) ;
+    margin-top: 100px;
+    height: 50px;
+}
+
+.heading-team .heading{
+    margin-right: 18%;
+}
+
+.heading-team .caption h4{
+    color: #7FD858;
+    background: #ffffff;
+    border: 1px solid #7FD858;
+    border-radius: 50%;
+    position: relative;
+    padding: 35px 20px;
+    margin-top: -32%;
+    margin-left: 50px;
+    font-family: 'NotoNastaliqUrduRegular';
+    font-size: 2.25rem;
+    letter-spacing: 1.5px;
+}
+
+.heading-team .caption h5{
+    color: #fff;
+    margin-top: 10px;
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+}
+
+.team{
+   background-image: url(../images/50-Beautiful-and-Minimalist-Presentation-Backgrounds-045.png); 
+   background-size: cover;
+}
+
+.team .row{
+    margin-right: 0;
+    margin-top:50px ;  
+}
+
+.team .row_one{ margin-left: 3%;}
+
+.team .row_one img{ width: 180px;}
+
+.team .row_two .img{ margin-left: 50%; }
+
+.team .row_two .img2 { margin-left: 20%;}
+
+.team .row_two .img3{
+    margin-right: 30%;
+    margin-left: -10%;
+}
+.team .row_two img{width: 180px;}
+
+
+.team h4{ margin-left: -10%;}
+
+.team h5{
+    margin-left: -20%;
+    font-weight: normal;
+}
+
+.team .h41{ margin-left: -1%; }
+
+.team .h42{ margin-left: 10%;}
+
+.team .h43{ margin-left: 55%;}
+
+.team .h44{ margin-left: 15%;}
+
+.team .row_two .h51{margin-left: 52%;}
+
+.team .row_two .h52{margin-left: -5%;}
+
+.team .row_two .h53{margin-left: -60%;}
+
+.team .h45{margin-left: 8%;}
+
+.team .h46{margin-left: 1%;}
+
+
+
+/* emd team */
+
+/* start contact-way*/
+
+.contact-way{
+    background-image: url(../images/5e9a02371ea33222.png);
+    background-size: cover;
+    height: 430px;
+    max-width: 100%;
+    right: 0;
+    margin-top: 50px;
+}
+
+.contact-way .caption{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background: rgba(0, 100, 191, .6);
+
+}
+
+ .contact-way .caption h4{
+    color: #fff;
+    letter-spacing: 2px;
+    line-height: 2em;
+    font-size: 1.35rem;
+    padding-top:19vh;
+}
+
+.contact-way .caption img{
+    width: 330px;
+}
+
+.contact-way .caption .col-one-hr{
+    width: 85%;
+    background: #fff;
+    margin-top: 20px;
+    border-top: 1px solid #fff;
+}
+
+.contact-way .caption #vertical-line{
+    width: 1px;
+    background: #fff;
+    height: 350px;
+    margin-left: 25vh;
+    margin-top: 50px;
+}
+
+.contact-way .caption .contact-way-logo{
+    float: right;
+    width: 350px;
+    margin-top:-35px;
+    margin-right: -20vh;
+    margin-left: -90px;
+}
+
+.contact-way .caption h5{
+    margin-top: 55px;
+    color: #fff;
+    line-height: 2rem;
+    letter-spacing: 2px;
+    font-family: 'NotoNastaliqUrduRegular';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 35px;
+    
+}
+
+.contact-way .caption h5>span{
+    color: #f7dc0c ;
+}
+
+.contact-way .caption .col-three-hr{
+    margin-top: 50px;
+    width: 62%;
+    margin-right: 12vh;
+    border-top: 1px solid #fff;
+}
+
+.contact-way .caption .contact-us{
+    margin-left: 120px;
+    margin-top: 15px;
+    font-family: 'NotoNastaliqUrduRegular';
+    font-weight: normal;
+    font-style: normal;
+    color: #fff;
+}
+
+.contact-way .caption .social-images{
+    margin-left: 50px;
+}
+
+.contact-way .caption .social-images li{
+    float: left;
+    margin-right: 15px;
+}
+
+.contact-way .caption .social-images li img{
+    width: 40px;
+}
+
+.contact-way .caption table{
+    float: right;
+    margin-top: 10px;
+    margin-right: -100px;
+}
+
+.contact-way .caption table tr h6{
+    padding-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.25rem;
+    color: #ffffff;
+}
+
+.contact-way .caption table tr #call{
+    margin-right: -50px;
+}
+
+.contact-way .caption table tr img{
+    width: 50px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+/* end .contact-way */
+
+/* start footer (edit)*/
+
+.footer{
+    margin-top: 10px; 
+    
+}
+
+.footer .motadamn{
+    margin-right: 70%; 
+}
+
+.footer h6{
+    color: #ffffff ;
+    line-height: 0;
+    margin-bottom: 0;
+}
+
+.footer .all{
+    margin-right: 2%;
+}
+
+/* end footer */
+
+
+
+

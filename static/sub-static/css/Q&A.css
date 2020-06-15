@@ -1,11 +1,28 @@
-.background{
-    background-image: url(../images/as.jpeg);
-    height: 400PX; 
-    max-width: 100%;
-    background-size: cover;
+@font-face {
+    font-family: 'NotoNastaliqUrduRegular';
+        src: url("../fonts/NotoNastaliqUrdu-Regular.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 
-    }
-    
+/* start carousel */
+
+.carousel-item img{
+    height: 500px;
+}
+
+.carousel-item .carousel-caption h1{
+    font-family: 'NotoNastaliqUrduRegular';
+    margin-bottom: 20%;
+    letter-spacing: 2px;
+    font-size: 3rem;
+}
+
+
+
+
+/* end carousel */
+
 /* start navbar */
 
 .navbar{
@@ -54,8 +71,9 @@
     border-radius: 5px;
     margin-right: 25px;
     font-size: 23px;
-    padding: 5px 3px;
+    padding: 5px 10px;
     letter-spacing: 1px;
+
 }
 
 .navbar .navbar-collapse ul li .nav-link button i{
@@ -66,28 +84,13 @@
 .btn:focus{
     box-shadow: none;
 }
-.btn-primary {
-    color: #7FD858;
-    background-color: transparent;
-    border-color: #fff; /*set the color you want here*/
-    font-size: 25px;
-}
-.btn-primary:hover {
-    color: #0064BF;
-    background-color:transparent;
-    border-color: #fff; /*set the color you want here*/
-    cursor: pointer;
-
-}
-
-
 
 .navbar .navbar-collapse ul li .donate{
     color: #fff;
     background: #7FD858;
     font-size: 24px;
     font-weight: 400;
-    padding: 6px 15px 5px;
+    padding: 6px 10px 5px;
     margin-top: 8px;
     border-radius: 5px;
     margin-right: 100px;
@@ -102,29 +105,7 @@
 
 .navbar .navbar-collapse ul .Bar .nav-item{
     display: inline-block;
-    font-family: 'NotoNastaliqUrduRegular';
-    text-decoration: none;
-     transition-duration: 0.4s;
 }
-/*
-.nav-item a{
-    background-color: #4CAF50; /* Green 
-    color: #F7DC0C;
-} */
-.btn-primary {
-    color: #fff;
-    background-color: transparent;
-    border-color: #fff; /*set the color you want here*/
-    font-size: 25px;
-}
-.btn-primary:hover {
-    color: #F7DC0C;
-    background-color:transparent;
-    border-color: #fff; /*set the color you want here*/
-}
-
-
-
 
 .navbar .navbar-collapse ul .Bar li{
    padding-right: 29px; 
@@ -133,8 +114,9 @@
 .navbar .navbar-collapse ul .Bar .conect{
     padding-left: 29px;
 }
+
 .navbar .navbar-collapse ul .Bar .nav-item a:hover{
-    color: #F7DC0C;
+    color: #f7dc0c;
 }
 
 .navbar .navbar-collapse ul .Bar li .nav-link{
@@ -147,15 +129,14 @@
 } 
 
 hr{
-    padding: 1px;
     margin-top: .5rem;
     background: #ffffff;
 }
 
 .navbar .navbar-collapse ul li .nav-link .logo{
-    width: 289px;
+    width: 285px;
     margin-left: 120px;
-    margin-top: -75px;
+    margin-top: -65px;
     
 }
 
@@ -166,115 +147,124 @@ hr{
 .navbar-hide {
     top: -200px;
 }
+
 /* end navbar */
 
-/* img ahl msr start*/
-.ahl-msr{
-    margin-top: -94px;
-    margin-left: 221px;
+/* start question */
+
+.questions{
+    position: relative;
+    margin-top: -2%;
+    margin-bottom: 10%;
+    
 }
-.ahl-msr img{
-    width: 200px;
-    height: 200px;
+
+.questions .answer{
+    border: 1px solid #86B9F7;
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px 50px;
 }
-/* ahl masr img end */
-.imgsize{
-    width: 50px;
-    height: 50px;
-    margin-left: 213px;
-    margin-top: -85px;
+
+.questions .answer-two ,
+.questions .answer-three ,
+.questions .answer-four ,
+.questions .answer-five , 
+.questions .answer-six ,
+.questions .answer-seven{
+    display: none;
 }
-/* buttons start */
-.button{
-    color: #fff;
-    text-decoration: none;
-    background-color: #0064BF;
-    border-radius: 45px;
-    padding:10px ;
-    width: 150px;
-    text-align: center;
+
+.questions .answer h3{
+    font-size: 1.5rem;
+}
+
+.questions .answer-one p{
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #70707096;
+}  
+
+.questions .answer-two p ,
+.questions .answer-three p ,
+.questions .answer-four p ,
+.questions .answer-five p ,
+.questions .answer-six p{
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;  
+}
+
+.questions .question{
+    border: 1px solid #86B9F7;
+    background: #fff;
+    padding: 20px 10px;
+    width: 80%;
+    margin-left: 15%;
+    border-radius: 10px;
+}
+
+.questions .question .ques{
+    border-bottom:1px solid #F7DC0C ;
+    padding-bottom: 5px;
+    padding-top: 10px;
+}
+
+.questions .question .no-border{
+    border-bottom: none;
+}
+
+.questions .question .ques:hover label h4 ,
+.questions .question .ques:hover i{
+    color: #F7DC0C;
+}
+
+.questions .ques .i{
+    padding-right: 27%;
+    padding-left: 5%;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.questions .question .ques label h4{
+    font-size: 1.25rem;
     font-weight: normal;
-    font-style: normal;
-    font-family:'NotoNastaliqUrduRegular';
-    margin-top: -347px;
-    margin-left: 498px;
-
-}
-.button:hover{
-    background-color: #F7DC0C;
-    color: #fff;
-    text-decoration: none;
-}
-.buttonn{
-    color: #fff;
-    text-decoration: none;
-    background-color: #F7DC0C;
-    border-radius: 5px;
-    padding:10px ;
-    width: 150px;
-    text-align: center;
-    font-weight: normal;
-    font-style: normal;
-    font-weight: bold;
-
-}
-.buttonn:hover{
-    background-color: #0064BF;
-    color: #fff;
-    text-decoration: none;
-}
-#but{
-    margin-left: 679px;
-
-}
-#but2{
-    margin-left: 50px;
-
-}
-h3{
-    letter-spacing: 1.1px;
-    margin-right: 372px;
-    float: right;
-    margin-top: -129px;
-    color:#0064BF ;
-    font-weight: normal;
-    font-style: normal;
-    font-family:'NotoNastaliqUrduRegular';
-
-
-}
-p{
-    margin-top: 0;
-    margin-bottom: 2rem;
-    width: 40%;
-    text-align: center;
-    margin-left: 539px;
-    margin-top: -96px;
-}
-.space{
-margin-bottom: 50px;
+    cursor: pointer;
 }
 
+.questions .question .label1{ margin-left: 15%;}
 
+.questions .question .label3{ margin-left: 8%;}
 
+.questions .question .label4{ margin-left: 34%;}
 
+.questions .question .label5{ margin-left: 5%; }
 
+.questions .question .label6{ margin-left: 35%;}
 
+.questions .question .label7{ margin-left: 26%;}
 
+.active{
+    color: #F7DC0C;
+}
 
-
-
-
+/* end question */
 
 
 /* start contact-way*/
 
 .contact-way{
-    background-image: url(../images/5e9a02371ea331.png);
+    background-image: url(../images/5e9a02371ea33222.png);
     background-size: cover;
-    height: 500px;
+    height: 430px;
     max-width: 100%;
     right: 0;
+    margin-top: 50px;
 }
 
 .contact-way .caption{
@@ -292,7 +282,7 @@ margin-bottom: 50px;
     letter-spacing: 2px;
     line-height: 2em;
     font-size: 1.35rem;
-    margin-top: 25vh;
+    margin-top: 20vh;
 }
 
 .contact-way .caption img{
@@ -303,13 +293,14 @@ margin-bottom: 50px;
     width: 85%;
     background: #fff;
     margin-top: 20px;
+    border-top: 1px solid #fff;
 }
 
 .contact-way .caption #vertical-line{
     width: 1px;
     background: #fff;
-    height: 400px;
-    margin-left: 145px;
+    height: 350px;
+    margin-left: 25vh;
     margin-top: 50px;
 }
 
@@ -317,7 +308,7 @@ margin-bottom: 50px;
     float: right;
     width: 350px;
     margin-top:-35px;
-    margin-right: -25vh;
+    margin-right: -20vh;
     margin-left: -90px;
 }
 
@@ -339,12 +330,14 @@ margin-bottom: 50px;
 
 .contact-way .caption .col-three-hr{
     margin-top: 50px;
-    width: 50%;
+    width: 62%;
     margin-right: 12vh;
+    border-top: 1px solid #fff;
 }
 
-.contact-way .caption h6{
+.contact-way .caption .contact-us{
     margin-left: 120px;
+    margin-top: 15px;
     font-family: 'NotoNastaliqUrduRegular';
     font-weight: normal;
     font-style: normal;
@@ -366,7 +359,7 @@ margin-bottom: 50px;
 
 .contact-way .caption table{
     float: right;
-    margin-top: 50px;
+    margin-top: 10px;
     margin-right: -100px;
 }
 
@@ -374,6 +367,7 @@ margin-bottom: 50px;
     padding-bottom: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.25rem;
+    color: #ffffff;
 }
 
 .contact-way .caption table tr #call{
@@ -388,15 +382,29 @@ margin-bottom: 50px;
 
 /* end .contact-way */
 
-/* start footer */
+/* start footer (edit)*/
 
 .footer{
-    margin-top: 10px;
-   
+    margin-top: 10px; 
+    
+}
+
+.footer .motadamn{
+    margin-right: 65%; 
 }
 
 .footer h6{
-    color: #038ADD ;
+    color: #ffffff ;
+    line-height: 0;
+    margin-bottom: 0;
+}
+
+.footer .all{
+    margin-right: -2%;
 }
 
 /* end footer */
+
+
+
+

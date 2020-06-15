@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'accounts',
     'category',
     'charity',
     'donor',
@@ -46,7 +47,7 @@ INSTALLED_APPS = [
     'beneficiary',
     'donation',
     'fundraising',
-    
+
 
 
 ]
@@ -140,4 +141,3 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 # LOGIN URL
 LOGIN_URL = 'login'
-
