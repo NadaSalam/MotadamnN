@@ -1,0 +1,150 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <title>إضافة مستفيد </title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <link rel="stylesheet" href="{% static 'sub-static2/' %}css/bootstrap.min.css">
+        <link rel='stylesheet' media='screen' href="{% static 'sub-static2/css/addmostafed.css' %}">
+        <link rel='stylesheet' media='screen' href="{% static 'sub-static2/css/media queries-baramg.css' %}">
+        <link rel="stylesheet" media="screen" href="{% static 'sub-static2/css/hover.css' %}">
+        <link rel="stylesheet" href="{% static 'sub-static2/css/all.min.css' %}">
+
+    </head>
+  <body>
+    <!-- start navbar -->
+<div class="background"></div>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+          <ul class="navbar-nav mr-auto">
+
+            <li class="nav-item dropdown">
+                <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <img class="chevron" src="{% static 'sub-static2/images/received_710437753044351.png' %}">
+                  <img src="{% static 'sub-static2/images/received_1837342366438740.png' %}">
+                </a>
+                <div class="dropdown-menu language" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">English</a>
+                  <a class="dropdown-item" href="#">عربي</a>
+                </div>
+            </li>
+
+            <li class="nav-item dropdown ">
+                <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <button class="btn"><i class="fas fa-chevron-down"></i>تسجيل الدخول</button>
+                </a>
+                <div class="dropdown-menu signup" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">جمعية خيرية</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">متبرع</a>
+                </div>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link btn donate" href="#">تبرع الان</a>
+            </li>
+
+              <span class="Bar">
+                <li class="nav-item conect">
+                    <a class="nav-link" href="#"> تواصل معنا</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">التوعية</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">الاخبار</a>
+                </li>
+
+                <li id="li-padding" class="nav-item">
+                    <a class="nav-link" href="#">عن متضامن</a>
+                </li>
+                <hr>
+              </span>
+
+              <li id="li-padding" class="nav-item">
+                <a class="nav-link" href="#">
+                    <img class="logo" src="{% static 'sub-static2/images/emptyarabic.png' %}">
+                </a>
+              </li>
+          </ul>
+
+        </div>
+      </nav>
+      <!-- end navbar -->
+
+<!-- dialog start -->
+
+<div class="container view-case case">
+    <img class="img1" src="{% static 'sub-static2/images/155.png' %}">
+  <div class="border-out out">
+      <div class="content content1 text-right">
+          <label ><h5 id="byt">بيانات المستفيد</h5></label>
+        <div class="form-group">
+          </div>
+          <div id="byyt"></div>
+
+          <label  for="usr"><h5><span ><sup class="star"> * </sup>  الاسم</span><sub>*</sub></h5></label>
+            <input type="text" class="form-control" id="usr">
+          <br>
+          <label  for="usr"><h5><span ><sup class="star"> * </sup>  تاريخ الميلاد</span><sub>*</sub></h5></label>
+          <input type="date" class="form-control" id="usrr">
+          <br>
+          <label  for="usr"><h5><span ><sup class="star"> * </sup>  الرقم القومي</span><sub>*</sub></h5></label>
+          <input type="text" class="form-control" id="usrrr">
+          <br>
+          <label  for="usr"><h5><span ><sup class="star"> * </sup>  العنوان</span><sub>*</sub></h5></label>
+          <input type="text" class="form-control" id="usrr">
+          <br>
+          <select class="higgh" id="list" >
+            <option value="" disabled selected></option>
+            <option >الاسكندرية</option>
+            <option >القاهرة</option>
+        </select>
+        <label  for="usr"><h5><span ><sup class="star"> * </sup>  مدينة</span><sub>*</sub></h5></label>
+          <br>
+          <span class="padd"><label  for="female">أنثي</label>
+          <input type="radio" id="female" name="gender" value="female"></span>
+
+          <label for="male">ذكر</label>
+          <input type="radio" id="male" name="gender" value="male">
+
+          <label class="faar" for="usrr"><h5><span ><sup class="star"> * </sup>  النوع</span><sub>*</sub></h5></label>
+
+          <br>
+          <label class="faar"  for="usr"><h5><span ><sup class="star"> * </sup>  رقم التليفون</span><sub>*</sub></h5></label>
+          <input type="number" class="form-control" id="usrrr">
+          <br>
+
+          <span class="zbttt"> <span class="padd"><label for="male">مطلق</label>
+         <input type="radio" id="male" name="gender" value="male"></span>
+          <span class="padd"><label for="female"> أرمل</label>
+          <input type="radio" id="female" name="gender" value="female"></span>
+          <span class="padd"> <label for="other">متزوج</label>
+          <input type="radio" id="other" name="gender" value="other"></span>
+         <span class="padd"> <label for="other">أعزب</label>
+          <input type="radio" id="other" name="gender" value="other"></span></span>
+          <label   for="usr"><h5><span ><sup class="star"> * </sup>  الحالة الأجتماعية</span><sub>*</sub></h5></label>
+                  <br>
+          <input type="file" id="exampleFormControlFile1">
+          <label class="faar mmm"  for="usr"><h5><span ><sup class="star"> * </sup>  إضافة صورة للمستفيد</span><sub>*</sub></h5></label>
+          <br>
+</div>
+<input  class="donatee" type="submit" value="إضافة ">
+
+<!-- dialog end -->
+<script src="{% static 'sub-static2/js/jquery.js' %}"></script>
+<script src="{% static 'sub-static2/js/bootstrap.min.js' %}"></script>
+<script src="{% static 'sub-static2/js/script.js' %}"></script>
+
+</body>
