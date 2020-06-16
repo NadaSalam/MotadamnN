@@ -12,7 +12,6 @@ def all_cases(request):
     return render(request , 'all cases.html', context)
 
 
-
 def home(request):
     home = Cases.objects.all()
     context={
@@ -21,3 +20,22 @@ def home(request):
     return render(request , 'main.html', context)
 
 
+
+def about_us(request):
+
+    return render(request , 'about-us.html')
+
+
+def contact_us(request):
+
+    return render(request , 'contact_us.html')
+
+
+def news(request):
+
+    return render(request , 'news.html')
+
+
+def question_answer(request):
+
+    return render(request , 'Q&A.html')
