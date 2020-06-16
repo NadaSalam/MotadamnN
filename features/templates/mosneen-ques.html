@@ -43,37 +43,37 @@
                   <button class="btn"><i class="fas fa-chevron-down"></i>تسجيل الدخول</button>
                 </a>
                 <div class="dropdown-menu signup" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#">جمعية خيرية</a>
+                  <a class="dropdown-item" href="{% url 'sign_in' %}">جمعية خيرية</a>
                   <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">متبرع</a>
+                  <a class="dropdown-item" href="{% url 'sign_in' %}">متبرع</a>
                 </div>
-              </li>
+            </li>
 
             <li class="nav-item">
-              <a class="nav-link btn donate" href="dss box.html">تبرع الان</a>
+              <a class="nav-link btn donate" href="{% url 'donation' %}">تبرع الان</a>
             </li>
 
               <span class="Bar">
                 <li class="nav-item conect">
-                    <a class="nav-link hvr-shrink" href="#"> تواصل معنا</a>
+                  <a class="nav-link hvr-shrink" href="{% url 'contact_us' %}"> تواصل معنا</a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link hvr-shrink" href="#">التوعية</a>
+                  <a class="nav-link hvr-shrink" href="{% url 'question_answer' %}">التوعية</a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link hvr-shrink" href="#">الاخبار</a>
+                    <a class="nav-link hvr-shrink" href="{% url 'news' %}">الاخبار</a>
                 </li>
 
                 <li id="li-padding" class="nav-item">
-                    <a class="nav-link hvr-shrink" href="#">عن متضامن</a>
+                    <a class="nav-link hvr-shrink" href="{% url 'about_us' %}">عن متضامن</a>
                 </li>
                 <hr>
               </span>
 
             <li id="li-padding" class="nav-item">
-                <a class="nav-link" href="main.html">
+                <a class="nav-link" href="{% url 'home' %}">
                     <img class="logo" src="{% static 'sub-static/images/emptyarabic.png' %} ">
                 </a>
             </li>
