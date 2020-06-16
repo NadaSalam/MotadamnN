@@ -53,7 +53,7 @@
             </li>
 
             <li class="nav-item">
-              <a class="nav-link btn donate" href="{% url 'donation' %}">تبرع الان</a>
+              <a class="nav-link btn donate" href="{% url 'donation:donation' %}">تبرع الان</a>
             </li>
 
               <span class="Bar">
@@ -93,8 +93,8 @@
 <!-- pagintion start -->
 <ul class="pagination pagination-lg">
 
-    <li> <a class="hvr-shrink moveee button" href="#"  >المقبولة</a></li>
-    <li><a class="hvr-shrink  movee button" href="gme3halatwaiting.html">المنتظرة</a></li>
+    <li> <a class="hvr-shrink moveee button" href="{% url 'halataccepted' %}"  >المقبولة</a></li>
+    <li><a class="hvr-shrink  movee button" href="{% url 'gme3halatwaiting' %}">المنتظرة</a></li>
   </ul>
 
 <!-- pagination end -->

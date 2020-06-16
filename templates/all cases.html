@@ -59,37 +59,37 @@
                 <button class="btn"><i class="fas fa-chevron-down"></i>تسجيل الدخول</button>
               </a>
               <div class="dropdown-menu signup" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">جمعية خيرية</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">متبرع</a>
-              </div>
-            </li>
-
-          <li class="nav-item">
-            <a class="nav-link btn donate" href="dss box.html">تبرع الان</a>
+                <a class="dropdown-item" href="{% url 'sign_in' %}">جمعية خيرية</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="{% url 'sign_in' %}">متبرع</a>
+            </div>
           </li>
 
-            <span class="Bar">
-              <li class="nav-item conect">
-                  <a class="nav-link hvr-shrink" href="#"> تواصل معنا</a>
-              </li>
+        <li class="nav-item">
+          <a class="nav-link btn donate" href="{% url 'donation:donation' %}">تبرع الان</a>
+        </li>
 
-              <li class="nav-item">
-                  <a class="nav-link hvr-shrink" href="#">التوعية</a>
-              </li>
+          <span class="Bar">
+            <li class="nav-item conect">
+                <a class="nav-link hvr-shrink" href="{% url 'contact_us' %}"> تواصل معنا</a>
+            </li>
 
-              <li class="nav-item">
-                  <a class="nav-link hvr-shrink" href="#">الاخبار</a>
-              </li>
+            <li class="nav-item">
+                <a class="nav-link hvr-shrink" href="{% url 'question_answer' %}">التوعية</a>
+            </li>
 
-              <li id="li-padding" class="nav-item">
-                  <a class="nav-link hvr-shrink" href="#">عن متضامن</a>
-              </li>
-              <hr>
-            </span>
+            <li class="nav-item">
+                <a class="nav-link hvr-shrink" href="{% url 'news' %}">الاخبار</a>
+            </li>
 
-          <li id="li-padding" class="nav-item">
-              <a class="nav-link" href="main.html">
+            <li id="li-padding" class="nav-item">
+                <a class="nav-link hvr-shrink" href="{% url 'about_us' %}">عن متضامن</a>
+            </li>
+            <hr>
+          </span>
+
+        <li id="li-padding" class="nav-item">
+            <a class="nav-link" href="{% url 'home' %}">
                   <img class="logo" src="{%static 'sub-static/images/emptyarabic.png'%}">
               </a>
           </li>
@@ -100,30 +100,38 @@
     <!-- end navbar -->
 
     <!-- start cases -->
-
     <div class="cases">
 
         <div class="container">
             <div class="row">
                 <!-- start grid card-->
+
+
                 <div class="col-md-4">
                     <div class="card">
-                        <img src="{%static 'sub-static/images/vegetablevendoruncovered.png'%}">
+                        {% comment %} <img src="{%static 'sub-static/images/vegetablevendoruncovered.png'%}"> {% endcomment %}
+                        <img src="{{case.ben.photo.url}}">
+
                         <div class="progress">
                         <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
                             <div class="prog-value">70%</div>
                         </div>
                         </div>
-                        <h4>سعدية</h4>
-                        <p>Lorem ipsum dolor sit amet ,consectetur adipisicing elitr, set diam nonumy eirmod
-                        tempore.</p>
+                        <h4>{{case}}</h4>
+                        <p>{{case.description}}</p>
                         <!-- edit -->
-                        <h5 class="text-left charity">رسالة</h5>
-                        <h5 class="text-right money">المبلغ:2500</h5>
+                        <h5 class="text-left charity">{{case.ben.charity}}</h5>
+                        <h5 class="text-right money">المبلغ:{{case.needed_amount}}</h5>
                         <!-- end edit -->
-                        <a class="btn">تبرع الان</a>
+                         <a class="btn" href="{% url 'pay'%}">تبرع الان</a>
+
                     </div>
                 </div>
+
+
+                </div>
+                  <a class="btn float-left" href="#"> شاهد المزيد</a>
+
                 <!-- end grid card-->
                 <!-- start grid card-->
 
@@ -163,7 +171,7 @@
                         <h5 class="text-left charity">الأورمان</h5>
                         <h5 class="text-right money">المبلغ:2500</h5>
                         <!-- end edit -->
-                        <a class="btn">تبرع الان</a>
+                        <a class="btn" href="{% url 'pay'%}">تبرع الان</a>
                     </div>
                 </div>
                 <!-- end grid card-->
@@ -186,7 +194,7 @@
                       <h5 class="text-left charity">رسالة</h5>
                       <h5 class="text-right money">المبلغ:2500</h5>
                       <!-- end edit -->
-                      <a class="btn">تبرع الان</a>
+                      <a class="btn" href="{% url 'pay'%}">تبرع الان</a>
                     </div>
                 </div>
                 <!-- end grid card-->
@@ -207,7 +215,7 @@
                       <h5 class="text-left charity">أهل مصر</h5>
                       <h5 class="text-right money">المبلغ:2500</h5>
                       <!-- end edit -->
-                      <a class="btn">تبرع الان</a>
+                      <a class="btn" href="{% url 'pay'%}">تبرع الان</a>
                     </div>
                 </div>
                 <!-- end grid card-->
@@ -228,12 +236,13 @@
                       <h5 class="text-left charity">الأورمان</h5>
                       <h5 class="text-right money">المبلغ:2500</h5>
                       <!-- end edit -->
-                      <a class="btn">تبرع الان</a>
+                      <a class="btn" href="{% url 'pay'%}">تبرع الان</a>
                     </div>
                 </div>
                 <!-- end grid card-->
             </div>
-            <a class="btn float-left" href="#"> شاهد المزيد</a>
+
+
         </div>
 
     </div>
@@ -262,7 +271,7 @@
               <div id="vertical-line"></div>
             </div>
             <div class="col-lg-6">
-              <img class="contact-way-logo" src="images/emptyarabic.png">
+              <img class="contact-way-logo" src="{%static 'sub-static/images/emptyarabic.png'%}">
               <h5 class="text-right">سر التضامن .. <span>التعاون</span></h5>
               <hr class="col-three-hr">
               <h6 class="text-center contact-us">تواصل معنا</h6>

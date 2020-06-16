@@ -1,0 +1,197 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>برامج التنمية العمرانية</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="{%static 'sub-static/css/bootstrap.min.css'%}">
+    <link rel='stylesheet' media='screen' href="{%static 'sub-static/css/main-baramg.css'%}">
+    <link rel='stylesheet' media='screen' href="{%static 'sub-static/css/media queries-baramg.css'%}">
+    <link rel="stylesheet" href="{%static 'sub-static/css/all.min.css'%}">
+
+</head>
+<body>
+
+    <!-- start carousel -->
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="{%static 'sub-static/images/markus-spiske-dunsplash.jpg'%}" class="d-block w-100" alt="...">
+            <div class="carousel-caption">
+              <h1 class="text-right">برامج التنمية العمرانية</h1>
+            </div>
+          </div>
+        </div>
+
+    </div>
+
+    <!-- end carousel -->
+
+    <!-- start navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <ul class="navbar-nav mr-auto">
+
+          <li class="nav-item dropdown">
+            <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <img class="chevron" src="{%static 'sub-static/images/received_710437753044351.png'%}">
+              <img src="{%static 'sub-static/images/received_1837342366438740.png'%}">
+            </a>
+              <div class="dropdown-menu language" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">English</a>
+                <a class="dropdown-item" href="#">عربي</a>
+              </div>
+          </li>
+
+          <li class="nav-item dropdown ">
+              <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <button class="btn"><i class="fas fa-chevron-down"></i>تسجيل الدخول</button>
+              </a>
+              <div class="dropdown-menu signup" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="{% url 'sign_in' %}">جمعية خيرية</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="{% url 'sign_in' %}">متبرع</a>
+              </div>
+            </li>
+
+          <li class="nav-item">
+            <a class="nav-link btn donate" href="{% url 'donation:donation' %}">تبرع الان</a>
+          </li>
+
+            <span class="Bar">
+              <li class="nav-item conect">
+                  <a class="nav-link hvr-shrink" href="{% url 'contact_us' %}"> تواصل معنا</a>
+              </li>
+
+              <li class="nav-item">
+                  <a class="nav-link hvr-shrink" href="{% url 'question_answer' %}">التوعية</a>
+              </li>
+
+              <li class="nav-item">
+                  <a class="nav-link hvr-shrink" href="{% url 'news' %}">الاخبار</a>
+              </li>
+
+              <li id="li-padding" class="nav-item">
+                  <a class="nav-link hvr-shrink" href="{% url 'about_us' %}">عن متضامن</a>
+              </li>
+              <hr>
+            </span>
+
+          <li id="li-padding" class="nav-item">
+              <a class="nav-link" href="{% url 'home' %}">
+                <img class="logo" src="{%static 'sub-static/images/emptyarabic.png'%}">
+              </a>
+            </li>
+        </ul>
+
+      </div>
+    </nav>
+
+    <!-- end navbar -->
+
+    <!-- start development -->
+
+     <div class="development">
+        <h3 class="heading">
+          <span>برامج التنمية العمرانية</span>
+        </h3>
+        <div class="container">
+          <div class="develop">
+            <div class="row">
+              <div class="col-sm-4">
+              <a href="{% url 'category:house' %}">
+                    <img src="{%static 'sub-static/images/victor-malyushev-kB-UpY89gSk-unsplash.jpg'%}">
+                    <h5 class="text-center">إعمار المنزل</h5>
+                </a>
+              </div>
+              <div class="col-sm-4">
+              <a href="{% url 'category:water' %}">
+                    <img src="{%static 'sub-static/images/20190613004343099.jpg'%}">
+                    <h5 class="text-center">تركيب عداد المياه</h5>
+                </a>
+              </div>
+              <div class="col-sm-4 last-col">
+                <a href="#">
+                    <img src="{%static 'sub-static/images/5e9a1ac16853d.png'%}">
+                    <h5 class="text-center">محطة تنقية المياه</h5>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <!-- end development -->
+
+   <!-- start contact-way (edit) -->
+   <div class="contact-way">
+     <div class="caption text-center">
+       <div class="container">
+         <div class="row">
+           <div class="col-lg-4">
+             <h4>حمل الان تطبيق متضامن</h4>
+             <img src="{%static 'sub-static/images/get-it-on-google-play-png-download-app-1251.png'%}">
+             <hr class="col-one-hr">
+             <ul class="list-unstyled social-images">
+               <li><img src="{%static 'sub-static/images/instagram.png'%}"></li>
+               <li><img src="{%static 'sub-static/images/facebook.png'%}"></li>
+               <li><img src="{%static 'sub-static/images/twitter.png'%}"></li>
+               <li><img src="{%static 'sub-static/images/linkedin.png'%}"></li>
+             </ul>
+           </div>
+           <div class="col-lg-2 ">
+             <div id="vertical-line"></div>
+           </div>
+           <div class="col-lg-6">
+             <img class="contact-way-logo" src="{%static 'sub-static/images/emptyarabic.png'%}">
+             <h5 class="text-right">سر التضامن .. <span>التعاون</span></h5>
+             <hr class="col-three-hr">
+             <h6 class="text-center contact-us">تواصل معنا</h6>
+             <table>
+               <tr>
+                 <td><h6>motadamn@gmail.com</h6></td>
+                 <td><img src="{%static 'sub-static/images/email.png'%}"></td>
+               </tr>
+               <tr>
+                 <td><h6 id="call">+201122471913</h6></td>
+                 <td><img src="{%static 'sub-static/images/telephone.png'%}"></td>
+               </tr>
+               <tr>
+                 <td><h6>كلية التجارة - جامعة الاسكندرية</h6></td>
+                 <td><img src="{%static 'sub-static/images/pin.png'%}"></td>
+               </tr>
+             </table>
+           </div>
+         </div>
+
+         <div class="row footer">
+             <div class="col-md-6 col-sm-12">
+               <h6 class="text-right  all">جميع الحقوق محفوظة | متضامن &copy; 2020</h6>
+             </div>
+             <div class="col-md-6 col-sm-12">
+               <h6 class="text-center motadamn">شروط وسياسة متضامن</h6>
+             </div>
+         </div>
+       </div>
+     </div>
+   </div>
+
+   <!-- end contact-way -->
+
+   <script src="{%static 'sub-static/js/jquery.js'%}"></script>
+   <script src="{%static 'sub-static/js/popper.min.js'%}"></script>
+   <script src="{%static 'sub-static/js/bootstrap.min.js'%}"></script>
+   <script src="{%static 'sub-static/js/script.js'%}"></script>
+   </body>
+   </html>

@@ -49,7 +49,7 @@
         </li>
 
         <li class="nav-item">
-          <a class="nav-link btn donate" href="{% url 'donation' %}">تبرع الان</a>
+          <a class="nav-link btn donate" href="{% url 'donation:donation' %}">تبرع الان</a>
         </li>
 
           <span class="Bar">
@@ -95,8 +95,8 @@
 
 </p>
 <div class="space">
-<a id="but"  class="hvr-shrink buttonn" href="#"> جميع المستفيدين </a>
-<a id="but2" class="hvr-shrink buttonn" href="#">  جميع الحالات</a>
+<a id="but"  class="hvr-shrink buttonn" href="{% url 'game3_mostafeden' %}"> جميع المستفيدين </a>
+<a id="but2" class="hvr-shrink buttonn" href="{% url 'all_cases' %}">  جميع الحالات</a>
 </div>
 </div>
 <!-- buttons end -->

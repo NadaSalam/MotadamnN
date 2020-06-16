@@ -1,5 +1,6 @@
 from django.db import models
-
+import datetime
+from django.utils import timezone
                                                      #importing
 class Donor(models.Model):
     id = models.BigAutoField(primary_key=True)
@@ -9,10 +10,9 @@ class Donor(models.Model):
     email = models.CharField(unique=True, max_length=255, verbose_name=("Donor Email"))
     gender = models.IntegerField(verbose_name=("Donor Gender"))
     birthdate = models.DateField(verbose_name=("Donor Birthdate"))
-    username = models.CharField(max_length=255, verbose_name=("Donor Username"))
     password = models.CharField(max_length=255, verbose_name=("Donor Password"))
-    is_banned = models.IntegerField( verbose_name=("Banned!"))
-    created_at = models.DateTimeField( verbose_name=("Donor Name"))
+    is_banned = models.BooleanField( default=False,verbose_name=("Banned!"))
+    created_at = models.DateTimeField(auto_now_add=True, verbose_name=("Donor Name"))
                                                      #database for donor
     def __str__(self):
         return self.name

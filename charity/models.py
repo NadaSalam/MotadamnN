@@ -1,5 +1,6 @@
 from django.db import models
 import datetime
+from django.utils import timezone
                                                      #importing
 
 class Charity(models.Model):
@@ -11,8 +12,8 @@ class Charity(models.Model):
     logo  = models.ImageField(upload_to='charity/', verbose_name=("Charity Logo"))
     description = models.TextField(verbose_name=("Charity Description"))
     password = models.CharField(max_length=255, verbose_name=("Charity Password"))
-    is_banned = models.IntegerField( verbose_name=("Banned! " ))
-    created_at = models.DateTimeField(blank=True, default=datetime.datetime.now, verbose_name=("Time of Creation"))
+    is_banned = models.BooleanField(default=False, verbose_name=("Banned! " ))
+    created_at = models.DateTimeField(auto_now_add=True, verbose_name=("Time of Creation"))
     city = models.CharField(max_length=255, verbose_name=("Charity City"))
                                                      #database
 

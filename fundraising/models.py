@@ -1,5 +1,8 @@
 from django.db import models
 from category.models import Subcategory                                                 #importing
+import datetime
+from django.utils import timezone
+                                                     #importing
 
 class Fundraising(models.Model):
     id = models.BigAutoField(primary_key=True)
@@ -7,7 +10,7 @@ class Fundraising(models.Model):
     start_date = models.DateField()
     end_date = models.DateField()
     description = models.TextField()
-    created_at = models.DateTimeField()
+    created_at = models.DateTimeField(auto_now_add=True)
     categ = models.ForeignKey(Subcategory, models.DO_NOTHING) 
                                                      #database
     def __str__(self):
