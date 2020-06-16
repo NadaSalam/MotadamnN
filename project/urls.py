@@ -7,9 +7,9 @@ from . import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.home),
+    path('', views.home , name='home'),
     path('all_cases', views.all_cases),
-    
+
     path('about_us/', views.about_us , name='about_us'),
     path('contact_us/', views.contact_us , name='contact_us'),
     path('news/', views.news , name='news'),
