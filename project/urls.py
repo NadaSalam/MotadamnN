@@ -9,10 +9,11 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.home),
     path('all_cases', views.all_cases),
-    path('about_us', views.about_us),
-    path('contact_us', views.contact_us),
-    path('news', views.news),
-    path('question_answer', views.question_answer),
+    
+    path('about_us/', views.about_us , name='about_us'),
+    path('contact_us/', views.contact_us , name='contact_us'),
+    path('news/', views.news , name='news'),
+    path('question_answer/', views.question_answer , name='question_answer'  ),
 
     path('', include('category.urls')),
     path('', include('donation.urls')),
