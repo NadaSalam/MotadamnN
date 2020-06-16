@@ -1,0 +1,203 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>تواصل معنا</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="{% static 'sub-static/css/bootstrap.min.css' %}">
+    <link rel='stylesheet' media='screen' href="{% static 'sub-static/css/contact_us.css' %}">
+    <link rel='stylesheet' media='screen' href="{% static 'sub-static/css/media queries-baramg.css' %}">
+    <link rel="stylesheet" media="screen" href="{% static 'sub-static/css/hover.css' %}">
+    <link rel="stylesheet" href="{% static 'sub-static/css/all.min.css' %}">
+
+</head>
+<body>
+
+  <!-- start carousel -->
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="{% static 'sub-static/images/red-rotary-telephone-on-blue-sofa-1829198.png' %}" class="d-block w-100" alt="...">
+            <div class="carousel-caption">
+                <h1 class="text-left">تواصل معنا</h1>
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+<!-- end carousel -->
+
+<!-- start navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <ul class="navbar-nav mr-auto">
+
+            <li class="nav-item dropdown">
+                <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <img class="chevron" src="{% static 'sub-static/images/received_710437753044351.png' %}">
+                    <img src="{% static 'sub-static/images/received_1837342366438740.png' %}">
+                </a>
+                <div class="dropdown-menu language" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">English</a>
+                    <a class="dropdown-item" href="#">عربي</a>
+                </div>
+            </li>
+
+                <li class="nav-item dropdown ">
+                <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <button class="btn"><i class="fas fa-chevron-down"></i>تسجيل الدخول</button>
+                </a>
+                <div class="dropdown-menu signup" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">جمعية خيرية</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">متبرع</a>
+                </div>
+                </li>
+
+            <li class="nav-item">
+                <a class="nav-link btn donate" href="dss box.html">تبرع الان</a>
+            </li>
+
+                <span class="Bar">
+                <li class="nav-item conect">
+                    <a class="nav-link hvr-shrink" href="contact_us.html"> تواصل معنا</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link hvr-shrink" href="Q&A.html">التوعية</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link hvr-shrink" href="news.html">الاخبار</a>
+                </li>
+
+                <li id="li-padding" class="nav-item">
+                    <a class="nav-link hvr-shrink" href="about-us.html">عن متضامن</a>
+                </li>
+                <hr>
+                </span>
+
+            <li id="li-padding" class="nav-item">
+                <a class="nav-link" href="main.html">
+                    <img class="logo" src="{% static 'sub-static/images/emptyarabic.png' %}">
+                </a>
+            </li>
+            </ul>
+
+        </div>
+    </nav>
+
+<!-- end navbar -->
+
+<!-- start form -->
+
+    <form>
+        <div class="container">
+            <div class="contact shadow-lg">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img class="img" src="{% static 'sub-static/images/data=w66fJWtAvPXCdtEj769QtxXWxKoPvJkO-ryynVgxpK4VKejUjb7NjH3TurGD9ZAkla2MqjYurafYjEwRIKlEPv4081BqmHkjrfSrBLfb-PL4h-p00_LO5xRN36ha3ByPEP9b-AJqRjVdaI7Aw.png' %}">
+                    </div>
+
+                    <div class="col-lg-3">
+                        <div id="vertical-lin"></div>
+                    </div>
+
+                    <div class="col-lg-3">
+                       <h4 class ="text-right">اتصل بنا</h4>
+                       <div class="inputs">
+                           <input type="text" placeholder="الأسم">
+                           <img src="{% static 'sub-static/images/user (2).png' %}">
+
+                           <input type="email" placeholder="البريد الألكتروني">
+                           <img src="{% static 'sub-static/images/emails.png' %}">
+
+                           <input type="tel" placeholder="رقم الهاتف">
+                           <img src="{% static 'sub-static/images/call.png' %}">
+
+                           <textarea placeholder="رسالتك ..." ></textarea>
+                           <img src="{% static 'sub-static/images/edit-tools.png' %}">
+                       </div>
+                    </div>
+                </div>
+                <button>إرسال</button>
+            </div>
+        </div>
+    </form>
+
+<!-- end form -->
+
+
+<!-- start contact-way  -->
+
+    <div class="contact-way">
+        <div class="caption text-center">
+        <div class="container">
+            <div class="row">
+            <div class="col-lg-4">
+                <h4>حمل الان تطبيق متضامن</h4>
+                <img src="{% static 'sub-static/images/get-it-on-google-play-png-download-app-1251.png' %}">
+                <hr class="col-one-hr">
+                <ul class="list-unstyled social-images">
+                <li><img src="{% static 'sub-static/images/instagram.png' %}"></li>
+                <li><img src="{% static 'sub-static/images/facebook.png' %}"></li>
+                <li><img src="{% static 'sub-static/images/twitter.png' %}"></li>
+                <li><img src="{% static 'sub-static/images/linkedin.png' %}"></li>
+                </ul>
+            </div>
+            <div class="col-lg-2 ">
+                <div id="vertical-line"></div>
+            </div>
+            <div class="col-lg-6">
+                <img class="contact-way-logo" src="{% static 'sub-static/images/emptyarabic.png' %}">
+                <h5 class="text-right">سر التضامن .. <span>التعاون</span></h5>
+                <hr class="col-three-hr">
+                <h6 class="text-center contact-us">تواصل معنا</h6>
+                <table>
+                <tr>
+                    <td><h6>motadamn@gmail.com</h6></td>
+                    <td><img src="{% static 'sub-static/images/email.png' %}"></td>
+                </tr>
+                <tr>
+                    <td><h6 id="call">+201122471913</h6></td>
+                    <td><img src="{% static 'sub-static/images/telephone.png' %}"></td>
+                </tr>
+                <tr>
+                    <td><h6>كلية التجارة - جامعة الاسكندرية</h6></td>
+                    <td><img src="{% static 'sub-static/images/pin.png' %}"></td>
+                </tr>
+                </table>
+            </div>
+            </div>
+
+            <div class="row footer">
+                <div class="col-md-6 col-sm-12">
+                <h6 class="text-right  all">جميع الحقوق محفوظة | متضامن &copy; 2020</h6>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                <h6 class="text-center motadamn">شروط وسياسة متضامن</h6>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+<!-- end contact-way -->
+
+<script src="{% static 'sub-static/js/jquery.js' %}"></script>
+<script src="{% static 'sub-static/js/bootstrap.min.js' %}"></script>
+<script src="{% static 'sub-static/js/script.js' %}"></script>
+</body>
+</html>

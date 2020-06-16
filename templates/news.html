@@ -1,0 +1,302 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>الأخبار</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="{% static 'sub-static/css/bootstrap.min.css' %}">
+    <link rel='stylesheet' media='screen' href="{% static 'sub-static/css/news.css' %}">
+    <link rel='stylesheet' media='screen' href="{% static 'sub-static/css/media queries-baramg.css' %}">
+    <link rel="stylesheet" media="screen" href="{% static 'sub-static/css/hover.css' %}">
+    <link rel="stylesheet" href="{% static 'sub-static/css/all.min.css' %}">
+
+</head>
+<body>
+
+  <!-- start carousel -->
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="{% static 'sub-static/images/ra.png' %}" class="d-block w-100" alt="...">
+            <div class="carousel-caption">
+                <h1 class="text-right">الأخبار </h1>
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+<!-- end carousel -->
+
+<!-- start navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <ul class="navbar-nav mr-auto">
+
+            <li class="nav-item dropdown">
+                <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <img class="chevron" src="{% static 'sub-static/images/received_710437753044351.png' %}">
+                    <img src="{% static 'sub-static/images/received_1837342366438740.png' %}">
+                </a>
+                <div class="dropdown-menu language" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">English</a>
+                    <a class="dropdown-item" href="#">عربي</a>
+                </div>
+            </li>
+
+                <li class="nav-item dropdown ">
+                <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <button class="btn"><i class="fas fa-chevron-down"></i>تسجيل الدخول</button>
+                </a>
+                <div class="dropdown-menu signup" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">جمعية خيرية</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">متبرع</a>
+                </div>
+                </li>
+
+            <li class="nav-item">
+                <a class="nav-link btn donate" href="dss box.html">تبرع الان</a>
+            </li>
+
+                <span class="Bar">
+                <li class="nav-item conect">
+                    <a class="nav-link hvr-shrink" href="contact_us.html"> تواصل معنا</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link hvr-shrink" href="Q&A.html">التوعية</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link hvr-shrink" href="news.html">الاخبار</a>
+                </li>
+
+                <li id="li-padding" class="nav-item">
+                    <a class="nav-link hvr-shrink" href="about-us.html">عن متضامن</a>
+                </li>
+                <hr>
+                </span>
+
+            <li id="li-padding" class="nav-item">
+                <a class="nav-link" href="main.html">
+                    <img class="logo" src="{% static 'sub-static/images/emptyarabic.png' %}">
+                </a>
+            </li>
+            </ul>
+
+        </div>
+    </nav>
+
+<!-- end navbar -->
+
+<!-- start news -->
+
+    <div class="news">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <img src="{% static 'sub-static/images/WhatsApp Image 2020-06-15 at 3.43.59 AM.jpeg' %}">
+                        <div class="caption shadow-lg">
+                            <h3 class="text-center">بدعمكم جورج انتصر على السرطان
+                                بعد رحلة علاج كلها تحديات
+                               </h3>
+                            <p class="text-center">
+                                جورج جمال، واحد من أبطال كتير ، عنده تسع سنوات ونصف السنة، فى الصف الرابع الابتدائى، دخل المستشفى وعنده 7 سنوات، يعانى من ورم فى الخلايا العصبية فى البطن، كانت رحلة علاجه صعبة شملت جرعات كيماوى، ثم عملية استئصال للورم، وبعدها أجرى عملية زرع نخاع ذاتى، رحلة علاج حارب فيها السرطان بمنتهى الشجاعة والصبر
+                            </p>
+                            <a class="btn more-btn">إقرأ المزيد</a>
+                        </div>
+                </div>
+
+
+                <div class="col-lg-6">
+                    <img src="{% static 'sub-static/images/WhatsApp Image 2020-06-15 at 3.44.01 AM.jpeg' %}">
+                        <div class="caption shadow-lg">
+                            <h3 class="text-center">توزع 75 ألف كيلوجرام لحوم
+                                أضاحي على الأسر الفقيرة بالمنيا</h3>
+                            <p class="text-center">تم توزيع 75 ألف كيلوجرام لحوم أضاحي على الأسر الأكثر احتياجًا بقرى ونجوع محافظة المنيا، وتتضمن 75 ألف كيلوجرام لحوم مستوردة منها 30 عجل بلدي، وذلك بالتنسيق مع عدد كبير من الجمعيات الأهلية بالتعاون مع مديرية الطب البيطري وبإشراف مديرية التضامن الاجتماعي بالمحافظة.</p>
+                            <a class="btn more-button">إقرأ المزيد</a>
+                        </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <div class="news">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <img src="{% static 'sub-static/images/WhatsApp Image 2020-06-15 at 3.44.02 AM.jpeg' %}">
+                        <div class="caption shadow-lg">
+                            <h3 class="text-center">أجراء 2000 عملية عيون جراحية
+                                لغير القادرين
+                               </h3>
+                            <p class="text-center">
+                                مشروع مكافحة العمى بالجميعة لإجراء 2000 عملية جراحية عيون مختلفة خلال هذا الشهر تنوعت بين عمليات ازالة مياه بيضاء وعمليات مياة زرقاء وزرعة عدسة وجسم زجاجى وصولا إلى عمليات زرع القرنية بتكلفة تراوحت 5 مليون جنيه .
+                            </p>
+                            <a class="btn moore-bttn">إقرأ المزيد</a>
+                        </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <img src="{% static 'sub-static/images/WhatsApp Image 2020-06-15 at 3.44.02 AM (1).jpeg' %}">
+                        <div class="caption shadow-lg">
+                            <h3 class="text-center">توزيع بطاطين الشتاء في مدن
+                                بني سويف</h3>
+                            <p class="text-center">بدأت متضامن فى توزيع بطاطين الشتاء على غير القادرين في أنحاء الجمهورية في تنفيذ خطة محكمة لتوزيع عدد 14 الف بطانية على الأسر غير القادرة في مدن ومراكز بني سويف برعاية المهندس شريف حبيب محافظ بني سويف وتحت إشراف كامل من مديرية التضامن الاجتماعي بالمحافظة.</p>
+                            <a class="btn morre-button">إقرأ المزيد</a>
+                        </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="news">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <img src="{% static 'sub-static/images/WhatsApp Image 2020-06-15 at 3.44.03 AM.jpeg' %}">
+                        <div class="caption shadow-lg">
+                            <h3 class="text-center">توزيع 500,000 عبوة غذائية
+                                فى 25 محافظة مختلفة
+                               </h3>
+                            <p class="text-center">
+                                هدفت الحملة مساندة الفئات الأكثر احتياجًا فى قرى ونجوع مصر، من خلال توزيع 500.000 عبوة غذائية في 25 محافظة مختلفة وهدفت حملة “بالهنا والشفا” الى مساعدة الاسر الاكثر استحقاقا  من خلال توزيع عبوات غذائية تحتوي علي وجبات غذائية للأسر المصرية
+                            </p>
+                            <a class="btn more-bttn">إقرأ المزيد</a>
+                        </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <img src="{% static 'sub-static/images/WhatsApp Image 2020-06-15 at 3.44.03 AM (1).jpeg' %}">
+                        <div class="caption shadow-lg">
+                            <h3 class="text-center"> مشروع توصيل شبكات المياه
+                                لقرى الأقصر</h3>
+                            <p class="text-center">وقع متضامن بروتوكول تعاون مع شركة مياه الشرب والصرف الصحي، ومحافظة الأقصر، لبدء العمل بمشروع توصيل المياه إلى قرية كومير بمركز اسنا التابع لمحافظة الأقصر بتمويل من البنك الأهلى المصرى، المشروع يهدف الى تدعيم شبكات المياه ومد الشبكات للمناطق المحرومة بقرية كومير والنجوع التابعه لها</p>
+                            <a class="btn more-button">إقرأ المزيد</a>
+                        </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="news">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <img src="{% static 'sub-static/images/WhatsApp Image 2020-06-15 at 3.44.04 AM.jpeg' %}">
+                        <div class="caption shadow-lg">
+                            <h3 class="text-center">مدينة زويل و متضامن توقعان إتفاقية<br>
+                                تعاون لتوفير منح دراسية لطلاب الصعيد
+                               </h3>
+                            <p class="text-center">
+                                وقعت مدينة زويل للعلوم والتكنولوجيا، إتفاقية تعاون مع مؤسسة متضامن ، لرفع كفاءة الخدمه العلميه المقدمه للطلاب من خلال توفير منح دراسية بالمدينة للطلاب الحاصلين على شهادة الثانوية العامة من أبناء الصعيد والمناطق الحدودية
+                            </p>
+                            <a class="btn moore-btn">إقرأ المزيد</a>
+                        </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <img src="{% static 'sub-static/images/WhatsApp Image 2020-06-15 at 3.44.04 AM (1).jpeg' %}">
+                    <div class="caption shadow-lg">
+                        <h3 class="text-center">افتتاح وحدة للغسيل الكلوي
+                            في إحدى قري محافظة البحيرة</h3>
+                        <p class="text-center">افتتح وحدة الغسيل الكلوي بقرية بريم ـ بولين التابعة لمركز كوم حمادة بمحافظة البحيرة، يحتوي المركز على 7 ماكينات مخصصة للغسيل الكلوي ليصل عدد جلسات الغسيل الكلوي الذي سيقدمها المركز لأهالي محافظة البحيرة الى 5 الاف جلسة غسيل في السنة الواحدة بالمجان وبأعلى جودة طبية</p>
+                        <a class="btn more-buttton">إقرأ المزيد</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="slideer">
+        <div class="text-center">
+            <img src="{% static 'sub-static/images/Group 152.png' %}">
+            <h1>3</h1>
+            <h1>2</h1>
+            <h1 class="first-slide">1</h1>
+        </div>
+    </div>
+
+
+
+<!-- end news -->
+
+<!-- start contact-way  -->
+
+    <div class="contact-way">
+        <div class="caption text-center">
+        <div class="container">
+            <div class="row">
+            <div class="col-lg-4">
+                <h4>حمل الان تطبيق متضامن</h4>
+                <img src="{% static 'sub-static/images/get-it-on-google-play-png-download-app-1251.png' %}">
+                <hr class="col-one-hr">
+                <ul class="list-unstyled social-images">
+                <li><img src="{% static 'sub-static/images/instagram.png' %}"></li>
+                <li><img src="{% static 'sub-static/images/facebook.png' %}"></li>
+                <li><img src="{% static 'sub-static/images/twitter.png' %}"></li>
+                <li><img src="{% static 'sub-static/images/linkedin.png' %}"></li>
+                </ul>
+            </div>
+            <div class="col-lg-2 ">
+                <div id="vertical-line"></div>
+            </div>
+            <div class="col-lg-6">
+                <img class="contact-way-logo" src="{% static 'sub-static/images/emptyarabic.png' %}">
+                <h5 class="text-right">سر التضامن .. <span>التعاون</span></h5>
+                <hr class="col-three-hr">
+                <h6 class="text-center contact-us">تواصل معنا</h6>
+                <table>
+                <tr>
+                    <td><h6>motadamn@gmail.com</h6></td>
+                    <td><img src="{% static 'sub-static/images/email.png' %}"></td>
+                </tr>
+                <tr>
+                    <td><h6 id="call">+201122471913</h6></td>
+                    <td><img src="{% static 'sub-static/images/telephone.png' %}"></td>
+                </tr>
+                <tr>
+                    <td><h6>كلية التجارة - جامعة الاسكندرية</h6></td>
+                    <td><img src="{% static 'sub-static/images/pin.png' %}"></td>
+                </tr>
+                </table>
+            </div>
+            </div>
+
+            <div class="row footer">
+                <div class="col-md-6 col-sm-12">
+                <h6 class="text-right  all">جميع الحقوق محفوظة | متضامن &copy; 2020</h6>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                <h6 class="text-center motadamn">شروط وسياسة متضامن</h6>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+<!-- end contact-way -->
+
+  <script src="{% static 'sub-static/js/jquery.js' %}"></script>
+  <script src="{% static 'sub-static/js/bootstrap.min.js' %}"></script>
+  <script src="{% static 'sub-static/js/script.js' %}"></script>
+</body>
+</html>
