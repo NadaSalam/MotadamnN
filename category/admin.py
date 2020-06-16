@@ -1,6 +1,5 @@
 from django.contrib import admin
-from category.models import Category
-from category.models import Subcategory
+from .models import Category , Subcategory
                                                  #importing
 
 admin.site.register(Subcategory)

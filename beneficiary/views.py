@@ -1,7 +1,6 @@
 from django.shortcuts import render
+
 from .models import Beneficiary
-
-
 
 def without_img(request):
     without_img = Beneficiary.objects.all()
@@ -17,3 +16,4 @@ def with_img(request):
         'with_img': with_img ,
     }
     return render(request , 'view-case-with-img.html', context)
+

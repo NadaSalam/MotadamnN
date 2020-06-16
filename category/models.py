@@ -1,5 +1,5 @@
 from django.db import models
-                                                  #importing
+                                                 #importing
 Supercat = (
     ('social_support','social_support'),
     ('zakat','zakat'),
@@ -7,7 +7,7 @@ Supercat = (
     ('economic','economic'),
     ('improvement','improvement'),
    )
-                                                  #choices of supercategory
+                                                  #choices of supercategory 
 Subcat = (
     ('old_people','old_people'),
     ('orphan_support','orphan_support'),
@@ -48,12 +48,11 @@ Subcat = (
     ('charity_project ','charity_project '),
     ('cattle_distribution ','cattle_distribution '),
     ('good_loan ','good_loan '),
-
-   )
-                                                     #choices of subcategory
-
+   )                                               
+                                                     #choices of subcategory 
+  
 class Category(models.Model):
-   id = models.BigAutoField(primary_key=True)
+   id = models.BigAutoField(primary_key=True)                                              
    name = models.CharField(max_length=255,choices=Supercat, verbose_name=("Supercategory Name"))
                                                  #database
    def __str__(self):
@@ -64,10 +63,10 @@ class Category(models.Model):
         verbose_name_plural = 'categories'
                                                  #to rename the plural name in admin
 class Subcategory(models.Model):
-
+    
     id = models.BigAutoField(primary_key=True)
     name = models.CharField(max_length=255,choices=Subcat, verbose_name=("Subcategory Name"))
-    parent = models.ForeignKey(Category,on_delete=models.CASCADE, verbose_name=("Subcategory Name") )
+    parent = models.ForeignKey(Category,on_delete=models.CASCADE, verbose_name=("Supercategory Name") ) 
                                                  #database
 
     def __str__(self):
@@ -82,3 +81,4 @@ class Subcategory(models.Model):
         managed = True
         db_table = 'category'
                                                  #managing by
+       

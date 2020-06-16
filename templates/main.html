@@ -22,7 +22,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-2 smart-help text-center">
-                  <a href="{% url 'donation' %}">
+                  <a href="{% url 'donations:donation' %}">
                     <h3>مساعدك الذكي</h3>
                   </a>
                   <p> نظام سيساعدك في أختيار طريقة التبرع المناسبة لك</p>
@@ -63,12 +63,12 @@
                 <div class="col-lg-3 bramg text-center">
                     <h4 class="text-center">البرامج</h4>
                     <ul class="list-unstyled">
-                      <a href="social support.html"><li class="li-border">برامج الدعم الاجتماعي</li></a>
-                      <a href="zakat.html"><li class="li-border">أوجه الزكاة</li></a>
-                      <a href="development.html"><li class="li-border">برامج التنمية العمرانية</li></a>
-                      <a href="medical.html"><li class="li-border">برامج الرعاية الصحية</li></a>
-                      <a href="economic support.html"><li class="li-border">برامج التمكين الأقتصادي</li></a>
-                      <a href="index.html"><li>جميع البرامج</li></a>
+                      <a href="{% url 'category:social_support' %}"><li class="li-border">برامج الدعم الاجتماعي</li></a>
+                      <a href="{% url 'category:zakat' %}"><li class="li-border">أوجه الزكاة</li></a>
+                      <a href="{% url 'category:development' %}"><li class="li-border">برامج التنمية العمرانية</li></a>
+                      <a href="{% url 'category:medical' %}"><li class="li-border">برامج الرعاية الصحية</li></a>
+                      <a href="{% url 'category:economic_support' %}"><li class="li-border">برامج التمكين الأقتصادي</li></a>
+                      <a href="{% url 'category:all_programs' %}"><li>جميع البرامج</li></a>
                     </ul>
                 </div>
             </div>
@@ -117,36 +117,36 @@
               </a>
               <div class="dropdown-menu signup" aria-labelledby="navbarDropdown">
                 <a class="dropdown-item" href="{% url 'sign_in' %}">جمعية خيرية</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="{% url 'sign_in' %}">متبرع</a>
-              </div>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="{% url 'sign_in' %}">متبرع</a>
+            </div>
           </li>
 
-          <li class="nav-item">
-            <a class="nav-link btn donate" href="{% url 'donation' %}">تبرع الان</a>
-          </li>
+        <li class="nav-item">
+          <a class="nav-link btn donate" href="{% url 'donation:donation' %}">تبرع الان</a>
+        </li>
 
-            <span class="Bar">
-              <li class="nav-item conect">
+          <span class="Bar">
+            <li class="nav-item conect">
                 <a class="nav-link hvr-shrink" href="{% url 'contact_us' %}"> تواصل معنا</a>
-              </li>
+            </li>
 
-              <li class="nav-item">
+            <li class="nav-item">
                 <a class="nav-link hvr-shrink" href="{% url 'question_answer' %}">التوعية</a>
-              </li>
+            </li>
 
-              <li class="nav-item">
-                  <a class="nav-link hvr-shrink" href="{% url 'news' %}">الاخبار</a>
-              </li>
+            <li class="nav-item">
+                <a class="nav-link hvr-shrink" href="{% url 'news' %}">الاخبار</a>
+            </li>
 
-              <li id="li-padding" class="nav-item">
-                  <a class="nav-link hvr-shrink" href="{% url 'about_us' %}">عن متضامن</a>
-              </li>
-              <hr>
-            </span>
+            <li id="li-padding" class="nav-item">
+                <a class="nav-link hvr-shrink" href="{% url 'about_us' %}">عن متضامن</a>
+            </li>
+            <hr>
+          </span>
 
-          <li id="li-padding" class="nav-item">
-              <a class="nav-link" href="{% url 'home' %}">
+        <li id="li-padding" class="nav-item">
+            <a class="nav-link" href="{% url 'home' %}">
                   <img class="logo" src="{%static 'sub-static/images/emptyarabic.png'%}">
               </a>
           </li>
@@ -224,14 +224,14 @@
                                        <div class="prog-value">70%</div>
                                     </div>
                                   </div>
-                                  <h4>{{case}}</h4>
+                                  <h4>سعاد</h4>
                                   <p>Lorem ipsum dolor sit amet ,consectetur adipisicing elitr, set diam nonumy eirmod
                                   tempore.</p>
                                   <!-- edit -->
                                   <h5 class="text-left charity">رسالة</h5>
                                   <h5 class="text-right money">المبلغ:2500</h5>
                                   <!-- end edit -->
-                                  <a class="btn">تبرع الان</a>
+                                  <a class="btn"  href="{% url 'pay'%}">تبرع الان</a>
                                 </div>
                             </div>
                             <!-- end grid card-->
@@ -252,7 +252,7 @@
                                   <h5 class="text-left charity">أهل مصر</h5>
                                   <h5 class="text-right money">المبلغ:2500</h5>
                                   <!-- end edit -->
-                                  <a class="btn">تبرع الان</a>
+                                  <a class="btn"  href="{% url 'pay'%}">تبرع الان</a>
                                 </div>
                             </div>
                             <!-- end grid card-->
@@ -273,7 +273,7 @@
                                   <h5 class="text-left charity">الأورمان</h5>
                                   <h5 class="text-right money">المبلغ:2500</h5>
                                   <!-- end edit -->
-                                  <a class="btn">تبرع الان</a>
+                                  <a class="btn" href="{% url 'pay'%}">تبرع الان</a>
                                 </div>
                             </div>
 
@@ -281,8 +281,7 @@
                         </div>
                     </div>
                     <!-- edit -->
-                    <a class="btn float-left" href="all cases.html">جميع الحالات</a>
-                </div>
+                    <a class="btn float-left" href=" {% url 'all_cases' %}">جميع الحالات</a>
               </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">

@@ -12,6 +12,7 @@ def all_cases(request):
     return render(request , 'all cases.html', context)
 
 
+
 def home(request):
     home = Cases.objects.all()
     context={
@@ -20,6 +21,13 @@ def home(request):
     return render(request , 'main.html', context)
 
 
+def pay(request):
+    
+    return render(request , 'pay.html')
+
+def finish(request):
+    
+    return render(request , 'finished.html')
 
 def about_us(request):
 
@@ -38,4 +46,4 @@ def news(request):
 
 def question_answer(request):
 
-    return render(request , 'Q&A.html')
+    return render(request , 'Q&A.html')    
